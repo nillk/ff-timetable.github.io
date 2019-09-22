@@ -5,5 +5,14 @@
  */
 
 module.exports = {
-  /* Your site config here */
+  plugins: [
+    `gatsby-transformer-json`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `biff`,
+        path: `${__dirname}/data/biff/`
+      }
+    }
+  ]
 }
