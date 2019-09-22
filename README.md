@@ -2,14 +2,9 @@
 
 내가 보려고 만드는 영화제 시간표 Viewer :clapper:
 
-## Prerequisite
-
-* python 3.6 이상
-     * `pip install requirements.txt`
-
 ## Data format
 
-데이터는 요일별로 아래와 같은 형식으로 저장
+데이터 파일은 요일별로 아래와 같은 형식
 
 ```
 {
