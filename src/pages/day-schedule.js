@@ -1,6 +1,7 @@
-import React from "react"
-import { graphql } from "gatsby"
-import Layout from "../components/layout"
+import React from 'react'
+import { graphql } from 'gatsby'
+
+import Layout from '../components/layout'
 
 import style from './day-schedule.module.css'
 
@@ -26,7 +27,7 @@ export default ({ data }) => {
                 padding: `4px`,
                 height: `72px`,
                 width: `72px`,
-                backgroundColor: `lightcoral`
+                backgroundColor: `lightcoral`,
               }}
             >
               {theater.theater}
@@ -42,9 +43,30 @@ export default ({ data }) => {
                   height: `${calculateHeight(time.programs)}px`,
                 }}
               >
-                <span style={{ display: `block`, fontWeight: `bold` }}>{time.time}</span>
+                <span style={{ display: `block`, fontWeight: `bold` }}>
+                  {time.time}
+                </span>
                 <span>{time.title}</span>
-                <div className={style.desc}>{time.programs[0].desc}</div>
+                <div className={style.desc}>
+                  {(time.programs[0].info && time.programs[0].info.genre) &&
+                    time.programs[0].info.genre.map(g => (
+                      <span
+                        key={g}
+                        style={{
+                          display: `inline-block`,
+                          backgroundColor: `white`,
+                          color: `black`,
+                          opacity: `0.4`,
+                          marginRight: `2px`,
+                          padding: `0px 2px 0px 2px`,
+                        }}
+                      >
+                        {g}
+                      </span>
+                    ))}
+                  <div>{time.programs[0].desc}</div>
+                </div>
+                {/* TODO */}
               </div>
             ))}
           </div>
@@ -64,7 +86,9 @@ const calculateTop = time => {
 
 const calculateHeight = programs => {
   const totalLength = programs.reduce((acc, program) => {
-    return acc + Number(program.info.length.replace("min", ""))
+    const length = program.info !== null ? Number(program.info.length.replace("min", "")) : 0
+
+    return acc + length
   }, 0)
 
   return (totalLength / 60) * TIME_HEIGHT
@@ -84,6 +108,7 @@ export const query = graphql`
             desc
             info {
               length
+              genre
             }
           }
         }
