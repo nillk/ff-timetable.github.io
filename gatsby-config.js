@@ -11,7 +11,7 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `biff`,
-        path: `${__dirname}/data/biff/`
+        path: `${__dirname}/data/`
       }
     }
   ]
