@@ -4,26 +4,20 @@ import Layout from "../components/layout"
 
 import style from './day-schedule.module.css'
 
-const TIMES = [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]
-const TIME_HEIGHT = 90
+const TIME_HEIGHT = 75
 
 export default ({ data }) => {
   return (
     <Layout>
       <h1>{data.biffJson.date}</h1>
-      <div>
-        <div style={{ float: `left`, paddingTop: `72px` }}>
-          {TIMES.map(time => (
-            <div style={{ height: `${TIME_HEIGHT}px` }}>{time}</div>
-          ))}
-        </div>
+      <div style={{ display: `flex` }}>
         {data.biffJson.screening.map(theater => (
           <div
             style={{
               float: `left`,
               position: `relative`,
               width: `72px`,
-              marginLeft: `12px`,
+              marginRight: `12px`,
             }}
           >
             <div
@@ -32,7 +26,7 @@ export default ({ data }) => {
                 padding: `4px`,
                 height: `72px`,
                 width: `72px`,
-                backgroundColor: `lightcoral`,
+                backgroundColor: `lightcoral`
               }}
             >
               {theater.theater}
@@ -41,14 +35,14 @@ export default ({ data }) => {
               <div
                 className={style.film}
                 style={{
-                  border: `1px solid peachpuff`,
+                  border: `1px solid lightcoral`,
                   position: `absolute`,
                   width: `72px`,
                   top: `${calculateTop(time.time)}px`,
                   height: `${calculateHeight(time.programs)}px`,
                 }}
               >
-                <span style={{ display: `block` }}>{time.time}</span>
+                <span style={{ display: `block`, fontWeight: `bold` }}>{time.time}</span>
                 <span>{time.title}</span>
                 <div className={style.desc}>{time.programs[0].desc}</div>
               </div>
@@ -62,7 +56,7 @@ export default ({ data }) => {
 
 const calculateTop = time => {
   const [hour, minute] = time.split(":").map(Number)
-  const hourDiff = hour - TIMES[0]
+  const hourDiff = hour - 10
   const minuteDiff = minute / 60
 
   return (hourDiff + minuteDiff) * TIME_HEIGHT + 72
