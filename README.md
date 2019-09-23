@@ -8,28 +8,51 @@
 
 ```
 {
-  일자: {
-    영화관: {
-      시간: {
-        title: 대표 제목 (단편 모음인 경우를 위해),
-        programs: [{
-          title: 제목,
-          title_en: 영어 제목,
-          url: 세부 정보 페이지 URL,
-          desc: 상세 설명,
-          info: {
-            국가, 제작연도, 러닝타임, 상영포맷, 컬러
-          },
-          credit: {
-            Director, Producer, Cast, Screenplay, Production Company
-          }
+  date: 일자,
+  screening: [
+    {
+      theater: 상영관,
+      times: [
+        {
+          time: 시간,
+          title: 대표제목(단편 모음인 경우 programs에 세부 정보),
+          programs: [
+            {
+              title: 제목,
+              titleEng: 영어 제목,
+              url: 세부 정보 URL,
+              desc: 상세 설명,
+              info: {
+                productionCountry: 국가,
+                yearOfProduction: 제작연도,
+                length: 러닝타임,
+                format: 상영포맷,
+                color: 컬러,
+                genre: 장르
+              },
+              credit: {
+                cast,
+                cinematography,
+                director,
+                editor,
+                music,
+                producer,
+                productionCompany,
+                productionDesign,
+                screenplay,
+                sound,
+                story,
+                worldSales
+              }
+            },
+            ...
+          ]
         },
-        ...]
-      },
-      ...
+        ...
+      ]
     },
     ...
-  }
+  ]
 }
 ```
 
