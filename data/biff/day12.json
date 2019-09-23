@@ -1,0 +1,119 @@
+{
+  "day12": {
+    "야외극장": {
+      "18:00": {
+        "title": "윤희에게",
+        "programs": [
+          {
+            "title": "윤희에게",
+            "title_en": "Moonlit Winter",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=44518&c_idx=334&sp_idx=491&QueryStep=2",
+            "desc": "겨울, 모녀는 단둘이 산다. 고등학생 딸은 우연히 엄마에게 온 편지를 읽고 그녀가 한평생 숨겨온 비밀을 알아챈다. 그렇게 엄마와 딸의 아름다운 여행이 시작된다. 하얗게 눈이 내린 고요한 마을 오타루, 이곳에서 모녀는 화해의 길로 들어서는 한편, 설레는 추억을 쌓아 나간다. 거기에 엄마의 이루지 못한 지난 사랑이 있고 딸이 이루어 나갈 새로운 사랑이 있다. 반면 이들을 맞이하게 되는 이가 있다. 얼마 전 아버지를 잃고 고모와 단둘이 살며 애도의 시간을 보내고 있는 ‘누군가’가 바로 모녀의 삶에 활력을 불어넣어 줄 비밀의 인물이다.\r\n<윤희에게>는 전작 <메리 크리스마스 미스터 모>에서 부자간의 소박하고 감동적인 정서를 전해 국내외로 주목받았던 재능 있는 감독 임대형의 두 번째 장편이다. 감독은 전작에서 유머러스하면서도 애상 가득한 분위기로 죽음이라는 문제를 다룬 것처럼, 이번에는 소박하고 애틋하면서도 온기 있게 사랑의 상실과 복원에 관하여 표현해낸다. 정갈하게 전개되는 이야기와 정서, 신구 혹은 국내외의 조화가 돋보이는 배우들의 주목할 만한 연기, 풍경의 이국적 분위기 등이 어우러져 이 영화의 매력인 온화함을 고취시킨다. 2018 부산국제영화제 장편 극영화 제작지원펀드 선정작이다.",
+            "info": {
+              "국가": "Korea",
+              "제작연도": "2019",
+              "러닝타임": "106min",
+              "상영포맷": "DCP",
+              "컬러": "Color"
+            },
+            "credit": {
+              "Director": "임대형 LIM Daehyung",
+              "Producer": "Doohee PARK 박두희 / Kyeongran KOH 고경란",
+              "Cast": "Heeae KIM 김희애 / Yuko NAKAMURA 나카무라 유코 / Sohye KIM 김소혜 / Yubin SUNG 성유빈 / Hana KINO 키노 하나",
+              "Cinematography": "Myunghwan MOON 문명환",
+              "Production Design": "Jinyoung KIM 김진영,Naoka FUKUSHIMA 후쿠시마 나오카",
+              "Editor": "Seyoung PARK 박세영",
+              "Music": "Haewon KIM 김해원",
+              "Production Company": "Film Run Co., Ltd.Korea 4th FL., 2, Hancheon-ro 11ga-gil, Dongdaemun-gu, Seoul, KoreaTel: 82 10-3113-3001pdh@filmrun.co.kr",
+              "World Sales": "FINECUT Co., Ltd.Korea Patio House #102 (Bldg. C), 22-14 Bongeunsa-ro 26-gil, Gangnam-gu, Seoul 06126, KoreaTel: 82 10-6756-3864Fax:  yk@finecut.co.kr"
+            }
+          }
+        ]
+      }
+    },
+    "중극장": {
+      "10:00": {
+        "title": "뉴 커런츠 수상작 1",
+        "programs": [
+          {
+            "title": "뉴 커런츠 수상작 1",
+            "title_en": "The Winner of New Currents Award 1",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=44581&c_idx=0&sp_idx=&QueryStep=2",
+            "desc": null,
+            "info": null,
+            "credit": null
+          }
+        ]
+      },
+      "13:00": {
+        "title": "뉴 커런츠 수상작 2",
+        "programs": [
+          {
+            "title": "뉴 커런츠 수상작 2",
+            "title_en": "The Winner of New Currents Award 2",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=44582&c_idx=0&sp_idx=&QueryStep=2",
+            "desc": null,
+            "info": null,
+            "credit": null
+          }
+        ]
+      }
+    },
+    "소극장": {
+      "10:00": {
+        "title": "지석상 수상작 1",
+        "programs": [
+          {
+            "title": "지석상 수상작 1",
+            "title_en": "Kim Jiseok Award 1",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=44584&c_idx=0&sp_idx=&QueryStep=2",
+            "desc": null,
+            "info": null,
+            "credit": null
+          }
+        ]
+      },
+      "13:00": {
+        "title": "지석상 수상작 2",
+        "programs": [
+          {
+            "title": "지석상 수상작 2",
+            "title_en": "Kim Jiseok Award 2",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=44585&c_idx=0&sp_idx=&QueryStep=2",
+            "desc": null,
+            "info": null,
+            "credit": null
+          }
+        ]
+      }
+    },
+    "시네마테크": {
+      "11:00": {
+        "title": "시민평론가상 수상작",
+        "programs": [
+          {
+            "title": "시민평론가상 수상작",
+            "title_en": "The Winner of Citizen Critics′ Award",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=44587&c_idx=0&sp_idx=&QueryStep=2",
+            "desc": null,
+            "info": null,
+            "credit": null
+          }
+        ]
+      },
+      "14:00": {
+        "title": "BNK부산은행상 수상작",
+        "programs": [
+          {
+            "title": "BNK부산은행상 수상작",
+            "title_en": "The Winner of Busan Bank Award",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=44583&c_idx=0&sp_idx=&QueryStep=2",
+            "desc": null,
+            "info": null,
+            "credit": null
+          }
+        ]
+      }
+    }
+  }
+}

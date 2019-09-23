@@ -4,33 +4,35 @@
 
 ## Data format
 
-데이터 파일은 요일별로 아래와 같은 형식
+데이터 파일은 일자별로 아래와 같은 형식
 
 ```
 {
-  영화관: {
-    시간: {
-      title: 대표 제목 (단편 모음인 경우를 위해),
-      programs: [{
-        title: 제목,
-        title_en: 영어 제목,
-        url: 세부 정보 페이지 URL,
-        desc: 상세 설명,
-        info: {
-          국가, 제작연도, 러닝타임, 상영포맷, 컬러
+  일자: {
+    영화관: {
+      시간: {
+        title: 대표 제목 (단편 모음인 경우를 위해),
+        programs: [{
+          title: 제목,
+          title_en: 영어 제목,
+          url: 세부 정보 페이지 URL,
+          desc: 상세 설명,
+          info: {
+            국가, 제작연도, 러닝타임, 상영포맷, 컬러
+          },
+          credit: {
+            Director, Producer, Cast, Screenplay, Production Company
+          }
         },
-        credit: {
-          Director, Producer, Cast, Screenplay, Production Company
-        }
+        ...]
       },
-      ...]
+      ...
     },
     ...
-  },
-  ...
+  }
 }
 ```
 
 ## Gatsby
 
-https://github.com/gatsbyjs/gatsby-starter-hello-world 사용
+https://github.com/gatsbyjs/gatsby-starter-hello-world

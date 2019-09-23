@@ -1,0 +1,2607 @@
+{
+  "day11": {
+    "야외극장": {
+      "20:00": {
+        "title": "마틴 에덴",
+        "programs": [
+          {
+            "title": "마틴 에덴",
+            "title_en": "Martin Eden",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=44450&c_idx=325&sp_idx=&QueryStep=2",
+            "desc": "올해 본 유럽의 작품 중, 단 한 편만 꼽아야 한다면? <마틴 에덴>이라고 답하겠다. 출신때문에 번민하는 주인공을 통해, 삐에르토 마르첼로는 20세기에서 오늘날까지 이어지는 계층간의 갈등에 대해 말하고 있다. 파졸리니나 베르나르도 베르톨루치의 영상들을 반추시키며, <마틴 에덴>은 위대한 이탈리아 영화의 전통에 합류한다. 잭 런던의 소설이 원작이다.",
+            "info": {
+              "국가": "Italy/France",
+              "제작연도": "2019",
+              "러닝타임": "129min",
+              "상영포맷": "DCP",
+              "컬러": "Color"
+            },
+            "credit": {
+              "Director": "삐에트로 마르첼로 Pietro MARCELLO",
+              "Producer": "PIETRO MARCELLO / BEPPE CASCHETTO / THOMAS ORDONNEAU / MICHAEL WEBER / VIOLA FÜGEN",
+              "Cast": "LUCA\t\t MARINELLI / JESSICA\t\t CRESSY / VINCENZO\t\t NEMOLATO / MARCO\t\t LEONARDI / DENISE\t\t SARDISCO / CARMEN\t\t POMMELLA / CARLO\t\t CECCHI",
+              "Screenplay": "MAURIZIO BRAUCCI ,PIETRO MARCELLO",
+              "Cinematography": "FRANCESCO DI GIACOMO ,ALESSANDRO ABATE",
+              "Production Company": "AVVENTUROSA,RAI CINEMA,IBCItaly ,Italy ,Italy Tel:  , ,",
+              "World Sales": "The Match FactoryTel:  Fax:"
+            }
+          }
+        ]
+      }
+    },
+    "하늘연 극장": {
+      "14:00": {
+        "title": "약속의 땅",
+        "programs": [
+          {
+            "title": "약속의 땅",
+            "title_en": "The Promised Land",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=43388&c_idx=332&sp_idx=&QueryStep=2",
+            "desc": "작은 시골 마을의 교차로에서 초등학생 아이가 유괴된다. 범인도 아이도 발견하지 못한 채 12년이 흐르고, 마을 축제가 열린 어느 날 같은 장소에서 또한 소녀가 실종된다. 마을 사람들은 외톨이 다케시를 의심하기 시작한다. 의심과 신뢰에 대하여 근원적인 질문을 던지는 제제 다카히사 감독의 신작.",
+            "info": {
+              "국가": "Japan",
+              "제작연도": "2019",
+              "러닝타임": "129min",
+              "상영포맷": "HDCAM",
+              "컬러": "Color"
+            },
+            "credit": {
+              "Director": "제제 타카히사 ZEZE Takahisa",
+              "Producer": "Naohiko NINOMIYA / Kazunari HASHIGUCHI / Hidehisa CHIWATA",
+              "Cast": "Go AYANO / Hana SUGISAKI / Koichi SATO",
+              "Screenplay": "Takahisa ZEZE",
+              "Cinematography": "Atsuhiro NABESHIMA",
+              "Production Design": "Toshihiro ISOMI",
+              "Editor": "Ryo HAYANO",
+              "Sound": "Shinya TAKATA",
+              "Music": "Joep BEVING",
+              "Production Company": "KADOKAW DAIEI STUDIOJapan 6-1-1 TAMAGAWA CHOFU-SHI TOKYO, 182-0025Tel:",
+              "World Sales": "KADOKAWA CORPORATIONJapan 1-8-19 FUJIMI CHIYODA-KU TOKYOTel: 81 050-1746-1220Fax:  furutsuki-e@kadokawa.jp"
+            }
+          }
+        ]
+      },
+      "17:00": {
+        "title": "폭군 이바나",
+        "programs": [
+          {
+            "title": "폭군 이바나",
+            "title_en": "Ivana the Terrible",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=43149&c_idx=328&sp_idx=&QueryStep=2",
+            "desc": "이바나 마데노비치 감독 자신이 주연을 맡고 감독의 가족까지 현실 그대로 등장하는 영화로, 신경쇠약 직전의 여성 감독과 그녀를 둘러싼 사람들의 소동이 펼쳐진다. 로카르노영화제 수상작.",
+            "info": {
+              "국가": "Romania/Serbia",
+              "제작연도": "2019",
+              "러닝타임": "89min",
+              "상영포맷": "DCP",
+              "컬러": "Color"
+            },
+            "credit": {
+              "Director": "이바나 마데노비치 Ivana MLADENOVIC",
+              "Producer": "Ada SOLOMON / Ivana MLADENOVIĆ",
+              "Cast": "Ivana MLADENOVIĆ / Luka GRAMIĆ / Gordana MLADENOVIĆ / Miodrag MLADENOVIĆ",
+              "Screenplay": "Ivana MLADENOVIĆ ,Adrian SCHIOP",
+              "Cinematography": "Carmen TOFENI",
+              "Editor": "Patricia CHELARU ,Catalin CRISTUTIU",
+              "Sound": "Alexandru DUMITRU",
+              "Production Company": "microFILMRomania Tel: 40 212524867microfilm.romania@gmail.com",
+              "World Sales": "SYNDICADO FILM SALESCanada Tel: +42 1949635890Fax:  aleksandar@syndicado.com"
+            }
+          }
+        ]
+      },
+      "20:00": {
+        "title": "마법의 눈",
+        "programs": [
+          {
+            "title": "마법의 눈",
+            "title_en": "Tlamess",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=42668&c_idx=328&sp_idx=&QueryStep=2",
+            "desc": "어머니의 부고로 휴가를 나온 튀니지 군인 S는 탈영을 결심하고 산 속으로 숨는다. 몇 년 후, 인근의 빌라로 이사 온 젊은 사업가의 부인 F가 산책 중에 실종된다. 감독의 첫 장편인 <라스트 오브 어스>와 맥을 같이 하는 이 작품 에도 현대 사회와 정치에 대한 비판적 은유가 지극히 영화적인 언어로 유려 하게 녹아있다.",
+            "info": {
+              "국가": "Tunisia/France",
+              "제작연도": "2019",
+              "러닝타임": "120min",
+              "상영포맷": "DCP",
+              "컬러": "Color"
+            },
+            "credit": {
+              "Director": "알라 에딘 슬림 Ala Eddine SLIM",
+              "Producer": "Ala Eddine SLIM / Juliette LEPOUTRE / Ali HASSOUNA / Chawki KNIS / Pierre MENAHEM",
+              "Cast": "Abdullah MINIAWY / Souhir BEN AMARA / Khaled BEN AISSA",
+              "Screenplay": "Ala Eddine SLIM",
+              "Cinematography": "Amine MESSADI",
+              "Production Design": "Malek GNAOUI",
+              "Sound": "Moncef TALEB",
+              "Music": "Oiseaux-Tempete",
+              "Production Company": "Exit Productions and Still Moving,Inside Productions and Madbox StudiosTel:  ,",
+              "World Sales": "Be For FilmsBelgium 28 Avenue des Villas, 1060 BrusselsTel: 32 2 793 38 93Fax:  festival@beforfilms.com"
+            }
+          }
+        ]
+      }
+    },
+    "중극장": {
+      "13:00": {
+        "title": "시너님스",
+        "programs": [
+          {
+            "title": "시너님스",
+            "title_en": "Synonyms",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=42648&c_idx=328&sp_idx=&QueryStep=2",
+            "desc": "이스라엘 출신의 감독 나다브 라피드의 <시너님스>는 단연 올 최고의 화제작 중 한 편으로, 베를린영화제 황금곰 상 수상작이다. 이스라엘 청년 요아브는 프랑스와 불어 만이 자신의 나라와 자신을 구해줄 거라는 희망을 안고 프랑스로 온다. 감독의 자전적인 작품이어서 더욱 설득력있는 영화다.",
+            "info": {
+              "국가": "France/Israel/Germany",
+              "제작연도": "2019",
+              "러닝타임": "123min",
+              "상영포맷": "DCP",
+              "컬러": "Color"
+            },
+            "credit": {
+              "Director": "나다브 라피드 Nadav LAPID",
+              "Producer": "Saïd BEN SAÏD / Michel MERKT",
+              "Cast": "Tom MERCIER / Quentin DOLMAIRE / Louise CHEVILLOTTE",
+              "Production Company": "SBS ProductionsTel:",
+              "World Sales": "SBS InternationalTel:  Fax:"
+            }
+          }
+        ]
+      },
+      "16:00": {
+        "title": "빛이 있으라",
+        "programs": [
+          {
+            "title": "빛이 있으라",
+            "title_en": "Let There Be Light",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=42667&c_idx=328&sp_idx=&QueryStep=2",
+            "desc": "독일에서 건설 일을 하다 슬로바키아로 돌아온 남자는 아들이 극우파 민병대와 관련된 것을 알게 된다. 아들을 구하려면 그들과 싸워야 하는 상황에처한다. 카를로비바리영화제 수상작.",
+            "info": {
+              "국가": "Slovak Republic/Czech Republic",
+              "제작연도": "2019",
+              "러닝타임": "93min",
+              "상영포맷": "DCP",
+              "컬러": "Color"
+            },
+            "credit": {
+              "Director": "마르코 스콥 Marko ŠKOP",
+              "Producer": "Marko ŠKOP / Ján MELIŠ / Petr OUKROPEC / Pavel STRNAD",
+              "Cast": "Milan ONDRÍK / František BELEŠ / Zuzana KONEČNÁ / Ľubomír PAULOVIČ / Katarína KORMAŇÁKOVÁ / Maximilián DUŠANIČ / Daniel FISCHER / Csongor KASSAI / Anikó VARGOVÁ / Marek GEIŠBERG",
+              "Screenplay": "Marko ŠKOP",
+              "Cinematography": "Ján MELIŠ",
+              "Production Design": "Pavol ANDRAŠKO",
+              "Editor": "František KRÄHENBIEL",
+              "Sound": "Jan ČENĚK",
+              "Production Company": "ARTILERIA, s.r.o.,Negativ s.r.o.Slovak Republic Drobneho 23, 841 01 Bratislava,Czech Republic Ostrovni 30 110 00 Praha 1Tel: 421 903 789 198,420 224 933 755artileria@artleria.skoffice@negativ.cz",
+              "World Sales": "Loco FilmsFrance 42 rue Sedaine 75011 ParisTel: 33 562144488Fax:  international@loco-films.com"
+            }
+          }
+        ]
+      },
+      "19:00": {
+        "title": "마법에 빠졌어요",
+        "programs": [
+          {
+            "title": "마법에 빠졌어요",
+            "title_en": "On a Magical Night",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=42671&c_idx=328&sp_idx=&QueryStep=2",
+            "desc": "어느 겨울 밤. 남편 리차드와 다툰 마리아는 맞은 편 호텔 212호에서 하루 묵기로 한다. 맞은편 집안에서 기이한 풍경이 벌어지기 시작하더니 급기야 젊은 시절의 남편 리차드가 212호의 초인종을 누르기에 이른다. 칸 주목할 만한시선 부문 초청작으로 키아라 마스트로야니가 여우주연상을 받았다.",
+            "info": {
+              "국가": "France/Belgium/Luxembourg",
+              "제작연도": "2019",
+              "러닝타임": "86min",
+              "상영포맷": "DCP",
+              "컬러": "Color"
+            },
+            "credit": {
+              "Director": "크리스토프 오노레 Christophe HONORÉ",
+              "Producer": "David THION / Philippe MARTIN",
+              "Cast": "Chiara MASTROIANNI / Vincent LACOSTE / Camille COTTIN / Benjamin BIOLAY",
+              "Screenplay": "Christophe HONORÉ",
+              "Cinematography": "Rémy CHEVRIN",
+              "Production Company": "Les films PelléasFrance 25, rue Michel Le Comte 75003Tel:",
+              "World Sales": "CharadesFrance 17, bd Jules Ferry 75011Tel:  Fax:  nicolas@charades.eu"
+            }
+          }
+        ]
+      }
+    },
+    "소극장": {
+      "10:30": {
+        "title": "그녀의 이름은 베트남",
+        "programs": [
+          {
+            "title": "그녀의 이름은 베트남",
+            "title_en": "Surname Viet Given Name Nam",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=44513&c_idx=336&sp_idx=494&QueryStep=2",
+            "desc": "트린 민하의 대표작으로 정체성, 대중 기억과 문화 등의 문제를 질문한다. 감독은 본래 베트남어로 진행되고 불어로 번역되어 출판되었던 전후 베트 남 여성들의 인터뷰를, 미국에 거주하는 베트남 여성들을 섭외해 영어로 ‘재 연’한다. 이 과정에서 다양한 간극이 드러난다.",
+            "info": {
+              "국가": "United States",
+              "제작연도": "1989",
+              "러닝타임": "109min",
+              "상영포맷": "DCP",
+              "컬러": "Color"
+            },
+            "credit": {
+              "Director": "트린 민하 TRINH T. Minh-ha",
+              "Producer": "Jean-Paul BOURDIER",
+              "Cast": "",
+              "Production Company": "Moongift FilmsUnited States Tel:"
+            }
+          }
+        ]
+      },
+      "14:00": {
+        "title": "하바, 마리암, 아예샤",
+        "programs": [
+          {
+            "title": "하바, 마리암, 아예샤",
+            "title_en": "Hava, Maryam, Ayesha",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=44502&c_idx=332&sp_idx=&QueryStep=2",
+            "desc": "산달이 가까운 하바는 무책임한 남편과 시부모님과 함께 산다. 마리암은 바람 피운 남편과 이혼하려는 순간 임신한 사실을 알게 된다. 연애 중인 아예샤는 어쩔 수 없이 사촌과의 결혼을 받아들인다.",
+            "info": {
+              "국가": "Afghanistan",
+              "제작연도": "2019",
+              "러닝타임": "86min",
+              "상영포맷": "DCP",
+              "컬러": "Color"
+            },
+            "credit": {
+              "Director": "사라 카리미 Sahraa KARIMI",
+              "Producer": "Katayoon SHAHABI",
+              "Cast": "Arezoo ARIAPOOR",
+              "Production Company": "Noori PicturesFrance 84, Avenue de la Republique 75011 ParisTel: 33 676418967katysh.01@gmail.com",
+              "World Sales": "Noori PicturesFrance 84, Avenue de la République 75011 ParisTel: 33 676418967Fax:  katysh.01@gmail.com"
+            }
+          }
+        ]
+      },
+      "19:00": {
+        "title": "AFA 2019 수료식 및 단편영화 상영",
+        "programs": [
+          {
+            "title": "AFA 2019 수료식 및 단편영화 상영",
+            "title_en": "AFA 2019 Graduation Ceremony & Short Film Screening",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=44578&c_idx=0&sp_idx=&QueryStep=2",
+            "desc": null,
+            "info": null,
+            "credit": null
+          }
+        ]
+      }
+    },
+    "시네마테크": {
+      "10:30": {
+        "title": "사람의 아들",
+        "programs": [
+          {
+            "title": "사람의 아들",
+            "title_en": "Son of a Man",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=42993&c_idx=329&sp_idx=487&QueryStep=2",
+            "desc": "기독교적 구도의 길을 걸어온 민요섭(하명중)이 칼에 찔려 숨지고 그의 과거 행적이 하나씩 밝혀진다. 극단적 앵글과 프레임, 클로즈업, 인상적인 와이드 앵글 군중 쇼트 등 정일성 촬영의 표현주의적 정수를 보여주는 작품.",
+            "info": {
+              "국가": "Korea",
+              "제작연도": "1980",
+              "러닝타임": "121min",
+              "상영포맷": "Film(35mm)",
+              "컬러": "Color"
+            },
+            "credit": {
+              "Director": "유현목 YU Hyun-mok",
+              "Producer": "Jeong-hwan KWAK 곽정환",
+              "Cast": "Myung-joong HAH 하명중 / Bool-am CHOI 최불암 / Tae-ki KANG 강태기",
+              "Screenplay": "Pa HONG 홍파",
+              "Cinematography": "Il-Sung Jung 정일성"
+            }
+          }
+        ]
+      },
+      "13:30": {
+        "title": "황진이",
+        "programs": [
+          {
+            "title": "황진이",
+            "title_en": "Hwang Jin-ie",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=43037&c_idx=329&sp_idx=487&QueryStep=2",
+            "desc": "황진사의 딸로 재색을 겸비한 진이(장미희)는 혼례 전날 그녀를 짝사랑하던 갖바치(안성기)가 자살하면서 일방적으로 파혼을 당한다. 갖바치의 죽음에 충격을 받은 진이는 기녀가 되어 세상에 화려한 복수를 시작한다.",
+            "info": {
+              "국가": "Korea",
+              "제작연도": "1986",
+              "러닝타임": "119min",
+              "상영포맷": "Film(35mm)",
+              "컬러": "Color"
+            },
+            "credit": {
+              "Director": "배창호 BAE Chang-ho",
+              "Producer": "Woo-suk LEE 이우석",
+              "Cast": "Mi-hee CHANG 장미희 / Sung-ki AHN 안성기 / Il-ryong SIN 신일룡 / Moo-song CHON 전무송 / Yun-gyeong KIM 김윤경",
+              "Screenplay": "In-ho CHOI 최인호",
+              "Cinematography": "Il-Sung Jung 정일성"
+            }
+          }
+        ]
+      },
+      "16:30": {
+        "title": "본투킬",
+        "programs": [
+          {
+            "title": "본투킬",
+            "title_en": "Born to kill",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=43001&c_idx=329&sp_idx=487&QueryStep=2",
+            "desc": "1990년대 중반 한국적 누아르 장르를 개척하고 유행시킨 장현수 감독의 대표작. 정일성 촬영감독은 당대 어떤 젊은 촬영감독보다 힘 있는 화면을 만들어 낸다. 길(정우성)은 자살하려는 엄마의 손을 뿌리치고 도망친 후 킬러로 키워진다. 그를 자극시키는 것은 호스티스 수하(심은하) 뿐이다.",
+            "info": {
+              "국가": "Korea",
+              "제작연도": "1996",
+              "러닝타임": "109min",
+              "상영포맷": "Film(35mm)",
+              "컬러": "Color"
+            },
+            "credit": {
+              "Director": "장현수 JANG Hyun-soo",
+              "Producer": "Sun-yeol LEE 이순열",
+              "Cast": "Woo-sung JUNG 정우성 / Eun-ha SHIM 심은하",
+              "Screenplay": "Hae-sung SONG 송해성,Moo-young LEE 이무영,Hyun-soo JANG 장현수"
+            }
+          }
+        ]
+      },
+      "19:30": {
+        "title": "미스터 존스",
+        "programs": [
+          {
+            "title": "미스터 존스",
+            "title_en": "Mr. Jones",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=42926&c_idx=335&sp_idx=&QueryStep=2",
+            "desc": "1933년 소련을 여행하며 스탈린 정권과 소비에트 ‘유토피아’ 이면의 참혹한 진실을 밝혀낸 젊은 웨일스 기자 가렛 존스의 이야기. 정치가 감춘 진실에 대한 탐구.",
+            "info": {
+              "국가": "Poland/Ukraine/United Kingdom",
+              "제작연도": "2019",
+              "러닝타임": "119min",
+              "상영포맷": "DCP",
+              "컬러": "Color"
+            },
+            "credit": {
+              "Director": "아그네츠카 홀란드 Agnieszka HOLLAND",
+              "Producer": "Klaudia SMIEJA / Andrea CHALUPA / Stanislaw DZIEDZIC / Angus LAMONT / Egor OLESOV",
+              "Cast": "James NORTON / Vanessa KIRBY / Peter SARSGAARD",
+              "Screenplay": "Andrea CHALUPA",
+              "Cinematography": "Tomasz NAUMIUK",
+              "Editor": "Michal CZARNECKI",
+              "Music": "Antoni LAZARKIEWICZ",
+              "Production Company": "Film ProdukcjaPoland Czerniakowska 73/79, 00-718Tel:",
+              "World Sales": "WestEnd FilmsUnited Kingdom Shepherds Building CentralTel: 44 2074948300Fax:  alex@westendfilms.com"
+            }
+          }
+        ]
+      }
+    },
+    "CGV센텀시티 1관": {
+      "13:30": {
+        "title": "크라비 섬",
+        "programs": [
+          {
+            "title": "크라비 섬",
+            "title_en": "Krabi, 2562",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=44544&c_idx=332&sp_idx=&QueryStep=2",
+            "desc": "태국 남부의 대표적인 관광지로 꼽히는 크라비 섬은 태국의 선사 시대와 최근의 과거, 그리고 현재의 세계가 충돌하는 장소다. 이 영화는 크라비의 풍광 속에서 이 지역 사회에 담긴 특별한 이야기를 풀어낸다.",
+            "info": {
+              "국가": "United Kingdom/Thailand",
+              "제작연도": "2019",
+              "러닝타임": "93min",
+              "상영포맷": "DCP",
+              "컬러": "Color"
+            },
+            "credit": {
+              "Director": "벤 리버스 Ben RIVERS 아노차 수위차콘폰 Anocha SUWICHAKORNPONG",
+              "Producer": "Maenum CHAGASIK",
+              "Cast": "Siraphun WATTANAJINDA / Arak AMORNSUPASIRI / Primrin PUARAT / Nuttawat ATTASAWAT / Atchara SUWAN / Lieng LEELATIWANON",
+              "Cinematography": "Ming Kai LEUNG ,Ben RIVERS",
+              "Editor": "Aacharee UNGSRIWONG ,Parinda MOONG",
+              "Sound": "Ernst KAREL",
+              "Production Company": "Electric Eel Films,Ben Rivers LimitedTel:  ,",
+              "World Sales": "RedianceChina Room 2701, Block B, Star City International Tower, Chaoyang District, BeijingTel:  Fax:  info@rediancefilms.com"
+            }
+          }
+        ]
+      },
+      "16:30": {
+        "title": "미성년",
+        "programs": [
+          {
+            "title": "미성년",
+            "title_en": "Another Child",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=42754&c_idx=330&sp_idx=489&QueryStep=2",
+            "desc": "고등학교 2학년 같은 반 주리와 윤아는 최근 주리의 아빠 대원과 윤아의 엄마 미희 사이에 벌어진 일을 알게 된다. 문제를 해결하려는 주리는 어떻게든 엄마 영주 몰래 상황을 수습하려 하지만 윤아는 엮이지 않으려 한다.",
+            "info": {
+              "국가": "Korea",
+              "제작연도": "2019",
+              "러닝타임": "96min",
+              "상영포맷": "DCP",
+              "컬러": "Color"
+            },
+            "credit": {
+              "Director": "김윤석 KIM Yoon-seok",
+              "Producer": "Dong-ha LEE 이동하 / Jay JI 지승범",
+              "Cast": "Jung-a YEOM 염정아 / So-jin KIM 김소진 / Hye-jun KIM 김혜준 / Se-jin PARK 박세진 / Yoon-seok KIM 김윤석",
+              "Screenplay": "Bo-ram LEE 이보람,Yoon-seok KIM 김윤석",
+              "Cinematography": "Ki S. HWANG 황기석",
+              "Production Design": "Gil-sung BANG 방길성",
+              "Editor": "Sun-min KIM 김선민",
+              "Sound": "Suk-won KIM 김석원",
+              "Music": "Seong-do PARK 박성도",
+              "Production Company": "REDPETER FILM,HUAYIBROTHERS KOREATel:  ,"
+            }
+          }
+        ]
+      },
+      "19:30": {
+        "title": "리틀 조",
+        "programs": [
+          {
+            "title": "리틀 조",
+            "title_en": "Little Joe",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=42664&c_idx=328&sp_idx=&QueryStep=2",
+            "desc": "어느 날 앨리스는 아름다운데다 테라피 효능까지 있는 식물을 고안해낸다.\r\n회사의 통제에도 불구하고 앨리스는 이 진홍색 꽃을  피우는 이종 식물을 아들 조에게 선물한다, 아들은 식물에게 ‘리틀 조’ 라는 별명을 지어주고 극진히 돌보는데….  앨리스 역의 에밀리 비샴에게 칸 여우주연상을 안겨준 작품.",
+            "info": {
+              "국가": "Austria/United Kingdom/Germany",
+              "제작연도": "2019",
+              "러닝타임": "105min",
+              "상영포맷": "DCP",
+              "컬러": "Color"
+            },
+            "credit": {
+              "Director": "예시카 하우스너 Jessica HAUSNER",
+              "Producer": "Bruno WAGNER / Bertrand FAIVRE / Philippe BOBER",
+              "Cast": "Emily BEECHAM / Ben WHISHAW / Kerry FOX / Kit CONNOR / David WILMOT / Phénix BROSSARD / Sebastian HÜLK / Lindsay DUNCAN",
+              "Screenplay": "Géraldine BAJARD",
+              "Cinematography": "Martin GSCHLACHT",
+              "Production Design": "Katharina WÖPPERMANN",
+              "Editor": "Karina RESSLER",
+              "Sound": "Malcolm CROMIE ,Erik MISCHIJEV",
+              "Production Company": "Coop99 FILMPRODUKTION,The Bureau,Essential FilmsTel: 43 1 3195825,33 1 40 33 33 80, gb@lebureaufilms.com",
+              "World Sales": "Coproduction OfficeFrance 24, Rue Lamartine 75009 PARISTel: 33 1 56 02 60 00Fax:  festivals@coproductionoffice.eu"
+            }
+          }
+        ]
+      }
+    },
+    "CGV센텀시티 2관": {
+      "13:00": {
+        "title": "젊은이의 양지",
+        "programs": [
+          {
+            "title": "젊은이의 양지",
+            "title_en": "Light for the Youth",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=44475&c_idx=330&sp_idx=489&QueryStep=2",
+            "desc": "콜센터 계약직 팀장 세연은 열아홉 살 실습생 준이 유서를 남기고 사라지자 직장에서 위기를 맞는다. 인턴으로 일하던 미래는 정규직 최종 면접까지 갔다가 결국 실패하고 깊은 절망에 빠진다. 그리고 세연은 준이 보낸 의문의 영상을 받게 된다.",
+            "info": {
+              "국가": "Korea",
+              "제작연도": "2019",
+              "러닝타임": "114min",
+              "상영포맷": "DCP",
+              "컬러": "Color"
+            },
+            "credit": {
+              "Director": "신수원 SHIN Suwon",
+              "Producer": "Francis Chung-keun LIM 임충근",
+              "Cast": "Ho-jung KIM 김호정 / Chan-young YOON 윤찬영 / Ha-dam JEONG 정하담 / Jun-young CHOI 최준영",
+              "Screenplay": "Su-won SHIN 신수원",
+              "Cinematography": "Ji-woon YUN 윤지운",
+              "Production Design": "Young-tak KIM 김영탁",
+              "Editor": "Young-lim LEE 이영림",
+              "Sound": "Soo-hyun KIM 김수현",
+              "Music": "Jae-ah RYU 류재아",
+              "Production Company": "JUNE FilmKorea Rm 201, #34 Changgyunggungro 35na-gil, Jongro-gu, SeoulTel: 010 6280-6110eugincine@hanmail.net",
+              "World Sales": "Finecut Co. Ltd.Korea Patio House #102 (Bldg. C), 22-14 Bongeunsa-ro 26-gil, Gangnam-gu, SeoulTel: 010 66511325Fax:  jeong@finecut.co.kr"
+            }
+          }
+        ]
+      },
+      "16:00": {
+        "title": "당신 다리 사이의 악마",
+        "programs": [
+          {
+            "title": "당신 다리 사이의 악마",
+            "title_en": "Devil Between the Legs",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=42931&c_idx=335&sp_idx=&QueryStep=2",
+            "desc": "거장 감독이 노부부의 자기파괴적 욕망을 우울하고 섬뜩하게 그린다. 남자 는 여자를 모욕하더니 불륜 상대를 찾아가 위로를 구한다. 여자는 비참해진 몸과 마음을 달래고자 탱고 교습소에서 추파를 던진다. 서로를 망치려는 동 시에 갈망하는 두 사람, 그리고 그 사이에 끼어든 젊은 가정부.",
+            "info": {
+              "국가": "Mexico/Spain",
+              "제작연도": "2019",
+              "러닝타임": "147min",
+              "상영포맷": "DCP",
+              "컬러": "B&W"
+            },
+            "credit": {
+              "Director": "아르투로 립스테인 Arturo RIPSTEIN",
+              "Producer": "Miguel NECOECHEA / Mónica LOZANO / Antonio CHAVARRÍAS / Marco Polo COSTANDSE",
+              "Cast": "Sylvia PASQUEL / Alejandro SUÁREZ / Greta CERVANTES",
+              "Screenplay": "Paz Alicia GARCIADIEGO",
+              "Production Company": "CARNAVAL FILMS,OBERONMexico Manuel M Ponce 276, Mexico City, Mexico,Spain Arago 217, 5E, Barcelona, SpainTel: 52 5552565757,34 934512560mnecoechea@me.comamasclans@oberoncinematografica.com",
+              "World Sales": "LATIDO FILMSSpain C/ San Bernardo 20, 2º8, MadridTel: 34 915488877Fax:  marta@latidofilms.com"
+            }
+          }
+        ]
+      },
+      "20:00": {
+        "title": "마라탕",
+        "programs": [
+          {
+            "title": "마라탕",
+            "title_en": "Fagara",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=44536&c_idx=332&sp_idx=&QueryStep=2",
+            "desc": "아버지가 세상을 떠난 뒤 두 명의 이복자매가 있다는 사실을 알게된 주인공은 아버지가 남긴 빚을 해결하기 위해 낯선 자매들과 함께 아버지의 마라탕 식당을 운영하기로 한다.",
+            "info": {
+              "국가": "Hong Kong, China",
+              "제작연도": "2019",
+              "러닝타임": "118min",
+              "상영포맷": "DCP",
+              "컬러": "Color"
+            },
+            "credit": {
+              "Director": "헤이워드 막 Heiward MAK",
+              "Cast": "Sammi CHENG / Megan LAI / Xiaofeng LI"
+            }
+          }
+        ]
+      }
+    },
+    "CGV센텀시티 3관": {
+      "13:00": {
+        "title": "상어",
+        "programs": [
+          {
+            "title": "상어",
+            "title_en": "The Sharks",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=42764&c_idx=328&sp_idx=&QueryStep=2",
+            "desc": "상어가 출몰한다는 소식에 공포로 술렁이기 시작한 작은 해변가 마을. 함께 일하는 연상의 동료에게 점점 강한 끌림을 느끼던 열네 살 소녀 로지나는 마치 상어가 멋잇감을 포위하듯 그의 주변을 맴돌기 시작한다.",
+            "info": {
+              "국가": "Uruguay/Argentina/Spain",
+              "제작연도": "2019",
+              "러닝타임": "80min",
+              "상영포맷": "DCP",
+              "컬러": "Color"
+            },
+            "credit": {
+              "Director": "루시아 가리발디 Lucía GARIBALDI",
+              "Producer": "Pancho MAGNOU ARNABAL / Isabel GARCIA",
+              "Cast": "Romina BENTANCUR / Federico MOROSINI / Fabían ARENILLAS / Antonella AQUISTAPACHE",
+              "Screenplay": "Lucía GARIBALDI",
+              "Cinematography": "German NOCELLA",
+              "Editor": "Sebastian SCHJAER",
+              "Music": "Fabrizio ROSSI ,Miguel RECALDE",
+              "Production Company": "Montelona CineUruguay Tel:",
+              "World Sales": "Visit FilmsUnited States 173 Richardson St.Tel: 1 7183128210Fax:  ts@visitfilms.com"
+            }
+          }
+        ]
+      },
+      "16:00": {
+        "title": "아만다의 선택",
+        "programs": [
+          {
+            "title": "아만다의 선택",
+            "title_en": "The Good Intentions",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=44514&c_idx=328&sp_idx=&QueryStep=2",
+            "desc": "아만다와 그녀의 형제 자매는 이혼한 두 부모님의 집을 오가며 산다. 그러던 어느 날, 아만다의 어머니가 아이들 양육에 무책임한 남편과 열악한 경제 상황에서 벗어나기 위해 다른 지역으로 이사를 가자고 이야기한다. 이제 아만다는 부모 중 누구와 살 것인지 선택해야 한다.",
+            "info": {
+              "국가": "Argentina",
+              "제작연도": "2019",
+              "러닝타임": "86min",
+              "상영포맷": "DCP",
+              "컬러": "Color"
+            },
+            "credit": {
+              "Director": "아나 가르시아 블라야 Ana GARCÍA BLAYA",
+              "Cast": "Javier DROLAS / Amanda MINUJÍN / Ezequiel FONTENLA",
+              "Cinematography": "Soledad RODRÍGUEZ",
+              "Production Company": "NOS,Bla Bla Cine,Tarea FinaArgentina Av. Congreso, 3545, 1429 Buenos Aires,Argentina Juncal, 3621, piso 3, 1429 Buenos Aires,Argentina Conesa, 4653, dto 3., 1249 Buenos AiresTel: 54 911 4545 6200,54 911 4198 8846,54 911 3891 3036Joaco@nos.com.arjuanagblaya@gmail.comjpmiller@tareafina.com",
+              "World Sales": "Film Factory EntertainmentSpain Calle Lincoln 11, 2º 4ª, 08006 BarcelonaTel: 34 933 684 608Fax:  info@filmfactory.es"
+            }
+          }
+        ]
+      },
+      "19:00": {
+        "title": "더 프린스",
+        "programs": [
+          {
+            "title": "더 프린스",
+            "title_en": "The Prince",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=38509&c_idx=328&sp_idx=&QueryStep=2",
+            "desc": "1970년 칠레. 술에 잔뜩 취한 밤, 스무 살의 거칠 것 없는 청년 제이미는 욱하는 마음에 가장 친한 친구를 찌르는 사고를 치고 감옥에 갇힌다. 폭력으로 얼룩진 감옥에서 그는 다른 차원의 충성심과 친밀감을 느끼기 시작한다.",
+            "info": {
+              "국가": "Chile/Argentina/Belgium",
+              "제작연도": "2019",
+              "러닝타임": "96min",
+              "상영포맷": "DCP",
+              "컬러": "Color"
+            },
+            "credit": {
+              "Director": "세바스티안 무뇨스 Sebastian MUÑOZ",
+              "Cast": "Juan Carlos MALDONADO / Alfredo CASTRO",
+              "Screenplay": "Sebastian MUÑOZ ,Luis BARRALES",
+              "Production Company": "El Otro Film,Niña Niño FilmsChile Santiago,Chile SantiagoTel:  , mmayerbeckh@yahoo.comroberto@ninaninofilms.com",
+              "World Sales": "Patra Spanou Film Marketing & ConsultingGermany Yorck Strasse 22, DüsseldorfTel:  Fax:  film@patraspanou.biz"
+            }
+          }
+        ]
+      }
+    },
+    "CGV센텀시티 4관": {
+      "14:00": {
+        "title": "디어스킨",
+        "programs": [
+          {
+            "title": "디어스킨",
+            "title_en": "Deerskin",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=42912&c_idx=328&sp_idx=&QueryStep=2",
+            "desc": "조르주는 통장 잔고 7,500유로로 100% 사슴가죽 중고자켓을 사 입는다. 덤으로 받은 디지털 카메라와 함께 산간마을에 도착하는 조르주. 이제, 그의 프로젝트가 시작된다. 음악가 미스터 와조로 알려진, 깡뗑 드삐유의 여느 작품들처럼 창의적이고, 중의적이고 유머러스한 부조리 코미디극의 정수다. 아카데미상 남우주연상을 수상한 장 뒤자르댕이 조르주 역을 완벽하게 연기한다.",
+            "info": {
+              "국가": "France",
+              "제작연도": "2019",
+              "러닝타임": "77min",
+              "상영포맷": "DCP",
+              "컬러": "Color"
+            },
+            "credit": {
+              "Director": "쿠엔틴 듀피유 Quentin DUPIEUX",
+              "Cast": "Jean DUJARDIN / Adèle HAENEL / Albert DELPY / Pierre GOMMÉ / Laurent NICOLAS / Coralie RUSSIER / Marie BUNEL",
+              "Screenplay": "Quentin DUPIEUX",
+              "Production Design": "Joan LE BORU",
+              "Editor": "Quentin DUPIEUX",
+              "Sound": "Guillaume LE BRAX ,Alexis PLACE ,Gadou NAUDIN ,Cyril HOLTZ",
+              "Production Company": "Atelier de ProductionFrance 41 rue Saint Augustin  75002 Paris  FranceTel: 33 188.32.08.66contact@atelierdeproduction.com",
+              "World Sales": "WTFILMSFrance 20 rue BACHAUMONT, 75002, PARISTel: 33 1 42 61 09 83Fax:  sales@wtfilms.fr"
+            }
+          }
+        ]
+      },
+      "17:00": {
+        "title": "더 언노운 세인트",
+        "programs": [
+          {
+            "title": "더 언노운 세인트",
+            "title_en": "The Unknown Saint",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=42656&c_idx=328&sp_idx=&QueryStep=2",
+            "desc": "사막을 질주하는 아민. 경찰에게 붙잡히기 직전, 언덕 위에 무덤을 만들어 돈가방을 묻어둔다. 출소 후 돈가방을 찾으러 간 아민은 자신이 만들어 놓은 무덤이 ‘어느 무명 성자의 무덤’으로 불리는 명소가 됐음을 알게된다. 풍자극의 전통과 미니멀리즘의 미덕이 효과적으로 결합된 작품으로, 올해 모로코 영화 중에 단연 최고의 작품이다.",
+            "info": {
+              "국가": "Morocco/France",
+              "제작연도": "2019",
+              "러닝타임": "100min",
+              "상영포맷": "DCP",
+              "컬러": "Color"
+            },
+            "credit": {
+              "Director": "알라 에딘 알젬 Alaa Eddine ALJEM",
+              "Producer": "Francesca DUCA / Alexa RIVERO",
+              "Cast": "Younes BOUAB / Salah BENSALAH / Bouchaib ESSAMAK",
+              "Cinematography": "Amine BERRADA",
+              "Production Design": "Kaoutar HADDIOUI",
+              "Editor": "Lilian CORBEILLE",
+              "Music": "Amine Bouhafa BOUHAFA",
+              "Production Company": "LE MOINDRE GESTE,ALTAMAR FILMSMorocco ,France Tel:  , fra.duca@gmail.comalexa@altamar-films.com",
+              "World Sales": "The Match FactoryGermany Domstrasse 60Tel: 49 030443190511Fax: 49 221 539 709-10valentina.bronzini@matchfactory.de"
+            }
+          }
+        ]
+      },
+      "20:00": {
+        "title": "슬립워커",
+        "programs": [
+          {
+            "title": "슬립워커",
+            "title_en": "The Sleepwalkers",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=44537&c_idx=328&sp_idx=&QueryStep=2",
+            "desc": "루이사는 십대가 된 딸 아나가 걱정스럽다. 기념일을 축하하기 위해 온 가족이 모인 집에서 사춘기에 접어든 아나가 몇 번이나 잠든 채 벌거벗고 돌아다니는 몽유병 증세를 보였기 때문이다. 가족 사이에 흥분이 점점 고조되고 비밀이 하나씩 드러날수록 긴장감이 더욱 증폭된다.",
+            "info": {
+              "국가": "Argentina/Uruguay",
+              "제작연도": "2019",
+              "러닝타임": "108min",
+              "상영포맷": "DCP",
+              "컬러": "Color"
+            },
+            "credit": {
+              "Director": "파울라 에르난데스 Paula HERNÁNDEZ",
+              "Producer": "Juan Pablo MILLER",
+              "Cast": "Érica RIVAS / Ornella D′ELÍA / Marilú MARINI / Luis ZIEMBROWSKI / Daniel HENDLER / Valeria LOIS / Rafael FEDERMAN",
+              "Screenplay": "Paula HERNANDEZ",
+              "Cinematography": "Iván GIERASINCHUK",
+              "Production Design": "Aili CHEN",
+              "Editor": "Rosario SUÁREZ",
+              "Sound": "Martín GRIGNASCHI ,Pablo GAMBERG",
+              "Music": "Pedro ONETTO",
+              "Production Company": "Tarea FinaArgentina Conesa 4653 ? Dto 3 ? CP1429 I Bs As ? Argentina.Tel: 54911 38913036jpmiller@tareafina.com",
+              "World Sales": "MEIKINCINE ENTERTAINMENTArgentina G. Matorras 1589, 1609 Buenos Aires, ArgentinaTel: 54911 54946149Fax:  lucia@meikincine.com"
+            }
+          }
+        ]
+      }
+    },
+    "CGV센텀시티 5관": {
+      "13:00": {
+        "title": "어떤 반란",
+        "programs": [
+          {
+            "title": "어떤 반란",
+            "title_en": "The Accidental Rebel",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=43449&c_idx=327&sp_idx=&QueryStep=2",
+            "desc": "시리아 학생 카림은 임신한 여자 친구 릴리와 함께 함부르크에서 평화롭게 살고 있다. 어느 날, 형이 악명 높은 알레포 감옥에 갇혀 있다는 소식을 듣고, 시리아로 떠난다. 란다 차후드 감독은 카림이라는 인물을 통해 우리 시대의 가장 큰 갈등이자 상처를 담담하면서도 깊게 응시하고 있다.",
+            "info": {
+              "국가": "Germany/United Kingdom",
+              "제작연도": "2019",
+              "러닝타임": "108min",
+              "상영포맷": "DCP",
+              "컬러": "Color"
+            },
+            "credit": {
+              "Director": "란다 차후드 Randa CHAHOUD",
+              "Producer": "Clementina HEGEWISCH / Johannes JANCKE",
+              "Cast": "Mehdi MESKAR / Emily COX / Jonas NAY / Husam CHADAT / Amira GHAZALLA / Marwan MOUSSA",
+              "Screenplay": "Randa CHAHOUD",
+              "Cinematography": "Sören SCHULZ",
+              "Production Design": "Juliane FRIEDRICH",
+              "Editor": "Adrienne HUDSON",
+              "Sound": "André STIEBE ,Claudia MATTAI DEL MORO",
+              "Music": "Hani ASFARI",
+              "Production Company": "Neue Impuls Film Produktionsgesellschaft mbHGermany Friedensallee 14-16, 22765 HamburgTel: 49 1793267529j.jancke@neueimpuls.de",
+              "World Sales": "East West FilmdistributionAustria Lerchengasse 24/25, 1080 ViennaTel: 43 664 2338411‬Fax:  sasha@eastwest-distribution.com"
+            }
+          }
+        ]
+      },
+      "16:30": {
+        "title": "에마",
+        "programs": [
+          {
+            "title": "에마",
+            "title_en": "Ema",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=44555&c_idx=328&sp_idx=&QueryStep=2",
+            "desc": "열정적인 안무가이자 댄서인 에마는 충격적인 사건으로 가정이 뿌리째 흔들리자 자유를 향한 긴 여행을 시작한다. <더 클럽>, <네루다>, <재키>등의 작품으로 알려진 감독 파블로 라라인은 이 작품을 통해 예술과 욕망, 현대의 가정에 대한 논쟁적인 담론을 제시한다.",
+            "info": {
+              "국가": "Chile",
+              "제작연도": "2019",
+              "러닝타임": "102min",
+              "상영포맷": "DCP",
+              "컬러": "Color"
+            },
+            "credit": {
+              "Director": "파블로 라라인 Pablo LARRAÍN",
+              "Producer": "Juan De Dios LARRAÍN",
+              "Cast": "Mariana DI GIROLAMO / Gael GARCÍA BERNAL / Paola GIANNINI / Santiago CABRERA / Cristián SUÁREZ",
+              "Screenplay": "Guillermo CALDERÓN ,Pablo LARRAÍN ,Alejandro MORENO",
+              "Cinematography": "Sergio ARMSTRONG",
+              "Editor": "Sebastián SEPÚLVEDA",
+              "Sound": "Roberto ESPINOZA",
+              "Music": "Nicolas JAAR",
+              "Production Company": "FabulaChile Tel:",
+              "World Sales": "The Match Factory GmbHGermany Tel:  Fax:"
+            }
+          }
+        ]
+      },
+      "19:30": {
+        "title": "사우스 터미널",
+        "programs": [
+          {
+            "title": "사우스 터미널",
+            "title_en": "South Terminal",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=44525&c_idx=328&sp_idx=&QueryStep=2",
+            "desc": "",
+            "info": {
+              "국가": "France/Qatar",
+              "제작연도": "2019",
+              "러닝타임": "96min",
+              "상영포맷": "DCP",
+              "컬러": "Color"
+            },
+            "credit": {
+              "Director": "라바 아뫼르-자이메쉬 Rabah AMEUR ZAIMECHE",
+              "Producer": "Rabah AMEUR ZAIMECHE",
+              "Cast": "Ramzy BEDIA / Amel BRAHIM DJELLOUL / Slimane DAZI",
+              "Screenplay": "Rabah AMEUR ZAIMECHE",
+              "Cinematography": "Irina LUBTCHANSKY ,Camille CLEMENT",
+              "Production Design": "Sarah SOBOL",
+              "Editor": "Grégoire PONTECAILLE",
+              "Sound": "Bruno AUZET ,François MEYNOT ,Nikolas JAVELLE",
+              "Production Company": "Sarrazink ProductionsFrance 40 rue Damremont 75018 ParisTel: 33 1 48 57 44 59sarrazinkproductions@yahoo.fr",
+              "World Sales": "Sarrazink ProductionsFrance 40 rue Damrémont 75018 ParisTel: 33 627082849Fax:  sarrazinkproductions@yahoo.fr"
+            }
+          }
+        ]
+      }
+    },
+    "CGV센텀시티 6관": {
+      "14:00": {
+        "title": "리오네 사니타의 대부",
+        "programs": [
+          {
+            "title": "리오네 사니타의 대부",
+            "title_en": "The Mayor of Rione Sanità",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=43795&c_idx=328&sp_idx=&QueryStep=2",
+            "desc": "안토니오는 나폴리 마피아가 지배하는 도시 리오네 사니타의 시장으로 군림 한다. 어느 날, 자신의 아버지를 향한 복수심으로 가득 찬 한 청년이 찾아오면서 예기치 않은 사건은 시작된다. 유명 희곡작가 에두아르도 데 필리포의 원작이 마리오 마르토네 감독의 탁월한 재해석과 미장센으로 새롭게 태어났다.",
+            "info": {
+              "국가": "Italy",
+              "제작연도": "2019",
+              "러닝타임": "123min",
+              "상영포맷": "DCP",
+              "컬러": "Color"
+            },
+            "credit": {
+              "Director": "마리오 마르토네 Mario MARTONE",
+              "Producer": "Nicola GIULIANO / Carlotta CALORI / Francesca CIMA",
+              "Cast": "Francesco DI LEVA / MASSIMILIANO GALLO / ROBERTO DE FRANCESCO / ADRIANO PANTALEO",
+              "Screenplay": "Eduardo DE FILIPPO",
+              "Cinematography": "FERRAN PAREDES RUBIO",
+              "Production Design": "CARMINE GUARINO",
+              "Editor": "SILVIA MORAES",
+              "Sound": "MAURIZIO ARGENTIERI",
+              "Music": "RALPH P",
+              "Production Company": "Indigo FilmItaly Via Torino 135, 00184 RomaTel:",
+              "World Sales": "True Colours Glorious FilmItaly Largo italo Gemini 1Tel: 0039 0637352334Fax:  Gaetano@truecolours.it"
+            }
+          }
+        ]
+      },
+      "17:00": {
+        "title": "졸업",
+        "programs": [
+          {
+            "title": "졸업",
+            "title_en": "The Graduate",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=44567&c_idx=322&sp_idx=&QueryStep=2",
+            "desc": "1960년대말 미국영화의 새로운 흐름을 대표하는 영화 가운데 하나. 더스틴 호프먼을 스타로 만들었던 영화이자 사이먼 앤 가펑클의 노래와 결혼식장을 뛰쳐나가는 엔딩 장면으로 유명한 영화다.",
+            "info": {
+              "국가": "United States",
+              "제작연도": "1967",
+              "러닝타임": "106min",
+              "상영포맷": "DCP",
+              "컬러": "Color"
+            },
+            "credit": {
+              "Director": "마이크 니콜스 Mike NICHOLS",
+              "Cast": "Anne BANCROFT / Dustin HOFFMAN / Katharine ROSS"
+            }
+          }
+        ]
+      },
+      "20:00": {
+        "title": "글로리아 먼디",
+        "programs": [
+          {
+            "title": "글로리아 먼디",
+            "title_en": "Gloria Mundi",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=44442&c_idx=333&sp_idx=&QueryStep=2",
+            "desc": "지난 30년간 꾸준히 사회적인 주제를 다루면서도 인간에 대한 따뜻한 시선이 깃든 영화들을 연출, 본인만의 독특한 세계를 구축해온 프랑스 로베르 게디기앙 감독의 신작 <글로리아 먼디>는 이 감독의 결정판이라 해도 과언이 아닐 만한 걸작이다. 오랜 수감 생활을 마치고 출소한 다니엘이 세상에 갓 첫인사를 한, 외손녀 글로리아와 그녀의 가족들을 만나게 되면서 긴박하게 전개되는 이 영화는, 감독이 태어나고 유년기를 보낸 ‘마르세이유’에서 촬영되어 작품의 핍진성과 감동도 배가된다. 감독의 오랜 동반자이자 뮤즈인 아리안 아스카리드가 주인공의 전처를, 이자벨 위페르의 계보를 잇는 아나이스 데모스티에가 주인공의 딸을 연기한다. 또한 주인공 다니엘 역할을 맡은 제라르 멜랑의 내면 연기도 <글로리아 먼디>에 그 깊이를 더하고 있다.",
+            "info": {
+              "국가": "France/Italy",
+              "제작연도": "2019",
+              "러닝타임": "107min",
+              "상영포맷": "DCP",
+              "컬러": "Color"
+            },
+            "credit": {
+              "Director": "로베르 게디기앙 Robert GUÉDIGUIAN",
+              "Producer": "Marc BORDURE / Robert GUÉDIGUIAN / Angelo BARBAGALLO",
+              "Cast": "Ariane ASCARIDE / Jean-Pierre DARROUSSIN / Gérard MEYLAN / Anaïs DEMOUSTIER / Robinson STÉVENIN / Lola NAYMARK / Grégoire LEPRINCE-RINGUET",
+              "Screenplay": "Serge VALLETTI ,Robert GUÉDIGUIAN",
+              "Cinematography": "Pierre MILON",
+              "Production Design": "Michel VANDESTIEN",
+              "Music": "Michel PETROSSIAN",
+              "Production Company": "EX NIHILO / AGAT FILMS & CIEFrance 52 rue Jean-Pierre TimbaudTel: 33 1 53 36 32 32bertille@agatfilms.com",
+              "World Sales": "mk2 filmsFrance 55 rue Traversière 75012 ParisTel: 33 0144673111Fax:  Anne-Laure.Barbarit@mk2.com"
+            }
+          }
+        ]
+      }
+    },
+    "CGV센텀시티 7관": {
+      "13:30": {
+        "title": "잘리카투",
+        "programs": [
+          {
+            "title": "잘리카투",
+            "title_en": "Jallikattu",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=44481&c_idx=332&sp_idx=&QueryStep=2",
+            "desc": "어느 날, 푸줏간에서 도망친 물소가 온 마을을 헤집고 다닌다. 물소를 잡기위해 마을 남자들이 모두 달려나와 한바탕 소동을 벌이고, 그 가운데 평화롭던 마을은 배신과 폭력과 파괴로 물들어간다.",
+            "info": {
+              "국가": "India",
+              "제작연도": "2019",
+              "러닝타임": "91min",
+              "상영포맷": "DCP",
+              "컬러": "Color"
+            },
+            "credit": {
+              "Director": "리조 호세 펠리서리 Lijo Jose PELLISSERY",
+              "Cast": "Chemban Vinod JOSE",
+              "Production Company": "OPUS PENTAIndia KAKKANAD KOCHITel:  tpanicker5@gmail.com"
+            }
+          }
+        ]
+      },
+      "16:30": {
+        "title": "긴 산책",
+        "programs": [
+          {
+            "title": "긴 산책",
+            "title_en": "The Long Walk",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=44522&c_idx=332&sp_idx=&QueryStep=2",
+            "desc": "시간과 공간을 특정할 수 없는 라오스의 어느 교외. 결핵에 걸려 고통스럽고 긴 투병생활 끝에 세상을 뜬 어머니를 무기력하게 지켜보기만 했다는 죄책감을 가지고 있는 노인이 살고 있다. 그는 자신의 과오를 극복하기 위해 다른 말기 환자들의 고통을 자신만의 방법으로 덜어주고자 한다.",
+            "info": {
+              "국가": "Laos/Spain/Singapore",
+              "제작연도": "2019",
+              "러닝타임": "116min",
+              "상영포맷": "DCP",
+              "컬러": "Color"
+            },
+            "credit": {
+              "Director": "매티 도 Mattie DO",
+              "Producer": "Annick MAHNERT / Douangmany SOLIPHANH / Mattie DO / Christopher LARSEN / Justin DEIMEN",
+              "Cast": "Yannawoutthi CHANTHALUNGSY /",
+              "Screenplay": "Christopher LARSEN",
+              "Editor": "Zohar MICHEL",
+              "Sound": "Alex BOYESEN",
+              "Music": "Anthony WEEDEN",
+              "Production Company": "Lao Art Media,Screen Division,Aurora Media,108 MediaLaos 159 Nongsnokham, Sikhottabong District, Vientiene,Spain C/ Sant Josep 33-35, 08870 Sitges,Singapore 35b Mosque Street, 059513 Singapore,Singapore The Great Room, One George Street #10-01, 049145 Tel: 856 2022225027,33 637128136,65 98511258,1 4164439202mattiemaurin@gmail.comannick@screen-division.comjustindeimen@gmail.comabhi@108media.com",
+              "World Sales": "108 MediaSingapore The Great Room, One George Street #10-01, 049145 SingaporeTel: 1 4164439202Fax:  jordan@108mediacorp.com"
+            }
+          }
+        ]
+      },
+      "20:00": {
+        "title": "남자들의 방",
+        "programs": [
+          {
+            "title": "남자들의 방",
+            "title_en": "The Men′s Room",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=42789&c_idx=326&sp_idx=482&QueryStep=2",
+            "desc": "일주일에 한 번, 중년 남성들이 맥주와 음악을 즐기기 위한 모임을 갖는다. 합창단을 결성해 공연 준비에 박차를 가하지만, 어느 날 지휘자가 불치병에 걸린 것을 알게 된다. CPH:DOX 노르딕다큐멘터리상 수상.",
+            "info": {
+              "국가": "Norway",
+              "제작연도": "2018",
+              "러닝타임": "75min",
+              "상영포맷": "DCP",
+              "컬러": "Color"
+            },
+            "credit": {
+              "Director": "피터 소머 Petter SOMMER 요 베문 스벤센 Jo Vemund SVENDSEN",
+              "Producer": "Kari Anne MOE / Gudmundur GUNNARSSON",
+              "Sound": "Christian SCHAANNING",
+              "Music": "Martin HORNTVETH",
+              "Production Company": "FUGLENENorway Møllergata 9, 0179 OsloTel:  kari.anne.moe@gmail.com",
+              "World Sales": "Wide HouseFrance 17 rue Cadet 75009 ParisTel: 33 153950464Fax:  ma@widemanagement.com"
+            }
+          }
+        ]
+      }
+    },
+    "CGV센텀시티 스타리움관": {
+      "13:00": {
+        "title": "사랑의 언어",
+        "programs": [
+          {
+            "title": "사랑의 언어",
+            "title_en": "Lingua Franca",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=44503&c_idx=332&sp_idx=&QueryStep=2",
+            "desc": "브룩클린에 사는 러시아계 유태인 할머니를 돌보는 일을 하며 사는 필리핀 이민자 여성은 그린 카드를 얻기 위해 위장 결혼을 하려고 하지만 녹록치 않다. 그녀는 도축장에서 일하는 할머니의 손자와 사랑에 빠지는데, 그녀에겐 말 못한 비밀이 있다.",
+            "info": {
+              "국가": "United States/Philippines",
+              "제작연도": "2019",
+              "러닝타임": "95min",
+              "상영포맷": "DCP",
+              "컬러": "Color"
+            },
+            "credit": {
+              "Director": "이사벨 산도발 Isabel SANDOVAL",
+              "Producer": "Jhett TOLENTINO / Carlo VELAYO / Darlene MALIMAS",
+              "Cast": "Isabel SANDOVAL / Eamon FARREN / Ivory AQUINO",
+              "Screenplay": "Isabel SANDOVAL",
+              "Cinematography": "Isaac BANKS",
+              "Production Design": "Clint RAMOS",
+              "Editor": "Isabel SANDOVAL",
+              "Production Company": "7107 EntertainmentTel:",
+              "World Sales": "LuxboxTel:  Fax:  leslie@luxboxfilms.com"
+            }
+          }
+        ]
+      },
+      "16:00": {
+        "title": "풍선",
+        "programs": [
+          {
+            "title": "풍선",
+            "title_en": "Balloon",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=44300&c_idx=332&sp_idx=&QueryStep=2",
+            "desc": "티베트의 초원에서 생활하는 다제와 드롤카 부부는 연로한 아버지와 세 아들과 함께 고요하고 평온한 일상을 보내고 있다. 하지만 그들이 콘돔을 얻게 되면서 당혹스럽고 민망한 사건이 줄을 잇기 시작하고, 이 요상한 물건이 가족의 평온을 깨뜨리는데.",
+            "info": {
+              "국가": "China",
+              "제작연도": "2019",
+              "러닝타임": "103min",
+              "상영포맷": "DCP",
+              "컬러": "Color"
+            },
+            "credit": {
+              "Director": "페마 체덴 Pema Tseden",
+              "Cast": "Sonam WANGMO / Jinpa  / Yangshik TSO",
+              "Screenplay": "Pema Tseden",
+              "Cinematography": "Songye LU",
+              "Production Design": "Daktse DUNDRUP ,Di JIN",
+              "Editor": "Ching-Sung LIAO",
+              "Sound": "Duu-Chih TU ,Shu-Yao WU",
+              "Music": "Peyman YAZDANIAN",
+              "Production Company": "Tang Dynasty Cultural Communication (Beijing),Factory Gate Films,Mani Stone Pictures,Beijing China Central Plains Digital Cinema Line,iQIYI PicturesTel:  , , , ,",
+              "World Sales": "RedianceChina Room 2701, Block B, Star City International Tower, Chaoyang District, BeijingTel: 86 13810636291Fax:  info@rediancefilms.com"
+            }
+          }
+        ]
+      },
+      "19:00": {
+        "title": "7번가 이야기",
+        "programs": [
+          {
+            "title": "7번가 이야기",
+            "title_en": "No.7 Cherry Lane",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=44533&c_idx=332&sp_idx=&QueryStep=2",
+            "desc": "1967년 격동의 홍콩을 배경으로 모녀와 그 딸의 영어선생, 이 세 사람의 삼각관계를 그린 성인 애니메이션이다. 영화를 보러 간 그들이 마법 같은 순간을 경험하며 금지된 욕망을 드러내는 과정을 담고 있다.",
+            "info": {
+              "국가": "Hong Kong, China",
+              "제작연도": "2019",
+              "러닝타임": "126min",
+              "상영포맷": "DCP",
+              "컬러": "Color"
+            },
+            "credit": {
+              "Director": "욘판 Yonfan",
+              "Producer": "Joyce YANG / Albert LEE",
+              "Cast": "Sylvia CHANG / Wei ZHAO / Alex LAM",
+              "Production Company": "Far Sun Film Co LtdHong Kong, China 9/F Tin On Sing Comm Bldg, 41-43 Graham Street, Central, Hong KongTel: 852 65933123farsunfilm@gmail.com",
+              "World Sales": "Far Sun Film Co LtdTel: 852 65933123Fax:  farsunfilm@gmail.com"
+            }
+          }
+        ]
+      }
+    },
+    "롯데시네마 센텀시티 2관": {
+      "13:00": {
+        "title": "고아원",
+        "programs": [
+          {
+            "title": "고아원",
+            "title_en": "The Orphanage",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=42760&c_idx=332&sp_idx=&QueryStep=2",
+            "desc": "1980년대 후반, 카불의 거리에서 생활하는 열다섯 살 소년 코드라트는 암시장에서 영화 암표를 팔면서 살아간다. 어느 날, 경찰에게 붙잡힌 소년은 소련의 고아원으로 보내지고, 그곳에서 살아남기 위해 애를 쓴다. 그 사이 카불의 정치 상황이 급변하기 시작하는데.",
+            "info": {
+              "국가": "Denmark/Germany/France/Luxembourg/Afghanistan",
+              "제작연도": "2019",
+              "러닝타임": "90min",
+              "상영포맷": "DCP",
+              "컬러": "Color"
+            },
+            "credit": {
+              "Director": "샤르바누 사다트 Shahrbanoo SADAT",
+              "Producer": "Katja ADOMEIT",
+              "Cast": "Qodratollah QADIRI / Sediqa RASULI / Masihullah FERAJI / Hasibullah RASOOLI / Ahmad Fayaz OMANI",
+              "Screenplay": "Shahrbanoo SADAT",
+              "Cinematography": "Virginie SURDEJ",
+              "Editor": "Alexandra STRAUSS",
+              "Production Company": "ADOMEIT FILM APSTel:",
+              "World Sales": "LuxboxTel:  Fax:  leslie@luxboxfilms.com"
+            }
+          }
+        ]
+      },
+      "16:00": {
+        "title": "아프리칸 바이올렛",
+        "programs": [
+          {
+            "title": "아프리칸 바이올렛",
+            "title_en": "African Violet",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=44453&c_idx=332&sp_idx=&QueryStep=2",
+            "desc": "중년의 쇼쿠는 자녀들이 전 남편 페리도운을 요양원에 맡긴 사실을 뒤늦게 알게 된다. 쇼쿠와 그녀의 두 번째 남편 레자는 페리도운을 집으로 데려와 돌보기로 결정한다. 그리고 세 사람의 삶에 예상치 못한 변화가 찾아온다.",
+            "info": {
+              "국가": "Iran",
+              "제작연도": "2019",
+              "러닝타임": "93min",
+              "상영포맷": "DCP",
+              "컬러": "Color"
+            },
+            "credit": {
+              "Director": "모나 잔디 하기기 Mona ZANDI HAGHIGHI",
+              "Producer": "Alireza SHOJANOORI",
+              "Cast": "Fatemeh MOTAMED ARYA / Saeed AGHAKHANI / Reza BABAK / Mehdi HOSSEINI-NIA / Roya JAVIDNIA / Neda JEBRAEILI",
+              "Screenplay": "Hamidreza BABABEIGI",
+              "Cinematography": "Farhad SABA",
+              "Production Design": "Ali ABEDINI",
+              "Editor": "Bahram DEHGHANI",
+              "Sound": "Alireza ALAVIAN",
+              "Music": "Peyman YAZDANIAN",
+              "Production Company": "BEHNEGARIran N° 17, Bijan Alley, East Barforoshan Street, Iranshahr Avenue, Tehran 1531383915, IranTel: 98 9128981210a.shojanoori@yahoo.com",
+              "World Sales": "DreamLab FilmsFrance 14 chemin des Chichourliers, 06110 Le CannetTel: 33 493387561Fax:  nasrine@dreamlabfilms.com"
+            }
+          }
+        ]
+      },
+      "19:00": {
+        "title": "크로놀로지",
+        "programs": [
+          {
+            "title": "크로놀로지",
+            "title_en": "Chronology",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=39398&c_idx=327&sp_idx=&QueryStep=2",
+            "desc": "하칸과 니할이 결혼한 지 여러 해가 지났다. 니할은 아이를 가질 수 없다는 사실을 알자마자, 어디론가 사라져버린다. 그녀를 찾는 과정에서, 하칸은 몇가지 충격적인 사실을 알게 된다. 아내에게 무슨 일이 일어났는지 알아내기 위해, 그는 내면의 악마들과 마주해야 한다.",
+            "info": {
+              "국가": "Turkey/Germany",
+              "제작연도": "2019",
+              "러닝타임": "117min",
+              "상영포맷": "DCP",
+              "컬러": "Color"
+            },
+            "credit": {
+              "Director": "알리 아이딘 Ali AYDıN",
+              "Producer": "Sevil DEMIRCI / Barbaros ALTUG",
+              "Cast": "BIRKAN SOKULLU / CEMRE EBUZZIYA / TANSU BICER / SERKAN KESKİN / ESRA KIZILDOGAN",
+              "Screenplay": "Ali AYDIN",
+              "Cinematography": "Murat TUNCEL ,GYD GYD",
+              "Editor": "Jan RUSCHKE ,Selda TASKIN",
+              "Sound": "Clemens ENDRESS",
+              "Music": "Ozcan ERTEK",
+              "Production Company": "YENI SINEMACILIK LTD. STI,TAMTAM FILMTurkey Turnacibasi sok. No:5/2 34433 Beyoglu - Istanbul,Germany Behringstraße 16a D-22765 HamburgTel:  , sevilys@gmail.commail@tamtamfilm.com",
+              "World Sales": "FORTISSIMO FILMS BVNetherlands Van Diemenstraat 134Tel: 31 202159310Fax:  clement@fortissimofilms.com"
+            }
+          }
+        ]
+      }
+    },
+    "롯데시네마 센텀시티 3관": {
+      "13:00": {
+        "title": "종이꽃",
+        "programs": [
+          {
+            "title": "종이꽃",
+            "title_en": "Paper Flower",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=43240&c_idx=330&sp_idx=489&QueryStep=2",
+            "desc": "장의사 성길은 뺑소니 사고로 척추 마비가 된 아들 지혁을 돌보며 힘들게 살고 있다. 성길은 대규모 상조 회사 파트너로 계약을 맺어 새롭게 일을 시작한다. 철저하게 상업적인 회사 경영 방식에 맞춰 일하던 성길은 무료 국수집을 운영하던 장한수의 염을 맡게 된다.",
+            "info": {
+              "국가": "Korea",
+              "제작연도": "2019",
+              "러닝타임": "103min",
+              "상영포맷": "DCP",
+              "컬러": "Color"
+            },
+            "credit": {
+              "Director": "고훈 KOH Hoon",
+              "Producer": "Sunjoong CHOI 최선중 / Hyunmin CHO 조현민 / Jinkyung SUNG 성진경",
+              "Cast": "Sungki AHN 안성기 / Eugene KIM 유진 / Hyeseong KIM 김혜성 / Jaehee JANG 장재희 / Suk LEE 이석 / Heekyung MOON 문희경 / Sunmook CHO 조선묵",
+              "Screenplay": "Hoon KOH 고훈",
+              "Cinematography": "Seokjun LEE 이석준",
+              "Production Design": "Injun HWANG 황인준",
+              "Editor": "Gokji PARK 박곡지,Yunhee LEE 이윤희",
+              "Music": "Eunsil PARK 박은실,Heewon PARK 박희원",
+              "Production Company": "Rod Pictures LTD,Tel: 010 9132-4930, manocom@nate.com"
+            }
+          }
+        ]
+      },
+      "16:00": {
+        "title": "결혼 이야기",
+        "programs": [
+          {
+            "title": "결혼 이야기",
+            "title_en": "Marriage Story",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=42998&c_idx=328&sp_idx=&QueryStep=2",
+            "desc": "<결혼 이야기>는 아카데미상 후보에 올랐던 노아 바움백 감독의 작품으로, 결혼 생활의 파경을 맞은 가족의 초상을 예리하지만 연민 어린 시선으로 그려낸다. 스칼렛 요한슨과 아담 드라이버가 부부로 출연해 섬세한 감정 연기를 선보인다.",
+            "info": {
+              "국가": "United States",
+              "제작연도": "2019",
+              "러닝타임": "137min",
+              "상영포맷": "DCP",
+              "컬러": "Color"
+            },
+            "credit": {
+              "Director": "노아 바움백 Noah BAUMBACH",
+              "Producer": "Noah BAUMBACH / David HEYMAN",
+              "Cast": "Scarlett JOHANSSON / Adam DRIVER / Laura DERN",
+              "Screenplay": "Noah BAUMBACH"
+            }
+          }
+        ]
+      },
+      "19:00": {
+        "title": "두 교황",
+        "programs": [
+          {
+            "title": "두 교황",
+            "title_en": "The Two Popes",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=42995&c_idx=328&sp_idx=&QueryStep=2",
+            "desc": "미국 아카데미상 후보에 올랐던 <시티 오브 갓>의 감독 페르난도 메이렐레 스와 역시 아카데미상 후보에 세 번이라 노미네이트 된 시나리오 작가 앤서니 매카튼이 들려주는, 지난 2,000년을 통틀어 가장 유머러스하고 드라마 틱한 권력 전환의 이야기. 실화를 바탕으로 한 작품",
+            "info": {
+              "국가": "Italy/Argentina",
+              "제작연도": "2019",
+              "러닝타임": "126min",
+              "상영포맷": "DCP",
+              "컬러": "Color"
+            },
+            "credit": {
+              "Director": "페르난도 메이렐레스 Fernando MEIRELLES",
+              "Producer": "Dan LIN / Jonathan EIRICH / Tracey SEAWARD",
+              "Cast": "Anthony HOPKINS / Jonathan PRYCE / Juan MINUJÍN",
+              "Screenplay": "Anthony MCCARTEN",
+              "Production Company": "NetflixTel:"
+            }
+          }
+        ]
+      }
+    },
+    "롯데시네마 센텀시티 4관": {
+      "13:30": {
+        "title": "아호, 나의 아들",
+        "programs": [
+          {
+            "title": "아호, 나의 아들",
+            "title_en": "A Sun",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=43555&c_idx=332&sp_idx=&QueryStep=2",
+            "desc": "운전 강사일을 하는 아버지와 미용사인 어머니, 그리고 아버지의 큰 기대 속에 의대 입학 재시험을 준비하는 고등학생 형 아호와 이 집안의 유일한 문제 아 막내까지, 이 영화는 평범한 네 가족에 관한 이야기다. 막내 아들이 사고 를 치고 소년원에 가게 되면서 가족들은 뿔뿔이 흩어지게 되는데",
+            "info": {
+              "국가": "Taiwan",
+              "제작연도": "2019",
+              "러닝타임": "156min",
+              "상영포맷": "DCP",
+              "컬러": "Color"
+            },
+            "credit": {
+              "Director": "청 몽홍 CHUNG Mong-Hong",
+              "Cast": "Yi-wen CHEN / Samantha KO / Chien-Ho WU / Kuan-Ting LIU /",
+              "Screenplay": "Yaosheng CHANG ,Mong-Hong CHUNG",
+              "Cinematography": "Nagao NAKASHIMA",
+              "Production Design": "Shih-Hao CHAO",
+              "Editor": "Hsiu-Hsiung LAI",
+              "Sound": "Patrick TU",
+              "Production Company": "3 NG FILMTel:",
+              "World Sales": "MandarinVisionTel:  Fax:  wen@mandarinvision.com"
+            }
+          }
+        ]
+      },
+      "17:00": {
+        "title": "비바리움",
+        "programs": [
+          {
+            "title": "비바리움",
+            "title_en": "Vivarium",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=42679&c_idx=323&sp_idx=&QueryStep=2",
+            "desc": "젬마와 톰은 묘한 부동산중개업자인 마틴을 찾아간다. 마틴은 욘더라고 불 리는 새로 지은 주택가를 소개해주고는 사라져 버린다. 젬마와 톰은 욘더를 떠나려 하지만, 기이한 미로처럼 되어있는 욘더를 도저히 벗어날 수가 없다.",
+            "info": {
+              "국가": "Ireland/United States",
+              "제작연도": "2019",
+              "러닝타임": "97min",
+              "상영포맷": "DCP",
+              "컬러": "Color"
+            },
+            "credit": {
+              "Director": "로칸 피네건 Lorcan FINNEGAN",
+              "Producer": "JOHN MCDONNELL / BRENDAN MCCARTHY",
+              "Cast": "Jesse EISENBERG / Imogen POOTS / Jonathan ARIS",
+              "Screenplay": "GARRET SHANLEY",
+              "Production Company": "Fantastic Films Limited,Frakas Productions,PingPongFilmIreland 28 Vernon Ave Clontarf Dublin 3,Belgium FRAKAS Productions BVBA  130 Boulevard de la Sauveniere  4000 Liege,Denmark Stengardsvaenge 117 2800 KONGENS LYNGBYTel: 353 872551666,32 42313863,45 29281986info@fantasticfilms.ieinfos@frakas.beinfo@pingpongfilm.com",
+              "World Sales": "XYZ FilmsUnited States 3103-B South La Cienega Blvd. 90016 LOS ANGELESTel: 1 3109561550Fax:  info@xyzfilms.com"
+            }
+          }
+        ]
+      },
+      "20:00": {
+        "title": "해질무렵 안개정원",
+        "programs": [
+          {
+            "title": "해질무렵 안개정원",
+            "title_en": "The Garden of Evening Mists",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=44479&c_idx=332&sp_idx=&QueryStep=2",
+            "desc": "맨부커 상 후보에 오르며 평단의 찬사를 한 몸에 받은 튼 트완 엥의 동명 소설을 원작으로 만든 영화. 두 남녀의 사랑을 중심으로 1950~80년대까지 현재와 과거를 오가며, 전쟁의 기억, 과거의 상처를 감내하며 평온함을 찾아가는 이야기를 설득력있게 표현한다.",
+            "info": {
+              "국가": "Malaysia",
+              "제작연도": "2019",
+              "러닝타임": "120min",
+              "상영포맷": "DCP",
+              "컬러": "Color"
+            },
+            "credit": {
+              "Director": "린 슈위 Tom Shu-Yu LIN",
+              "Cast": "Sinje LEE / Hiroshi ABE / Sylvia CHANG / David OAKES / Julian SANDS / John HANNAH",
+              "Screenplay": "Richard SMITH",
+              "Cinematography": "Kartik VIJAY",
+              "Editor": "Mun Thye SOO",
+              "Music": "Onn SAN",
+              "Production Company": "Astro ShawTel:  astroshaw@astro.com.my",
+              "World Sales": "CJ EntertainmentTel:  Fax:  filmsales@cj.net"
+            }
+          }
+        ]
+      }
+    },
+    "롯데시네마 센텀시티 5관": {
+      "13:00": {
+        "title": "하이파 거리",
+        "programs": [
+          {
+            "title": "하이파 거리",
+            "title_en": "Haifa Street",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=43653&c_idx=331&sp_idx=&QueryStep=2",
+            "desc": "2006년 바그다드. 알 카에다가 점령한 하이파 거리는 그야말로 생지옥이 다. 20년 전 떠났다가 미군과 함께 돌아온 아흐메드는 수아드와 그녀의 딸 나디아를 미국으로 데려가기 위해 하이파 거리에 왔다가 총에 맞는다. 아흐 메드의 카메라는 무엇을 목격했을까?",
+            "info": {
+              "국가": "Iraq/Qatar",
+              "제작연도": "2019",
+              "러닝타임": "79min",
+              "상영포맷": "DCP",
+              "컬러": "Color"
+            },
+            "credit": {
+              "Director": "모하나드 하이얄 Mohanad HAYAL",
+              "Producer": "Ali RAHEEM / Hala ALSALMAN",
+              "Cast": "Ali THAMER / Iman ABDULHASSAN / Rudhab AHMED / Asad ABDULMAJED / Ali ALKARKHI / Wissam ADNAN / Yumna MARWAN / Firas KAREEM",
+              "Screenplay": "Mohanad HAYAL ,Hala ALSALMAN",
+              "Cinematography": "Salam SALMAN",
+              "Production Design": "Dhergam KAREEM",
+              "Editor": "Ali RAHEEM",
+              "Sound": "Saif JABARA",
+              "Music": "Ra′ad KHALAF",
+              "Production Company": "SUMERIAN DREAM PRODUCTIONSIraq Tel: 0096 47704449447info@sumeriandream.com",
+              "World Sales": "WideFrance 17 rue Cadet 75009 ParisTel: 33 153952442Fax:  mu@widemanagement.com"
+            }
+          }
+        ]
+      },
+      "16:00": {
+        "title": "갈망",
+        "programs": [
+          {
+            "title": "갈망",
+            "title_en": "Heavy Craving",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=44299&c_idx=332&sp_idx=&QueryStep=2",
+            "desc": "30세, 105kg의 잉 위엔은 우라는 이름의 배달부를 만나기 전까지 불행했다. 우는 기구한 과거를 가졌지만, 환하게 미소 지을 줄 아는 사람이다. 우 덕에 잉 위엔은 살을 빼기로 결심한다.",
+            "info": {
+              "국가": "Taiwan",
+              "제작연도": "2019",
+              "러닝타임": "90min",
+              "상영포맷": "DCP",
+              "컬러": "Color"
+            },
+            "credit": {
+              "Director": "시에 페이루 HSIEH Pei-Ju",
+              "Producer": "Jing WANG / E.N. LEE",
+              "Cast": "Jia-yin\t TSAI / Samantha KO\t / Yao CHANG / En-wei\t CHANG / William HSIEH / Lene LAI",
+              "Cinematography": "Hao-Jan CHANG",
+              "Production Design": "Kuo-Chen YAO",
+              "Editor": "Yi-Fei TANG",
+              "Sound": "Book CHIEN ,Morgan YEN",
+              "Music": "Hung Tao LIN",
+              "Production Company": "While Films Ltd.,Sunshine And Moonlight Co., Ltd.Taiwan 3F.-4, No.179, Fuxing N. Rd., Songshan Dist.,105 Taipei City, Taiwan,Taiwan Tel:  , fdemilywong@gmail.com",
+              "World Sales": "RedianceChina Room 2701 Tower B, Star City International Tower,  Jiu Xian Qiao Road, Chaoyang District, Beijing, 100020, ChinaTel:  Fax:  info@rediancefilms.com"
+            }
+          }
+        ]
+      },
+      "19:00": {
+        "title": "도이치 이야기",
+        "programs": [
+          {
+            "title": "도이치 이야기",
+            "title_en": "They Say Nothing Stays the Same",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=43303&c_idx=332&sp_idx=&QueryStep=2",
+            "desc": "도이치는 40년 간 마을 사람들을 강 건너편으로 실어 나르는 일을 40년 간 해 온 뱃사공이다. 어느 날 도이치는 가족이 모두 살해되고 혼자 살아남은 소녀를 만나게 되고, 그녀가 자신의 거처에 머무를 수 있게 돕는다. 이 소녀와의 만남은 도이치의 삶을 완전히 바꾸어 놓는다.",
+            "info": {
+              "국가": "Japan",
+              "제작연도": "2019",
+              "러닝타임": "138min",
+              "상영포맷": "DCP",
+              "컬러": "Color"
+            },
+            "credit": {
+              "Director": "오다기리 조 ODAGIRI Joe",
+              "Producer": "Shozo ICHIYAMA / Takuro NAGAI / Yusaku NAKAJIMA",
+              "Cast": "Akira EMOTO / Ririka KAWASHIMA / Nijiro MURAKAMI",
+              "Screenplay": "Joe ODAGIRI",
+              "Cinematography": "Christopher DOYLE",
+              "Production Design": "Takashi SASAKI",
+              "Editor": "Masaya OKAZAKI ,Joe ODAGIRI",
+              "Music": "Tigran HAMASYAN",
+              "Production Company": "Kinoshita GroupJapan 6-5-1, Nishi-Shinjuku, Shinjuku-ku, Tokyo 163-1309Tel: 81 364592684shz-ichiyama@kino-international.jp",
+              "World Sales": "Kino InternationalJapan 7-8-6, Roppongi, Minato-ku. Tokyo 106-0032Tel: 81 364592684Fax: 81 334030530shz-ichiyama@kino-international.jp"
+            }
+          }
+        ]
+      }
+    },
+    "롯데시네마 센텀시티 6관": {
+      "14:00": {
+        "title": "민다나오 섬",
+        "programs": [
+          {
+            "title": "민다나오 섬",
+            "title_en": "Mindanao",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=44530&c_idx=335&sp_idx=&QueryStep=2",
+            "desc": "사이마는 소아암을 앓는 어린 딸 아이사의 엄마이자 민다나오 섬 내전에 투 입된 의무병 말랑의 아내다. 사이마는 소아암 환자 요양소에서 생활하면서, 삶과 죽음을 오가는 딸과 남편을 응원한다. 용과 싸우는 용감한 전사 형제의 전설이 크레용 애니메이션으로 삽입되면서, 희망의 메시지를 전한다.",
+            "info": {
+              "국가": "Philippines",
+              "제작연도": "2019",
+              "러닝타임": "123min",
+              "상영포맷": "DCP",
+              "컬러": "Color"
+            },
+            "credit": {
+              "Director": "브리얀테 멘도사 Brillante MENDOZA",
+              "Producer": "Brillante Ma MENDOZA / Carlo VALENZONA",
+              "Cast": "Judy Ann SANTOS / Allen DIZON",
+              "Screenplay": "Honee ALIPIO",
+              "Cinematography": "Odyssey FLORES",
+              "Production Design": "Dante MENDOZA",
+              "Editor": "Diego Marx DOBLES",
+              "Sound": "Hiro ISHIZAKA",
+              "Music": "Teresa BARROZO",
+              "Production Company": "Center Stage Productions (CSP) CO.Philippines 947 Busilak St., Barangka Drive, Mandaluyong, Metro Manila, Philippines, 1550Tel:  htsldobles.csp@gmail.com",
+              "World Sales": "n/aTel:  n/aFax:  n/an/a"
+            }
+          }
+        ]
+      },
+      "17:00": {
+        "title": "99개의 노래",
+        "programs": [
+          {
+            "title": "99개의 노래",
+            "title_en": "99 Songs",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=44568&c_idx=325&sp_idx=&QueryStep=2",
+            "desc": "&lt99개의 노래>는 한 음악가가 자신의 목표와 열정을 깨달아가는 과정을 담은 음악영화이다. 세계적 뮤지션 A.R. 라흐만이 스토리와 음악을 담당했다. 음악의 힘을 믿는 한 젊은이의 성장과 사랑의 이야기가 라흐만의 음악과 함께 펼쳐진다.",
+            "info": {
+              "국가": "India",
+              "제작연도": "2019",
+              "러닝타임": "128min",
+              "상영포맷": "DCP",
+              "컬러": "Color"
+            },
+            "credit": {
+              "Director": "비쉐쉬 크리쉬너무티 Vishwesh KRISHNAMOORTHY",
+              "Producer": "A. R. RAHMAN",
+              "Cast": "Ehan  / Manisha KOIRALA / Edilsy VARGAS / Lisa RAY / Ranjit BAROT / Tenzin DALHA",
+              "Screenplay": "A. R. RAHMAN",
+              "Music": "A. R. RAHMAN"
+            }
+          }
+        ]
+      },
+      "20:00": {
+        "title": "어떤 손님",
+        "programs": [
+          {
+            "title": "어떤 손님",
+            "title_en": "Guest of Honour",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=44497&c_idx=335&sp_idx=&QueryStep=2",
+            "desc": "짐과 딸 베로니카는 부녀 사이의 복잡한 사연과 뒤얽힌 비밀을 가지고 있다. 고교 음악교사인 베로니카는 17살 클라이브와 부적절한 관계를 가졌다는 이유로 유죄 판결을 받고 투옥하게 되는데….",
+            "info": {
+              "국가": "Canada",
+              "제작연도": "2019",
+              "러닝타임": "105min",
+              "상영포맷": "DCP",
+              "컬러": "Color"
+            },
+            "credit": {
+              "Director": "아톰 에고얀 Atom EGOYAN",
+              "Producer": "Atom EGOYAN / Simone URDL / Jennifer WEISS",
+              "Cast": "David THEWLIS / Laysla DE OLIVEIRA / Luke WILSON / Rossif SUTHERLAND / Arsinée KHANJIAN / Alexandre BOURGEOIS",
+              "Screenplay": "Atom EGOYAN",
+              "Cinematography": "Paul SAROSSY",
+              "Production Design": "Philip BARKER",
+              "Editor": "Susan SHIPTON",
+              "Sound": "Steven / Daniel / Rob MUNRO / PELLERIN / FLETCHER",
+              "Music": "Mychael DANNA",
+              "Production Company": "Ego Film Arts,The Film FarmCanada 80 Niagara Street  Toronto, ON M5V 1C5,Canada 21 Manning Ave Toronto, ON M6J 2K3Tel: 1 4167032137,1 4167037317questions@egofilmarts.comassistant@thefilmfarm.ca",
+              "World Sales": "PlaytimeFrance 5 rue Nicolas FlamelTel: 33 153103399Fax:  joris@playtime.group"
+            }
+          }
+        ]
+      }
+    },
+    "롯데시네마 센텀시티 7관": {
+      "14:00": {
+        "title": "7과 1/2",
+        "programs": [
+          {
+            "title": "7과 1/2",
+            "title_en": "Seven and a Half",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=44452&c_idx=332&sp_idx=&QueryStep=2",
+            "desc": "이 영화는 일곱 명의 여성에 관한 일곱 개의 이야기로 구성된다. 그녀들 각자는 모두 자신만의 이야기가 있지만, 강압적인 결혼과 강간을 겪으면서 주체적으로 자신의 삶을 살아갈 힘을 잃고, 사랑을 찾을 기회도 박탈당했다는 공통점이 있다.",
+            "info": {
+              "국가": "Afghanistan/Iran",
+              "제작연도": "2019",
+              "러닝타임": "74min",
+              "상영포맷": "DCP",
+              "컬러": "Color"
+            },
+            "credit": {
+              "Director": "나비드 마흐무디 Navid MAHMOUDI",
+              "Producer": "Jamshid MAHMOUDI",
+              "Cast": "Neda JEBREILI / Hasti MAHDAVI / Anahita AFSHAR / Fereshteh HOSSEINI / Sheyda KHALIGH / Afsaneh KAMALI / Rojan TAGHIZADEH",
+              "Screenplay": "Navid MAHMOUDI",
+              "Cinematography": "Mehran MAMDOUH",
+              "Production Design": "Mehdi MOUSSAVI",
+              "Editor": "Nima JAFARI-JOZANI",
+              "Sound": "Hossein GHOURCHIAN",
+              "Music": "Sahand MEHDIZADEH",
+              "Production Company": "Asseman Parvaz FilmIran N°3, Sarhang Sazegar Alley, Javadnia Street, Bahar-e Shiraz Street, Haft-e Tir Square, Tehran 1564738913 - IranTel: 98 2177637990jamshid.mahmoudi83@gmail.com",
+              "World Sales": "DreamLab FilmsFrance 14 chemin des Chichourliers, 06110 Le CannetTel: 33 493387561Fax:  nasrine@dreamlabfilms.com"
+            }
+          }
+        ]
+      },
+      "17:00": {
+        "title": "악마같은 우리 형",
+        "programs": [
+          {
+            "title": "악마같은 우리 형",
+            "title_en": "Dear Devil Brother",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=43532&c_idx=332&sp_idx=&QueryStep=2",
+            "desc": "유도 챔피언이었지만 시합에서 부상을 당한 뒤 삶의 목표를 잃어버린 주인공 앞에 새로운 상대가 등장한다. 10년 전 집을 나갔다가 이제 막 감옥에서 출소한 이복 형이 집으로 돌아온 것이다. 형제의 한판 승부가 이제부터 시작된다.",
+            "info": {
+              "국가": "Vietnam",
+              "제작연도": "2019",
+              "러닝타임": "107min",
+              "상영포맷": "DCP",
+              "컬러": "Color"
+            },
+            "credit": {
+              "Director": "부 응옥 푸옹 VU Ngoc Phuong",
+              "Cast": "Kieu Minh Tuan  / Isaac  / Dieu Nhi  / Phi Phung",
+              "Screenplay": "Ngoc Phuong VU ,Hoang Anh NGUYEN ,Thu Ngoc DUONG ,Hong Phuoc DOAN",
+              "Production Company": "CJ HK Entertainment,HKFilmTel:  ,",
+              "World Sales": "CJ EntertainmentTel:  Fax:  filmsales@cj.net"
+            }
+          }
+        ]
+      },
+      "20:00": {
+        "title": "붉은 나무딸기",
+        "programs": [
+          {
+            "title": "붉은 나무딸기",
+            "title_en": "The Red Snowball Tree",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=44498&c_idx=322&sp_idx=&QueryStep=2",
+            "desc": "구 소련의 대배우이자 유망한 감독이었던 바실리 슈크신의 유작. 한때 도둑질을 했던 남자는 복역을 마치고 그간 편지를 주고받던 여자를 만나러 간다. 하지만 과거 함께 범행을 모의했던 동료들은 잔인하게 그를 방해한다",
+            "info": {
+              "국가": "Russia",
+              "제작연도": "1973",
+              "러닝타임": "107min",
+              "상영포맷": "DCP",
+              "컬러": "Color"
+            },
+            "credit": {
+              "Director": "Vasily SHUKSHIN",
+              "Cast": "Vasiliy SHUKSHIN / Lidiya FEDOSEEVA / Ivan RYZHOV / Maria SKVORTSOVА",
+              "Screenplay": "Vasiliy SHAKSHIN",
+              "Cinematography": "Anatoliy ZABOLOTSKIY",
+              "Production Design": "Ippolit NOVODERYOZHKIN",
+              "Music": "Pavel CHEKALOV",
+              "Production Company": "Mosfilm Cinema ConcernRussia Mosfilmovskaya ul., 1, Moscow,119991Tel: 7 4991439700international@mosfilm.ru",
+              "World Sales": "Mosfilm Cinema ConcernRussia Mosfilmovskaya ul., 1, Moscow,119991Tel: 7 4991439700Fax:  international@mosfilm.ru"
+            }
+          }
+        ]
+      }
+    },
+    "롯데시네마 센텀시티 8관": {
+      "13:00": {
+        "title": "묵신",
+        "programs": [
+          {
+            "title": "묵신",
+            "title_en": "Mukhsin",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=43092&c_idx=336&sp_idx=494&QueryStep=2",
+            "desc": "<묵신>은 민족이나 종교의 차이를 넘은 유년의 사랑을 드라마로 다뤄온 야 스민 아흐마드의 대표작이다. 이 영화는 첫사랑을 시작한 소녀를 그리면서 평범한 일상이 마법적 순간이 되는 감정의 동요를 섬세하게 포착한다.",
+            "info": {
+              "국가": "Malaysia",
+              "제작연도": "2007",
+              "러닝타임": "95min",
+              "상영포맷": "DCP",
+              "컬러": "Color"
+            },
+            "credit": {
+              "Director": "야스민 아흐마드 Yasmin AHMAD",
+              "Producer": "Ahmad Puad ONAH",
+              "Cast": "Mohd Syafie NASWIP / Sharifah Aryana SYED ZAINAL RASHID AL-YAHYA / Sharifah Aleya SYED ZAINAL RASHID YAHYA / Adibah NOOR / Irwan ISKANDAR",
+              "Editor": "Affandi JAMALUDDIN",
+              "Music": "Hardesh SINGH",
+              "Production Company": "Grand Brilliance (now Primeworks Studios)Malaysia Sri Pentas, No.3 Persiaran Bandar Utama, Bandar UtamaTel: 013 3320333shahilashah@primeworks.com.my",
+              "World Sales": "Primeworks DistributionMalaysia Sri Pentas, No.3 Persiaran Bandar Utama, Bandar UtamaTel: 013 3393943Fax:  lynnazlina@primeworks.com.my"
+            }
+          }
+        ]
+      },
+      "16:00": {
+        "title": "재집합",
+        "programs": [
+          {
+            "title": "재집합",
+            "title_en": "Reassemblage",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=44512&c_idx=336&sp_idx=494&QueryStep=2",
+            "desc": "트린 민하의 첫 16mm 작품. <재집합>은 관습적인 민족지 영화의 시선에 대해 성찰하고 비판하는 민족지 영화다. 감독은 세네갈의 소리와 풍경을 재 프레이밍하고 재조합해 그 이미지에 부여되어 온 의미를 해체한다.",
+            "info": {
+              "국가": "Senegal/United States",
+              "제작연도": "1982",
+              "러닝타임": "40min",
+              "상영포맷": "DCP",
+              "컬러": "Color"
+            },
+            "credit": {
+              "Director": "트린 민하 TRINH T. Minh-ha",
+              "Producer": "Jean-Paul BOURDIER",
+              "Cast": "",
+              "Production Company": "Moongift FilmsUnited States Tel:"
+            }
+          }
+        ]
+      },
+      "19:00": {
+        "title": "불",
+        "programs": [
+          {
+            "title": "불",
+            "title_en": "Fire",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=44520&c_idx=336&sp_idx=494&QueryStep=2",
+            "desc": "갓 결혼한 시타는 대가족 안에서 살며 동서인 라다와 사랑에 빠진다. 발리우 드의 대표 배우 샤바나 아즈미와 이 영화로 스타가 된 난디타 다스가 주인공 으로 출연해 델리의 중산층 힌두교 가정을 배경으로 그 질서에서 탈주하는 두 여성을 연기한다.",
+            "info": {
+              "국가": "Canada/India",
+              "제작연도": "1996",
+              "러닝타임": "108min",
+              "상영포맷": "DCP",
+              "컬러": "Color"
+            },
+            "credit": {
+              "Director": "디파 메타 Deepa MEHTA",
+              "Cast": "Shabana Azmi AZMI / Nandita DAS",
+              "Production Company": "Hamilton-Mehta Productions Inc.Canada Tel: 1 (416) 516-0899info@hamiltonmehta.com",
+              "World Sales": "Noble Nomad Pictures LtdCanada Tel: 1 613 782-3118Fax:  vivian@davidchamilton.com"
+            }
+          }
+        ]
+      }
+    },
+    "롯데시네마 센텀시티 9관": {
+      "14:00": {
+        "title": "완벽한 후보자",
+        "programs": [
+          {
+            "title": "완벽한 후보자",
+            "title_en": "The Perfect Candidate",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=44548&c_idx=332&sp_idx=&QueryStep=2",
+            "desc": "사우디의 젊은 의사인 마리암은 응급의료센터 앞길의 보수공사를 요청하지만 몇 년째 진전이 없다. 시의원이 되어 상황을 개선하기로 결심한 그녀는 시의원 선거에 나가기로 하고, 그 지역의 첫번째 여성 후보자가 된다.",
+            "info": {
+              "국가": "Germany/Saudi Arabia",
+              "제작연도": "2019",
+              "러닝타임": "101min",
+              "상영포맷": "DCP",
+              "컬러": "Color"
+            },
+            "credit": {
+              "Director": "하이파 알 만수르 Haifaa AL MANSOUR",
+              "Producer": "Roman PAUL / Gerhard MEIXNER / Haifaa AL MANSOUR / Brad NIEMANN",
+              "Cast": "Mila ALZAHRANI / Khalid ABDULRAHIM / Dhay",
+              "Screenplay": "Haifaa AL MANSOUR ,Brad NIEMANN",
+              "Cinematography": "Patrick ORTH",
+              "Production Design": "Olivier MEIDINGER",
+              "Editor": "Andreas WODRASCHKE, BFS",
+              "Production Company": "Razor Film Produktion GmbHGermany Oranienburger Strasse 50, 10117 BerlinTel: 49 3084712280valentina.bronzini@matchfactory.de",
+              "World Sales": "The Match FactoryGermany Domstr. 60, 50668 CologneTel: 49 30443190511Fax:  valentina.bronzini@matchfactory.de"
+            }
+          }
+        ]
+      },
+      "17:00": {
+        "title": "뜬금없이, 나무",
+        "programs": [
+          {
+            "title": "뜬금없이, 나무",
+            "title_en": "Suddenly a Tree",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=44505&c_idx=332&sp_idx=&QueryStep=2",
+            "desc": "이란과 이라크의 전쟁 시기, 파하드는 불법 체류 혐의로 감옥에 갇힌다. 몇년이 지나 석방되어 자유의 몸이 된 그는 오랜 사랑 마하브에게로 간다. 이제 행복하게 살 날만 남았다고 믿는 파하드 앞에 과거와 현재, 미래의 시간이 겹쳐진다.",
+            "info": {
+              "국가": "Iran",
+              "제작연도": "2019",
+              "러닝타임": "92min",
+              "상영포맷": "DCP",
+              "컬러": "Color"
+            },
+            "credit": {
+              "Director": "사피 야즈다니안 Safi YAZDANIAN",
+              "Producer": "Peyman MAADI",
+              "Cast": "Payman MAADI / Mahnaz AFSHAR / Zohreh ABBASI / Siyamak SAFARI",
+              "Cinematography": "Homayoun PAYVAR",
+              "Editor": "Hayedeh SAFIYARI",
+              "Sound": "Iraj SHAHZADI",
+              "Music": "Christophe REZAI",
+              "World Sales": "ELI ImageIran Unit 172, 8th Floor- No 1- Lavan Tower, Persian Golf Palace, Golchehreh Alley-Golchin St-Ozgol- 1696612869-Tel:  +989125374139Fax:  nobakht.e@gmail.com"
+            }
+          }
+        ]
+      },
+      "20:00": {
+        "title": "연약한 역사(들)",
+        "programs": [
+          {
+            "title": "연약한 역사(들)",
+            "title_en": "Vulnerable Histories (A Road Movie)",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=43940&c_idx=326&sp_idx=482&QueryStep=2",
+            "desc": "인종주의적 정서와 차별화로 일본 사회가 분열되고 있다. 다나카 코키 감독은 스위스인과 일본인 부모 사이에서 태어난 미국인 크리스티앙과 일본에서 태어난 재일한국인 3세 우희, 이 두 사람 간의 일련의 대화를 무대화하였다.",
+            "info": {
+              "국가": "Japan",
+              "제작연도": "2019",
+              "러닝타임": "79min",
+              "상영포맷": "DCP",
+              "컬러": "Color"
+            },
+            "credit": {
+              "Director": "타나카 코키 TANAKA Koki",
+              "Producer": "Koki TANAKA",
+              "Cast": "Woohi CHUNG / Christian HOFER / Tong-hyon HAN / Masao NISHIZAKI / Takahiro AKEDO",
+              "Cinematography": "Shinya AOYAMA",
+              "Editor": "Koki TANAKA",
+              "Sound": "Ryota FUJIGUCHI",
+              "Production Company": "Koki TanakaTel:  a@kktnk.com",
+              "World Sales": "Koki TanakaTel:  Fax:  a@kktnk.com"
+            }
+          }
+        ]
+      }
+    },
+    "롯데시네마 센텀시티 10관": {
+      "14:00": {
+        "title": "노마드 선생",
+        "programs": [
+          {
+            "title": "노마드 선생",
+            "title_en": "Among the Hills",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=44465&c_idx=331&sp_idx=&QueryStep=2",
+            "desc": "이란의 국경 지역. 푸른 빛 언덕과 모래 사막을 넘어 아미르가 당도한 새 부 임지는 낡은 버스. 아미르는 학생은 커녕 인적조차 없는 곳에 덩그러니 놓인 버스에서 첫날 밤을 보내는데, 곧 화가 난 버스 주인에게 쫓겨난다. 아미르 는 학교를 유지하기 위해 고군분투하고자 하나, 그 시도조차 쉽지 않다.",
+            "info": {
+              "국가": "Iran",
+              "제작연도": "2019",
+              "러닝타임": "76min",
+              "상영포맷": "DCP",
+              "컬러": "Color"
+            },
+            "credit": {
+              "Director": "모하마드레자 키반파르 Mohammadreza KEIVANFAR",
+              "Cast": "Amir SHAMS / Elham JALALI",
+              "Screenplay": "Mohammadreza KEIVANFAR",
+              "Cinematography": "Hamid Reza KEYVANFAR",
+              "Editor": "Mohammadreza KEIVANFAR",
+              "World Sales": "ELI ImageIran Unit 172, 8th Floor- No 1- Lavan Tower, Persian Golf Palace, Golchehreh Alley-Golchin St-Ozgol- 1696612869-Tel: 98 9125374139Fax:  nobakht.e@gmail.com"
+            }
+          }
+        ]
+      },
+      "16:00": {
+        "title": "휴일",
+        "programs": [
+          {
+            "title": "휴일",
+            "title_en": "A Day Off",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=43004&c_idx=324&sp_idx=492&QueryStep=2",
+            "desc": "어느 일요일, 빈털터리 청년 허욱은 사랑하는 지연을 만나러 간다. 지연은 낙태 수술을 하게 되고 허욱은 수술비를 구하다 급기야 친구의 돈을 훔쳐 달아난다. 수술이 이루어지는 동안 허욱은 병원을 나와 여기저기 전전한다.",
+            "info": {
+              "국가": "Korea",
+              "제작연도": "1968",
+              "러닝타임": "74min",
+              "상영포맷": "DCP",
+              "컬러": "B&W"
+            },
+            "credit": {
+              "Director": "이만희 LEE Man-hee",
+              "Producer": "Ui-seon HONG 홍의선",
+              "Cast": "Seong-il SHIN 신성일 / Yun-seong JI 지윤성",
+              "Screenplay": "Gyeol BAEK 백결"
+            }
+          }
+        ]
+      }
+    },
+    "메가박스 해운대(장산) 1관": {
+      "14:00": {
+        "title": "달려라 소년",
+        "programs": [
+          {
+            "title": "달려라 소년",
+            "title_en": "Running to the Sky",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=44467&c_idx=331&sp_idx=&QueryStep=2",
+            "desc": "키르키즈스탄 산골에 사는 12세 소년 젝신은 이혼 후 매일 술독에 빠져 사는 아빠 대신 살림을 돌보며 달리기 대회에서 우수한 성적을 거둔다. 그러나 여전히 아빠는 구제불능이고 짝사랑했던 선생님은 연애 중이며 이혼한 엄마를 따라갈 수는 없다.",
+            "info": {
+              "국가": "Kyrgyzstan",
+              "제작연도": "2019",
+              "러닝타임": "89min",
+              "상영포맷": "DCP",
+              "컬러": "Color"
+            },
+            "credit": {
+              "Director": "밀란 압디칼리코프 Mirlan ABDYKALYKOV",
+              "Producer": "Altynai KOICHUMANOVA",
+              "Cast": "Temirlan ASANKADYROV / Ruslan OROZAKUNOV / Meerim ATANTAEVA / Ilimbek KALMURATOV",
+              "Screenplay": "Ernest ABDYJAPAROV ,Mirlan ABDYKALYKOV",
+              "Cinematography": "Talant AKYNBEKOV",
+              "Production Design": "Adis SEITALIEV",
+              "Editor": "Evgeniy KROKHMALENKO",
+              "Sound": "Mars TUGELOV",
+              "Music": "Murzali JEENBAEV",
+              "Production Company": "Oy Art Ltd.Kyrgyzstan 1, Dinara Asanova st. 720030 Bishkek KyrgyzstanTel: +996? 775 983090altynaiko@yandex.ru",
+              "World Sales": "Pluto FilmGermany Pluto Film Distribution Network GmbHTel:  +493021918220Fax:  daniela@plutofilm.de"
+            }
+          }
+        ]
+      },
+      "17:00": {
+        "title": "지구의 끝까지",
+        "programs": [
+          {
+            "title": "지구의 끝까지",
+            "title_en": "To the Ends of the Earth",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=42992&c_idx=335&sp_idx=&QueryStep=2",
+            "desc": "세계 여행 프로그램의 진행자 요코는 우즈베키스탄에서 신비의 물고기를 촬영하려다가 결국 실패한다. 심지어 촬영 금지 지역에서 촬영하다가 경찰에 쫓기는 신세가 된 그녀는 이 여정을 통해 인생의 중요한 교훈을 얻는다. 요코 역의 아츠코 마에다가 부른 ‘사랑의 찬가’가 귀를 사로잡는다",
+            "info": {
+              "국가": "Japan/Uzbekistan/Qatar",
+              "제작연도": "2019",
+              "러닝타임": "121min",
+              "상영포맷": "DCP",
+              "컬러": "Color"
+            },
+            "credit": {
+              "Director": "구로사와 기요시 KUROSAWA Kiyoshi",
+              "Producer": "Eiko MIZUNO-GRAY / Jason GRAY / Toshikazu NISHIGAYA",
+              "Cast": "Atsuko MAEDA / Ryo KASE / Shota SOMETANI / Adiz RADJABOV / Tokio EMOTO",
+              "Screenplay": "Kiyoshi KUROSAWA",
+              "Cinematography": "Akiko ASHIZAWA",
+              "Production Design": "Norifumi ATAKA",
+              "Editor": "Koichi TAKAHASHI",
+              "Sound": "Shinji WATANABE",
+              "Music": "Yusuke HAYASHI",
+              "Production Company": "Loaded Films Ltd.,Tokyo Theatres Inc.Japan Oote Bldg. 4F, 3-19-7 Toranomon, Minato-ku Tokyo 105-0001,Japan Gyoen Theatre Bldg. 6F, 1-1-8 Shinjuku, Shinjuku-ku, Tokyo 160-0022Tel: 81 3-6914-9810, info@loadedfilms.jpnishigaya@theatres.co.jp",
+              "World Sales": "Free Stone ProductionsJapan Tel: 33 7-77-37-38-45Fax:  fsp-sales@freestone.jp"
+            }
+          }
+        ]
+      },
+      "20:00": {
+        "title": "니나 우",
+        "programs": [
+          {
+            "title": "니나 우",
+            "title_en": "Nina Wu",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=42804&c_idx=332&sp_idx=&QueryStep=2",
+            "desc": "미얀마 화교 감독 미디 지가 새로운 스타일로 도전한 심리 스릴러. 작은 시골 마을에서 극단 생활을 하던 소녀 니나 우는 배우의 꿈을 이루기 위해 대도시로 떠난다. 어느 날, 그녀는 1970년대 스파이 영화의 여주인공 역할을 맡게 되는데….",
+            "info": {
+              "국가": "Taiwan/Malaysia/Myanmar",
+              "제작연도": "2019",
+              "러닝타임": "103min",
+              "상영포맷": "DCP",
+              "컬러": "Color"
+            },
+            "credit": {
+              "Director": "미디 지 Midi Z",
+              "Cast": "Ke-Xi WU / Yu-hua SUNG / Yu-chiao HSIA / Ming-shuai SHIH",
+              "Screenplay": "Ke-Xi WU",
+              "Cinematography": "Florian J. E. ZINKE",
+              "Editor": "Mathieu LACLAU",
+              "Production Company": "CONTACTS Production  SEASHORE IMAGE PRODUCTIONS CO., LTD.Tel:",
+              "World Sales": "LuxboxTel:  Fax:  leslie@luxboxfilms.com"
+            }
+          }
+        ]
+      }
+    },
+    "메가박스 해운대(장산) 3관": {
+      "14:00": {
+        "title": "태양의 아이들",
+        "programs": [
+          {
+            "title": "태양의 아이들",
+            "title_en": "Children of the Sun",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=44543&c_idx=332&sp_idx=&QueryStep=2",
+            "desc": "1814년. 스리랑카 칸디안 왕국의 귀족이 영국 군대를 도왔다가 반역자로 몰린다. 그의 부인들은 자살하거나 천민과 결혼하는 것 중 하나를 선택해야 한다. 젊고 아름다운 티키리는 자살 대신 천민 비자야와의 결혼을 선택한다.",
+            "info": {
+              "국가": "Sri Lanka/India",
+              "제작연도": "2019",
+              "러닝타임": "103min",
+              "상영포맷": "DCP",
+              "컬러": "Color"
+            },
+            "credit": {
+              "Director": "프라사나 비타나게 Prasanna VITHANAGE",
+              "Cast": "Dinara PUNCHIHEWA / Sajitha ANUTHTHARA",
+              "Cinematography": "Rajeev RAVI",
+              "Editor": "A. Sreekar PRASAD",
+              "Sound": "Tapas NAYAK",
+              "Production Company": "Prasanna Vithanage Productions,H.D.Premasiri,Jar PicturesTel: 94 777288984, , prasannavith@yahoo.com"
+            }
+          }
+        ]
+      },
+      "17:00": {
+        "title": "뮬라의 딸",
+        "programs": [
+          {
+            "title": "뮬라의 딸",
+            "title_en": "Mullah′s Daughter",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=44382&c_idx=326&sp_idx=482&QueryStep=2",
+            "desc": "메흐디에는 신앙심 깊은 뮬라의 딸이다. 그녀에겐 우리에게 털어놓았지만, 아 버지에게는 말하지 않은 한 가지 비밀이 있다. 그녀는 남자친구와 함께 조국 을 떠날 작정이다. 하지만 상황은 쉽게 풀리지 않고 점점 복잡해지기만 한다.",
+            "info": {
+              "국가": "Iran/United Kingdom",
+              "제작연도": "2019",
+              "러닝타임": "72min",
+              "상영포맷": "DCP",
+              "컬러": "Color"
+            },
+            "credit": {
+              "Director": "하산 솔요 Hassan SOLHJOU 메흐디에 사닷 미르하비비 Mahdieh Sadat MIRHABIBI",
+              "Cast": "Mahdieh SADAT MIRHABIBI",
+              "Sound": "Ensieh MALEKI",
+              "Production Company": "TFCUnited Kingdom Tel: 0044 7719172617hassansolhjoo@gmail.com",
+              "World Sales": "TFCUnited Kingdom Tel: 0044 77 19172617Fax:  hassansolhjoo@gmail.com"
+            }
+          }
+        ]
+      },
+      "19:30": {
+        "title": "비가 그친 후",
+        "programs": [
+          {
+            "title": "비가 그친 후",
+            "title_en": "It Stopped Raining",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=43087&c_idx=332&sp_idx=&QueryStep=2",
+            "desc": "생명고고학자인 유키수케는 거리에서 타이야키을 파는 젊은 처녀 코요미를 알게 되고 그녀에게 매료된다. 두 사람은 자주 어울리던 중 코요미가 자동차 사고를 당한다. 좀처럼 의식을 찾지 못하던 그녀가 마침내 의식을 되찾지만 일시적으로 과거를 기억하지 못하는 후유증을 앓게 된다.",
+            "info": {
+              "국가": "Japan",
+              "제작연도": "2019",
+              "러닝타임": "99min",
+              "상영포맷": "DCP",
+              "컬러": "Color"
+            },
+            "credit": {
+              "Director": "나카가와 류타로 NAKAGAWA Ryutaro",
+              "Cast": "Taiga NAKANO / Misa ETO",
+              "Screenplay": "Eiji UMEHARA ,Ryutaro NAKAGAWA",
+              "Production Company": "Tokyo New CinemaJapan 1-4-2 Nakamachi Machida Tokyo 194-0021Tel: 81 427201024kinouchi-h1@tokyonewcinema.com",
+              "World Sales": "GAGA CorporationJapan TY Bldg., 2-22-18 Minami-Aoyama Minato-ku Tokyo 107-0062Tel: 81 357867135Fax:  intlsales@gaga.co.jp"
+            }
+          }
+        ]
+      }
+    },
+    "메가박스 해운대(장산) 4관": {
+      "13:00": {
+        "title": "에듀케이션",
+        "programs": [
+          {
+            "title": "에듀케이션",
+            "title_en": "The Education",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=43176&c_idx=331&sp_idx=&QueryStep=2",
+            "desc": "장애인 활동 지원 일을 하는 성희는 새로 배정받은 현목의 집을 찾아간다. 성희가 담당 할 현목의 엄마는 온 종일 의식없이 누어만 있는 중증장애인이다. 성희는 어렵지 않게 업무시간을 채울 수 있을거라 기대한다.",
+            "info": {
+              "국가": "Korea",
+              "제작연도": "2019",
+              "러닝타임": "98min",
+              "상영포맷": "DCP",
+              "컬러": "Color"
+            },
+            "credit": {
+              "Director": "김덕중 KIM Dukjoong",
+              "Cast": "Hye-in MUN 문혜인 / Junhyung KIM 김준형 / Youngsuk SONG 송영숙 / Ji-seok HONG 홍지석 / Seonhae SHIN 신선해",
+              "Screenplay": "Dukjoong KIM 김덕중,Mideum KIM 김믿음",
+              "Cinematography": "Jeong-seok OH 오정석",
+              "Editor": "Dukjoong KIM 김덕중",
+              "Sound": "Namgyu HA 하남규",
+              "Production Company": "Graduate School of Cinematic Content,Tiger CinemaKorea 152, Jukjeon-ro, Suji-gu, Yongin-si, Gyeonggi-do,Korea 51-1304, 637, Achasan-ro, Gwangjin-gu, SeoulTel: 82 031-8005-2253, dj@djinside.net"
+            }
+          }
+        ]
+      },
+      "16:00": {
+        "title": "공상의 과학",
+        "programs": [
+          {
+            "title": "공상의 과학",
+            "title_en": "The Science of Fictions",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=43655&c_idx=332&sp_idx=&QueryStep=2",
+            "desc": "1960년대, 인도네시아의 한적한 지방에 살고 있는 시만은 과묵한 남자다. 그는 우연히 달에 우주인이 착륙하는 영상을 조작, 촬영하는 장면을 목격한다. 이후 시만은 우주를 유영하는 우주비행사들 처럼 슬로우모션으로 행동하기 시작한다.",
+            "info": {
+              "국가": "Indonesia/Malaysia/France",
+              "제작연도": "2019",
+              "러닝타임": "106min",
+              "상영포맷": "DCP",
+              "컬러": "Color"
+            },
+            "credit": {
+              "Director": "요셉 앙기 노엔 Yosep Anggi NOEN",
+              "Producer": "Edwin NAZIR / Arya SWETA / Yosep ANGGI NOEN",
+              "Cast": "Gunawan MARYANTO / Ecky LAMOH / Yudi AHMAD TAJUDIN / Rusini  / Alex SUHENDRA / Lukman SARDI / Marissa ANITA / Asmara ABIGAIL",
+              "Cinematography": "Teoh GAY HIAN",
+              "Production Design": "Deki YUDHANTO",
+              "Editor": "Akhmad FESDI ANGGORO ,Yosep ANGGI NOEN",
+              "Sound": "Ernst KAREL ,Yasuhiro MORINAGA",
+              "Production Company": "Angka Fortuna Sinema,Kawankawan MediaTel: 62 811-1190-105,62 812-82275-648edwin@angkasinema.comyuliaevina@gmail.com",
+              "World Sales": "RedianceChina Room 2701, Block B, Star City International Tower, Chaoyang District, BeijingTel:  +8618523201324Fax:  info@rediancefilms.com"
+            }
+          }
+        ]
+      },
+      "19:00": {
+        "title": "봄봄",
+        "programs": [
+          {
+            "title": "봄봄",
+            "title_en": "A Road to Spring",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=39937&c_idx=331&sp_idx=&QueryStep=2",
+            "desc": "1980년대에 태어난 따촨은 중국 동북부 헤이룽장 성 치치하르 시의 기차 부속 공장에서 수리공으로 일한다. 그곳의 사람들 대다수가 그렇듯이, 그의 삶도 특별할 것 없이 일상적이다. 그런데 어느날 억울한 누명을 쓰게 되면서 그의 삶이 흔들리기 시작한다.",
+            "info": {
+              "국가": "China",
+              "제작연도": "2019",
+              "러닝타임": "98min",
+              "상영포맷": "DCP",
+              "컬러": "Color"
+            },
+            "credit": {
+              "Director": "리 지 LI Ji",
+              "Producer": "JING LI",
+              "Cast": "MINCHENG LI / SUXI REN / WEIRAN HE",
+              "Screenplay": "JI LI",
+              "Cinematography": "YU ZHANG",
+              "Production Design": "NAN JIANG",
+              "Editor": "JI LI ,YU DU ,CHANGRUI WANG",
+              "Sound": "XULIANG WANG",
+              "Production Company": "Heaven Pictures(Beijing)The Movie Co.,LtdChina Tel:  ken_liji@hotmail.com"
+            }
+          }
+        ]
+      }
+    },
+    "메가박스 해운대(장산) 5관": {
+      "13:00": {
+        "title": "칸도 이야기",
+        "programs": [
+          {
+            "title": "칸도 이야기",
+            "title_en": "Ama Khando",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=42642&c_idx=332&sp_idx=&QueryStep=2",
+            "desc": "이제 스물여섯 살이 된 칸도는 경제적 빈곤에 시달리는 데다 글을 읽을 줄도 모른다. 그녀는 일곱 살 난 아들에게 겨우 먹일 정도의 식량을 얻기 위해 남의 농장에서 고된 추수 작업을 마다 하지 않는다. 과연 칸도는 ‘좋은 엄마’가 될 수 있을까?",
+            "info": {
+              "국가": "Nepal",
+              "제작연도": "2019",
+              "러닝타임": "100min",
+              "상영포맷": "DCP",
+              "컬러": "Color"
+            },
+            "credit": {
+              "Director": "탄덥 체링 구룽 Dhondup Tsering GURUNG",
+              "Cast": "Pema DOLKER",
+              "Production Company": "Media PortNepal Jaya Bageshwori - 8, Basusashi Galli, Kathmandu, NepalTel: 977 01441893prawinkarki@gmail.com",
+              "World Sales": "Media PortNepal Jaya Bageshwori - 8, Basusashi Galli, Kathmandu, NepalTel:  Fax:  prawinkarki@gmail.com"
+            }
+          }
+        ]
+      },
+      "16:00": {
+        "title": "에르네스토의 시선",
+        "programs": [
+          {
+            "title": "에르네스토의 시선",
+            "title_en": "Through Ernesto′s Eyes",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=44566&c_idx=328&sp_idx=&QueryStep=2",
+            "desc": "우루과이 출신으로 지금은 브라질에서 생활하는 78세의 사진작가 에르네스토는 나이를 먹고 시력이 떨어지며 혼자 사는 노인의 어려움을 직면하게 된다. 어느 날, 비아라는 소녀가 그의 삶에 뛰어든다. 에르네스토는 소녀와 함께한다면 활력있는 노년 생활을 보낼 수 있을 거라 여긴다.",
+            "info": {
+              "국가": "Brazil",
+              "제작연도": "2019",
+              "러닝타임": "123min",
+              "상영포맷": "DCP",
+              "컬러": "Color"
+            },
+            "credit": {
+              "Director": "아나 루이자 아제베도 Ana Luiza AZEVEDO",
+              "Producer": "Nora GOULART",
+              "Cast": "Jorge BOLANI / Gabriela POESTER / Jorge D'ELIA / Julio ANDRADE",
+              "Screenplay": "Ana Luiza AZEVEDO ,Jorge FURTADO",
+              "Cinematography": "Glauco FIRPO",
+              "Editor": "Giba ASSIS BRASIL",
+              "Music": "Leo HENKIN",
+              "Production Company": "Casa de Cinema de Porto AlegreBrazil Rua Miguel Tostes, 860Tel: 55 5133169200casa@casacinepoa.com.br",
+              "World Sales": "Elo CompanyBrazil Tel:  Fax:  luisa.graca@elocompany.com"
+            }
+          }
+        ]
+      },
+      "19:00": {
+        "title": "오버씨",
+        "programs": [
+          {
+            "title": "오버씨",
+            "title_en": "Overseas",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=40930&c_idx=326&sp_idx=482&QueryStep=2",
+            "desc": "필리핀에서 여성들은 가사 도우미나 유모로 일하기 위해 해외 취업을 선택 하곤 한다. 해외로 일하러 가기 위해서는 아는 이 하나 없는 낯선 세계에 발을 디뎌야 하지만 그보다 앞서 자신의 아이를 뒤로하고 떠나야만 한다.",
+            "info": {
+              "국가": "Belgium/France",
+              "제작연도": "2019",
+              "러닝타임": "91min",
+              "상영포맷": "DCP",
+              "컬러": "Color"
+            },
+            "credit": {
+              "Director": "윤성아 YOON Sung-A",
+              "Cast": "",
+              "Production Company": "IOTA ProductionBelgium 7 Clos des Pommiers, La Hulpe, 1310Tel:  isabelle@iotaproduction.com",
+              "World Sales": "CAT&DocsFrance 18 Rue Quincampoix 75004 ParisTel: 33 144617748Fax:  maelle@catndocs.com"
+            }
+          }
+        ]
+      }
+    },
+    "메가박스 해운대(장산) 6관": {
+      "13:00": {
+        "title": "바람의 비밀",
+        "programs": [
+          {
+            "title": "바람의 비밀",
+            "title_en": "Secrets of the Wind",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=44552&c_idx=332&sp_idx=&QueryStep=2",
+            "desc": "새로운 집으로 이사를 가게 된 예술대학생 린은 그곳에서 유령과 맞닥뜨린다. 그녀는 남자 유령을 도와 그의 죽음에 얽힌 기묘한 이야기를 밝히는 과정에서 자신의 삶에서 중요한 무언가를 깨닫게 된다.",
+            "info": {
+              "국가": "Vietnam/Vietnam",
+              "제작연도": "2019",
+              "러닝타임": "119min",
+              "상영포맷": "DCP",
+              "컬러": "Color"
+            },
+            "credit": {
+              "Director": "Quang Binh NGUYEN PHAN",
+              "Cast": "Ngan KHA / Anh QUOC / Chi Bi HOANG YEN",
+              "Screenplay": "Anike NIEMEYER",
+              "Cinematography": "Linh Dan NGUYEN PHAN",
+              "Editor": "Sylvan GU",
+              "Production Company": "BHD - CJ Entertainment - FPTVietnam 11 floor 25 Ly thuong KietTel: 84 2439434133bichthuy@bhdvn.com",
+              "World Sales": "Vietnam Media Corp.Vietnam 11 floor 25 Ly thuong KietTel:  +84 24 39434133Fax:  phuongthao@bhdvn.com"
+            }
+          }
+        ]
+      },
+      "16:00": {
+        "title": "소년과 바다",
+        "programs": [
+          {
+            "title": "소년과 바다",
+            "title_en": "Over the Sea",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=41229&c_idx=331&sp_idx=&QueryStep=2",
+            "desc": "11살의 위 시아오지에는 삼촌과 함께 산다. 어느 날, 그의 삼촌은 교통사고를 당해 심각한 부상을 입는다. 삼촌은 차 사고의 유일한 목격자인 시아오지에 가 경찰서에서 거짓 진술을 하길 원하는데….",
+            "info": {
+              "국가": "China",
+              "제작연도": "2019",
+              "러닝타임": "105min",
+              "상영포맷": "DCP",
+              "컬러": "Color"
+            },
+            "credit": {
+              "Director": "쑨 아오치엔 SUN Aoqian",
+              "Producer": "Dun HE",
+              "Cast": "Kunjie YU / Rebecca LI",
+              "Screenplay": "Aoqian SUN ,Jier AN",
+              "Cinematography": "Cong ZHOU",
+              "Production Design": "Mingsheng ZHAO",
+              "Editor": "Guangwei DU",
+              "Sound": "Sheng WANG",
+              "World Sales": "Edko Films LimitedHong Kong, China 1212 Tower II, Admiralty Centre, 18 Harcourt RoadTel:  Fax:  info@edkofilm.com.hk"
+            }
+          }
+        ]
+      },
+      "19:00": {
+        "title": "작은 영혼",
+        "programs": [
+          {
+            "title": "작은 영혼",
+            "title_en": "Tiny Souls",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=38875&c_idx=326&sp_idx=482&QueryStep=2",
+            "desc": "시리아 전장에서 탈출했지만 난민 캠프에 발이 묶여버린 자유로운 영혼의 소녀는 이곳에서 삶의 길을 찾아야 한다. 감독은 4년에 걸쳐 난민 캠프에서 살아가는 소녀를 좇으며, 그녀가 청소년으로 성장하는 과정을 포착한다.",
+            "info": {
+              "국가": "Jordan/France/Qatar/Lebanon",
+              "제작연도": "2019",
+              "러닝타임": "85min",
+              "상영포맷": "DCP",
+              "컬러": "Color"
+            },
+            "credit": {
+              "Director": "디나 나세르 Dina NASER",
+              "Producer": "dina NASER",
+              "Cast": "marwa MAHMOUD",
+              "Production Company": "Madd MoshawashJordan Amman, Al rabieh Ibn Abi Balta'a StTel: 962 777555407dina.naser@gmail.com",
+              "World Sales": "Syndicado FSCanada 121 Beaconsfield Avenue, #300 Toronto ON Canada M6J 3J5 9Tel: 962 777555407Fax:  dina.naser@gmail.com"
+            }
+          }
+        ]
+      }
+    },
+    "메가박스 해운대(장산) 7관": {
+      "14:00": {
+        "title": "어느 소녀 이야기",
+        "programs": [
+          {
+            "title": "어느 소녀 이야기",
+            "title_en": "Rocks",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=44448&c_idx=328&sp_idx=&QueryStep=2",
+            "desc": "십대 소녀 록스는 어린 남동생과 단 둘이 살고 있지만, 보호자 없이 둘만 생활한다는 사실이 발각돼 동생과 헤어질까봐 늘 불안에 떤다. 친구들의 도움으로 아동 보호 당국의 눈을 피해 다니는 록스, 그녀 인생에서 가장 결정적인 날들을 헤쳐나가야 하는데….",
+            "info": {
+              "국가": "United Kingdom",
+              "제작연도": "2019",
+              "러닝타임": "93min",
+              "상영포맷": "DCP",
+              "컬러": "Color"
+            },
+            "credit": {
+              "Director": "사라 개브론 Sarah GAVRON",
+              "Producer": "Faye WARD / Ameenah Ayub ALLEN",
+              "Cast": "Bukky BAKRAY / Kosar ALI / D'angelou Osei KISSIEDU / Shaneigha-Monik GREYSON / Ruby STOKES / Tawheda BEGUM / Anastasia DYMITROW / Afi OKAIDJA / Sarah NILES",
+              "Screenplay": "Theresa IKOKO ,Claire WILSON",
+              "Production Company": "Fable PicturesUnited Kingdom Tel:",
+              "World Sales": "Altitude Film SalesUnited Kingdom 34 Foubert's PlaceTel:  Fax:  karinagechtman@altitudefilmsales.com"
+            }
+          }
+        ]
+      },
+      "17:00": {
+        "title": "소년, 소총을 만나다",
+        "programs": [
+          {
+            "title": "소년, 소총을 만나다",
+            "title_en": "Boy Meets Gun",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=44535&c_idx=328&sp_idx=&QueryStep=2",
+            "desc": "지루한 일상을 살던 철학자 마르텐 모로는 우연히 강도 사건을 목격하는 도중, 떨어진 권총을 발견하고 이상한 흥분에 사로잡혀 권총을 소지하기로 결심한다. 마르텐과 총 사이에 진정한 로맨스가 꽃피지만, 늘 결과는 따르는 법. 첫 장편만의 미덕인 기발한 아이디어와 발랄한 미장센이 돋보이는 작품이다.",
+            "info": {
+              "국가": "Netherlands",
+              "제작연도": "2019",
+              "러닝타임": "86min",
+              "상영포맷": "DCP",
+              "컬러": "Color"
+            },
+            "credit": {
+              "Director": "유스트 반 헤이직 Joost VAN HEZIK",
+              "Producer": "Pieter KUIJPERS / Sander VAN MEURS / Iris OTTEN / Layla MEIJMAN / Martien VLIETMAN / Ben BOUWMEESTER",
+              "Cast": "Eelco SMITS / Mara VAN VLIJMEN / Victor IJDENS",
+              "Cinematography": "Joris KERBOSCH",
+              "Production Design": "Hester VAN NISTERLROOIJ",
+              "Editor": "Xander NIJSTEN",
+              "Sound": "Sander DEN BROEDER ,Tijn HAZEN ,Vincent SINCERETTI",
+              "Music": "Christiaan VERBEEK",
+              "Production Company": "Pupkin \tNetherlands Weesperzijde 4\t1091 EA AmsterdamTel: 31 204895088",
+              "World Sales": "Media Luna New FilmsGermany Tel: 49 22151091891Fax:  festival@medialuna.biz"
+            }
+          }
+        ]
+      },
+      "20:00": {
+        "title": "수선화",
+        "programs": [
+          {
+            "title": "수선화",
+            "title_en": "Daffodils",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=44211&c_idx=328&sp_idx=&QueryStep=2",
+            "desc": "가수 메이지가 그녀의 부모님이 어떻게 만나고 사랑에 빠졌는지를 추억하는, 이 가슴 떨리도록 로맨틱한 뮤지컬은 뉴질랜드의 박스오피스를 뒤흔든 흥행작이다. <수선화>는 뉴질랜드의 상징적인 노래들을 아름답게 재구성해 만든 달콤한 러브 스토리이다.",
+            "info": {
+              "국가": "New Zealand",
+              "제작연도": "2019",
+              "러닝타임": "93min",
+              "상영포맷": "DCP",
+              "컬러": "Color"
+            },
+            "credit": {
+              "Director": "데이비드 스텁스 David STUBBS",
+              "Producer": "Richard FLETCHER / David STUBBS",
+              "Cast": "ROSE MCIVER / GEORGE MASON / Kimbra",
+              "Screenplay": "Rochelle BRIGHT",
+              "Music": "Steph BROWN ,Fen IKNER",
+              "Production Company": "Libertine PicturesNew Zealand Tel:  richard@libertinepictures.com",
+              "World Sales": "SC Films InternationalUnited Kingdom 56 Brewer Street, Soho, London, W1F 9TJTel: 44 2072871900Fax:  fumie@scfilmsinternational.com"
+            }
+          }
+        ]
+      }
+    },
+    "롯데시네마 대영 1관": {
+      "14:00": {
+        "title": "#아이엠히어",
+        "programs": [
+          {
+            "title": "#아이엠히어",
+            "title_en": "#iamhere",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=44547&c_idx=328&sp_idx=&QueryStep=2",
+            "desc": "장성한 두 아들을 둔 스테판은 작은 레스토랑을 운영하며 별 문제없이 살고 있다. 어느 날, 인스타그램을 통해 만난 여인 수를 찾아 무작정 한국으로 떠나며 겪게되는 이야기다. <미라클 벨리에> 감독의 신작으로, 알랭 샤바와 배두나가 출연한다.",
+            "info": {
+              "국가": "France",
+              "제작연도": "2019",
+              "러닝타임": "100min",
+              "상영포맷": "DCP",
+              "컬러": "Color"
+            },
+            "credit": {
+              "Director": "에릭 라흐티구 Eric LARTIGAU",
+              "Producer": "Edouard WEIL",
+              "Cast": "Alain CHABAT / Doona BAE",
+              "Production Company": "RECTANGLE PRODUCTIONSFrance Tel:",
+              "World Sales": "GAUMONTFrance 30 avenue Charles de Gaulle - 92200 Neuilly sur Seine - FranceTel:  Fax:  sophie.bollotte@gaumont.com"
+            }
+          }
+        ]
+      },
+      "17:00": {
+        "title": "나는 집에 있었지만…",
+        "programs": [
+          {
+            "title": "나는 집에 있었지만…",
+            "title_en": "I Was at Home, But",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=42661&c_idx=328&sp_idx=&QueryStep=2",
+            "desc": "아스트리드의 열세살 난 아들이 일주일간 무단 가출 후 아무 설명도 없이 자연에서 집으로 돌아오며 시작되는 이야기다. 설명을 배제하는 깔끔한 연출력을 가진 감독으로 정평이 난 앙겔라 샤넬렉크에게 베를린영화제 감독상을 안겨준 작품이기도 하다.",
+            "info": {
+              "국가": "Germany/Serbia",
+              "제작연도": "2019",
+              "러닝타임": "105min",
+              "상영포맷": "DCP",
+              "컬러": "Color"
+            },
+            "credit": {
+              "Director": "앙겔라 샤넬렉 Angela SCHANELEC",
+              "Producer": "Angela SCHANELEC",
+              "Cast": "Maren EGGERT / Jakob LASSALLE / Clara MÖLLER / Franz ROGOWSKI / Lilith STANGENBERG / Alan WILLIAMS / Jirka ZETT / Dane KOMLJEN",
+              "Screenplay": "Angela SCHANELEC",
+              "Cinematography": "Ivan MARKOVIC",
+              "Production Design": "Reinhild BLASCHKE",
+              "Editor": "Angela SCHANELEC",
+              "Sound": "Andreas MÜCKE-NIEZYTKA ,Rainer GERLACH",
+              "Production Company": "NachmittagfilmGermany Grolmannstr. 28, 10623 BerlinTel: +49 30.8892 70 91nachmittagfilm@gmx.de",
+              "World Sales": "Deutsche KinemathekGermany Pozsdamer Str.2, 10785 BerlinTel: 49 30.30090331Fax:  filmverleih@deutsche-kinemathek.de"
+            }
+          }
+        ]
+      },
+      "20:00": {
+        "title": "내 몸이 사라졌다",
+        "programs": [
+          {
+            "title": "내 몸이 사라졌다",
+            "title_en": "I Lost My Body",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=43536&c_idx=328&sp_idx=&QueryStep=2",
+            "desc": "파리. 나오펠이 가브리엘라과 사랑에 빠진다. 멀지 않은 한 곳에서는 잘려진 손 하나가 해부학실을 홀홀히 빠져나와 자신의 몸을 찾아 떠난다. 이 독창적이고 시적이고 철학적인 애니메이션은 올해 칸영화제 비평가주간 그랑프리와 안시국제애니메이션영화제 크리스탈 어워드를 동시에 수상했다.",
+            "info": {
+              "국가": "France",
+              "제작연도": "2019",
+              "러닝타임": "82min",
+              "상영포맷": "DCP",
+              "컬러": "Color"
+            },
+            "credit": {
+              "Director": "제레미 클레팡 Jérémy CLAPIN",
+              "Producer": "Marc DU PONTAVICE",
+              "Cast": "Hakim FARIS / Victoire DU BOIS / Patrick DASSUMÇAO",
+              "Screenplay": "Jérémy CLAPIN ,Guillaume LAURANT"
+            }
+          }
+        ]
+      }
+    },
+    "롯데시네마 대영 2관": {
+      "12:00": {
+        "title": "중지",
+        "programs": [
+          {
+            "title": "중지",
+            "title_en": "The Halt",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=43548&c_idx=335&sp_idx=&QueryStep=2",
+            "desc": "2034년 마닐라. 3년 전 셀레베스 섬에서 일어난 화산폭발로 인해 동남아시 아는 ‘영원한’ 어둠에 갇혔다. 미친 독재자의 군부가 통치하는 동남아시아에 는 수만 대의 감시용 드론이 날아다니며 이미 전염병으로 수백 만 명이 목숨 을 잃었다. 암흑의 디스토피아에서 살아가는 사람들의 이야기.",
+            "info": {
+              "국가": "Philippines",
+              "제작연도": "2019",
+              "러닝타임": "278min",
+              "상영포맷": "DCP",
+              "컬러": "B&W"
+            },
+            "credit": {
+              "Director": "라브 디아즈 Lav DIAZ",
+              "Producer": "Lav DIAZ",
+              "Cast": "Piolo PASCUAL / Joel LAMANGAN / Shaina MAGDAYAO / Hazel ORENCIO",
+              "Screenplay": "Lav DIAZ",
+              "Sound": "Corinne DE SAN JOSE",
+              "Production Company": "/Tel:",
+              "World Sales": "Indie SalesFrance 32 rue WashingtonTel: 33 144830227Fax:  festival@indiesales.eu"
+            }
+          }
+        ]
+      },
+      "20:00": {
+        "title": "3층의 여자",
+        "programs": [
+          {
+            "title": "3층의 여자",
+            "title_en": "Girl on the Third Floor",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=37485&c_idx=323&sp_idx=&QueryStep=2",
+            "desc": "돈 코크는 아내와 태어날 아기를 위해 새로 구입 한 낡은 집을 보수 한다. 하 지만 어디선가 들려오는 괴상한 소리, 정체불명의 여인의 출현등 이상한 일 들이 벌어지기 시작하는데.. 올해 SXSW영화제에서 소개된 미드나잇 작품 중 최고의 화제작 중 하나.",
+            "info": {
+              "국가": "United States",
+              "제작연도": "2019",
+              "러닝타임": "93min",
+              "상영포맷": "DCP",
+              "컬러": "Color"
+            },
+            "credit": {
+              "Director": "트래비스 스티븐스 Travis STEVENS",
+              "Producer": "Greg NEWMAN / Nicola GOELZHAEUSER / Giles EDWARDS / Greg NEWMAN / travis STEVENS",
+              "Cast": "Phil BROOKS / Trieste KELLY DUNN / Sarah BROOKS",
+              "Screenplay": "Travis STEVENS",
+              "Cinematography": "Scott THIELE",
+              "Production Company": "Queensbury PicturesUnited States 16101 S. 108th AvenueTel:  nicola@mpimedia.com",
+              "World Sales": "MPI MEDIA GROUPUnited States 16101 S. 108th AvenueTel: 01 708 873 3124Fax:  nicola@mpimedia.com"
+            }
+          }
+        ]
+      }
+    },
+    "롯데시네마 대영 3관": {
+      "13:30": {
+        "title": "페뷸러스",
+        "programs": [
+          {
+            "title": "페뷸러스",
+            "title_en": "Fabulous",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=44474&c_idx=327&sp_idx=&QueryStep=2",
+            "desc": "<페뷸러스>는 현대사회를 살아가는 세 젊은 여자들을 그린 코미디다. 이 영화는 온라인 상에서 받는 ‘좋아요’ 수에 따라 자신의 가치를 판단하는 세상에서, 젊은 여성들이 맞닥뜨린 현실을 흥미롭게 보여준다.",
+            "info": {
+              "국가": "Canada",
+              "제작연도": "2019",
+              "러닝타임": "109min",
+              "상영포맷": "DCP",
+              "컬러": "Color"
+            },
+            "credit": {
+              "Director": "멜라니 샤르본느 Mélanie CHARBONNEAU",
+              "Producer": "NICOLE ROBERT",
+              "Cast": "Noémie O’FARRELL / Juliette GOSSELIN / Mounia ZAHZAM / Alexandre NACHI",
+              "Screenplay": "GENEVIÈVE PETTERSEN ,MÉLANIE CHARBONNEAU",
+              "Cinematography": "ARIEL MÉTHOT-BELLEMARE",
+              "Production Design": "ÉRIC BARBEAU",
+              "Editor": "ISABELLE MALENFANT",
+              "Music": "ANTOINE ROCHETTE ,DAVID RANCOURT",
+              "Production Company": "GO FILMSCanada Tel:",
+              "World Sales": "WaZabi FilmsCanada 4200 Boulevard St‐Laurent, bureau 1200, Montreal, QC, H2W2R2Tel: 1 5148663020Fax:  sales@wazabifilms.com"
+            }
+          }
+        ]
+      },
+      "16:30": {
+        "title": "티후아나 바이블",
+        "programs": [
+          {
+            "title": "티후아나 바이블",
+            "title_en": "Tijuana Bible",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=44532&c_idx=328&sp_idx=&QueryStep=2",
+            "desc": "이라크 전쟁 참전 후 타격을 입은 닉은 멕시코 티후아나에서 가까스로 살아 남는다. 그는 동생을 찾기 위해 마약 밀매단 조직과 맞서던 중 사라진 동생을 찾고 있는 아나를 만난다. <탈주의 밤>(2014)에서 집시 공동체를 탐험했던 장 샤를르 휘 감독은 ′속죄′에 대한 이야기를 하기 위해 멕시코의 암흑가 자리를 옮겼다. 폭력적면서도 매혹적인 스릴러물이다.",
+            "info": {
+              "국가": "France/Mexico",
+              "제작연도": "2019",
+              "러닝타임": "90min",
+              "상영포맷": "DCP",
+              "컬러": "not decided yet"
+            },
+            "credit": {
+              "Director": "쟝 사를르 휘 Jean-Charles HUE"
+            }
+          }
+        ]
+      },
+      "19:30": {
+        "title": "심장과 뼈",
+        "programs": [
+          {
+            "title": "심장과 뼈",
+            "title_en": "Hearts and Bones",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=44477&c_idx=328&sp_idx=&QueryStep=2",
+            "desc": "외상후 스트레스 장애에 시달리던 유명한 종군 사진작가 댄은 수단 출신의 난민 세바스티안과 뜻밖의 인연으로 가까워진다. 그러나 댄의 사진 한 장으로 세바스티안의 어두운 과거가 만천하에 드러나게 되는데.",
+            "info": {
+              "국가": "Australia",
+              "제작연도": "2019",
+              "러닝타임": "111min",
+              "상영포맷": "DCP",
+              "컬러": "Color"
+            },
+            "credit": {
+              "Director": "벤 로렌스 Ben LAWRENCE",
+              "Producer": "Matt REEDER",
+              "Cast": "Hugo WEAVING / Andrew LURI / Hayley MCELHINNEY",
+              "Screenplay": "Beatrix CHRISTIAN ,Ben LAWRENCE",
+              "Cinematography": "Hugh MILLER",
+              "Production Design": "Carlo CRESCINI",
+              "Editor": "Philip HORN",
+              "Sound": "Sam HAYWARD",
+              "Music": "Rafael MAY",
+              "Production Company": "Night Kitchen ProductionsAustralia 34 Myrtle Street 2008 CHIPPENDALE, AUSTRALIATel: 1 (718) 312-8210ts@visitfilms.com",
+              "World Sales": "Visit FilmsUnited States 173 Richardson St, Brooklyn, NY 11222Tel: 1 (718) 312-8210Fax:  ts@visitfilms.com"
+            }
+          }
+        ]
+      }
+    },
+    "롯데시네마 대영 4관": {
+      "13:30": {
+        "title": "세비지",
+        "programs": [
+          {
+            "title": "세비지",
+            "title_en": "Savage",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=44473&c_idx=327&sp_idx=&QueryStep=2",
+            "desc": "이 영화는 뉴질랜드의 무자비한 거리 폭력배들의 세계를 그린다. 대니는 그의 실제 가족과 그가 현재의 ‘가족’이라 부르는 갱단 사이에서 갈등한다.",
+            "info": {
+              "국가": "New Zealand",
+              "제작연도": "2019",
+              "러닝타임": "101min",
+              "상영포맷": "DCP",
+              "컬러": "Color"
+            },
+            "credit": {
+              "Director": "샘 켈리 Sam KELLY",
+              "Producer": "Vicky POPE",
+              "Cast": "Jake RYAN / John TUI / Chelsie PRESTON CRAYFORD",
+              "Screenplay": "Sam KELLY",
+              "Cinematography": "James L BROWN",
+              "Editor": "Peter ROBERTS",
+              "Sound": "Nick BUCKTON",
+              "Production Company": "Domino Films LtdNew Zealand C/- Toi Poneke Art Centre, 61-69 Abel Smith Street, Wellington 6011Tel: +64 21 859 211vickypope@me.com",
+              "World Sales": "FILM CONSTELLATIONUnited Kingdom 11-13 Charlotte Street W1T 1RH LondonTel: 44 7900 992 088Fax:  chloe@filmconstellation.com"
+            }
+          }
+        ]
+      },
+      "16:30": {
+        "title": "와스프 네트워크",
+        "programs": [
+          {
+            "title": "와스프 네트워크",
+            "title_en": "Wasp Network",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=44534&c_idx=335&sp_idx=&QueryStep=2",
+            "desc": "90년대 초, 쿠바 본토를 공격하는 ‘반 카스트로’ 테러리스트 조직에 침투하기 위해 마이애미에 스파이 단체를 만들었던 소수의 쿠바 사람들의 이야기. 올리비에 아사야스 감독이 페넬로페 크루즈, 에드가 라미레스, 가엘 가르시아 베르날을 캐스팅해 그만의 스타일로 긴장감 넘치는 시대극을 선보인다",
+            "info": {
+              "국가": "France/Brazil/Spain",
+              "제작연도": "2019",
+              "러닝타임": "123min",
+              "상영포맷": "DCP",
+              "컬러": "Color"
+            },
+            "credit": {
+              "Director": "올리비에 아사야스 Olivier ASSAYAS",
+              "Cast": "Penelope CRUZ / Edgar RAMIREZ / Gael GARCIA BERNAL / Wagner MOURA / Ana DE ARMAS / Leonardo SBARAGLIA",
+              "Production Company": "RT FEATURES,CG CINEMA,NostromoBrazil ,France ,Spain Tel:  , ,",
+              "World Sales": "Orange StudioFrance Tel:  Fax:"
+            }
+          }
+        ]
+      },
+      "19:30": {
+        "title": "올드보이",
+        "programs": [
+          {
+            "title": "올드보이",
+            "title_en": "Old Boy",
+            "url": "http://www.biff.kr/kor/html/program/prog_view.asp?idx=43033&c_idx=324&sp_idx=492&QueryStep=2",
+            "desc": "영문도 모르고 15년 동안 감금됐다 풀려난 남자의 비밀을 그린 영화. 남자는 자신이 왜 감금됐는가를 궁금해하지만 더 큰 비밀은 왜 풀려났는가에 있다. 수수께끼를 풀어가는 과정에서 남자는 온전한 정신으로 감당할 수 없는 진실에 직면한다.",
+            "info": {
+              "국가": "Korea",
+              "제작연도": "2003",
+              "러닝타임": "120min",
+              "상영포맷": "DCP",
+              "컬러": "Color"
+            },
+            "credit": {
+              "Director": "박찬욱 PARK Chan-wook",
+              "Producer": "Dong-joo KIM 김동주 / Yeong-jun JI 지영준",
+              "Cast": "Min-sik CHOI 최민식 / Ji-tae YOO 유지태 / Hye-jung KANG 강혜정 / Byung-oc KIM 김병옥 / Dae-han JI 지대한",
+              "Screenplay": "Chan-wook PARK 박찬욱,Jun-hyung YIM 임준형,Jo-yun HWANG 황조윤",
+              "Cinematography": "Jung-hoon JUNG 정정훈"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

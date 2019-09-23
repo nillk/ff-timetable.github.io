@@ -84,7 +84,8 @@ def parse_detail(title, text):
 if __name__ == '__main__':
   for i in range(3, 13):
     schedule = get_schedule(i)
-    with open(f'schedule{i:02}.json', 'w', encoding='UTF-8') as f:
-      json_schedule = parse_schedule(schedule)
+    day = f'day{i:02}'
+    with open(f'{day}.json', 'w', encoding='UTF-8') as f:
+      json_schedule = {day: parse_schedule(schedule)}
       f.write(json.dumps(json_schedule, indent=2, ensure_ascii=False))
     print(f'Day {i} done.')
