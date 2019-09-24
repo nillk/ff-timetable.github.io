@@ -1,9 +1,9 @@
-import React from 'react'
-import { graphql } from 'gatsby'
+import React from "react"
+import { graphql } from "gatsby"
 
-import Layout from '../components/layout'
+import Layout from "../components/layout"
 
-import style from './day-schedule.module.css'
+import style from "./day-schedule.module.css"
 
 const TIME_HEIGHT = 75
 
@@ -48,7 +48,8 @@ export default ({ data }) => {
                 </span>
                 <span>{time.title}</span>
                 <div className={style.desc}>
-                  {(time.programs[0].info && time.programs[0].info.genre) &&
+                  {time.programs[0].info &&
+                    time.programs[0].info.genre &&
                     time.programs[0].info.genre.map(g => (
                       <span
                         key={g}
@@ -86,7 +87,8 @@ const calculateTop = time => {
 
 const calculateHeight = programs => {
   const totalLength = programs.reduce((acc, program) => {
-    const length = program.info !== null ? Number(program.info.length.replace("min", "")) : 0
+    const length =
+      program.info !== null ? Number(program.info.length.replace("min", "")) : 0
 
     return acc + length
   }, 0)

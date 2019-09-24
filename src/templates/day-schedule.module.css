@@ -1,0 +1,20 @@
+.desc {
+  display: inline-block;
+}
+
+.film .desc {
+  visibility: hidden;
+  opacity: 0;
+  width: 480px;
+  background-color: #555;
+  color: #fff;
+  padding: 5px;
+  position: absolute;
+  transform: translate(-50%, 20%);
+  z-index: 1;
+}
+
+.film:hover .desc {
+  visibility: visible;
+  opacity: 1;
+}

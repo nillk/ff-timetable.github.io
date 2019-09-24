@@ -13,7 +13,7 @@ exports.createPages = async function({ actions, graphql }) {
         const date = node.date
         actions.createPage({
             path: date,
-            component: require.resolve(`./src/pages/day-schedule.js`),
+            component: require.resolve(`./src/templates/day-schedule.js`),
             context: { date: date }
         })
     })
