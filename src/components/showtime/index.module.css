@@ -1,0 +1,9 @@
+.screen {
+  position: absolute;
+  padding: 5px;
+  width: 92px;
+  border: 1px solid #FFF;
+  background: rgba(255, 255, 255, 0.4);
+  font-size: 12px;
+  word-break: keep-all;
+}

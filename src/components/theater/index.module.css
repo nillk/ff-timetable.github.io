@@ -1,0 +1,9 @@
+.theater {
+  padding: 8px;
+  height: 92px;
+  width: 92px;
+  background-color: #FFF;
+  font-size: 14px;
+  font-weight: bold;
+  word-break: keep-all;
+}

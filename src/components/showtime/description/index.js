@@ -7,7 +7,7 @@ const GenreTags = (info) => {
   if (info !== null && info.genre !== null) {
     return (<Paragraph>
       {info.genre.map(g => (
-        <Tag color="#00c8f8">{g}</Tag>
+        <Tag color="#00c8f8" style={{ marginRight: 4 }}>{g}</Tag>
       ))}
     </Paragraph>)
   }
@@ -15,9 +15,9 @@ const GenreTags = (info) => {
   return <></>;
 }
 
-const DescriptionPopover = ({ programs }) => {
+const Description = ({ programs }) => {
   return (
-    <div style={{ minWidth: `240px`, maxWidth: `480px`, wordBreak: `keep-all` }}>
+    <div style={{ minWidth: 240, maxWidth: 480, wordBreak: `keep-all` }}>
       <Typography>
         {programs.map(program => {
           return (
@@ -34,4 +34,4 @@ const DescriptionPopover = ({ programs }) => {
   );
 };
 
-export default DescriptionPopover;
+export default Description;
