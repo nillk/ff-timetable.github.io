@@ -1,11 +1,10 @@
 import React from "react"
 import { graphql } from "gatsby"
-import { Typography } from "antd"
 import { Row, Col } from "antd"
+import { Typography, Popover } from "antd"
 
 import Page from "../components/layout"
-
-import style from "./day-schedule.module.css"
+import DescriptionPopover from "../components/description-popover"
 
 const TIME_HEIGHT = 75
 
@@ -18,10 +17,9 @@ export default ({ data }) => {
           <Col>
             <div
               style={{
-                marginBottom: `8px`,
                 padding: `4px`,
-                height: `72px`,
-                width: `72px`,
+                height: `80px`,
+                width: `80px`,
                 backgroundColor: `#FFF`,
               }}
             >
@@ -29,40 +27,21 @@ export default ({ data }) => {
             </div>
             {theater.times.map(time => (
               <div
-                className={style.film}
                 style={{
                   border: `1px solid #FFF`,
                   position: `absolute`,
-                  width: `72px`,
+                  width: `80px`,
                   top: `${calculateTop(time.time)}px`,
                   height: `${calculateHeight(time.programs)}px`,
+                  wordBreak: `keep-all`,
                 }}
               >
                 <span style={{ display: `block`, fontWeight: `bold` }}>
                   {time.time}
                 </span>
-                <span>{time.title}</span>
-                <div className={style.desc}>
-                  {time.programs[0].info &&
-                    time.programs[0].info.genre &&
-                    time.programs[0].info.genre.map(g => (
-                      <span
-                        key={g}
-                        style={{
-                          display: `inline-block`,
-                          backgroundColor: `white`,
-                          color: `black`,
-                          opacity: `0.4`,
-                          marginRight: `2px`,
-                          padding: `0px 2px 0px 2px`,
-                        }}
-                      >
-                        {g}
-                      </span>
-                    ))}
-                  <div>{time.programs[0].desc}</div>
-                </div>
-                {/* TODO */}
+                <Popover placement="bottom" arrowPointAtCenter content={<DescriptionPopover programs={time.programs}/>}>
+                  <span>{time.title}</span>
+                </Popover>
               </div>
             ))}
           </Col>
@@ -77,7 +56,7 @@ const calculateTop = time => {
   const hourDiff = hour - 10
   const minuteDiff = minute / 60
 
-  return (hourDiff + minuteDiff) * TIME_HEIGHT + 72
+  return (hourDiff + minuteDiff) * TIME_HEIGHT + 96
 }
 
 const calculateHeight = programs => {
