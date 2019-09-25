@@ -1,5 +1,8 @@
 import React from "react"
+import { Layout } from "antd"
 import { StaticQuery, graphql, Link } from "gatsby"
+
+const { Header, Content } = Layout
 
 export default ({ children }) => (
   <StaticQuery
@@ -13,15 +16,17 @@ export default ({ children }) => (
       }
     `}
     render={data => (
-      <div style={{ padding: `24px` }}>
-        <div style={{ marginBottom: `16px` }}>
+      <Layout style={{ minHeight: `100vh` }}>
+        <Header>
           <Link to={`/`} key={`/`}>
             Home
           </Link>
           {getDateLinks(data)}
-        </div>
-        {children}
-      </div>
+        </Header>
+        <Content style={{ overflow: `auto`, padding: `25px 50px` }}>
+            {children}
+        </Content>
+      </Layout>
     )}
   />
 )

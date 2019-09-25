@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
 
-import Layout from "../components/layout"
+import Page from "../components/layout"
 
 import style from "./day-schedule.module.css"
 
@@ -9,7 +9,7 @@ const TIME_HEIGHT = 75
 
 export default ({ data }) => {
   return (
-    <Layout>
+    <Page>
       <h1>{data.biffJson.date}</h1>
       <div style={{ display: `flex` }}>
         {data.biffJson.screening.map(theater => (
@@ -73,7 +73,7 @@ export default ({ data }) => {
           </div>
         ))}
       </div>
-    </Layout>
+    </Page>
   )
 }
 
