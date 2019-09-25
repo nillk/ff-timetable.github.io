@@ -1,5 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
+import { Typography } from "antd"
+import { Row, Col } from "antd"
 
 import Page from "../components/layout"
 
@@ -10,24 +12,17 @@ const TIME_HEIGHT = 75
 export default ({ data }) => {
   return (
     <Page>
-      <h1>{data.biffJson.date}</h1>
-      <div style={{ display: `flex` }}>
+      <Typography.Title>{`Day ${data.biffJson.date.substring(3, 5)}`}</Typography.Title>
+      <Row type="flex" justify="start" gutter={16} style={{ flexFlow: `row` }}>
         {data.biffJson.screening.map(theater => (
-          <div
-            style={{
-              float: `left`,
-              position: `relative`,
-              width: `72px`,
-              marginRight: `12px`,
-            }}
-          >
+          <Col>
             <div
               style={{
                 marginBottom: `8px`,
                 padding: `4px`,
                 height: `72px`,
                 width: `72px`,
-                backgroundColor: `lightcoral`,
+                backgroundColor: `#FFF`,
               }}
             >
               {theater.theater}
@@ -36,7 +31,7 @@ export default ({ data }) => {
               <div
                 className={style.film}
                 style={{
-                  border: `1px solid lightcoral`,
+                  border: `1px solid #FFF`,
                   position: `absolute`,
                   width: `72px`,
                   top: `${calculateTop(time.time)}px`,
@@ -70,9 +65,9 @@ export default ({ data }) => {
                 {/* TODO */}
               </div>
             ))}
-          </div>
+          </Col>
         ))}
-      </div>
+      </Row>
     </Page>
   )
 }
