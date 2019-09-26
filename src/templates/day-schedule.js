@@ -15,7 +15,7 @@ export default ({ data }) => {
         {data.biffJson.screening.map(screen => (
           <Col>
             <Theater name={screen.theater} />
-            {screen.times.map(time => <Showtime time={time} />)}
+            {screen.times.map(time => <Showtime show={time} />)}
           </Col>
         ))}
       </Row>

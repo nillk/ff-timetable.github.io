@@ -7,46 +7,59 @@ import style from "./index.module.css"
 
 const { Paragraph, Text } = Typography
 
-const TIME_HEIGHT = 75
-const THEATER_HEIGHT = 92
+const TIME_HEIGHT = 90
+const THEATER_HEIGHT = 116
 const GUTTER = 16
 
-const calculateTop = time => {
-  const [hour, minute] = time.split(":").map(Number)
+const calculateTop = (hour, minute) => {
   const hourDiff = hour - 10 // start time is 10:00
   const minuteDiff = minute / 60
 
   return ((hourDiff + minuteDiff) * TIME_HEIGHT) + THEATER_HEIGHT + GUTTER
 }
 
-const calculateHeight = programs => {
-  const totalLength = programs.reduce((acc, program) => {
-    const length =
-      program.info !== null ? Number(program.info.length.replace("min", "")) : 0
+const calculateHeight = length => (length / 60) * TIME_HEIGHT
 
-    return acc + length
-  }, 0)
+const calculteEndTime = (hour, minute, totalLength) => [hour + Math.floor(totalLength / 60), minute + (totalLength % 60)]
 
-  return (totalLength / 60) * TIME_HEIGHT
-}
+const getProgramsTotalLength = programs => programs.reduce((acc, program) => acc + getLength(program), 0)
 
-const Showtime = ({ time }) => (
-  <Popover placement="bottom" content={<Description programs={time.programs} />}>
-    <div
-      className={style.screen}
-      style={{
-        top: `${calculateTop(time.time)}px`,
-        height: `${calculateHeight(time.programs)}px`,
-      }}
-    >
-      <Typography>
-        <Text strong>{time.time}</Text>
-        <Paragraph>
-          {time.title}
-        </Paragraph>
-      </Typography>
-    </div>
-  </Popover>
-);
+const getLength = (program) => program.info !== null ? Number(program.info.length.replace("min", "")) : 0
+
+
+const Showtime = ({ show }) => {
+  const [hour, minute] = show.time.split(":").map(Number)
+
+  const totalLength = getProgramsTotalLength(show.programs)
+
+  const top = calculateTop(hour, minute)
+  const height = calculateHeight(totalLength)
+
+  const [endHour, endMinute] = calculteEndTime(hour, minute, totalLength)
+  const endHourStr = endHour < 10 ? `0${endHour}` : `${endHour}`
+  const endMinuteStr = endMinute < 10 ? `0${endMinute}` : `${endMinute}`
+
+  return (
+    <Popover placement="bottom" content={<Description programs={show.programs} />}>
+      <div
+        className={style.screen}
+        style={{
+          top: `${top}px`,
+          height: `${height}px`,
+        }}
+      >
+        <Typography>
+          <Text strong>{show.time}~{endHourStr}:{endMinuteStr}</Text>
+          <Paragraph>
+            <Text>{show.title}</Text>
+            {show.programs.length > 1 &&
+              (<ul>
+                {show.programs.map(program => (<li><Text type="secondary">{program.title}</Text></li>))}
+              </ul>)}
+          </Paragraph>
+        </Typography>
+      </div>
+    </Popover>)
+};
 
 export default Showtime;
