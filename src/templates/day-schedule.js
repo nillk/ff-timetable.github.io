@@ -34,6 +34,7 @@ export const query = graphql`
           title
           programs {
             title
+            titleEng
             desc
             info {
               length

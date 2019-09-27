@@ -15,17 +15,21 @@ const calculateTop = (hour, minute) => {
   const hourDiff = hour - 10 // start time is 10:00
   const minuteDiff = minute / 60
 
-  return ((hourDiff + minuteDiff) * TIME_HEIGHT) + THEATER_HEIGHT + GUTTER
+  return (hourDiff + minuteDiff) * TIME_HEIGHT + THEATER_HEIGHT + GUTTER
 }
 
 const calculateHeight = length => (length / 60) * TIME_HEIGHT
 
-const calculteEndTime = (hour, minute, totalLength) => [hour + Math.floor(totalLength / 60), minute + (totalLength % 60)]
+const calculteEndTime = (hour, minute, totalLength) => [
+  hour + Math.floor(totalLength / 60),
+  minute + (totalLength % 60),
+]
 
-const getProgramsTotalLength = programs => programs.reduce((acc, program) => acc + getLength(program), 0)
+const getProgramsTotalLength = programs =>
+  programs.reduce((acc, program) => acc + getLength(program), 0)
 
-const getLength = (program) => program.info !== null ? Number(program.info.length.replace("min", "")) : 0
-
+const getLength = program =>
+  program.info !== null ? Number(program.info.length.replace("min", "")) : 0
 
 const Showtime = ({ show }) => {
   const [hour, minute] = show.time.split(":").map(Number)
@@ -40,7 +44,10 @@ const Showtime = ({ show }) => {
   const endMinuteStr = endMinute < 10 ? `0${endMinute}` : `${endMinute}`
 
   return (
-    <Popover placement="bottom" content={<Description programs={show.programs} />}>
+    <Popover
+      placement="bottom"
+      content={<Description programs={show.programs} />}
+    >
       <div
         className={style.screen}
         style={{
@@ -49,17 +56,30 @@ const Showtime = ({ show }) => {
         }}
       >
         <Typography>
-          <Text strong>{show.time}~{endHourStr}:{endMinuteStr}</Text>
+          <Text strong>
+            {show.time}~{endHourStr}:{endMinuteStr}
+          </Text>
           <Paragraph>
             <Text>{show.title}</Text>
-            {show.programs.length > 1 &&
-              (<ul>
-                {show.programs.map(program => (<li><Text type="secondary">{program.title}</Text></li>))}
-              </ul>)}
+            {show.programs.length === 1 && (
+              <div>
+                <Text type="secondary">{show.programs[0].titleEng}</Text>
+              </div>
+            )}
+            {show.programs.length > 1 && (
+              <ul>
+                {show.programs.map(program => (
+                  <li>
+                    <Text type="secondary">{program.title}</Text>
+                  </li>
+                ))}
+              </ul>
+            )}
           </Paragraph>
         </Typography>
       </div>
-    </Popover>)
-};
+    </Popover>
+  )
+}
 
-export default Showtime;
+export default Showtime

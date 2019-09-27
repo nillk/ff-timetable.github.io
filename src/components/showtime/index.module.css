@@ -1,9 +1,10 @@
 .screen {
   position: absolute;
-  padding: 5px;
+  padding: 5px 8px;
   width: 116px;
   min-height: 90px;
-  border: 1px solid #FFF;
+  border-top: 3px solid #FFF;
+  border-bottom: 3px solid #FFF;
   background: rgba(255, 255, 255, 0.4);
   font-size: 14px;
   word-break: keep-all;
