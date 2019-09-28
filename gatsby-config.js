@@ -5,6 +5,7 @@
  */
 
 module.exports = {
+  pathPrefix: `/ff-timetable`,
   plugins: [
     `gatsby-transformer-json`,
     {
