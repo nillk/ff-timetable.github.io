@@ -11,8 +11,8 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `schedule`,
-        path: `${__dirname}/data/`
-      }
-    }
-  ]
+        path: `${__dirname}/data/`,
+      },
+    },
+  ],
 }

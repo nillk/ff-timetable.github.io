@@ -2,7 +2,7 @@ import React from "react"
 
 import style from "./index.module.css"
 
-const addSpaceAfterBrandName = (name) => {
+const addSpaceAfterBrandName = name => {
   const check = /(CGV|메가박스|롯데시네마)(?!\s)/.exec(name)
 
   if (check !== null) {
@@ -16,9 +16,7 @@ const addSpaceAfterBrandName = (name) => {
 }
 
 const Theater = ({ name }) => (
-    <div className={style.theater}>
-      {addSpaceAfterBrandName(name)}
-    </div>
-);
+  <div className={style.theater}>{addSpaceAfterBrandName(name)}</div>
+)
 
-export default Theater;
+export default Theater

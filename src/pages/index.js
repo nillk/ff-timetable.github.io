@@ -9,7 +9,9 @@ export default () => {
   return (
     <Page>
       <Typography>
-        <Typography.Title><Icon type="video-camera" /> Film Festival Timetable</Typography.Title>
+        <Typography.Title>
+          <Icon type="video-camera" /> Film Festival Timetable
+        </Typography.Title>
       </Typography>
     </Page>
   )
