@@ -9,6 +9,7 @@
 ```
 {
   date: 일자,
+  dateStr: 화면에 표시하기 위한 날짜 정보(연.월.일.요일),
   screening: [
     {
       theater: 상영관,
@@ -16,6 +17,9 @@
         {
           time: 시간,
           title: 대표제목(단편 모음인 경우 programs에 세부 정보),
+          grade: [
+            등급, 자막, GV 등
+          ]
           programs: [
             {
               title: 제목,

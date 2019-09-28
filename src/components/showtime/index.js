@@ -2,6 +2,7 @@ import React from "react"
 import { Typography, Popover } from "antd"
 
 import Description from "./description"
+import Grade from "./grade"
 
 import style from "./index.module.css"
 
@@ -77,6 +78,9 @@ const Showtime = ({ show }) => {
             )}
           </Paragraph>
         </Typography>
+        <div>
+          {show.grades.map(grade => <Grade level={grade} />)}
+        </div>
       </div>
     </Popover>
   )

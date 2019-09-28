@@ -10,10 +10,7 @@ import Showtime from "../components/showtime"
 export default ({ data }) => {
   return (
     <Page>
-      <Typography.Title>{`Day ${data.biffJson.date.substring(
-        3,
-        5
-      )}`}</Typography.Title>
+      <Typography.Title level={2}>{data.biffJson.dateStr}</Typography.Title>
       <Row type="flex" justify="start" gutter={16} style={{ flexFlow: `row` }}>
         {data.biffJson.screening.map(screen => (
           <Col>
@@ -32,11 +29,13 @@ export const query = graphql`
   query($date: String!) {
     biffJson(date: { eq: $date }) {
       date
+      dateStr
       screening {
         theater
         times {
           time
           title
+          grades
           programs {
             title
             titleEng
