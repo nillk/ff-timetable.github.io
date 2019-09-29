@@ -1,8 +1,8 @@
 import React from "react"
 import { Typography, Popover } from "antd"
 
+import Grade from "../grade"
 import Description from "./description"
-import Grade from "./grade"
 
 import style from "./index.module.css"
 

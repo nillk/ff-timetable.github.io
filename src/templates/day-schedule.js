@@ -6,11 +6,15 @@ import { Typography } from "antd"
 import Page from "../components/layout"
 import Theater from "../components/theater"
 import Showtime from "../components/showtime"
+import { GradeList } from "../components/grade"
 
 export default ({ data }) => {
   return (
     <Page>
-      <Typography.Title level={2}>{data.biffJson.dateStr}</Typography.Title>
+      <Typography.Title level={2}>
+        {data.biffJson.dateStr}
+      </Typography.Title>
+      <GradeList />
       <Row type="flex" justify="start" gutter={16} style={{ flexFlow: `row` }}>
         {data.biffJson.screening.map(screen => (
           <Col>
