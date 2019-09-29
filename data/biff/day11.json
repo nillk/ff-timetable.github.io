@@ -8,10 +8,7 @@
         {
           "time": "20:00",
           "title": "마틴 에덴",
-          "grades": [
-            "12",
-            "ke"
-          ],
+          "grades": ["12", "ke"],
           "programs": [
             {
               "title": "마틴 에덴",
@@ -24,12 +21,7 @@
                 "length": "129min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "모험",
-                  "문학작품",
-                  "사랑/연애/로맨스",
-                  "사회 비판"
-                ]
+                "genre": ["모험", "문학작품", "사랑/연애/로맨스", "사회 비판"]
               },
               "credit": {
                 "director": "삐에트로 마르첼로 Pietro MARCELLO",
@@ -51,10 +43,7 @@
         {
           "time": "14:00",
           "title": "약속의 땅",
-          "grades": [
-            "15",
-            "ke"
-          ],
+          "grades": ["15", "ke"],
           "programs": [
             {
               "title": "약속의 땅",
@@ -67,11 +56,7 @@
                 "length": "129min",
                 "format": "HDCAM",
                 "color": "Color",
-                "genre": [
-                  "농어촌",
-                  "서스펜스/미스터리",
-                  "인권"
-                ]
+                "genre": ["농어촌", "서스펜스/미스터리", "인권"]
               },
               "credit": {
                 "director": "제제 타카히사 ZEZE Takahisa",
@@ -92,10 +77,7 @@
         {
           "time": "17:00",
           "title": "폭군 이바나",
-          "grades": [
-            "15",
-            "ke"
-          ],
+          "grades": ["15", "ke"],
           "programs": [
             {
               "title": "폭군 이바나",
@@ -135,10 +117,7 @@
         {
           "time": "20:00",
           "title": "마법의 눈",
-          "grades": [
-            "15",
-            "ke"
-          ],
+          "grades": ["15", "ke"],
           "programs": [
             {
               "title": "마법의 눈",
@@ -151,9 +130,7 @@
                 "length": "120min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "사회 비판"
-                ]
+                "genre": ["사회 비판"]
               },
               "credit": {
                 "director": "알라 에딘 슬림 Ala Eddine SLIM",
@@ -178,10 +155,7 @@
         {
           "time": "13:00",
           "title": "시너님스",
-          "grades": [
-            "15",
-            "ke"
-          ],
+          "grades": ["15", "ke"],
           "programs": [
             {
               "title": "시너님스",
@@ -194,12 +168,7 @@
                 "length": "123min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "도시/도시화",
-                  "사회 비판",
-                  "전기/바이오",
-                  "전쟁"
-                ]
+                "genre": ["도시/도시화", "사회 비판", "전기/바이오", "전쟁"]
               },
               "credit": {
                 "director": "나다브 라피드 Nadav LAPID",
@@ -214,10 +183,7 @@
         {
           "time": "16:00",
           "title": "빛이 있으라",
-          "grades": [
-            "15",
-            "ke"
-          ],
+          "grades": ["15", "ke"],
           "programs": [
             {
               "title": "빛이 있으라",
@@ -257,11 +223,7 @@
         {
           "time": "19:00",
           "title": "마법에 빠졌어요",
-          "grades": [
-            "15",
-            "ke",
-            "gv"
-          ],
+          "grades": ["15", "ke", "gv"],
           "programs": [
             {
               "title": "마법에 빠졌어요",
@@ -274,11 +236,7 @@
                 "length": "86min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "모험",
-                  "사랑/연애/로맨스",
-                  "코미디/유머/블랙코미디"
-                ]
+                "genre": ["모험", "사랑/연애/로맨스", "코미디/유머/블랙코미디"]
               },
               "credit": {
                 "director": "크리스토프 오노레 Christophe HONORÉ",
@@ -300,11 +258,7 @@
         {
           "time": "10:30",
           "title": "그녀의 이름은 베트남",
-          "grades": [
-            "15",
-            "ke",
-            "gv"
-          ],
+          "grades": ["15", "ke", "gv"],
           "programs": [
             {
               "title": "그녀의 이름은 베트남",
@@ -317,12 +271,7 @@
                 "length": "109min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "식민주의",
-                  "여성",
-                  "전쟁",
-                  "역사"
-                ]
+                "genre": ["식민주의", "여성", "전쟁", "역사"]
               },
               "credit": {
                 "director": "트린 민하 TRINH T. Minh-ha",
@@ -336,11 +285,7 @@
         {
           "time": "14:00",
           "title": "하바, 마리암, 아예샤",
-          "grades": [
-            "15",
-            "ke",
-            "gv"
-          ],
+          "grades": ["15", "ke", "gv"],
           "programs": [
             {
               "title": "하바, 마리암, 아예샤",
@@ -353,12 +298,7 @@
                 "length": "86min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "가족",
-                  "사회 비판",
-                  "여성",
-                  "인권"
-                ]
+                "genre": ["가족", "사회 비판", "여성", "인권"]
               },
               "credit": {
                 "director": "사라 카리미 Sahraa KARIMI",
@@ -373,9 +313,7 @@
         {
           "time": "19:00",
           "title": "AFA 2019 수료식 및 단편영화 상영",
-          "grades": [
-            "15"
-          ],
+          "grades": ["15"],
           "programs": [
             {
               "title": "AFA 2019 수료식 및 단편영화 상영",
@@ -395,9 +333,7 @@
         {
           "time": "10:30",
           "title": "사람의 아들",
-          "grades": [
-            "15"
-          ],
+          "grades": ["15"],
           "programs": [
             {
               "title": "사람의 아들",
@@ -424,9 +360,7 @@
         {
           "time": "13:30",
           "title": "황진이",
-          "grades": [
-            "15"
-          ],
+          "grades": ["15"],
           "programs": [
             {
               "title": "황진이",
@@ -453,9 +387,7 @@
         {
           "time": "16:30",
           "title": "본투킬",
-          "grades": [
-            "15"
-          ],
+          "grades": ["15"],
           "programs": [
             {
               "title": "본투킬",
@@ -481,11 +413,7 @@
         {
           "time": "19:30",
           "title": "미스터 존스",
-          "grades": [
-            "12",
-            "ke",
-            "gv"
-          ],
+          "grades": ["12", "ke", "gv"],
           "programs": [
             {
               "title": "미스터 존스",
@@ -533,11 +461,7 @@
         {
           "time": "13:30",
           "title": "크라비 섬",
-          "grades": [
-            "15",
-            "ke",
-            "gv"
-          ],
+          "grades": ["15", "ke", "gv"],
           "programs": [
             {
               "title": "크라비 섬",
@@ -550,10 +474,7 @@
                 "length": "93min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "서스펜스/미스터리",
-                  "심리"
-                ]
+                "genre": ["서스펜스/미스터리", "심리"]
               },
               "credit": {
                 "director": "벤 리버스 Ben RIVERS 아노차 수위차콘폰 Anocha SUWICHAKORNPONG",
@@ -571,9 +492,7 @@
         {
           "time": "16:30",
           "title": "미성년",
-          "grades": [
-            "15"
-          ],
+          "grades": ["15"],
           "programs": [
             {
               "title": "미성년",
@@ -586,10 +505,7 @@
                 "length": "96min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "가족",
-                  "성장영화/청춘"
-                ]
+                "genre": ["가족", "성장영화/청춘"]
               },
               "credit": {
                 "director": "김윤석 KIM Yoon-seok",
@@ -609,10 +525,7 @@
         {
           "time": "19:30",
           "title": "리틀 조",
-          "grades": [
-            "12",
-            "ke"
-          ],
+          "grades": ["12", "ke"],
           "programs": [
             {
               "title": "리틀 조",
@@ -625,9 +538,7 @@
                 "length": "105min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "서스펜스/미스터리"
-                ]
+                "genre": ["서스펜스/미스터리"]
               },
               "credit": {
                 "director": "예시카 하우스너 Jessica HAUSNER",
@@ -652,9 +563,7 @@
         {
           "time": "13:00",
           "title": "젊은이의 양지",
-          "grades": [
-            "15"
-          ],
+          "grades": ["15"],
           "programs": [
             {
               "title": "젊은이의 양지",
@@ -667,9 +576,7 @@
                 "length": "114min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "인권"
-                ]
+                "genre": ["인권"]
               },
               "credit": {
                 "director": "신수원 SHIN Suwon",
@@ -690,10 +597,7 @@
         {
           "time": "16:00",
           "title": "당신 다리 사이의 악마",
-          "grades": [
-            "15",
-            "ke"
-          ],
+          "grades": ["15", "ke"],
           "programs": [
             {
               "title": "당신 다리 사이의 악마",
@@ -706,10 +610,7 @@
                 "length": "147min",
                 "format": "DCP",
                 "color": "B&W",
-                "genre": [
-                  "노인/고령화",
-                  "에로"
-                ]
+                "genre": ["노인/고령화", "에로"]
               },
               "credit": {
                 "director": "아르투로 립스테인 Arturo RIPSTEIN",
@@ -725,10 +626,7 @@
         {
           "time": "20:00",
           "title": "마라탕",
-          "grades": [
-            "15",
-            "ke"
-          ],
+          "grades": ["15", "ke"],
           "programs": [
             {
               "title": "마라탕",
@@ -765,10 +663,7 @@
         {
           "time": "13:00",
           "title": "상어",
-          "grades": [
-            "15",
-            "ke"
-          ],
+          "grades": ["15", "ke"],
           "programs": [
             {
               "title": "상어",
@@ -781,12 +676,7 @@
                 "length": "80min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "농어촌",
-                  "사랑/연애/로맨스",
-                  "성장영화/청춘",
-                  "여성"
-                ]
+                "genre": ["농어촌", "사랑/연애/로맨스", "성장영화/청춘", "여성"]
               },
               "credit": {
                 "director": "루시아 가리발디 Lucía GARIBALDI",
@@ -805,10 +695,7 @@
         {
           "time": "16:00",
           "title": "아만다의 선택",
-          "grades": [
-            "12",
-            "ke"
-          ],
+          "grades": ["12", "ke"],
           "programs": [
             {
               "title": "아만다의 선택",
@@ -821,11 +708,7 @@
                 "length": "86min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "가족",
-                  "성장영화/청춘",
-                  "아동"
-                ]
+                "genre": ["가족", "성장영화/청춘", "아동"]
               },
               "credit": {
                 "director": "아나 가르시아 블라야 Ana GARCÍA BLAYA",
@@ -840,10 +723,7 @@
         {
           "time": "19:00",
           "title": "더 프린스",
-          "grades": [
-            "19",
-            "ke"
-          ],
+          "grades": ["19", "ke"],
           "programs": [
             {
               "title": "더 프린스",
@@ -856,12 +736,7 @@
                 "length": "96min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "LGBT",
-                  "범죄/폭력",
-                  "서스펜스/미스터리",
-                  "복수"
-                ]
+                "genre": ["LGBT", "범죄/폭력", "서스펜스/미스터리", "복수"]
               },
               "credit": {
                 "director": "세바스티안 무뇨스 Sebastian MUÑOZ",
@@ -881,10 +756,7 @@
         {
           "time": "14:00",
           "title": "디어스킨",
-          "grades": [
-            "15",
-            "ke"
-          ],
+          "grades": ["15", "ke"],
           "programs": [
             {
               "title": "디어스킨",
@@ -897,10 +769,7 @@
                 "length": "77min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "범죄/폭력",
-                  "서스펜스/미스터리"
-                ]
+                "genre": ["범죄/폭력", "서스펜스/미스터리"]
               },
               "credit": {
                 "director": "쿠엔틴 듀피유 Quentin DUPIEUX",
@@ -918,10 +787,7 @@
         {
           "time": "17:00",
           "title": "더 언노운 세인트",
-          "grades": [
-            "12",
-            "ke"
-          ],
+          "grades": ["12", "ke"],
           "programs": [
             {
               "title": "더 언노운 세인트",
@@ -934,10 +800,7 @@
                 "length": "100min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "농어촌",
-                  "코미디/유머/블랙코미디"
-                ]
+                "genre": ["농어촌", "코미디/유머/블랙코미디"]
               },
               "credit": {
                 "director": "알라 에딘 알젬 Alaa Eddine ALJEM",
@@ -956,10 +819,7 @@
         {
           "time": "20:00",
           "title": "슬립워커",
-          "grades": [
-            "15",
-            "ke"
-          ],
+          "grades": ["15", "ke"],
           "programs": [
             {
               "title": "슬립워커",
@@ -972,11 +832,7 @@
                 "length": "108min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "가족",
-                  "에로",
-                  "여성"
-                ]
+                "genre": ["가족", "에로", "여성"]
               },
               "credit": {
                 "director": "파울라 에르난데스 Paula HERNÁNDEZ",
@@ -1002,11 +858,7 @@
         {
           "time": "13:00",
           "title": "어떤 반란",
-          "grades": [
-            "15",
-            "ke",
-            "gv"
-          ],
+          "grades": ["15", "ke", "gv"],
           "programs": [
             {
               "title": "어떤 반란",
@@ -1019,11 +871,7 @@
                 "length": "108min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "가족",
-                  "전쟁",
-                  "정치/음모"
-                ]
+                "genre": ["가족", "전쟁", "정치/음모"]
               },
               "credit": {
                 "director": "란다 차후드 Randa CHAHOUD",
@@ -1044,10 +892,7 @@
         {
           "time": "16:30",
           "title": "에마",
-          "grades": [
-            "19",
-            "ke"
-          ],
+          "grades": ["19", "ke"],
           "programs": [
             {
               "title": "에마",
@@ -1060,13 +905,7 @@
                 "length": "107min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "가족",
-                  "사랑/연애/로맨스",
-                  "에로",
-                  "여성",
-                  "음악/춤"
-                ]
+                "genre": ["가족", "사랑/연애/로맨스", "에로", "여성", "음악/춤"]
               },
               "credit": {
                 "director": "파블로 라라인 Pablo LARRAÍN",
@@ -1086,10 +925,7 @@
         {
           "time": "19:30",
           "title": "사우스 터미널",
-          "grades": [
-            "15",
-            "ke"
-          ],
+          "grades": ["15", "ke"],
           "programs": [
             {
               "title": "사우스 터미널",
@@ -1102,13 +938,7 @@
                 "length": "96min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "범죄/폭력",
-                  "전쟁",
-                  "정치/음모",
-                  "인권",
-                  "역사"
-                ]
+                "genre": ["범죄/폭력", "전쟁", "정치/음모", "인권", "역사"]
               },
               "credit": {
                 "director": "라바 아뫼르-자이메쉬 Rabah AMEUR ZAIMECHE",
@@ -1133,10 +963,7 @@
         {
           "time": "14:00",
           "title": "리오네 사니타의 대부",
-          "grades": [
-            "12",
-            "ke"
-          ],
+          "grades": ["12", "ke"],
           "programs": [
             {
               "title": "리오네 사니타의 대부",
@@ -1149,9 +976,7 @@
                 "length": "123min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "범죄/폭력"
-                ]
+                "genre": ["범죄/폭력"]
               },
               "credit": {
                 "director": "마리오 마르토네 Mario MARTONE",
@@ -1172,10 +997,7 @@
         {
           "time": "17:00",
           "title": "졸업",
-          "grades": [
-            "15",
-            "ke"
-          ],
+          "grades": ["15", "ke"],
           "programs": [
             {
               "title": "졸업",
@@ -1206,11 +1028,7 @@
         {
           "time": "20:00",
           "title": "글로리아 먼디",
-          "grades": [
-            "15",
-            "ke",
-            "gv"
-          ],
+          "grades": ["15", "ke", "gv"],
           "programs": [
             {
               "title": "글로리아 먼디",
@@ -1223,11 +1041,7 @@
                 "length": "107min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "가족",
-                  "사랑/연애/로맨스",
-                  "사회 비판"
-                ]
+                "genre": ["가족", "사랑/연애/로맨스", "사회 비판"]
               },
               "credit": {
                 "director": "로베르 게디기앙 Robert GUÉDIGUIAN",
@@ -1251,10 +1065,7 @@
         {
           "time": "13:30",
           "title": "잘리카투",
-          "grades": [
-            "15",
-            "ke"
-          ],
+          "grades": ["15", "ke"],
           "programs": [
             {
               "title": "잘리카투",
@@ -1287,11 +1098,7 @@
         {
           "time": "16:30",
           "title": "긴 산책",
-          "grades": [
-            "12",
-            "ke",
-            "gv"
-          ],
+          "grades": ["12", "ke", "gv"],
           "programs": [
             {
               "title": "긴 산책",
@@ -1304,12 +1111,7 @@
                 "length": "116min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "농어촌",
-                  "서스펜스/미스터리",
-                  "종교/심령",
-                  "심리"
-                ]
+                "genre": ["농어촌", "서스펜스/미스터리", "종교/심령", "심리"]
               },
               "credit": {
                 "director": "매티 도 Mattie DO",
@@ -1328,11 +1130,7 @@
         {
           "time": "20:00",
           "title": "남자들의 방",
-          "grades": [
-            "15",
-            "ke",
-            "gv"
-          ],
+          "grades": ["15", "ke", "gv"],
           "programs": [
             {
               "title": "남자들의 방",
@@ -1372,10 +1170,7 @@
         {
           "time": "13:00",
           "title": "사랑의 언어",
-          "grades": [
-            "15",
-            "ke"
-          ],
+          "grades": ["15", "ke"],
           "programs": [
             {
               "title": "사랑의 언어",
@@ -1414,10 +1209,7 @@
         {
           "time": "16:00",
           "title": "풍선",
-          "grades": [
-            "15",
-            "ke"
-          ],
+          "grades": ["15", "ke"],
           "programs": [
             {
               "title": "풍선",
@@ -1459,10 +1251,7 @@
         {
           "time": "19:00",
           "title": "7번가 이야기",
-          "grades": [
-            "19",
-            "ke"
-          ],
+          "grades": ["19", "ke"],
           "programs": [
             {
               "title": "7번가 이야기",
@@ -1503,10 +1292,7 @@
         {
           "time": "13:00",
           "title": "고아원",
-          "grades": [
-            "12",
-            "ke"
-          ],
+          "grades": ["12", "ke"],
           "programs": [
             {
               "title": "고아원",
@@ -1545,10 +1331,7 @@
         {
           "time": "16:00",
           "title": "아프리칸 바이올렛",
-          "grades": [
-            "12",
-            "ke"
-          ],
+          "grades": ["12", "ke"],
           "programs": [
             {
               "title": "아프리칸 바이올렛",
@@ -1561,12 +1344,7 @@
                 "length": "93min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "가족",
-                  "노인/고령화",
-                  "사랑/연애/로맨스",
-                  "인권"
-                ]
+                "genre": ["가족", "노인/고령화", "사랑/연애/로맨스", "인권"]
               },
               "credit": {
                 "director": "모나 잔디 하기기 Mona ZANDI HAGHIGHI",
@@ -1587,10 +1365,7 @@
         {
           "time": "19:00",
           "title": "크로놀로지",
-          "grades": [
-            "15",
-            "ke"
-          ],
+          "grades": ["15", "ke"],
           "programs": [
             {
               "title": "크로놀로지",
@@ -1603,11 +1378,7 @@
                 "length": "117min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "범죄/폭력",
-                  "서스펜스/미스터리",
-                  "심리"
-                ]
+                "genre": ["범죄/폭력", "서스펜스/미스터리", "심리"]
               },
               "credit": {
                 "director": "알리 아이딘 Ali AYDıN",
@@ -1632,9 +1403,7 @@
         {
           "time": "13:00",
           "title": "종이꽃",
-          "grades": [
-            "12"
-          ],
+          "grades": ["12"],
           "programs": [
             {
               "title": "종이꽃",
@@ -1647,9 +1416,7 @@
                 "length": "103min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "인권"
-                ]
+                "genre": ["인권"]
               },
               "credit": {
                 "director": "고훈 KOH Hoon",
@@ -1668,10 +1435,7 @@
         {
           "time": "16:00",
           "title": "결혼 이야기",
-          "grades": [
-            "15",
-            "ke"
-          ],
+          "grades": ["15", "ke"],
           "programs": [
             {
               "title": "결혼 이야기",
@@ -1684,11 +1448,7 @@
                 "length": "137min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "가족",
-                  "사랑/연애/로맨스",
-                  "코미디/유머/블랙코미디"
-                ]
+                "genre": ["가족", "사랑/연애/로맨스", "코미디/유머/블랙코미디"]
               },
               "credit": {
                 "director": "노아 바움백 Noah BAUMBACH",
@@ -1702,10 +1462,7 @@
         {
           "time": "19:00",
           "title": "두 교황",
-          "grades": [
-            "15",
-            "ke"
-          ],
+          "grades": ["15", "ke"],
           "programs": [
             {
               "title": "두 교황",
@@ -1718,11 +1475,7 @@
                 "length": "126min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "실화",
-                  "종교/심령",
-                  "코미디/유머/블랙코미디"
-                ]
+                "genre": ["실화", "종교/심령", "코미디/유머/블랙코미디"]
               },
               "credit": {
                 "director": "페르난도 메이렐레스 Fernando MEIRELLES",
@@ -1742,10 +1495,7 @@
         {
           "time": "13:30",
           "title": "아호, 나의 아들",
-          "grades": [
-            "15",
-            "ke"
-          ],
+          "grades": ["15", "ke"],
           "programs": [
             {
               "title": "아호, 나의 아들",
@@ -1758,12 +1508,7 @@
                 "length": "156min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "가족",
-                  "범죄/폭력",
-                  "성장영화/청춘",
-                  "심리"
-                ]
+                "genre": ["가족", "범죄/폭력", "성장영화/청춘", "심리"]
               },
               "credit": {
                 "director": "청 몽홍 CHUNG Mong-Hong",
@@ -1782,11 +1527,7 @@
         {
           "time": "17:00",
           "title": "비바리움",
-          "grades": [
-            "15",
-            "ke",
-            "gv"
-          ],
+          "grades": ["15", "ke", "gv"],
           "programs": [
             {
               "title": "비바리움",
@@ -1799,11 +1540,7 @@
                 "length": "97min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "S.F",
-                  "호러/공포/고어",
-                  "심리"
-                ]
+                "genre": ["S.F", "호러/공포/고어", "심리"]
               },
               "credit": {
                 "director": "로칸 피네건 Lorcan FINNEGAN",
@@ -1819,10 +1556,7 @@
         {
           "time": "20:00",
           "title": "해질무렵 안개정원",
-          "grades": [
-            "15",
-            "ke"
-          ],
+          "grades": ["15", "ke"],
           "programs": [
             {
               "title": "해질무렵 안개정원",
@@ -1863,10 +1597,7 @@
         {
           "time": "13:00",
           "title": "하이파 거리",
-          "grades": [
-            "19",
-            "ke"
-          ],
+          "grades": ["19", "ke"],
           "programs": [
             {
               "title": "하이파 거리",
@@ -1908,10 +1639,7 @@
         {
           "time": "16:00",
           "title": "갈망",
-          "grades": [
-            "12",
-            "ke"
-          ],
+          "grades": ["12", "ke"],
           "programs": [
             {
               "title": "갈망",
@@ -1953,10 +1681,7 @@
         {
           "time": "19:00",
           "title": "도이치 이야기",
-          "grades": [
-            "15",
-            "ke"
-          ],
+          "grades": ["15", "ke"],
           "programs": [
             {
               "title": "도이치 이야기",
@@ -1969,9 +1694,7 @@
                 "length": "138min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "전통문화"
-                ]
+                "genre": ["전통문화"]
               },
               "credit": {
                 "director": "오다기리 조 ODAGIRI Joe",
@@ -1996,10 +1719,7 @@
         {
           "time": "14:00",
           "title": "민다나오 섬",
-          "grades": [
-            "12",
-            "ke"
-          ],
+          "grades": ["12", "ke"],
           "programs": [
             {
               "title": "민다나오 섬",
@@ -2012,12 +1732,7 @@
                 "length": "123min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "가족",
-                  "여성",
-                  "장애",
-                  "전쟁"
-                ]
+                "genre": ["가족", "여성", "장애", "전쟁"]
               },
               "credit": {
                 "director": "브리얀테 멘도사 Brillante MENDOZA",
@@ -2038,10 +1753,7 @@
         {
           "time": "17:00",
           "title": "99개의 노래",
-          "grades": [
-            "15",
-            "ke"
-          ],
+          "grades": ["15", "ke"],
           "programs": [
             {
               "title": "99개의 노래",
@@ -2082,10 +1794,7 @@
         {
           "time": "20:00",
           "title": "어떤 손님",
-          "grades": [
-            "15",
-            "ke"
-          ],
+          "grades": ["15", "ke"],
           "programs": [
             {
               "title": "어떤 손님",
@@ -2098,10 +1807,7 @@
                 "length": "105min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "가족",
-                  "심리"
-                ]
+                "genre": ["가족", "심리"]
               },
               "credit": {
                 "director": "아톰 에고얀 Atom EGOYAN",
@@ -2127,11 +1833,7 @@
         {
           "time": "14:00",
           "title": "7과 1/2",
-          "grades": [
-            "15",
-            "ke",
-            "gv"
-          ],
+          "grades": ["15", "ke", "gv"],
           "programs": [
             {
               "title": "7과 1/2",
@@ -2144,11 +1846,7 @@
                 "length": "74min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "사회 비판",
-                  "여성",
-                  "인권"
-                ]
+                "genre": ["사회 비판", "여성", "인권"]
               },
               "credit": {
                 "director": "나비드 마흐무디 Navid MAHMOUDI",
@@ -2169,10 +1867,7 @@
         {
           "time": "17:00",
           "title": "악마같은 우리 형",
-          "grades": [
-            "15",
-            "ke"
-          ],
+          "grades": ["15", "ke"],
           "programs": [
             {
               "title": "악마같은 우리 형",
@@ -2185,11 +1880,7 @@
                 "length": "107min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "가족",
-                  "장애",
-                  "코미디/유머/블랙코미디"
-                ]
+                "genre": ["가족", "장애", "코미디/유머/블랙코미디"]
               },
               "credit": {
                 "director": "부 응옥 푸옹 VU Ngoc Phuong",
@@ -2204,10 +1895,7 @@
         {
           "time": "20:00",
           "title": "붉은 나무딸기",
-          "grades": [
-            "15",
-            "ke"
-          ],
+          "grades": ["15", "ke"],
           "programs": [
             {
               "title": "붉은 나무딸기",
@@ -2249,10 +1937,7 @@
         {
           "time": "13:00",
           "title": "묵신",
-          "grades": [
-            "g",
-            "ke"
-          ],
+          "grades": ["g", "ke"],
           "programs": [
             {
               "title": "묵신",
@@ -2265,11 +1950,7 @@
                 "length": "95min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "사랑/연애/로맨스",
-                  "성장영화/청춘",
-                  "종교/심령"
-                ]
+                "genre": ["사랑/연애/로맨스", "성장영화/청춘", "종교/심령"]
               },
               "credit": {
                 "director": "야스민 아흐마드 Yasmin AHMAD",
@@ -2286,10 +1967,7 @@
         {
           "time": "16:00",
           "title": "재집합",
-          "grades": [
-            "15",
-            "ke"
-          ],
+          "grades": ["15", "ke"],
           "programs": [
             {
               "title": "재집합",
@@ -2302,11 +1980,7 @@
                 "length": "40min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "식민주의",
-                  "전통문화",
-                  "역사"
-                ]
+                "genre": ["식민주의", "전통문화", "역사"]
               },
               "credit": {
                 "director": "트린 민하 TRINH T. Minh-ha",
@@ -2320,10 +1994,7 @@
         {
           "time": "19:00",
           "title": "불",
-          "grades": [
-            "15",
-            "ke"
-          ],
+          "grades": ["15", "ke"],
           "programs": [
             {
               "title": "불",
@@ -2361,10 +2032,7 @@
         {
           "time": "14:00",
           "title": "완벽한 후보자",
-          "grades": [
-            "12",
-            "ke"
-          ],
+          "grades": ["12", "ke"],
           "programs": [
             {
               "title": "완벽한 후보자",
@@ -2403,10 +2071,7 @@
         {
           "time": "17:00",
           "title": "뜬금없이, 나무",
-          "grades": [
-            "12",
-            "ke"
-          ],
+          "grades": ["12", "ke"],
           "programs": [
             {
               "title": "뜬금없이, 나무",
@@ -2419,12 +2084,7 @@
                 "length": "92min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "가족",
-                  "사랑/연애/로맨스",
-                  "사회 비판",
-                  "정치/음모"
-                ]
+                "genre": ["가족", "사랑/연애/로맨스", "사회 비판", "정치/음모"]
               },
               "credit": {
                 "director": "사피 야즈다니안 Safi YAZDANIAN",
@@ -2442,10 +2102,7 @@
         {
           "time": "20:00",
           "title": "연약한 역사(들)",
-          "grades": [
-            "15",
-            "ke"
-          ],
+          "grades": ["15", "ke"],
           "programs": [
             {
               "title": "연약한 역사(들)",
@@ -2458,13 +2115,7 @@
                 "length": "79min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "사회 비판",
-                  "실화",
-                  "정치/음모",
-                  "인권",
-                  "역사"
-                ]
+                "genre": ["사회 비판", "실화", "정치/음모", "인권", "역사"]
               },
               "credit": {
                 "director": "타나카 코키 TANAKA Koki",
@@ -2487,10 +2138,7 @@
         {
           "time": "14:00",
           "title": "노마드 선생",
-          "grades": [
-            "g",
-            "ke"
-          ],
+          "grades": ["g", "ke"],
           "programs": [
             {
               "title": "노마드 선생",
@@ -2526,10 +2174,7 @@
         {
           "time": "16:00",
           "title": "휴일",
-          "grades": [
-            "g",
-            "gv"
-          ],
+          "grades": ["g", "gv"],
           "programs": [
             {
               "title": "휴일",
@@ -2560,10 +2205,7 @@
         {
           "time": "14:00",
           "title": "달려라 소년",
-          "grades": [
-            "g",
-            "ke"
-          ],
+          "grades": ["g", "ke"],
           "programs": [
             {
               "title": "달려라 소년",
@@ -2576,11 +2218,7 @@
                 "length": "89min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "가족",
-                  "성장영화/청춘",
-                  "아동"
-                ]
+                "genre": ["가족", "성장영화/청춘", "아동"]
               },
               "credit": {
                 "director": "밀란 압디칼리코프 Mirlan ABDYKALYKOV",
@@ -2601,10 +2239,7 @@
         {
           "time": "17:00",
           "title": "지구의 끝까지",
-          "grades": [
-            "15",
-            "ke"
-          ],
+          "grades": ["15", "ke"],
           "programs": [
             {
               "title": "지구의 끝까지",
@@ -2617,9 +2252,7 @@
                 "length": "121min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "사랑/연애/로맨스"
-                ]
+                "genre": ["사랑/연애/로맨스"]
               },
               "credit": {
                 "director": "구로사와 기요시 KUROSAWA Kiyoshi",
@@ -2640,10 +2273,7 @@
         {
           "time": "20:00",
           "title": "니나 우",
-          "grades": [
-            "19",
-            "ke"
-          ],
+          "grades": ["19", "ke"],
           "programs": [
             {
               "title": "니나 우",
@@ -2683,10 +2313,7 @@
         {
           "time": "14:00",
           "title": "태양의 아이들",
-          "grades": [
-            "15",
-            "ke"
-          ],
+          "grades": ["15", "ke"],
           "programs": [
             {
               "title": "태양의 아이들",
@@ -2699,11 +2326,7 @@
                 "length": "103min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "사랑/연애/로맨스",
-                  "식민주의",
-                  "역사"
-                ]
+                "genre": ["사랑/연애/로맨스", "식민주의", "역사"]
               },
               "credit": {
                 "director": "프라사나 비타나게 Prasanna VITHANAGE",
@@ -2719,10 +2342,7 @@
         {
           "time": "17:00",
           "title": "뮬라의 딸",
-          "grades": [
-            "15",
-            "ke"
-          ],
+          "grades": ["15", "ke"],
           "programs": [
             {
               "title": "뮬라의 딸",
@@ -2735,13 +2355,7 @@
                 "length": "72min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "가족",
-                  "사회 비판",
-                  "실화",
-                  "여성",
-                  "인권"
-                ]
+                "genre": ["가족", "사회 비판", "실화", "여성", "인권"]
               },
               "credit": {
                 "director": "하산 솔요 Hassan SOLHJOU 메흐디에 사닷 미르하비비 Mahdieh Sadat MIRHABIBI",
@@ -2756,10 +2370,7 @@
         {
           "time": "19:30",
           "title": "비가 그친 후",
-          "grades": [
-            "15",
-            "ke"
-          ],
+          "grades": ["15", "ke"],
           "programs": [
             {
               "title": "비가 그친 후",
@@ -2772,9 +2383,7 @@
                 "length": "99min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "사랑/연애/로맨스"
-                ]
+                "genre": ["사랑/연애/로맨스"]
               },
               "credit": {
                 "director": "나카가와 류타로 NAKAGAWA Ryutaro",
@@ -2794,9 +2403,7 @@
         {
           "time": "13:00",
           "title": "에듀케이션",
-          "grades": [
-            "12"
-          ],
+          "grades": ["12"],
           "programs": [
             {
               "title": "에듀케이션",
@@ -2809,9 +2416,7 @@
                 "length": "98min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "성장영화/청춘"
-                ]
+                "genre": ["성장영화/청춘"]
               },
               "credit": {
                 "director": "김덕중 KIM Dukjoong",
@@ -2828,10 +2433,7 @@
         {
           "time": "16:00",
           "title": "공상의 과학",
-          "grades": [
-            "15",
-            "ke"
-          ],
+          "grades": ["15", "ke"],
           "programs": [
             {
               "title": "공상의 과학",
@@ -2871,10 +2473,7 @@
         {
           "time": "19:00",
           "title": "봄봄",
-          "grades": [
-            "15",
-            "ke"
-          ],
+          "grades": ["15", "ke"],
           "programs": [
             {
               "title": "봄봄",
@@ -2924,10 +2523,7 @@
         {
           "time": "13:00",
           "title": "칸도 이야기",
-          "grades": [
-            "g",
-            "ke"
-          ],
+          "grades": ["g", "ke"],
           "programs": [
             {
               "title": "칸도 이야기",
@@ -2961,10 +2557,7 @@
         {
           "time": "16:00",
           "title": "에르네스토의 시선",
-          "grades": [
-            "12",
-            "ke"
-          ],
+          "grades": ["12", "ke"],
           "programs": [
             {
               "title": "에르네스토의 시선",
@@ -2977,11 +2570,7 @@
                 "length": "123min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "노인/고령화",
-                  "장애",
-                  "코미디/유머/블랙코미디"
-                ]
+                "genre": ["노인/고령화", "장애", "코미디/유머/블랙코미디"]
               },
               "credit": {
                 "director": "아나 루이자 아제베도 Ana Luiza AZEVEDO",
@@ -3000,10 +2589,7 @@
         {
           "time": "19:00",
           "title": "오버씨",
-          "grades": [
-            "15",
-            "ke"
-          ],
+          "grades": ["15", "ke"],
           "programs": [
             {
               "title": "오버씨",
@@ -3016,11 +2602,7 @@
                 "length": "91min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "실화",
-                  "여성",
-                  "노동"
-                ]
+                "genre": ["실화", "여성", "노동"]
               },
               "credit": {
                 "director": "윤성아 YOON Sung-A",
@@ -3039,10 +2621,7 @@
         {
           "time": "13:00",
           "title": "바람의 비밀",
-          "grades": [
-            "12",
-            "ke"
-          ],
+          "grades": ["12", "ke"],
           "programs": [
             {
               "title": "바람의 비밀",
@@ -3055,10 +2634,7 @@
                 "length": "119min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "성장영화/청춘",
-                  "종교/심령"
-                ]
+                "genre": ["성장영화/청춘", "종교/심령"]
               },
               "credit": {
                 "director": "응유엔 판 쿠왕 빈 NGUYEN PHAN Quang Binh",
@@ -3075,10 +2651,7 @@
         {
           "time": "16:00",
           "title": "소년과 바다",
-          "grades": [
-            "12",
-            "ke"
-          ],
+          "grades": ["12", "ke"],
           "programs": [
             {
               "title": "소년과 바다",
@@ -3123,10 +2696,7 @@
         {
           "time": "19:00",
           "title": "작은 영혼",
-          "grades": [
-            "15",
-            "ke"
-          ],
+          "grades": ["15", "ke"],
           "programs": [
             {
               "title": "작은 영혼",
@@ -3139,11 +2709,7 @@
                 "length": "85min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "실화",
-                  "아동",
-                  "전쟁"
-                ]
+                "genre": ["실화", "아동", "전쟁"]
               },
               "credit": {
                 "director": "디나 나세르 Dina NASER",
@@ -3163,10 +2729,7 @@
         {
           "time": "14:00",
           "title": "어느 소녀 이야기",
-          "grades": [
-            "15",
-            "ke"
-          ],
+          "grades": ["15", "ke"],
           "programs": [
             {
               "title": "어느 소녀 이야기",
@@ -3179,11 +2742,7 @@
                 "length": "93min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "가족",
-                  "사회 비판",
-                  "여성"
-                ]
+                "genre": ["가족", "사회 비판", "여성"]
               },
               "credit": {
                 "director": "사라 개브론 Sarah GAVRON",
@@ -3199,10 +2758,7 @@
         {
           "time": "17:00",
           "title": "소년, 소총을 만나다",
-          "grades": [
-            "15",
-            "ke"
-          ],
+          "grades": ["15", "ke"],
           "programs": [
             {
               "title": "소년, 소총을 만나다",
@@ -3215,10 +2771,7 @@
                 "length": "86min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "모험",
-                  "서스펜스/미스터리"
-                ]
+                "genre": ["모험", "서스펜스/미스터리"]
               },
               "credit": {
                 "director": "유스트 반 헤이직 Joost VAN HEZIK",
@@ -3238,10 +2791,7 @@
         {
           "time": "20:00",
           "title": "수선화",
-          "grades": [
-            "12",
-            "ke"
-          ],
+          "grades": ["12", "ke"],
           "programs": [
             {
               "title": "수선화",
@@ -3254,9 +2804,7 @@
                 "length": "93min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "음악/춤"
-                ]
+                "genre": ["음악/춤"]
               },
               "credit": {
                 "director": "데이비드 스텁스 David STUBBS",
@@ -3278,10 +2826,7 @@
         {
           "time": "14:00",
           "title": "#아이엠히어",
-          "grades": [
-            "12",
-            "ke"
-          ],
+          "grades": ["12", "ke"],
           "programs": [
             {
               "title": "#아이엠히어",
@@ -3294,10 +2839,7 @@
                 "length": "100min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "모험",
-                  "사랑/연애/로맨스"
-                ]
+                "genre": ["모험", "사랑/연애/로맨스"]
               },
               "credit": {
                 "director": "에릭 라흐티구 Eric LARTIGAU",
@@ -3312,10 +2854,7 @@
         {
           "time": "17:00",
           "title": "나는 집에 있었지만…",
-          "grades": [
-            "15",
-            "ke"
-          ],
+          "grades": ["15", "ke"],
           "programs": [
             {
               "title": "나는 집에 있었지만…",
@@ -3328,9 +2867,7 @@
                 "length": "105min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "가족"
-                ]
+                "genre": ["가족"]
               },
               "credit": {
                 "director": "앙겔라 샤넬렉 Angela SCHANELEC",
@@ -3350,10 +2887,7 @@
         {
           "time": "20:00",
           "title": "내 몸이 사라졌다",
-          "grades": [
-            "15",
-            "ke"
-          ],
+          "grades": ["15", "ke"],
           "programs": [
             {
               "title": "내 몸이 사라졌다",
@@ -3366,10 +2900,7 @@
                 "length": "82min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "사랑/연애/로맨스",
-                  "사회 비판"
-                ]
+                "genre": ["사랑/연애/로맨스", "사회 비판"]
               },
               "credit": {
                 "director": "제레미 클레팡 Jérémy CLAPIN",
@@ -3388,10 +2919,7 @@
         {
           "time": "12:00",
           "title": "중지",
-          "grades": [
-            "19",
-            "ke"
-          ],
+          "grades": ["19", "ke"],
           "programs": [
             {
               "title": "중지",
@@ -3427,10 +2955,7 @@
         {
           "time": "20:00",
           "title": "3층의 여자",
-          "grades": [
-            "19",
-            "ke"
-          ],
+          "grades": ["19", "ke"],
           "programs": [
             {
               "title": "3층의 여자",
@@ -3443,10 +2968,7 @@
                 "length": "93min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "호러/공포/고어",
-                  "심리"
-                ]
+                "genre": ["호러/공포/고어", "심리"]
               },
               "credit": {
                 "director": "트래비스 스티븐스 Travis STEVENS",
@@ -3468,10 +2990,7 @@
         {
           "time": "13:30",
           "title": "페뷸러스",
-          "grades": [
-            "15",
-            "ke"
-          ],
+          "grades": ["15", "ke"],
           "programs": [
             {
               "title": "페뷸러스",
@@ -3509,11 +3028,7 @@
         {
           "time": "16:30",
           "title": "티후아나 바이블",
-          "grades": [
-            "15",
-            "ke",
-            "gv"
-          ],
+          "grades": ["15", "ke", "gv"],
           "programs": [
             {
               "title": "티후아나 바이블",
@@ -3526,11 +3041,7 @@
                 "length": "90min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "도시/도시화",
-                  "범죄/폭력",
-                  "사회 비판"
-                ]
+                "genre": ["도시/도시화", "범죄/폭력", "사회 비판"]
               },
               "credit": {
                 "director": "Jean-Charles HUE",
@@ -3544,10 +3055,7 @@
         {
           "time": "19:30",
           "title": "심장과 뼈",
-          "grades": [
-            "15",
-            "ke"
-          ],
+          "grades": ["15", "ke"],
           "programs": [
             {
               "title": "심장과 뼈",
@@ -3585,10 +3093,7 @@
         {
           "time": "13:30",
           "title": "세비지",
-          "grades": [
-            "15",
-            "ke"
-          ],
+          "grades": ["15", "ke"],
           "programs": [
             {
               "title": "세비지",
@@ -3601,10 +3106,7 @@
                 "length": "101min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "범죄/폭력",
-                  "사회 비판"
-                ]
+                "genre": ["범죄/폭력", "사회 비판"]
               },
               "credit": {
                 "director": "샘 켈리 Sam KELLY",
@@ -3623,10 +3125,7 @@
         {
           "time": "16:30",
           "title": "와스프 네트워크",
-          "grades": [
-            "15",
-            "ke"
-          ],
+          "grades": ["15", "ke"],
           "programs": [
             {
               "title": "와스프 네트워크",
@@ -3659,9 +3158,7 @@
         {
           "time": "19:30",
           "title": "올드보이",
-          "grades": [
-            "19"
-          ],
+          "grades": ["19"],
           "programs": [
             {
               "title": "올드보이",
@@ -3693,10 +3190,7 @@
         {
           "time": "19:00",
           "title": "최후의 증인",
-          "grades": [
-            "15",
-            "gv"
-          ],
+          "grades": ["15", "gv"],
           "programs": [
             {
               "title": "최후의 증인",

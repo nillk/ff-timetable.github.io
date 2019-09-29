@@ -8,10 +8,7 @@
         {
           "time": "18:00",
           "title": "윤희에게",
-          "grades": [
-            "12",
-            "gv"
-          ],
+          "grades": ["12", "gv"],
           "programs": [
             {
               "title": "윤희에게",
@@ -24,10 +21,7 @@
                 "length": "106min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "가족",
-                  "사랑/연애/로맨스"
-                ]
+                "genre": ["가족", "사랑/연애/로맨스"]
               },
               "credit": {
                 "director": "임대형 LIM Daehyung",
@@ -156,10 +150,7 @@
         {
           "time": "19:00",
           "title": "오발탄",
-          "grades": [
-            "12",
-            "gv"
-          ],
+          "grades": ["12", "gv"],
           "programs": [
             {
               "title": "오발탄",

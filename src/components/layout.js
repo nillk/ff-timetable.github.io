@@ -25,9 +25,7 @@ export default ({ children }) => (
           </Link>
           {getDateLinks(data)}
         </Header>
-        <Content className={style.content}>
-          {children}
-        </Content>
+        <Content className={style.content}>{children}</Content>
       </Layout>
     )}
   />
@@ -37,11 +35,7 @@ const getDateLinks = data => {
   return data.allBiffJson.nodes.map(node => {
     const date = node["date"]
     return (
-      <Link
-        to={`/${date}`}
-        key={date}
-        style={{ marginLeft: 8, color: `#FFF` }}
-      >
+      <Link to={`/${date}`} key={date} style={{ marginLeft: 8, color: `#FFF` }}>
         {`Day${date.substring(3, 5)}`}
       </Link>
     )

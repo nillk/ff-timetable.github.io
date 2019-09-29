@@ -8,11 +8,7 @@
         {
           "time": "18:00",
           "title": "말도둑들. 시간의 길",
-          "grades": [
-            "12",
-            "ke",
-            "gv"
-          ],
+          "grades": ["12", "ke", "gv"],
           "programs": [
             {
               "title": "말도둑들. 시간의 길",
@@ -25,11 +21,7 @@
                 "length": "84min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "가족",
-                  "로드무비",
-                  "범죄/폭력"
-                ]
+                "genre": ["가족", "로드무비", "범죄/폭력"]
               },
               "credit": {
                 "director": "예를란 누르무함베토프 Yerlan NURMUKHAMBETOV 리사 타케바 Lisa TAKEBA",
@@ -49,10 +41,7 @@
         {
           "time": "19:00",
           "title": "하녀",
-          "grades": [
-            "15",
-            "gv"
-          ],
+          "grades": ["15", "gv"],
           "programs": [
             {
               "title": "하녀",
