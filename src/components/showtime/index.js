@@ -70,7 +70,7 @@ const Showtime = ({ show }) => {
             {show.programs.length > 1 && (
               <ul>
                 {show.programs.map(program => (
-                  <li>
+                  <li key={program.title}>
                     <Text type="secondary">{program.title}</Text>
                   </li>
                 ))}
@@ -79,7 +79,9 @@ const Showtime = ({ show }) => {
           </Paragraph>
         </Typography>
         <div>
-          {show.grades.map(grade => <Grade level={grade} />)}
+          {show.grades.map(grade => (
+            <Grade key={`${show.time}-${show.titme}-${grade}`} level={grade} />
+          ))}
         </div>
       </div>
     </Popover>
