@@ -2,6 +2,8 @@ import React from "react"
 import { Layout } from "antd"
 import { StaticQuery, graphql, Link } from "gatsby"
 
+import style from "./layout.module.css"
+
 const { Header, Content } = Layout
 
 export default ({ children }) => (
@@ -17,13 +19,13 @@ export default ({ children }) => (
     `}
     render={data => (
       <Layout style={{ minHeight: `100vh` }}>
-        <Header>
+        <Header className={style.header}>
           <Link to={`/`} key={`/`} style={{ color: `#FFF` }}>
             Home
           </Link>
           {getDateLinks(data)}
         </Header>
-        <Content style={{ overflow: `auto`, padding: `25px 50px` }}>
+        <Content className={style.content}>
           {children}
         </Content>
       </Layout>
@@ -38,9 +40,9 @@ const getDateLinks = data => {
       <Link
         to={`/${date}`}
         key={date}
-        style={{ marginLeft: `16px`, color: `#FFF` }}
+        style={{ marginLeft: 8, color: `#FFF` }}
       >
-        {`Day ${date.substring(3, 5)}`}
+        {`Day${date.substring(3, 5)}`}
       </Link>
     )
   })
