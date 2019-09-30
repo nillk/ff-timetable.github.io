@@ -3,15 +3,39 @@
     Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+.layout {
+  overflow: auto;
+  height: 100vh;
+}
+
 .header {
+  height: 4rem;
+  padding: 1rem 2rem;
   overflow-x: auto;
   overflow-y: hidden;
   white-space: nowrap;
 }
 
+.header a {
+  color: black;
+  font-size: 0.9rem;
+  font-weight: 300;
+  margin-right: 0.5rem;
+  text-decoration-line: unset;
+}
+
+.header a::before {
+  content: '/';
+  margin-right: 0.25rem;
+}
+
+.header a:hover {
+  color: black;
+  font-weight: 400;
+}
+
 .content {
-  overflow: auto;
-  padding: 25px 50px;
+  padding: 1rem 2rem;
 }
 
 @media only screen and (max-device-width: 736px) {

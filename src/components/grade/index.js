@@ -1,5 +1,7 @@
 import React from "react"
-import { Badge } from "antd"
+
+import Badge from "@material-ui/core/Badge"
+import { Typography } from "@material-ui/core"
 
 export const GRADES = {
   g: {
@@ -33,22 +35,23 @@ export const GRADES = {
 }
 
 export const GradeList = () => (
-  <div style={{ marginBottom: 16 }}>
+  <div style={{ marginBottom: `1rem` }}>
     {Object.keys(GRADES).map(g => {
       return (
         <Badge
           key={g}
-          color={GRADES[g].color}
-          text={GRADES[g].text}
-          style={{ marginRight: 12 }}
-        />
+          color="primary"
+          style={{ marginRight: `0.75rem` }}
+        >
+          <Typography variant="overline">{GRADES[g].text}</Typography>
+        </Badge>
       )
     })}
   </div>
 )
 
 const Grade = ({ level }) => {
-  return <Badge color={GRADES[level].color} />
+  return <Badge variant="dot" color="primary" />
 }
 
 export default Grade

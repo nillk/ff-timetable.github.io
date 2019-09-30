@@ -1,16 +1,17 @@
 import React from "react"
-import { Typography, Popover } from "antd"
+
+import Popper from "@material-ui/core/Popper"
+import Typography from "@material-ui/core/Typography"
 
 import Grade from "../grade"
 import Description from "./description"
 
 import style from "./index.module.css"
 
-const { Paragraph, Text } = Typography
 
-const TIME_HEIGHT = 90
-const THEATER_HEIGHT = 116
-const GUTTER = 16
+const TIME_HEIGHT = 5
+const THEATER_HEIGHT = 6
+const GUTTER = 1.5
 
 const calculateTop = (hour, minute) => {
   const hourDiff = hour - 10 // start time is 10:00
@@ -33,6 +34,8 @@ const getLength = program =>
   program.info !== null ? Number(program.info.length.replace("min", "")) : 0
 
 const Showtime = ({ show }) => {
+  const [ anchorEl, setAnchorEl ] = React.useState(null)
+
   const [hour, minute] = show.time.split(":").map(Number)
 
   const totalLength = getProgramsTotalLength(show.programs)
@@ -44,47 +47,65 @@ const Showtime = ({ show }) => {
   const endHourStr = endHour < 10 ? `0${endHour}` : `${endHour}`
   const endMinuteStr = endMinute < 10 ? `0${endMinute}` : `${endMinute}`
 
+  const handleDescriptionOpen = event => {
+    setAnchorEl(event.currentTarget)
+  }
+
+  const handleDescriptionClose = () => {
+    setAnchorEl(null)
+  }
+
+  const open = Boolean(anchorEl)
+
   return (
-    <Popover
-      placement="bottom"
-      content={<Description programs={show.programs} />}
-    >
+    <div>
       <div
+        aria-owns={open ? "showtime-popper" : undefined}
+        aria-haspopup="true"
         className={style.screen}
+        onMouseEnter={handleDescriptionOpen}
+        onMouseLeave={handleDescriptionClose}
         style={{
-          top: `${top}px`,
-          height: `${height}px`,
+          top: `${top}rem`,
+          height: `${height}rem`,
         }}
       >
-        <Typography>
-          <Text strong>
+        <div>
+          <Typography variant="overline">
             {show.time}~{endHourStr}:{endMinuteStr}
-          </Text>
-          <Paragraph>
-            <Text>{show.title}</Text>
-            {show.programs.length === 1 && (
-              <div>
-                <Text type="secondary">{show.programs[0].titleEng}</Text>
-              </div>
-            )}
-            {show.programs.length > 1 && (
-              <ul>
-                {show.programs.map(program => (
-                  <li key={program.title}>
-                    <Text type="secondary">{program.title}</Text>
-                  </li>
-                ))}
-              </ul>
-            )}
-          </Paragraph>
-        </Typography>
+          </Typography>
+          <Typography variant="subtitle2">{show.title}</Typography>
+          {show.programs.length === 1 && (
+            <div>
+              <Typography variant="caption">{show.programs[0].titleEng}</Typography>
+            </div>
+          )}
+          {show.programs.length > 1 && (
+            <ul>
+              {show.programs.map(program => (
+                <li key={program.title}>
+                  <Typography variant="caption">{program.title}</Typography>
+                </li>
+              ))}
+            </ul>
+          )}
+        </div>
         <div>
           {show.grades.map(grade => (
             <Grade key={`${show.time}-${show.titme}-${grade}`} level={grade} />
           ))}
         </div>
       </div>
-    </Popover>
+      <Popper
+        id="showtime-popper"
+        open={open}
+        anchorEl={anchorEl}
+        onClose={handleDescriptionClose}
+        style={{ zIndex: 2 }}
+      >
+        <Description programs={show.programs} />
+      </Popper>
+    </div>
   )
 }
 

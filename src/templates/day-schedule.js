@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
-import { Row, Col } from "antd"
-import { Typography } from "antd"
+
+import { Typography, Grid } from "@material-ui/core"
 
 import Page from "../components/layout"
 import Theater from "../components/theater"
@@ -11,18 +11,18 @@ import { GradeList } from "../components/grade"
 export default ({ data }) => {
   return (
     <Page>
-      <Typography.Title level={2}>{data.biffJson.dateStr}</Typography.Title>
+      <Typography variant="h5">{data.biffJson.dateStr}</Typography>
       <GradeList />
-      <Row type="flex" justify="start" gutter={16} style={{ flexFlow: `row` }}>
+      <Grid container spacing={2} style={{ flexFlow: `row` }}>
         {data.biffJson.screening.map(screen => (
-          <Col key={screen.theater}>
+          <Grid item key={screen.theater} style={{ position: `relative` }}>
             <Theater name={screen.theater} />
             {screen.times.map(time => (
               <Showtime key={`${screen.theater}-${time.time}`} show={time} />
             ))}
-          </Col>
+          </Grid>
         ))}
-      </Row>
+      </Grid>
     </Page>
   )
 }

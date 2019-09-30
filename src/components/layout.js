@@ -1,11 +1,12 @@
 import React from "react"
-import { Layout } from "antd"
 import { StaticQuery, graphql, Link } from "gatsby"
+
+import CssBaseline from "@material-ui/core/CssBaseline"
+import { MuiThemeProvider } from "@material-ui/core/styles"
+import theme from "../theme"
 
 import "../../fonts/spoqa-han-sans.css"
 import "./layout.css"
-
-const { Header, Content } = Layout
 
 export default ({ children }) => (
   <StaticQuery
@@ -19,15 +20,18 @@ export default ({ children }) => (
       }
     `}
     render={data => (
-      <Layout style={{ minHeight: `100vh` }}>
-        <Header className="header">
-          <Link to={`/`} key={`/`} style={{ color: `#FFF` }}>
-            Home
-          </Link>
-          {getDateLinks(data)}
-        </Header>
-        <Content className="content">{children}</Content>
-      </Layout>
+      <MuiThemeProvider theme={theme}>
+        <CssBaseline />
+        <div className="layout">
+          <div className="header">
+            <Link to={`/`} key={`/`}>
+              Home
+            </Link>
+            {getDateLinks(data)}
+          </div>
+          <div className="content">{children}</div>
+        </div>
+      </MuiThemeProvider>
     )}
   />
 )
@@ -36,7 +40,7 @@ const getDateLinks = data => {
   return data.allBiffJson.nodes.map(node => {
     const date = node["date"]
     return (
-      <Link to={`/${date}`} key={date} style={{ marginLeft: 8, color: `#FFF` }}>
+      <Link to={`/${date}`} key={date}>
         {`Day${date.substring(3, 5)}`}
       </Link>
     )
