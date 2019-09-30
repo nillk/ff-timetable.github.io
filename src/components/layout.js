@@ -2,7 +2,8 @@ import React from "react"
 import { Layout } from "antd"
 import { StaticQuery, graphql, Link } from "gatsby"
 
-import style from "./layout.module.css"
+import "../../fonts/spoqa-han-sans.css"
+import "./layout.css"
 
 const { Header, Content } = Layout
 
@@ -19,13 +20,13 @@ export default ({ children }) => (
     `}
     render={data => (
       <Layout style={{ minHeight: `100vh` }}>
-        <Header className={style.header}>
+        <Header className="header">
           <Link to={`/`} key={`/`} style={{ color: `#FFF` }}>
             Home
           </Link>
           {getDateLinks(data)}
         </Header>
-        <Content className={style.content}>{children}</Content>
+        <Content className="content">{children}</Content>
       </Layout>
     )}
   />
