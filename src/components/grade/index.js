@@ -1,6 +1,5 @@
 import React from "react"
 
-import Badge from "@material-ui/core/Badge"
 import { Typography } from "@material-ui/core"
 
 export const GRADES = {
@@ -34,24 +33,10 @@ export const GRADES = {
   },
 }
 
-export const GradeList = () => (
-  <div style={{ marginBottom: `1rem` }}>
-    {Object.keys(GRADES).map(g => {
-      return (
-        <Badge
-          key={g}
-          color="primary"
-          style={{ marginRight: `0.75rem` }}
-        >
-          <Typography variant="overline">{GRADES[g].text}</Typography>
-        </Badge>
-      )
-    })}
-  </div>
-)
-
 const Grade = ({ level }) => {
-  return <Badge variant="dot" color="primary" />
+  return (<div>
+    <Typography variant="caption">{GRADES[level].text}</Typography>
+  </div>)
 }
 
 export default Grade

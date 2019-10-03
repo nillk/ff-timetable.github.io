@@ -3,29 +3,34 @@ import React from "react"
 import Popper from "@material-ui/core/Popper"
 import Typography from "@material-ui/core/Typography"
 
+import { BOX_SIZE } from "../constants"
+
 import Grade from "../grade"
 import Description from "./description"
 
-import style from "./index.module.css"
 
-
-const TIME_HEIGHT = 5
-const THEATER_HEIGHT = 6
+const TIME_HEIGHT = 6
 const GUTTER = 1.5
 
 const calculateTop = (hour, minute) => {
   const hourDiff = hour - 10 // start time is 10:00
   const minuteDiff = minute / 60
 
-  return (hourDiff + minuteDiff) * TIME_HEIGHT + THEATER_HEIGHT + GUTTER
+  return (hourDiff + minuteDiff) * TIME_HEIGHT + BOX_SIZE + GUTTER
 }
 
 const calculateHeight = length => (length / 60) * TIME_HEIGHT
 
-const calculteEndTime = (hour, minute, totalLength) => [
-  hour + Math.floor(totalLength / 60),
-  minute + (totalLength % 60),
-]
+const calculteEndTime = (hour, minute, totalLength) => {
+  const calculteHour = (minute) => Math.floor(minute / 60)
+
+  const endMinute = minute + (totalLength % 60)
+
+  return [
+    hour + calculteHour(totalLength) + calculteHour(endMinute),
+    endMinute % 60
+  ]
+}
 
 const getProgramsTotalLength = programs =>
   programs.reduce((acc, program) => acc + getLength(program), 0)
@@ -34,7 +39,7 @@ const getLength = program =>
   program.info !== null ? Number(program.info.length.replace("min", "")) : 0
 
 const Showtime = ({ show }) => {
-  const [ anchorEl, setAnchorEl ] = React.useState(null)
+  const [anchorEl, setAnchorEl] = React.useState(null)
 
   const [hour, minute] = show.time.split(":").map(Number)
 
@@ -56,48 +61,61 @@ const Showtime = ({ show }) => {
   }
 
   const open = Boolean(anchorEl)
+  const popperId = `${show.time}-${show.title}`
 
   return (
-    <div>
-      <div
-        aria-owns={open ? "showtime-popper" : undefined}
-        aria-haspopup="true"
-        className={style.screen}
-        onMouseEnter={handleDescriptionOpen}
-        onMouseLeave={handleDescriptionClose}
-        style={{
-          top: `${top}rem`,
-          height: `${height}rem`,
-        }}
-      >
-        <div>
-          <Typography variant="overline">
-            {show.time}~{endHourStr}:{endMinuteStr}
+    <div
+      aria-owns={open ? popperId : undefined}
+      aria-haspopup={true}
+      onMouseEnter={handleDescriptionOpen}
+      onMouseLeave={handleDescriptionClose}
+      style={{
+        position: `absolute`,
+        top: `${top}rem`,
+        height: `${height}rem`,
+        padding: `0rem 0.5rem`,
+        width: `${BOX_SIZE}rem`,
+        minHeight: `${BOX_SIZE}rem`,
+        borderTop: `0.25rem solid black`,
+        borderBottom: `0.25rem solid lightgray`,
+        fontSize: `0.75rem`,
+        wordBreak: `keep-all`,
+        marginBottom: `2rem`
+      }}
+    >
+      <div>
+        <Typography variant="overline" style={{ fontWeight: 600 }}>
+          {show.time}~{endHourStr}:{endMinuteStr}
+        </Typography>
+        <Typography variant="subtitle2">{show.title}</Typography>
+        {show.programs.length === 1 && (
+          <Typography
+            variant="caption"
+            style={{
+              fontStyle: `italic`,
+              color: `dimgray`
+            }}
+          >
+            {show.programs[0].titleEng}
           </Typography>
-          <Typography variant="subtitle2">{show.title}</Typography>
-          {show.programs.length === 1 && (
-            <div>
-              <Typography variant="caption">{show.programs[0].titleEng}</Typography>
-            </div>
-          )}
-          {show.programs.length > 1 && (
-            <ul>
-              {show.programs.map(program => (
-                <li key={program.title}>
-                  <Typography variant="caption">{program.title}</Typography>
-                </li>
-              ))}
-            </ul>
-          )}
-        </div>
-        <div>
-          {show.grades.map(grade => (
-            <Grade key={`${show.time}-${show.titme}-${grade}`} level={grade} />
-          ))}
-        </div>
+        )}
+        {show.programs.length > 1 && (
+          <ul>
+            {show.programs.map(program => (
+              <li key={program.title}>
+                <Typography variant="caption">{program.title}</Typography>
+              </li>
+            ))}
+          </ul>
+        )}
+      </div>
+      <div>
+        {/* {show.grades.map(grade => (
+          <Grade key={`${show.time}-${show.titme}-${grade}`} level={grade} />
+        ))} */}
       </div>
       <Popper
-        id="showtime-popper"
+        id={popperId}
         open={open}
         anchorEl={anchorEl}
         onClose={handleDescriptionClose}

@@ -6,13 +6,20 @@ import { Typography, Grid } from "@material-ui/core"
 import Page from "../components/layout"
 import Theater from "../components/theater"
 import Showtime from "../components/showtime"
-import { GradeList } from "../components/grade"
 
 export default ({ data }) => {
   return (
     <Page>
-      <Typography variant="h5">{data.biffJson.dateStr}</Typography>
-      <GradeList />
+      <Typography
+        variant="h4"
+        style={{
+          fontWeight: `lighter`,
+          marginTop: `0.5rem`,
+          marginBottom: `1.75rem`
+        }}
+      >
+        {data.biffJson.dateStr}
+      </Typography>
       <Grid container spacing={2} style={{ flexFlow: `row` }}>
         {data.biffJson.screening.map(screen => (
           <Grid item key={screen.theater} style={{ position: `relative` }}>

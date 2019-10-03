@@ -9,7 +9,11 @@ const GenreTags = info => {
     return (
       <div style={{ marginTop: `0.75rem` }}>
         {info.genre.map(g => (
-          <Chip size="small" color="secondary" label={g} style={{ marginRight: `0.25rem` }} />
+          <Chip size="small" label={g} style={{
+            marginRight: `0.25rem`,
+            height: `1.2rem`,
+            fontSize: `0.75rem`
+          }} />
         ))}
       </div>
     )
@@ -20,19 +24,27 @@ const GenreTags = info => {
 
 const Description = ({ programs }) => {
   return (
-    <Paper style={{ padding: `1rem`, minWidth: `15rem`, maxWidth: `30rem`, backgroundColor: `#FFFFFF`, wordBreak: `keep-all` }}>
+    <Paper style={{
+      padding: `0.125rem 1rem 1.25rem 1rem`,
+      minWidth: `15rem`,
+      maxWidth: `30rem`,
+      backgroundColor: `white`,
+      wordBreak: `keep-all`
+    }}>
       {programs.map(program => {
         return (
           <div>
-            <Typography variant="subtitle1">
+            <Typography variant="subtitle1" style={{ marginTop: `0.875rem` }}>
               {program.title}
-              <Typography variant="caption">
+              <Typography variant="caption" style={{ fontStyle: `italic`, color: `dimgray` }}>
                 {" "}
                 {program.titleEng}
               </Typography>
             </Typography>
             {GenreTags(program.info)}
-            <div style={{ marginTop: `0.75rem` }}>{program.desc}</div>
+            <Typography variant="body2" style={{ marginTop: `0.75rem` }}>
+              {program.desc}
+            </Typography>
           </div>
         )
       })}

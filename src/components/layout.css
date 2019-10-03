@@ -6,6 +6,7 @@
 .layout {
   overflow: auto;
   height: 100vh;
+  background-color: white;
 }
 
 .header {
@@ -35,7 +36,12 @@
 }
 
 .content {
-  padding: 1rem 2rem;
+  padding: 0.5rem 2rem;
+  height: 100vh;
+}
+
+ul {
+  padding-inline-start: 1rem;
 }
 
 @media only screen and (max-device-width: 736px) {
