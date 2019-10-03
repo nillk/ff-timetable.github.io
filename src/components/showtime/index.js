@@ -109,10 +109,10 @@ const Showtime = ({ show }) => {
           </ul>
         )}
       </div>
-      <div>
-        {/* {show.grades.map(grade => (
+      <div style={{ position: `absolute`, bottom: `0.25rem`, left: `0rem`, width: `100%` }}>
+        {show.grades.map(grade => (
           <Grade key={`${show.time}-${show.titme}-${grade}`} level={grade} />
-        ))} */}
+        ))}
       </div>
       <Popper
         id={popperId}
