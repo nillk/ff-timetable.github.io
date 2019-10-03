@@ -10,7 +10,7 @@ import Description from "./description"
 
 
 const TIME_HEIGHT = 6
-const GUTTER = 1.5
+const GUTTER = 2
 
 const calculateTop = (hour, minute) => {
   const hourDiff = hour - 10 // start time is 10:00
@@ -109,7 +109,14 @@ const Showtime = ({ show }) => {
           </ul>
         )}
       </div>
-      <div style={{ position: `absolute`, bottom: `0.25rem`, left: `0rem`, width: `100%` }}>
+      <div
+        style={{
+          position: `absolute`,
+          top: `-1.1rem`,
+          right: 0,
+          width: `100%`
+        }}
+      >
         {show.grades.map(grade => (
           <Grade key={`${show.time}-${show.titme}-${grade}`} level={grade} />
         ))}

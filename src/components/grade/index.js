@@ -35,22 +35,16 @@ export const GRADES = {
 
 const Grade = ({ level }) => {
   return (
-    <span
+    <Typography
       style={{
-        position: `relative`,
-        bottom: 0,
         float: `right`,
-        width: `1.1rem`,
-        height: `1.1rem`,
-        marginLeft: `0.25rem`,
-        padding: `0.05rem 0.2rem 0rem 0.1rem`,
-        borderRadius: `0.125rem`,
-        backgroundColor: `${GRADES[level].color}`,
-        color: `white`,
+        marginLeft: `0.2rem`,
+        fontSize: `0.7rem`,
+        fontWeight: 600
       }}
     >
-      <Typography style={{ fontSize: `0.7rem` }}>{level.toUpperCase()}</Typography>
-    </span>
+      {`/ ${level.toUpperCase()}`}
+    </Typography>
   )
 }
 
