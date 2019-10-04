@@ -1,1 +1,0 @@
-{"componentChunkName":"component---src-pages-day-schedule-js","path":"/day-schedule/","webpackCompilationHash":"","result":{"errors":[{"message":"Variable \"$date\" of required type \"String!\" was not provided.","locations":[{"line":2,"column":3}]}],"pageContext":{"isCreatedByStatefulCreatePages":true}}}

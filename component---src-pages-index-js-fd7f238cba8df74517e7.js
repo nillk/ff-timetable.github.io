@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[3],{340:function(e,a,t){"use strict";t.r(a);var n=t(0),l=t.n(n),c=t(342),i=t(39),r=t(339);t(351);a.default=function(){return l.a.createElement(r.a,null,l.a.createElement(c.a,null,l.a.createElement(c.a.Title,null,l.a.createElement(i.a,{type:"video-camera"})," Film Festival Timetable")))}}}]);
-//# sourceMappingURL=component---src-pages-index-js-fd7f238cba8df74517e7.js.map
