@@ -3,6 +3,8 @@ import React from "react"
 import Paper from "@material-ui/core/Paper"
 import Typography from "@material-ui/core/Typography"
 import Chip from "@material-ui/core/Chip"
+import IconButton from "@material-ui/core/IconButton"
+import CloseIcon from "@material-ui/icons/Close"
 
 const GenreTags = info => {
   if (info !== null && info.genre !== null) {
@@ -22,15 +24,27 @@ const GenreTags = info => {
   return <></>
 }
 
-const Description = ({ programs }) => {
+const Description = ({ programs, onClose }) => {
   return (
-    <Paper style={{
-      padding: `0.125rem 1rem 1.25rem 1rem`,
-      minWidth: `15rem`,
-      maxWidth: `30rem`,
-      backgroundColor: `white`,
-      wordBreak: `keep-all`
+    <Paper
+      square={true}
+      style={{
+        padding: `0.125rem 1rem 1.25rem 1rem`,
+        minWidth: `15rem`,
+        maxWidth: `30rem`,
+        backgroundColor: `white`,
+        wordBreak: `keep-all`
     }}>
+      <IconButton
+        size="small"
+        aria-label="close"
+        style={{
+          float: `right`,
+          marginTop: `0.8rem`
+        }}
+        onClick={onClose}>
+        <CloseIcon />
+      </IconButton>
       {programs.map(program => {
         return (
           <div>

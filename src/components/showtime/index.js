@@ -128,7 +128,9 @@ const Showtime = ({ show }) => {
         onClose={handleDescriptionClose}
         style={{ zIndex: 2 }}
       >
-        <Description programs={show.programs} />
+        <Description
+          programs={show.programs}
+          onClose={handleDescriptionClose} />
       </Popper>
     </div>
   )
