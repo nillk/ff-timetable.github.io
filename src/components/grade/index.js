@@ -33,17 +33,27 @@ export const GRADES = {
   },
 }
 
+export const GradeInfo = () => (
+  <div>
+    {Object.keys(GRADES).map(g => (
+        <div style={{ float: `left`, marginRight: `1rem` }}>
+          <Typography variant="overline"><strong>/ {g} /</strong> {GRADES[g].text}</Typography>
+        </div>)
+    )}
+  </div>
+)
+
 const Grade = ({ level }) => {
   return (
     <Typography
+      variant="overline"
       style={{
         float: `right`,
         marginLeft: `0.2rem`,
-        fontSize: `0.7rem`,
         fontWeight: 600
       }}
     >
-      {`/ ${level.toUpperCase()}`}
+      {`/ ${level}`}
     </Typography>
   )
 }

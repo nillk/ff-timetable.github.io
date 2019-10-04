@@ -112,7 +112,7 @@ const Showtime = ({ show }) => {
       <div
         style={{
           position: `absolute`,
-          top: `-1.1rem`,
+          top: `-1.6rem`,
           right: 0,
           width: `100%`
         }}

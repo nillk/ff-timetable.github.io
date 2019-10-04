@@ -6,6 +6,7 @@ import { Typography, Grid } from "@material-ui/core"
 import Page from "../components/layout"
 import Theater from "../components/theater"
 import Showtime from "../components/showtime"
+import { GradeInfo } from "../components/grade"
 
 export default ({ data }) => {
   return (
@@ -20,6 +21,7 @@ export default ({ data }) => {
       >
         {data.biffJson.dateStr}
       </Typography>
+      <GradeInfo />
       <Grid container spacing={2} style={{ flexFlow: `row` }}>
         {data.biffJson.screening.map(screen => (
           <Grid item key={screen.theater} style={{ position: `relative` }}>
