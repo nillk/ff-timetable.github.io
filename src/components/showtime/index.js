@@ -22,14 +22,17 @@ const calculateTop = (hour, minute) => {
 const calculateHeight = length => (length / 60) * TIME_HEIGHT
 
 const calculteEndTime = (hour, minute, totalLength) => {
+  if (totalLength === 0) return ``
+
   const calculteHour = (minute) => Math.floor(minute / 60)
 
-  const endMinute = minute + (totalLength % 60)
+  const endHour = hour + calculteHour(totalLength) + calculteHour(minute + (totalLength % 60))
+  const endMinute = (minute + (totalLength % 60)) % 60
 
-  return [
-    hour + calculteHour(totalLength) + calculteHour(endMinute),
-    endMinute % 60
-  ]
+  const endHourStr = endHour < 10 ? `0${endHour}` : `${endHour}`
+  const endMinuteStr = endMinute < 10 ? `0${endMinute}` : `${endMinute}`
+
+  return `${endHourStr}:${endMinuteStr}`
 }
 
 const getProgramsTotalLength = programs =>
@@ -45,12 +48,10 @@ const Showtime = ({ show }) => {
 
   const totalLength = getProgramsTotalLength(show.programs)
 
+  const endTime = calculteEndTime(hour, minute, totalLength)
+
   const top = calculateTop(hour, minute)
   const height = calculateHeight(totalLength)
-
-  const [endHour, endMinute] = calculteEndTime(hour, minute, totalLength)
-  const endHourStr = endHour < 10 ? `0${endHour}` : `${endHour}`
-  const endMinuteStr = endMinute < 10 ? `0${endMinute}` : `${endMinute}`
 
   const handleDescriptionOpen = event => {
     setAnchorEl(event.currentTarget)
@@ -75,7 +76,6 @@ const Showtime = ({ show }) => {
         height: `${height}rem`,
         padding: `0rem 0.5rem`,
         width: `${BOX_SIZE}rem`,
-        minHeight: `${BOX_SIZE}rem`,
         borderTop: `0.25rem solid black`,
         borderBottom: `0.25rem solid lightgray`,
         fontSize: `0.75rem`,
@@ -85,7 +85,7 @@ const Showtime = ({ show }) => {
     >
       <div>
         <Typography variant="overline" style={{ fontWeight: 600 }}>
-          {show.time}~{endHourStr}:{endMinuteStr}
+          {show.time}~{endTime}
         </Typography>
         <Typography variant="subtitle2">{show.title}</Typography>
         {show.programs.length === 1 && (
