@@ -129,7 +129,6 @@ const Showtime = ({ show }) => {
         id={popperId}
         open={open}
         anchorEl={anchorEl}
-        onClose={handleDescriptionClose}
         style={{ zIndex: 2 }}
       >
         <Description
