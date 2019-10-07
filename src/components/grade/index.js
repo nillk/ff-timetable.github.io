@@ -36,9 +36,9 @@ export const GRADES = {
 export const GradeInfo = () => (
   <div>
     {Object.keys(GRADES).map(g => (
-        <div style={{ float: `left`, marginRight: `1rem` }}>
-          <Typography variant="overline"><strong>/ {g} /</strong> {GRADES[g].text}</Typography>
-        </div>)
+      <div key={g} style={{ float: `left`, marginRight: `1rem` }}>
+        <Typography variant="overline"><strong>/ {g} /</strong> {GRADES[g].text}</Typography>
+      </div>)
     )}
   </div>
 )

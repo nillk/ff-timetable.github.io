@@ -11,11 +11,15 @@ const GenreTags = info => {
     return (
       <div style={{ marginTop: `0.75rem` }}>
         {info.genre.map(g => (
-          <Chip size="small" label={g} style={{
-            marginRight: `0.25rem`,
-            height: `1.2rem`,
-            fontSize: `0.75rem`
-          }} />
+          <Chip
+            size="small"
+            label={g}
+            key={g}
+            style={{
+              marginRight: `0.25rem`,
+              height: `1.2rem`,
+              fontSize: `0.75rem`
+            }} />
         ))}
       </div>
     )
@@ -24,9 +28,10 @@ const GenreTags = info => {
   return <></>
 }
 
-const Description = ({ programs, onClose }) => {
+const Description = ({ programs, popperId, onClose }) => {
   return (
     <Paper
+      aria-describedby={popperId}
       square={true}
       style={{
         padding: `0.125rem 1rem 1.25rem 1rem`,
@@ -34,7 +39,7 @@ const Description = ({ programs, onClose }) => {
         maxWidth: `30rem`,
         backgroundColor: `white`,
         wordBreak: `keep-all`
-    }}>
+      }}>
       <IconButton
         size="small"
         aria-label="close"
@@ -45,23 +50,21 @@ const Description = ({ programs, onClose }) => {
         onClick={onClose}>
         <CloseIcon />
       </IconButton>
-      {programs.map(program => {
-        return (
-          <div>
-            <Typography variant="subtitle1" style={{ marginTop: `0.875rem` }}>
-              {program.title}
-              <Typography variant="caption" style={{ fontStyle: `italic`, color: `dimgray` }}>
-                {" "}
-                {program.titleEng}
-              </Typography>
+      {programs.map(program => (
+        <div key={program.titleEng}>
+          <Typography variant="subtitle1" style={{ marginTop: `0.875rem` }}>
+            {program.title}
+            <Typography variant="caption" style={{ fontStyle: `italic`, color: `dimgray` }}>
+              {" "}
+              {program.titleEng}
             </Typography>
-            {GenreTags(program.info)}
-            <Typography variant="body2" style={{ marginTop: `0.75rem` }}>
-              {program.desc}
-            </Typography>
-          </div>
-        )
-      })}
+          </Typography>
+          {GenreTags(program.info)}
+          <Typography variant="body2" style={{ marginTop: `0.75rem` }}>
+            {program.desc}
+          </Typography>
+        </div>
+      ))}
     </Paper>
   )
 }
