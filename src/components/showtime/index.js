@@ -66,10 +66,6 @@ const Showtime = ({ show }) => {
 
   return (
     <div
-      aria-owns={open ? popperId : undefined}
-      aria-haspopup={true}
-      onMouseEnter={handleDescriptionOpen}
-      onMouseLeave={handleDescriptionClose}
       style={{
         position: `absolute`,
         top: `${top}rem`,
@@ -82,12 +78,20 @@ const Showtime = ({ show }) => {
         wordBreak: `keep-all`,
         marginBottom: `2rem`
       }}
+      onMouseLeave={handleDescriptionClose}
     >
-      <div>
+      <div
+        aria-describedby={popperId}
+        onMouseEnter={handleDescriptionOpen}
+      >
         <Typography variant="overline" style={{ fontWeight: 600 }}>
           {show.time}~{endTime}
         </Typography>
-        <Typography variant="subtitle2">{show.title}</Typography>
+        <Typography
+          variant="subtitle2"
+        >
+          {show.title}
+        </Typography>
         {show.programs.length === 1 && (
           <Typography
             variant="caption"
