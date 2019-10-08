@@ -57,9 +57,7 @@ const Showtime = ({ show }) => {
     setAnchorEl(event.currentTarget)
   }
 
-  const handleDescriptionClose = event => {
-    event.preventDefault()
-    event.stopPropagation()
+  const handleDescriptionClose = () => {
     setAnchorEl(null)
   }
 
@@ -80,12 +78,12 @@ const Showtime = ({ show }) => {
         wordBreak: `keep-all`,
         marginBottom: `2rem`
       }}
-      aria-describedby={popperId}
       onMouseLeave={handleDescriptionClose}
     >
       <div 
         aria-describedby={popperId}
-        onMouseEnter={handleDescriptionOpen}>
+        onMouseOver={handleDescriptionOpen}
+      >
         <Typography variant="overline" style={{ fontWeight: 600 }}>
           {show.time}~{endTime}
         </Typography>
