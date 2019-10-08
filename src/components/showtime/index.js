@@ -41,6 +41,22 @@ const getProgramsTotalLength = programs =>
 const getLength = program =>
   program.info !== null ? Number(program.info.length.replace("min", "")) : 0
 
+const Subtitle = ({ subtitle }) => (
+  <Typography variant="caption" style={{ fontStyle: `italic`, color: `dimgray` }}>
+    {subtitle}
+  </Typography>
+)
+
+const SubPrograms = ({ subprograms }) => (
+  <ul>
+    {subprograms.map(program => (
+      <li key={program.title}>
+        <Typography variant="caption">{program.title}</Typography>
+      </li>
+    ))}
+  </ul>
+)
+
 const Showtime = ({ show }) => {
   const [anchorEl, setAnchorEl] = React.useState(null)
 
@@ -87,31 +103,11 @@ const Showtime = ({ show }) => {
         <Typography variant="overline" style={{ fontWeight: 600 }}>
           {show.time}~{endTime}
         </Typography>
-        <Typography
-          variant="subtitle2"
-        >
+        <Typography variant="subtitle2" style={{ marginTop: `-0.25rem` }}>
           {show.title}
         </Typography>
-        {show.programs.length === 1 && (
-          <Typography
-            variant="caption"
-            style={{
-              fontStyle: `italic`,
-              color: `dimgray`
-            }}
-          >
-            {show.programs[0].titleEng}
-          </Typography>
-        )}
-        {show.programs.length > 1 && (
-          <ul>
-            {show.programs.map(program => (
-              <li key={program.title}>
-                <Typography variant="caption">{program.title}</Typography>
-              </li>
-            ))}
-          </ul>
-        )}
+        {show.programs.length === 1 && <Subtitle subtitle={show.programs[0].titleEng} />}
+        {show.programs.length > 1 && <SubPrograms subprograms={show.programs} />}
       </div>
       <div
         style={{
@@ -133,7 +129,6 @@ const Showtime = ({ show }) => {
       >
         <Description
           programs={show.programs}
-          popperId={popperId}
           onClose={handleDescriptionClose} />
       </Popper>
     </div>

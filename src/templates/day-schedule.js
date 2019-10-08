@@ -52,6 +52,8 @@ export const query = graphql`
             titleEng
             desc
             info {
+              productionCountry
+              yearOfProduction
               length
               genre
             }

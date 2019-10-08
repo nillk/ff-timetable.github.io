@@ -3,6 +3,7 @@ import React from "react"
 import Paper from "@material-ui/core/Paper"
 import Typography from "@material-ui/core/Typography"
 import Chip from "@material-ui/core/Chip"
+
 import IconButton from "@material-ui/core/IconButton"
 import CloseIcon from "@material-ui/icons/Close"
 
@@ -28,10 +29,9 @@ const GenreTags = info => {
   return <></>
 }
 
-const Description = ({ programs, popperId, onClose }) => {
+const Description = ({ programs, onClose }) => {
   return (
     <Paper
-      aria-describedby={popperId}
       square={true}
       style={{
         padding: `0.125rem 1rem 1.25rem 1rem`,
@@ -58,6 +58,9 @@ const Description = ({ programs, popperId, onClose }) => {
               {" "}
               {program.titleEng}
             </Typography>
+          </Typography>
+          <Typography variant="caption">
+            - {program.info.productionCountry}/{program.info.yearOfProduction}
           </Typography>
           {GenreTags(program.info)}
           <Typography variant="body2" style={{ marginTop: `0.75rem` }}>
