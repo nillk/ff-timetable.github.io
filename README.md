@@ -9,7 +9,7 @@
 ```
 {
   date: 일자,
-  dateStr: 화면에 표시하기 위한 날짜 정보(연.월.일.요일),
+  dateStr: 화면에 표시하기 위한 날짜 정보(연.월.일 요일),
   screening: [
     {
       theater: 상영관,
@@ -19,7 +19,7 @@
           title: 대표제목(단편 모음인 경우 programs에 세부 정보),
           grade: [
             등급, 자막, GV 등
-          ]
+          ],
           programs: [
             {
               title: 제목,
@@ -35,18 +35,18 @@
                 genre: 장르
               },
               credit: {
-                cast,
-                cinematography,
-                director,
-                editor,
-                music,
-                producer,
-                productionCompany,
-                productionDesign,
-                screenplay,
-                sound,
-                story,
-                worldSales
+                cast: 출연,
+                cinematography: 촬영,
+                director: 감독,
+                editor: 편집자,
+                music: 음악,
+                producer: 프로듀서,
+                productionCompany: 프로덕션 회사,
+                productionDesign: 프로덕션 디자인,
+                screenplay: 각본, 시나리오,
+                sound: 사운드,
+                story: 전체 플롯, 캐릭터 등 스토리,
+                worldSales: 국제 배급?
               }
             },
             ...
