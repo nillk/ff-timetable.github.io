@@ -9,6 +9,12 @@ module.exports = {
   plugins: [
     `gatsby-transformer-json`,
     {
+      resolve: `gatsby-plugin-less`,
+      options: {
+        javascriptEnabled: true,
+      }
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `schedule`,

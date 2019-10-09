@@ -14,11 +14,12 @@
     "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "dependencies": {
-    "@material-ui/core": "^4.4.3",
-    "@material-ui/icons": "^4.4.3",
+    "antd": "^3.23.6",
     "gatsby": "^2.15.20",
+    "gatsby-plugin-less": "^3.0.10",
     "gatsby-source-filesystem": "^2.1.26",
     "gatsby-transformer-json": "^2.2.9",
+    "less": "^3.10.3",
     "react": "^16.9.0",
     "react-dom": "^16.9.0"
   },

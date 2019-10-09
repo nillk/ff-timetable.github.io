@@ -1,26 +1,14 @@
 import React from "react"
+import { Typography, Tag, Button } from "antd"
 
-import Paper from "@material-ui/core/Paper"
-import Typography from "@material-ui/core/Typography"
-import Chip from "@material-ui/core/Chip"
-
-import IconButton from "@material-ui/core/IconButton"
-import CloseIcon from "@material-ui/icons/Close"
+const { Paragraph, Text } = Typography
 
 const GenreTags = info => {
   if (info !== null && info.genre !== null) {
     return (
-      <div style={{ marginTop: `0.75rem` }}>
+      <div style={{ marginBottom: `0.875rem` }}>
         {info.genre.map(g => (
-          <Chip
-            size="small"
-            label={g}
-            key={g}
-            style={{
-              marginRight: `0.25rem`,
-              height: `1.2rem`,
-              fontSize: `0.75rem`
-            }} />
+          <Tag key={g} style={{ lineHeight: `1rem`, padding: `0 0.3rem`, marginRight: `0.25rem` }}>{g}</Tag>
         ))}
       </div>
     )
@@ -31,44 +19,47 @@ const GenreTags = info => {
 
 const Description = ({ programs, onClose }) => {
   return (
-    <Paper
-      square={true}
+    <div
       style={{
-        padding: `0.125rem 1rem 1.25rem 1rem`,
+        padding: `0.5rem 0.3rem 0rem`,
         minWidth: `15rem`,
         maxWidth: `30rem`,
-        backgroundColor: `white`,
         wordBreak: `keep-all`
       }}>
-      <IconButton
-        size="small"
+      <Button
+        icon="close"
         aria-label="close"
+        size="small"
+        type="link"
         style={{
           float: `right`,
-          marginTop: `0.8rem`
+          color: `rgba(0, 0, 0, 0.87)`
         }}
         onClick={onClose}>
-        <CloseIcon />
-      </IconButton>
+      </Button>
       {programs.map(program => (
-        <div key={program.titleEng}>
-          <Typography variant="subtitle1" style={{ marginTop: `0.875rem` }}>
+        <Typography key={program.titleEng}>
+          <Paragraph style={{ fontSize: `1rem`, marginBottom: `0.3rem` }}>
             {program.title}
-            <Typography variant="caption" style={{ fontStyle: `italic`, color: `dimgray` }}>
+            <Text type="secondary" style={{ fontStyle: `italic`, fontWeight: 300 }}>
               {" "}
               {program.titleEng}
-            </Typography>
-          </Typography>
-          <Typography variant="caption">
-            - {program.info.productionCountry}/{program.info.yearOfProduction}
-          </Typography>
+            </Text>
+          </Paragraph>
+          <Paragraph>
+            <ul>
+              <li style={{ fontSize: `0.78rem` }}>
+                {program.info.productionCountry}/{program.info.yearOfProduction}
+              </li>
+            </ul>
+          </Paragraph>
           {GenreTags(program.info)}
-          <Typography variant="body2" style={{ marginTop: `0.75rem` }}>
+          <Paragraph style={{ fontSize: `0.825rem` }}>
             {program.desc}
-          </Typography>
-        </div>
+          </Paragraph>
+        </Typography>
       ))}
-    </Paper>
+    </div>
   )
 }
 

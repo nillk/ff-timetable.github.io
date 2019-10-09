@@ -1,15 +1,14 @@
 import React from "react"
 import { graphql } from "gatsby"
-
-import Typography from "@material-ui/core/Typography"
-import Grid from "@material-ui/core/Grid"
+import { Typography } from "antd"
+import { Row, Col } from "antd"
 
 import Page from "../components/layout"
 
 import Theater from "../components/theater"
 import Showtime from "../components/showtime"
 
-import Filter from "../components/filter"
+// import Filter from "../components/filter"
 import { GradeInfo } from "../components/grade"
 
 const getGenresOfScreen = (screen) => {
@@ -39,27 +38,25 @@ export default ({ data }) => {
 
   return (
     <Page>
-      <Typography
-        variant="h4"
+      <Typography.Title level={2}
         style={{
           fontWeight: `lighter`,
-          marginTop: `0.5rem`,
           marginBottom: `1.25rem`
         }}
       >
         {data.biffJson.dateStr}
-      </Typography>
-      <Filter
+      </Typography.Title>
+      {/* <Filter
         label={`Genre`}
         value={allGenres}
-        onChange={(value) => handleGenreFilter(value)} />
+        onChange={(value) => handleGenreFilter(value)} /> */}
       <GradeInfo />
-      <Grid container spacing={2} style={{ flexFlow: `row` }}>
+      <Row type="flex" justify="start" gutter={16} style={{ flexFlow: `row` }}>
         {data.biffJson.screening.map(screen => {
           return (genre.length > 0 && !containsGenre(genre, screen)) ?
             null
             :
-            (<Grid item key={screen.theater} style={{ position: `relative` }}>
+            (<Col key={screen.theater} style={{ position: `relative` }}>
               <Theater name={screen.theater} />
               {screen.times.map(time => (
                 <Showtime
@@ -67,10 +64,10 @@ export default ({ data }) => {
                   show={time}
                   genre={genre} />
               ))}
-            </Grid>)
+            </Col>)
           }
         )}
-      </Grid>
+      </Row>
     </Page>
   )
 }
