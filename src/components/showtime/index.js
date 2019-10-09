@@ -41,6 +41,18 @@ const getProgramsTotalLength = programs =>
 const getLength = program =>
   program.info !== null ? Number(program.info.length.replace("min", "")) : 0
 
+const containsGenre = (genre, programs) => {
+  for (let program of programs) {
+    if (program.info !== null && program.info.genre !== null) {
+      if (program.info.genre.some(g => genre.includes(g))) {
+        return true
+      }
+    }
+  }
+
+  return false
+}
+
 const Subtitle = ({ subtitle }) => (
   <Typography variant="caption" style={{ fontStyle: `italic`, color: `dimgray` }}>
     {subtitle}
@@ -57,8 +69,12 @@ const SubPrograms = ({ subprograms }) => (
   </ul>
 )
 
-const Showtime = ({ show }) => {
+const Showtime = ({ show, genre }) => {
   const [anchorEl, setAnchorEl] = React.useState(null)
+
+  if (genre.length > 0 && !containsGenre(genre, show.programs)) {
+    return <></>;
+  }
 
   const [hour, minute] = show.time.split(":").map(Number)
 
