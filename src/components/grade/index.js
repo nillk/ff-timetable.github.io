@@ -28,7 +28,7 @@ export const GRADES = {
 }
 
 export const GradeInfo = () => (
-  <div style={{ display: `inline-block`, marginBottom: `0.4rem` }}>
+  <div style={{ display: `inline-block`, marginTop: `0.4rem`, marginBottom: `0.4rem` }}>
     {Object.keys(GRADES).map(g => (
       <div key={g} style={{ float: `left`, marginRight: `0.85rem` }}>
         <Text className="grade-info-typography"><strong>/ {g} /</strong> {GRADES[g].text}</Text>

@@ -4,11 +4,9 @@ import { Typography } from "antd"
 import { Row, Col } from "antd"
 
 import Page from "../components/layout"
-
 import Theater from "../components/theater"
 import Showtime from "../components/showtime"
-
-// import Filter from "../components/filter"
+import Filter from "../components/filter"
 import { GradeInfo } from "../components/grade"
 
 const getGenresOfScreen = (screen) => {
@@ -30,7 +28,7 @@ const containsGenre = (genre, screen) => {
 export default ({ data }) => {
   const allGenres = getAllDistinctGenres(data.biffJson.screening)
 
-  const [ genre, setGenre ] = React.useState([])
+  const [genre, setGenre] = React.useState([])
 
   const handleGenreFilter = value => {
     setGenre(value)
@@ -46,10 +44,10 @@ export default ({ data }) => {
       >
         {data.biffJson.dateStr}
       </Typography.Title>
-      {/* <Filter
+      <Filter
         label={`Genre`}
         value={allGenres}
-        onChange={(value) => handleGenreFilter(value)} /> */}
+        onChange={handleGenreFilter} />
       <GradeInfo />
       <Row type="flex" justify="start" gutter={16} style={{ flexFlow: `row` }}>
         {data.biffJson.screening.map(screen => {
