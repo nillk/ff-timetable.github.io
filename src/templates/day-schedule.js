@@ -39,7 +39,8 @@ export default ({ data }) => {
       <Typography.Title level={2}
         style={{
           fontWeight: `lighter`,
-          marginBottom: `1.25rem`
+          marginBottom: `1.25rem`,
+          float: `left`,
         }}
       >
         {data.biffJson.dateStr}

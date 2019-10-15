@@ -1,8 +1,6 @@
 import React from "react"
 import { Select } from "antd"
 
-const { Option } = Select
-
 export default ({ label, value, onChange }) => (
   <Select
     showSearch
@@ -13,7 +11,7 @@ export default ({ label, value, onChange }) => (
     style={{ width: `8rem` }}
   >
     {value.map(v => (
-      <Option key={v} value={v}>{v}</Option>
+      <Select.Option key={v} value={v}>{v}</Select.Option>
     ))}
   </Select>
 )
