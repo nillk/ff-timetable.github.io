@@ -2,6 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 import { Typography } from "antd"
 import { Row, Col } from "antd"
+import { Button, Drawer } from "antd"
 
 import Page from "../components/layout"
 import Theater from "../components/theater"
@@ -29,26 +30,46 @@ export default ({ data }) => {
   const allGenres = getAllDistinctGenres(data.biffJson.screening)
 
   const [genre, setGenre] = React.useState([])
+  const [visible, setVisible] = React.useState(false)
 
   const handleGenreFilter = value => {
     setGenre(value)
   }
 
+  const showDrawer = () => setVisible(true)
+  const closeDrawer = () => setVisible(false)
+
   return (
     <Page>
-      <Typography.Title level={2}
-        style={{
-          fontWeight: `lighter`,
-          marginBottom: `1.25rem`,
-          float: `left`,
-        }}
-      >
-        {data.biffJson.dateStr}
-      </Typography.Title>
-      <Filter
-        label={`Genre`}
-        value={allGenres}
-        onChange={handleGenreFilter} />
+      <div style={{ display: `flex-root` }}>
+        <Typography.Title level={2}
+          style={{
+            fontWeight: `lighter`,
+            marginBottom: `1.25rem`,
+            float: `left`,
+          }}
+        >
+          {data.biffJson.dateStr}
+        </Typography.Title>
+        <Button
+          icon="filter"
+          aria-label="filter"
+          size="large"
+          type="link"
+          onClick={showDrawer}
+          style={{ color: `rgba(0, 0, 0, 0.85)` }}
+        />
+        <Drawer
+          title="Filter"
+          onClose={closeDrawer}
+          visible={visible}
+        >
+        <Filter
+          label={`Genre`}
+          value={allGenres}
+          onChange={handleGenreFilter} />
+        </Drawer>
+      </div>
       <GradeInfo />
       <Row type="flex" justify="start" gutter={16} style={{ flexFlow: `row` }}>
         {data.biffJson.screening.map(screen => {
