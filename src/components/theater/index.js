@@ -16,16 +16,18 @@ const addSpaceAfterBrandName = name => {
 }
 
 const Theater = ({ name }) => (
-  <div style={{
-    padding: `0.5rem`,
-    height: `${BOX_SIZE}rem`,
-    width: `${BOX_SIZE}rem`,
-    backgroundColor: `black`,
-    color: `white`,
-    fontSize: `0.875rem`,
-    fontWeight: 600,
-    wordBreak: `keep-all`
-  }}>
+  <div
+    style={{
+      padding: `0.5rem`,
+      height: `${BOX_SIZE}rem`,
+      width: `${BOX_SIZE}rem`,
+      backgroundColor: `black`,
+      color: `white`,
+      fontSize: `0.875rem`,
+      fontWeight: 600,
+      wordBreak: `keep-all`,
+    }}
+  >
     {addSpaceAfterBrandName(name)}
   </div>
 )

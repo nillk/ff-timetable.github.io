@@ -8,7 +8,16 @@ const GenreTags = info => {
     return (
       <div style={{ marginBottom: `0.875rem` }}>
         {info.genre.map(g => (
-          <Tag key={g} style={{ lineHeight: `1rem`, padding: `0 0.3rem`, marginRight: `0.25rem` }}>{g}</Tag>
+          <Tag
+            key={g}
+            style={{
+              lineHeight: `1rem`,
+              padding: `0 0.3rem`,
+              marginRight: `0.25rem`,
+            }}
+          >
+            {g}
+          </Tag>
         ))}
       </div>
     )
@@ -27,31 +36,36 @@ const Description = ({ programs, onClose }) => {
         type="link"
         style={{
           float: `right`,
-          color: `rgba(0, 0, 0, 0.87)`
+          color: `rgba(0, 0, 0, 0.87)`,
         }}
-        onClick={onClose}>
-      </Button>
+        onClick={onClose}
+      ></Button>
       {programs.map(program => (
         <Typography key={program.titleEng}>
           <Paragraph style={{ fontSize: `1rem`, marginBottom: `0.3rem` }}>
             {program.title}
-            <Text type="secondary" style={{ fontStyle: `italic`, fontWeight: 300 }}>
+            <Text
+              type="secondary"
+              style={{ fontStyle: `italic`, fontWeight: 300 }}
+            >
               {" "}
               {program.titleEng}
             </Text>
           </Paragraph>
-          {(program.info && (program.info.productionCountry || program.info.yearOfProduction)) &&
-            <Paragraph>
-              <ul>
-                <li style={{ fontSize: `0.78rem` }}>
-                  {program.info.productionCountry}/{program.info.yearOfProduction}
-                </li>
-              </ul>
-            </Paragraph>}
+          {program.info &&
+            (program.info.productionCountry ||
+              program.info.yearOfProduction) && (
+              <Paragraph>
+                <ul>
+                  <li style={{ fontSize: `0.78rem` }}>
+                    {program.info.productionCountry}/
+                    {program.info.yearOfProduction}
+                  </li>
+                </ul>
+              </Paragraph>
+            )}
           {GenreTags(program.info)}
-          <Paragraph style={{ fontSize: `0.825rem` }}>
-            {program.desc}
-          </Paragraph>
+          <Paragraph style={{ fontSize: `0.825rem` }}>{program.desc}</Paragraph>
         </Typography>
       ))}
     </div>

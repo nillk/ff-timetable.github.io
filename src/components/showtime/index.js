@@ -23,9 +23,10 @@ const calculateHeight = length => (length / 60) * TIME_HEIGHT
 const calculteEndTime = (hour, minute, totalLength) => {
   if (totalLength === 0) return ``
 
-  const calculteHour = (minute) => Math.floor(minute / 60)
+  const calculteHour = minute => Math.floor(minute / 60)
 
-  const endHour = hour + calculteHour(totalLength) + calculteHour(minute + (totalLength % 60))
+  const endHour =
+    hour + calculteHour(totalLength) + calculteHour(minute + (totalLength % 60))
   const endMinute = (minute + (totalLength % 60)) % 60
 
   const endHourStr = endHour < 10 ? `0${endHour}` : `${endHour}`
@@ -69,7 +70,7 @@ const SubPrograms = ({ subprograms }) => (
 )
 
 const Showtime = ({ show, genre }) => {
-  const [ descVisible, setDescVisible ] = React.useState(false)
+  const [descVisible, setDescVisible] = React.useState(false)
 
   const hideDescription = () => {
     setDescVisible(false)
@@ -80,7 +81,7 @@ const Showtime = ({ show, genre }) => {
   }
 
   if (genre.length > 0 && !containsGenre(genre, show.programs)) {
-    return <></>;
+    return <></>
   }
 
   const [hour, minute] = show.time.split(":").map(Number)
@@ -102,21 +103,27 @@ const Showtime = ({ show, genre }) => {
       }}
     >
       <Popover
-        content={<Description programs={show.programs} onClose={hideDescription} />}
+        content={
+          <Description programs={show.programs} onClose={hideDescription} />
+        }
         visible={descVisible}
         onVisibleChange={handleDescVisibleChange}
       >
         <div style={{ marginTop: `0.375rem` }}>
           <Typography>
             <Paragraph>
-              <Text strong>{show.time}~{endTime}</Text>
+              <Text strong>
+                {show.time}~{endTime}
+              </Text>
             </Paragraph>
             <Paragraph>
-              <Text className="title">
-                {show.title}
-              </Text>
-              {show.programs.length === 1 && <Subtitle subtitle={show.programs[0].titleEng} />}
-              {show.programs.length > 1 && <SubPrograms subprograms={show.programs} />}
+              <Text className="title">{show.title}</Text>
+              {show.programs.length === 1 && (
+                <Subtitle subtitle={show.programs[0].titleEng} />
+              )}
+              {show.programs.length > 1 && (
+                <SubPrograms subprograms={show.programs} />
+              )}
             </Paragraph>
           </Typography>
         </div>

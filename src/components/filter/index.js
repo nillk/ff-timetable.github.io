@@ -11,7 +11,9 @@ export default ({ label, value, onChange }) => (
     style={{ width: `13rem` }}
   >
     {value.map(v => (
-      <Select.Option key={v} value={v}>{v}</Select.Option>
+      <Select.Option key={v} value={v}>
+        {v}
+      </Select.Option>
     ))}
   </Select>
 )
