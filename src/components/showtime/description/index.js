@@ -19,13 +19,7 @@ const GenreTags = info => {
 
 const Description = ({ programs, onClose }) => {
   return (
-    <div
-      style={{
-        padding: `0.5rem 0.3rem 0rem`,
-        minWidth: `15rem`,
-        maxWidth: `30rem`,
-        wordBreak: `keep-all`
-      }}>
+    <div className="description">
       <Button
         icon="close"
         aria-label="close"
@@ -46,13 +40,14 @@ const Description = ({ programs, onClose }) => {
               {program.titleEng}
             </Text>
           </Paragraph>
-          <Paragraph>
-            <ul>
-              <li style={{ fontSize: `0.78rem` }}>
-                {program.info.productionCountry}/{program.info.yearOfProduction}
-              </li>
-            </ul>
-          </Paragraph>
+          {(program.info && (program.info.productionCountry || program.info.yearOfProduction)) &&
+            <Paragraph>
+              <ul>
+                <li style={{ fontSize: `0.78rem` }}>
+                  {program.info.productionCountry}/{program.info.yearOfProduction}
+                </li>
+              </ul>
+            </Paragraph>}
           {GenreTags(program.info)}
           <Paragraph style={{ fontSize: `0.825rem` }}>
             {program.desc}
