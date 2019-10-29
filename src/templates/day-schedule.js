@@ -44,34 +44,40 @@ export default ({ data }) => {
 
   return (
     <Page>
-      <div style={{ display: `flex-root` }}>
-        <Typography.Title
-          level={2}
-          style={{
-            fontWeight: `lighter`,
-            marginBottom: `1.25rem`,
-            float: `left`,
-          }}
-        >
-          {data.biffJson.dateStr}
-        </Typography.Title>
-        <Button
-          icon="filter"
-          aria-label="filter"
-          size="large"
-          type="link"
-          onClick={showDrawer}
-          style={{ color: `rgba(0, 0, 0, 0.85)` }}
-        />
-        <Drawer title="Filter" onClose={closeDrawer} visible={visible}>
-          <Filter
-            label={`Genre`}
-            value={allGenres}
-            onChange={handleGenreFilter}
+      <Row>
+        <Col>
+          <Typography.Title
+            level={2}
+            style={{
+              fontWeight: `lighter`,
+              marginBottom: `1.25rem`,
+              float: `left`,
+            }}
+          >
+            {data.biffJson.dateStr}
+          </Typography.Title>
+        </Col>
+        <Col>
+          <Button
+            icon="filter"
+            aria-label="filter"
+            size="large"
+            type="link"
+            onClick={showDrawer}
+            style={{ color: `rgba(0, 0, 0, 0.85)` }}
           />
-        </Drawer>
-      </div>
-      <GradeInfo />
+          <Drawer title="Filter" onClose={closeDrawer} visible={visible}>
+            <Filter
+              label={`Genre`}
+              value={allGenres}
+              onChange={handleGenreFilter}
+            />
+          </Drawer>
+        </Col>
+      </Row>
+      <Row>
+        <Col><GradeInfo /></Col>
+      </Row>
       <Row type="flex" justify="start" gutter={16} style={{ flexFlow: `row` }}>
         {data.biffJson.screening.map(screen => {
           return genre.length > 0 && !containsGenre(genre, screen) ? null : (
