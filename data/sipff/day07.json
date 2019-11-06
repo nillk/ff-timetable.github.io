@@ -1,0 +1,81 @@
+{
+  "date": "7",
+  "dateStr": "7(목)",
+  "screening": [
+    {
+      "theater": "일반 1관 Cinema 1",
+      "times": [
+        {
+          "time": "19:00",
+          "title": "개막식",
+          "titleEng": "Opening Ceremony",
+          "grades": [
+            "G"
+          ],
+          "programs": [
+            {
+              "title": "개막식",
+              "titleEng": "Opening Ceremony",
+              "url": "http://www.sipff.kr/e/e_01.asp"
+            }
+          ]
+        },
+        {
+          "time": "20:00",
+          "title": "개막작: 타오르는 여인의 초상",
+          "titleEng": "Opening Film - Portrait of a Lady on Fire",
+          "grades": [
+            "12"
+          ],
+          "programs": [
+            {
+              "title": "개막작: 타오르는 여인의 초상",
+              "titleEng": "Opening Film - Portrait of a Lady on Fire",
+              "url": "http://www.sipff.kr/p/p_01.asp?top_division=504&middle_division=505"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "theater": "아트 1관 ART 1",
+      "times": [
+        {
+          "time": "19:30",
+          "title": "개막작: 타오르는 여인의 초상",
+          "titleEng": "Opening Film - Portrait of a Lady on Fire",
+          "grades": [
+            "12"
+          ],
+          "programs": [
+            {
+              "title": "개막작: 타오르는 여인의 초상",
+              "titleEng": "Opening Film - Portrait of a Lady on Fire",
+              "url": "http://www.sipff.kr/p/p_01.asp?top_division=504&middle_division=505"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "theater": "아트 2관 ART 2",
+      "times": [
+        {
+          "time": "19:45",
+          "title": "개막작: 타오르는 여인의 초상",
+          "titleEng": "Opening Film - Portrait of a Lady on Fire",
+          "grades": [
+            "12"
+          ],
+          "programs": [
+            {
+              "title": "개막작: 타오르는 여인의 초상",
+              "titleEng": "Opening Film - Portrait of a Lady on Fire",
+              "url": "http://www.sipff.kr/p/p_01.asp?top_division=504&middle_division=505"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "date": "13",
+  "dateStr": "13(수)",
+  "screening": [
+    {
+      "theater": "아트 1관 ART 1",
+      "times": [
+        {
+          "time": "20:00",
+          "title": "폐막작 – 단편 쇼케이스",
+          "titleEng": "Closing Film – Short Films Showcase",
+          "grades": [
+            "15"
+          ],
+          "programs": [
+            {
+              "title": "키스 키스",
+              "titleEng": "Closing Film – Short Films Showcase",
+              "url": "http://www.sipff.kr/p/view.asp?goods_idx=2111&page=1&goods_admin_code=&top_division=504&top_division_title=&middle_division=512&middle_division_title=&bottom_division=&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            },
+            {
+              "title": "아이스",
+              "titleEng": "Closing Film – Short Films Showcase",
+              "url": "http://www.sipff.kr/p/view.asp?goods_idx=2112&page=1&goods_admin_code=&top_division=504&top_division_title=&middle_division=512&middle_division_title=&bottom_division=&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            },
+            {
+              "title": "고잉 마이 홈",
+              "titleEng": "Closing Film – Short Films Showcase",
+              "url": "http://www.sipff.kr/p/view.asp?goods_idx=2113&page=1&goods_admin_code=&top_division=504&top_division_title=&middle_division=512&middle_division_title=&bottom_division=&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "theater": "아트 2관 ART 2",
+      "times": [
+        {
+          "time": "20:00",
+          "title": "폐막작 – 단편 쇼케이스",
+          "titleEng": "Closing Film – Short Films Showcase",
+          "grades": [
+            "15"
+          ],
+          "programs": [
+            {
+              "title": "키스 키스",
+              "titleEng": "Closing Film – Short Films Showcase",
+              "url": "http://www.sipff.kr/p/view.asp?goods_idx=2111&page=1&goods_admin_code=&top_division=504&top_division_title=&middle_division=512&middle_division_title=&bottom_division=&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            },
+            {
+              "title": "아이스",
+              "titleEng": "Closing Film – Short Films Showcase",
+              "url": "http://www.sipff.kr/p/view.asp?goods_idx=2112&page=1&goods_admin_code=&top_division=504&top_division_title=&middle_division=512&middle_division_title=&bottom_division=&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            },
+            {
+              "title": "고잉 마이 홈",
+              "titleEng": "Closing Film – Short Films Showcase",
+              "url": "http://www.sipff.kr/p/view.asp?goods_idx=2113&page=1&goods_admin_code=&top_division=504&top_division_title=&middle_division=512&middle_division_title=&bottom_division=&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "theater": "씨네라이브러리Cine Library",
+      "times": [
+        {
+          "time": "19:00",
+          "title": "폐막식",
+          "titleEng": "Closing Ceremony",
+          "grades": [
+            ""
+          ],
+          "programs": [
+            {
+              "title": "폐막식",
+              "titleEng": "Closing Ceremony",
+              "url": "http://www.sipff.kr/e/e_01_01.asp"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

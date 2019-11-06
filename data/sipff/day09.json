@@ -1,0 +1,361 @@
+{
+  "date": "9",
+  "dateStr": "9(토)",
+  "screening": [
+    {
+      "theater": "아트 1관 ART 1",
+      "times": [
+        {
+          "time": "11:20",
+          "title": "개 같은 날의 오후",
+          "titleEng": "A Hot Roof",
+          "grades": [
+            "18"
+          ],
+          "programs": [
+            {
+              "title": "개 같은 날의 오후",
+              "titleEng": "A Hot Roof",
+              "url": "http://www.sipff.kr/p/view.asp?goods_idx=2015&page=1&goods_admin_code=&top_division=504&top_division_title=&middle_division=507&middle_division_title=&bottom_division=&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            }
+          ]
+        },
+        {
+          "time": "13:35",
+          "title": "갯마을",
+          "titleEng": "The Seashore Village",
+          "grades": [
+            "18"
+          ],
+          "programs": [
+            {
+              "title": "갯마을",
+              "titleEng": "The Seashore Village",
+              "url": "http://www.sipff.kr/p/view.asp?goods_idx=2011&page=1&goods_admin_code=&top_division=504&top_division_title=&middle_division=507&middle_division_title=&bottom_division=&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            }
+          ]
+        },
+        {
+          "time": "15:30",
+          "title": "[개막작]타오르는 여인의 초상",
+          "titleEng": "Portrait of a Lady on Fire(QT)",
+          "grades": [
+            "12"
+          ],
+          "programs": [
+            {
+              "title": "[개막작]타오르는 여인의 초상",
+              "titleEng": "Portrait of a Lady on Fire(QT)",
+              "url": "http://www.sipff.kr/p/view.asp?goods_idx=2114&page=1&goods_admin_code=&top_division=504&top_division_title=&middle_division=505&middle_division_title=&bottom_division=&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            }
+          ]
+        },
+        {
+          "time": "17:55",
+          "title": "트레이시",
+          "titleEng": "Tracey",
+          "grades": [
+            "12"
+          ],
+          "programs": [
+            {
+              "title": "트레이시",
+              "titleEng": "Tracey",
+              "url": "http://www.sipff.kr/p/view.asp?goods_idx=2070&page=1&goods_admin_code=&top_division=504&top_division_title=&middle_division=514&middle_division_title=&bottom_division=524&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            }
+          ]
+        },
+        {
+          "time": "20:45",
+          "title": "빌리와 엠마",
+          "titleEng": "Billie and Emma(GV)",
+          "grades": [
+            "G"
+          ],
+          "programs": [
+            {
+              "title": "빌리와 엠마",
+              "titleEng": "Billie and Emma(GV)",
+              "url": "http://www.sipff.kr/p/view.asp?goods_idx=2073&page=1&goods_admin_code=&top_division=504&top_division_title=&middle_division=514&middle_division_title=&bottom_division=524&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "theater": "아트 2관 ART 2",
+      "times": [
+        {
+          "time": "11:40",
+          "title": "아담",
+          "titleEng": "Adam",
+          "grades": [
+            "15"
+          ],
+          "programs": [
+            {
+              "title": "아담",
+              "titleEng": "Adam",
+              "url": "http://www.sipff.kr/p/view.asp?goods_idx=2051&page=1&goods_admin_code=&top_division=504&top_division_title=&middle_division=510&middle_division_title=&bottom_division=&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            }
+          ]
+        },
+        {
+          "time": "13:50",
+          "title": "스톤월",
+          "titleEng": "Stonewall",
+          "grades": [
+            "18"
+          ],
+          "programs": [
+            {
+              "title": "스톤월",
+              "titleEng": "Stonewall",
+              "url": "http://www.sipff.kr/p/view.asp?goods_idx=2108&page=1&goods_admin_code=&top_division=504&top_division_title=&middle_division=506&middle_division_title=&bottom_division=&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            }
+          ]
+        },
+        {
+          "time": "16:35",
+          "title": "브레이크",
+          "titleEng": "Brake (GV)",
+          "grades": [
+            "15"
+          ],
+          "programs": [
+            {
+              "title": "브레이크",
+              "titleEng": "Brake (GV)",
+              "url": "http://www.sipff.kr/p/view.asp?goods_idx=2074&page=1&goods_admin_code=&top_division=504&top_division_title=&middle_division=514&middle_division_title=&bottom_division=524&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            }
+          ]
+        },
+        {
+          "time": "18:40",
+          "title": "비욘드 게이: 더 폴러틱스 오브 프라이드",
+          "titleEng": "Beyond Gay: The politics of Pride(QT)",
+          "grades": [
+            "12"
+          ],
+          "programs": [
+            {
+              "title": "비욘드 게이: 더 폴러틱스 오브 프라이드",
+              "titleEng": "Beyond Gay: The politics of Pride(QT)",
+              "url": "http://www.sipff.kr/p/view.asp?goods_idx=2104&page=1&goods_admin_code=&top_division=504&top_division_title=&middle_division=506&middle_division_title=&bottom_division=&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            }
+          ]
+        },
+        {
+          "time": "20:30",
+          "title": "해외단편2",
+          "titleEng": "International Shorts 2",
+          "grades": [
+            "15"
+          ],
+          "programs": [
+            {
+              "title": "블루 스카이",
+              "titleEng": "International Shorts 2",
+              "url": "http://www.sipff.kr/p/view.asp?goods_idx=2067&page=1&goods_admin_code=&top_division=504&top_division_title=&middle_division=514&middle_division_title=&bottom_division=525&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            },
+            {
+              "title": "바디",
+              "titleEng": "International Shorts 2",
+              "url": "http://www.sipff.kr/p/view.asp?goods_idx=2042&page=2&goods_admin_code=&top_division=504&top_division_title=&middle_division=510&middle_division_title=&bottom_division=&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            },
+            {
+              "title": "장난감",
+              "titleEng": "International Shorts 2",
+              "url": "http://www.sipff.kr/p/view.asp?goods_idx=2048&page=1&goods_admin_code=&top_division=504&top_division_title=&middle_division=510&middle_division_title=&bottom_division=&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            },
+            {
+              "title": "그녀를 보아줘",
+              "titleEng": "International Shorts 2",
+              "url": "http://www.sipff.kr/p/view.asp?goods_idx=2030&page=3&goods_admin_code=&top_division=504&top_division_title=&middle_division=510&middle_division_title=&bottom_division=&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            },
+            {
+              "title": "치정 마사지샵",
+              "titleEng": "International Shorts 2",
+              "url": "http://www.sipff.kr/p/view.asp?goods_idx=2066&page=1&goods_admin_code=&top_division=504&top_division_title=&middle_division=514&middle_division_title=&bottom_division=525&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "theater": "일반 2관 Cinema 2",
+      "times": [
+        {
+          "time": "12:00",
+          "title": "가족 같은 동물",
+          "titleEng": "Animal like Family",
+          "grades": [
+            "15"
+          ],
+          "programs": [
+            {
+              "title": "모모",
+              "titleEng": "Animal like Family",
+              "url": "http://www.sipff.kr/p/view.asp?goods_idx=2026&page=1&goods_admin_code=&top_division=504&top_division_title=&middle_division=511&middle_division_title=&bottom_division=&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            },
+            {
+              "title": "툰그루스",
+              "titleEng": "Animal like Family",
+              "url": "http://www.sipff.kr/p/view.asp?goods_idx=2027&page=1&goods_admin_code=&top_division=504&top_division_title=&middle_division=511&middle_division_title=&bottom_division=&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            },
+            {
+              "title": "가족 같은 개, 개 같은 가족",
+              "titleEng": "Animal like Family",
+              "url": "http://www.sipff.kr/p/view.asp?goods_idx=2023&page=1&goods_admin_code=&top_division=504&top_division_title=&middle_division=511&middle_division_title=&bottom_division=&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            }
+          ]
+        },
+        {
+          "time": "13:20",
+          "title": "한국단편경쟁 3",
+          "titleEng": "Korean Shorts Competition 3(GV)",
+          "grades": [
+            "15"
+          ],
+          "programs": [
+            {
+              "title": "먼 위안",
+              "titleEng": "Korean Shorts Competition 3(GV)",
+              "url": "http://www.sipff.kr/p/view.asp?goods_idx=2096&page=1&goods_admin_code=&top_division=504&top_division_title=&middle_division=508&middle_division_title=&bottom_division=522&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            },
+            {
+              "title": "사이",
+              "titleEng": "Korean Shorts Competition 3(GV)",
+              "url": "http://www.sipff.kr/p/view.asp?goods_idx=2091&page=2&goods_admin_code=&top_division=504&top_division_title=&middle_division=508&middle_division_title=&bottom_division=522&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            },
+            {
+              "title": "빛",
+              "titleEng": "Korean Shorts Competition 3(GV)",
+              "url": "http://www.sipff.kr/p/view.asp?goods_idx=2093&page=1&goods_admin_code=&top_division=504&top_division_title=&middle_division=508&middle_division_title=&bottom_division=522&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            },
+            {
+              "title": "초동",
+              "titleEng": "Korean Shorts Competition 3(GV)",
+              "url": "http://www.sipff.kr/p/view.asp?goods_idx=2086&page=2&goods_admin_code=&top_division=504&top_division_title=&middle_division=508&middle_division_title=&bottom_division=522&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            },
+            {
+              "title": "봄밤",
+              "titleEng": "Korean Shorts Competition 3(GV)",
+              "url": "http://www.sipff.kr/p/view.asp?goods_idx=2094&page=1&goods_admin_code=&top_division=504&top_division_title=&middle_division=508&middle_division_title=&bottom_division=522&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            },
+            {
+              "title": "연애편지",
+              "titleEng": "Korean Shorts Competition 3(GV)",
+              "url": "http://www.sipff.kr/p/view.asp?goods_idx=2089&page=2&goods_admin_code=&top_division=504&top_division_title=&middle_division=508&middle_division_title=&bottom_division=522&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            }
+          ]
+        },
+        {
+          "time": "15:50",
+          "title": "한국단편-비경쟁",
+          "titleEng": "Korean Shorts Non-competition(GV)",
+          "grades": [
+            "15"
+          ],
+          "programs": [
+            {
+              "title": "손과 날개",
+              "titleEng": "Korean Shorts Non-competition(GV)",
+              "url": "goods_idx=2082&page=1&goods_admin_code=&top_division=504&top_division_title=&middle_division=508&middle_division_title=&bottom_division=523&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            },
+            {
+              "title": "ONE",
+              "titleEng": "Korean Shorts Non-competition(GV)",
+              "url": "goods_idx=2078&page=1&goods_admin_code=&top_division=504&top_division_title=&middle_division=508&middle_division_title=&bottom_division=523&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            },
+            {
+              "title": "낡은 북이 울리면",
+              "titleEng": "Korean Shorts Non-competition(GV)",
+              "url": "goods_idx=2077&page=1&goods_admin_code=&top_division=504&top_division_title=&middle_division=508&middle_division_title=&bottom_division=523&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            },
+            {
+              "title": "소나기달",
+              "titleEng": "Korean Shorts Non-competition(GV)",
+              "url": "goods_idx=2083&page=1&goods_admin_code=&top_division=504&top_division_title=&middle_division=508&middle_division_title=&bottom_division=523&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            },
+            {
+              "title": "퀴어 053",
+              "titleEng": "Korean Shorts Non-competition(GV)",
+              "url": "goods_idx=2080&page=1&goods_admin_code=&top_division=504&top_division_title=&middle_division=508&middle_division_title=&bottom_division=523&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            },
+            {
+              "title": "교환학생",
+              "titleEng": "Korean Shorts Non-competition(GV)",
+              "url": "goods_idx=2084&page=1&goods_admin_code=&top_division=504&top_division_title=&middle_division=508&middle_division_title=&bottom_division=523&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            }
+          ]
+        },
+        {
+          "time": "18:30",
+          "title": "화이트 라이언 찰리",
+          "titleEng": "Mia and the White Lion",
+          "grades": [
+            "G"
+          ],
+          "programs": [
+            {
+              "title": "화이트 라이언 찰리",
+              "titleEng": "Mia and the White Lion",
+              "url": "http://www.sipff.kr/p/view.asp?goods_idx=2028&page=1&goods_admin_code=&top_division=504&top_division_title=&middle_division=511&middle_division_title=&bottom_division=&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            }
+          ]
+        },
+        {
+          "time": "20:40",
+          "title": "천하장사 마돈나",
+          "titleEng": "Like A Virgin",
+          "grades": [
+            "15"
+          ],
+          "programs": [
+            {
+              "title": "천하장사 마돈나",
+              "titleEng": "Like A Virgin",
+              "url": "http://www.sipff.kr/p/view.asp?goods_idx=2017&page=1&goods_admin_code=&top_division=504&top_division_title=&middle_division=507&middle_division_title=&bottom_division=&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "theater": "씨네라이브러리Cine Library",
+      "times": [
+        {
+          "time": "16:10",
+          "title": "QT – 타오르는 여인의 초상",
+          "titleEng": "Portrait of a Lady on Fire",
+          "grades": [
+            "G"
+          ],
+          "programs": [
+            {
+              "title": "QT – 타오르는 여인의 초상",
+              "titleEng": "Portrait of a Lady on Fire",
+              "url": "http://www.sipff.kr/p/view.asp?goods_idx=2114&page=1&goods_admin_code=&top_division=504&top_division_title=&middle_division=505&middle_division_title=&bottom_division=&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            }
+          ]
+        },
+        {
+          "time": "18:40",
+          "title": "QT – 비욘드 게이: 더 폴러틱스 오브 프라이드",
+          "titleEng": "Beyond Gay: The politics of Pride",
+          "grades": [
+            "G"
+          ],
+          "programs": [
+            {
+              "title": "QT – 비욘드 게이: 더 폴러틱스 오브 프라이드",
+              "titleEng": "Beyond Gay: The politics of Pride",
+              "url": "http://www.sipff.kr/p/view.asp?goods_idx=2104&page=1&goods_admin_code=&top_division=504&top_division_title=&middle_division=506&middle_division_title=&bottom_division=&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

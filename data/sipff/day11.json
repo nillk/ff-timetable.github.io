@@ -1,0 +1,346 @@
+{
+  "date": "11",
+  "dateStr": "11(월)",
+  "screening": [
+    {
+      "theater": "아트 1관 ART 1",
+      "times": [
+        {
+          "time": "12:30",
+          "title": "트레이시",
+          "titleEng": "Tracey",
+          "grades": [
+            "12"
+          ],
+          "programs": [
+            {
+              "title": "트레이시",
+              "titleEng": "Tracey",
+              "url": "http://www.sipff.kr/p/view.asp?goods_idx=2070&page=1&goods_admin_code=&top_division=504&top_division_title=&middle_division=514&middle_division_title=&bottom_division=524&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            }
+          ]
+        },
+        {
+          "time": "14:50",
+          "title": "빌리와 엠마",
+          "titleEng": "Billie and Emma",
+          "grades": [
+            "G"
+          ],
+          "programs": [
+            {
+              "title": "빌리와 엠마",
+              "titleEng": "Billie and Emma",
+              "url": "http://www.sipff.kr/p/view.asp?goods_idx=2073&page=1&goods_admin_code=&top_division=504&top_division_title=&middle_division=514&middle_division_title=&bottom_division=524&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            }
+          ]
+        },
+        {
+          "time": "17:00",
+          "title": "고잉 웨스트",
+          "titleEng": "Going West",
+          "grades": [
+            "15"
+          ],
+          "programs": [
+            {
+              "title": "고잉 웨스트",
+              "titleEng": "Going West",
+              "url": "http://www.sipff.kr/p/view.asp?goods_idx=2031&page=3&goods_admin_code=&top_division=504&top_division_title=&middle_division=510&middle_division_title=&bottom_division=&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            }
+          ]
+        },
+        {
+          "time": "18:50",
+          "title": "JT 르로이",
+          "titleEng": "Jeremiah Terminator LeRoy",
+          "grades": [
+            "18"
+          ],
+          "programs": [
+            {
+              "title": "JT 르로이",
+              "titleEng": "Jeremiah Terminator LeRoy",
+              "url": "http://www.sipff.kr/p/view.asp?goods_idx=2046&page=2&goods_admin_code=&top_division=504&top_division_title=&middle_division=510&middle_division_title=&bottom_division=&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            }
+          ]
+        },
+        {
+          "time": "21:05",
+          "title": "카나리아",
+          "titleEng": "Canary",
+          "grades": [
+            "18"
+          ],
+          "programs": [
+            {
+              "title": "카나리아",
+              "titleEng": "Canary",
+              "url": "http://www.sipff.kr/p/view.asp?goods_idx=2036&page=3&goods_admin_code=&top_division=504&top_division_title=&middle_division=510&middle_division_title=&bottom_division=&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "theater": "아트 2관 ART 2",
+      "times": [
+        {
+          "time": "13:00",
+          "title": "한국단편경쟁 3",
+          "titleEng": "Korean Shorts Competition 3",
+          "grades": [
+            "15"
+          ],
+          "programs": [
+            {
+              "title": "먼 위안",
+              "titleEng": "Korean Shorts Competition 3",
+              "url": "http://www.sipff.kr/p/view.asp?goods_idx=2096&page=1&goods_admin_code=&top_division=504&top_division_title=&middle_division=508&middle_division_title=&bottom_division=522&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            },
+            {
+              "title": "사이",
+              "titleEng": "Korean Shorts Competition 3",
+              "url": "http://www.sipff.kr/p/view.asp?goods_idx=2091&page=2&goods_admin_code=&top_division=504&top_division_title=&middle_division=508&middle_division_title=&bottom_division=522&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            },
+            {
+              "title": "빛",
+              "titleEng": "Korean Shorts Competition 3",
+              "url": "http://www.sipff.kr/p/view.asp?goods_idx=2093&page=1&goods_admin_code=&top_division=504&top_division_title=&middle_division=508&middle_division_title=&bottom_division=522&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            },
+            {
+              "title": "초동",
+              "titleEng": "Korean Shorts Competition 3",
+              "url": "http://www.sipff.kr/p/view.asp?goods_idx=2086&page=2&goods_admin_code=&top_division=504&top_division_title=&middle_division=508&middle_division_title=&bottom_division=522&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            },
+            {
+              "title": "봄밤",
+              "titleEng": "Korean Shorts Competition 3",
+              "url": "http://www.sipff.kr/p/view.asp?goods_idx=2094&page=1&goods_admin_code=&top_division=504&top_division_title=&middle_division=508&middle_division_title=&bottom_division=522&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            },
+            {
+              "title": "연애편지",
+              "titleEng": "Korean Shorts Competition 3",
+              "url": "http://www.sipff.kr/p/view.asp?goods_idx=2089&page=2&goods_admin_code=&top_division=504&top_division_title=&middle_division=508&middle_division_title=&bottom_division=522&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            }
+          ]
+        },
+        {
+          "time": "15:00",
+          "title": "한국단편-비경쟁",
+          "titleEng": "Korean Shorts Non-competition",
+          "grades": [
+            "15"
+          ],
+          "programs": [
+            {
+              "title": "손과 날개",
+              "titleEng": "Korean Shorts Non-competition",
+              "url": "http://www.sipff.kr/p/view.asp?goods_idx=2082&page=1&goods_admin_code=&top_division=504&top_division_title=&middle_division=508&middle_division_title=&bottom_division=523&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            },
+            {
+              "title": "ONE",
+              "titleEng": "Korean Shorts Non-competition",
+              "url": "http://www.sipff.kr/p/view.asp?goods_idx=2078&page=1&goods_admin_code=&top_division=504&top_division_title=&middle_division=508&middle_division_title=&bottom_division=523&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            },
+            {
+              "title": "낡은 북이 울리면",
+              "titleEng": "Korean Shorts Non-competition",
+              "url": "http://www.sipff.kr/p/view.asp?goods_idx=2077&page=1&goods_admin_code=&top_division=504&top_division_title=&middle_division=508&middle_division_title=&bottom_division=523&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            },
+            {
+              "title": "소나기달",
+              "titleEng": "Korean Shorts Non-competition",
+              "url": "http://www.sipff.kr/p/view.asp?goods_idx=2083&page=1&goods_admin_code=&top_division=504&top_division_title=&middle_division=508&middle_division_title=&bottom_division=523&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            },
+            {
+              "title": "퀴어 053",
+              "titleEng": "Korean Shorts Non-competition",
+              "url": "http://www.sipff.kr/p/view.asp?goods_idx=2080&page=1&goods_admin_code=&top_division=504&top_division_title=&middle_division=508&middle_division_title=&bottom_division=523&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            },
+            {
+              "title": "교환학생",
+              "titleEng": "Korean Shorts Non-competition",
+              "url": "http://www.sipff.kr/p/view.asp?goods_idx=2084&page=1&goods_admin_code=&top_division=504&top_division_title=&middle_division=508&middle_division_title=&bottom_division=523&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            },
+            {
+              "title": "",
+              "titleEng": "Korean Shorts Non-competition",
+              "url": "#"
+            }
+          ]
+        },
+        {
+          "time": "17:15",
+          "title": "로렐",
+          "titleEng": "Freeheld",
+          "grades": [
+            "15"
+          ],
+          "programs": [
+            {
+              "title": "로렐",
+              "titleEng": "Freeheld",
+              "url": "http://www.sipff.kr/p/view.asp?goods_idx=2109&page=1&goods_admin_code=&top_division=504&top_division_title=&middle_division=506&middle_division_title=&bottom_division=&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            }
+          ]
+        },
+        {
+          "time": "19:25",
+          "title": "아담",
+          "titleEng": "Adam",
+          "grades": [
+            "15"
+          ],
+          "programs": [
+            {
+              "title": "아담",
+              "titleEng": "Adam",
+              "url": "http://www.sipff.kr/p/view.asp?goods_idx=2051&page=1&goods_admin_code=&top_division=504&top_division_title=&middle_division=510&middle_division_title=&bottom_division=&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            }
+          ]
+        },
+        {
+          "time": "21:25",
+          "title": "해외단편4",
+          "titleEng": "International Shorts 4",
+          "grades": [
+            "15"
+          ],
+          "programs": [
+            {
+              "title": "어항",
+              "titleEng": "International Shorts 4",
+              "url": "http://www.sipff.kr/p/view.asp?goods_idx=2058&page=2&goods_admin_code=&top_division=504&top_division_title=&middle_division=514&middle_division_title=&bottom_division=525&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            },
+            {
+              "title": "더 부스",
+              "titleEng": "International Shorts 4",
+              "url": "http://www.sipff.kr/p/view.asp?goods_idx=2064&page=1&goods_admin_code=&top_division=504&top_division_title=&middle_division=514&middle_division_title=&bottom_division=525&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            },
+            {
+              "title": "롤로",
+              "titleEng": "International Shorts 4",
+              "url": "http://www.sipff.kr/p/view.asp?goods_idx=2055&page=1&goods_admin_code=&top_division=504&top_division_title=&middle_division=510&middle_division_title=&bottom_division=&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            },
+            {
+              "title": "웰컴 투 더 볼",
+              "titleEng": "International Shorts 4",
+              "url": "http://www.sipff.kr/p/view.asp?goods_idx=2049&page=1&goods_admin_code=&top_division=504&top_division_title=&middle_division=510&middle_division_title=&bottom_division=&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            },
+            {
+              "title": "더 늦기 전에",
+              "titleEng": "International Shorts 4",
+              "url": "http://www.sipff.kr/p/view.asp?goods_idx=2056&page=1&goods_admin_code=&top_division=504&top_division_title=&middle_division=510&middle_division_title=&bottom_division=&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            },
+            {
+              "title": "러버 돌핀",
+              "titleEng": "International Shorts 4",
+              "url": "http://www.sipff.kr/p/view.asp?goods_idx=2044&page=2&goods_admin_code=&top_division=504&top_division_title=&middle_division=510&middle_division_title=&bottom_division=&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "theater": "일반 2관 Cinema 2",
+      "times": [
+        {
+          "time": "13:20",
+          "title": "브레이크",
+          "titleEng": "Brake",
+          "grades": [
+            "15"
+          ],
+          "programs": [
+            {
+              "title": "브레이크",
+              "titleEng": "Brake",
+              "url": "http://www.sipff.kr/p/view.asp?goods_idx=2074&page=1&goods_admin_code=&top_division=504&top_division_title=&middle_division=514&middle_division_title=&bottom_division=524&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            }
+          ]
+        },
+        {
+          "time": "15:00",
+          "title": "보이 이레이즈드",
+          "titleEng": "Boy Erased",
+          "grades": [
+            "15"
+          ],
+          "programs": [
+            {
+              "title": "보이 이레이즈드",
+              "titleEng": "Boy Erased",
+              "url": "http://www.sipff.kr/p/view.asp?goods_idx=2041&page=2&goods_admin_code=&top_division=504&top_division_title=&middle_division=510&middle_division_title=&bottom_division=&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            }
+          ]
+        },
+        {
+          "time": "17:20",
+          "title": "파닥파닥",
+          "titleEng": "Padak",
+          "grades": [
+            "12"
+          ],
+          "programs": [
+            {
+              "title": "파닥파닥",
+              "titleEng": "Padak",
+              "url": "http://www.sipff.kr/p/view.asp?goods_idx=2025&page=1&goods_admin_code=&top_division=504&top_division_title=&middle_division=511&middle_division_title=&bottom_division=&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            }
+          ]
+        },
+        {
+          "time": "19:05",
+          "title": "리미티드 파트너십",
+          "titleEng": "Limited Partnership(QT)",
+          "grades": [
+            "G"
+          ],
+          "programs": [
+            {
+              "title": "리미티드 파트너십",
+              "titleEng": "Limited Partnership(QT)",
+              "url": "http://www.sipff.kr/p/view.asp?goods_idx=2106&page=1&goods_admin_code=&top_division=504&top_division_title=&middle_division=506&middle_division_title=&bottom_division=&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            }
+          ]
+        },
+        {
+          "time": "20:40",
+          "title": "아가씨",
+          "titleEng": "The Handmaiden",
+          "grades": [
+            "18"
+          ],
+          "programs": [
+            {
+              "title": "아가씨",
+              "titleEng": "The Handmaiden",
+              "url": "http://www.sipff.kr/p/view.asp?goods_idx=2020&page=1&goods_admin_code=&top_division=504&top_division_title=&middle_division=507&middle_division_title=&bottom_division=&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "theater": "씨네라이브러리Cine Library",
+      "times": [
+        {
+          "time": "19:00",
+          "title": "QT – 리미티드 파트너십",
+          "titleEng": "Limited Partnership",
+          "grades": [
+            "G"
+          ],
+          "programs": [
+            {
+              "title": "QT – 리미티드 파트너십",
+              "titleEng": "Limited Partnership",
+              "url": "http://www.sipff.kr/p/view.asp?goods_idx=2106&page=1&goods_admin_code=&top_division=504&top_division_title=&middle_division=506&middle_division_title=&bottom_division=&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

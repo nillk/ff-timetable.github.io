@@ -1,0 +1,331 @@
+{
+  "date": "10",
+  "dateStr": "10(일)",
+  "screening": [
+    {
+      "theater": "아트 1관 ART 1",
+      "times": [
+        {
+          "time": "12:30",
+          "title": "사방지(필름)",
+          "titleEng": "Sa Bangji",
+          "grades": [
+            "18"
+          ],
+          "programs": [
+            {
+              "title": "사방지(필름)",
+              "titleEng": "Sa Bangji",
+              "url": "http://www.sipff.kr/p/view.asp?goods_idx=2013&page=1&goods_admin_code=&top_division=504&top_division_title=&middle_division=507&middle_division_title=&bottom_division=&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            }
+          ]
+        },
+        {
+          "time": "14:40",
+          "title": "화분",
+          "titleEng": "The Pollen of Flowers",
+          "grades": [
+            "18"
+          ],
+          "programs": [
+            {
+              "title": "화분",
+              "titleEng": "The Pollen of Flowers",
+              "url": "http://www.sipff.kr/p/view.asp?goods_idx=2012&page=1&goods_admin_code=&top_division=504&top_division_title=&middle_division=507&middle_division_title=&bottom_division=&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            }
+          ]
+        },
+        {
+          "time": "16:45",
+          "title": "운동선수~ 내가 그에게 빠진 나날",
+          "titleEng": "Athlete: Ore ga kare ni oboreta hibi(GV)",
+          "grades": [
+            "15"
+          ],
+          "programs": [
+            {
+              "title": "운동선수~ 내가 그에게 빠진 나날",
+              "titleEng": "Athlete: Ore ga kare ni oboreta hibi(GV)",
+              "url": "http://www.sipff.kr/p/view.asp?goods_idx=2071&page=1&goods_admin_code=&top_division=504&top_division_title=&middle_division=514&middle_division_title=&bottom_division=&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            }
+          ]
+        },
+        {
+          "time": "18:50",
+          "title": "카르멘 & 롤라",
+          "titleEng": "Carmen & Lola",
+          "grades": [
+            "12"
+          ],
+          "programs": [
+            {
+              "title": "카르멘 & 롤라",
+              "titleEng": "Carmen & Lola",
+              "url": "http://www.sipff.kr/p/view.asp?goods_idx=2035&page=3&goods_admin_code=&top_division=504&top_division_title=&middle_division=510&middle_division_title=&bottom_division=&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            }
+          ]
+        },
+        {
+          "time": "21:05",
+          "title": "세기의 끝",
+          "titleEng": "End of the Century",
+          "grades": [
+            "15"
+          ],
+          "programs": [
+            {
+              "title": "세기의 끝",
+              "titleEng": "End of the Century",
+              "url": "http://www.sipff.kr/p/view.asp?goods_idx=2052&page=1&goods_admin_code=&top_division=504&top_division_title=&middle_division=510&middle_division_title=&bottom_division=&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "theater": "아트 2관 ART 2",
+      "times": [
+        {
+          "time": "11:30",
+          "title": "밀크",
+          "titleEng": "Milk",
+          "grades": [
+            "15"
+          ],
+          "programs": [
+            {
+              "title": "밀크",
+              "titleEng": "Milk",
+              "url": "http://www.sipff.kr/p/view.asp?goods_idx=2103&page=1&goods_admin_code=&top_division=504&top_division_title=&middle_division=506&middle_division_title=&bottom_division=&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            }
+          ]
+        },
+        {
+          "time": "14:00",
+          "title": "해피 엔딩",
+          "titleEng": "Happy Ending",
+          "grades": [
+            "G"
+          ],
+          "programs": [
+            {
+              "title": "해피 엔딩",
+              "titleEng": "Happy Ending",
+              "url": "http://www.sipff.kr/p/view.asp?goods_idx=2033&page=3&goods_admin_code=&top_division=504&top_division_title=&middle_division=510&middle_division_title=&bottom_division=&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            }
+          ]
+        },
+        {
+          "time": "15:55",
+          "title": "위대한 작은 농장",
+          "titleEng": "The Biggest Little Farm(QT)",
+          "grades": [
+            "G"
+          ],
+          "programs": [
+            {
+              "title": "위대한 작은 농장",
+              "titleEng": "The Biggest Little Farm(QT)",
+              "url": "http://www.sipff.kr/p/view.asp?goods_idx=2029&page=1&goods_admin_code=&top_division=504&top_division_title=&middle_division=511&middle_division_title=&bottom_division=&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            }
+          ]
+        },
+        {
+          "time": "17:45",
+          "title": "엄마, 안녕",
+          "titleEng": "I talked about: Goodbye Mother(GV)",
+          "grades": [
+            "15"
+          ],
+          "programs": [
+            {
+              "title": "엄마, 안녕",
+              "titleEng": "I talked about: Goodbye Mother(GV)",
+              "url": "http://www.sipff.kr/p/view.asp?goods_idx=2072&page=1&goods_admin_code=&top_division=504&top_division_title=&middle_division=514&middle_division_title=&bottom_division=&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            }
+          ]
+        },
+        {
+          "time": "20:20",
+          "title": "달을 향해 짖는 개",
+          "titleEng": "A Dog Barking at the Moon(GV)",
+          "grades": [
+            "15"
+          ],
+          "programs": [
+            {
+              "title": "달을 향해 짖는 개",
+              "titleEng": "A Dog Barking at the Moon(GV)",
+              "url": "http://www.sipff.kr/p/view.asp?goods_idx=2075&page=1&goods_admin_code=&top_division=504&top_division_title=&middle_division=514&middle_division_title=&bottom_division=&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "theater": "일반 2관 Cinema 2",
+      "times": [
+        {
+          "time": "12:10",
+          "title": "아름다운 비행",
+          "titleEng": "Fly Away Home",
+          "grades": [
+            "G"
+          ],
+          "programs": [
+            {
+              "title": "아름다운 비행",
+              "titleEng": "Fly Away Home",
+              "url": "http://www.sipff.kr/p/view.asp?goods_idx=2022&page=1&goods_admin_code=&top_division=504&top_division_title=&middle_division=511&middle_division_title=&bottom_division=&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            }
+          ]
+        },
+        {
+          "time": "14:15",
+          "title": "한국단편경쟁 1",
+          "titleEng": "Korean Shorts Competition 1(GV)",
+          "grades": [
+            "15"
+          ],
+          "programs": [
+            {
+              "title": "날씨가 좋아서",
+              "titleEng": "Korean Shorts Competition 1(GV)",
+              "url": "http://www.sipff.kr/p/view.asp?goods_idx=2101&page=1&goods_admin_code=&top_division=504&top_division_title=&middle_division=508&middle_division_title=&bottom_division=522&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            },
+            {
+              "title": "만추",
+              "titleEng": "Korean Shorts Competition 1(GV)",
+              "url": "http://www.sipff.kr/p/view.asp?goods_idx=2097&page=1&goods_admin_code=&top_division=504&top_division_title=&middle_division=508&middle_division_title=&bottom_division=522&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            },
+            {
+              "title": "움직임의 사전",
+              "titleEng": "Korean Shorts Competition 1(GV)",
+              "url": "http://www.sipff.kr/p/view.asp?goods_idx=2088&page=2&goods_admin_code=&top_division=504&top_division_title=&middle_division=508&middle_division_title=&bottom_division=522&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            },
+            {
+              "title": "소화",
+              "titleEng": "Korean Shorts Competition 1(GV)",
+              "url": "http://www.sipff.kr/p/view.asp?goods_idx=2090&page=2&goods_admin_code=&top_division=504&top_division_title=&middle_division=508&middle_division_title=&bottom_division=522&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            },
+            {
+              "title": "마법소녀 나하나",
+              "titleEng": "Korean Shorts Competition 1(GV)",
+              "url": "http://www.sipff.kr/p/view.asp?goods_idx=2098&page=1&goods_admin_code=&top_division=504&top_division_title=&middle_division=508&middle_division_title=&bottom_division=522&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            },
+            {
+              "title": "모르는 사이",
+              "titleEng": "Korean Shorts Competition 1(GV)",
+              "url": "http://www.sipff.kr/p/view.asp?goods_idx=2095&page=1&goods_admin_code=&top_division=504&top_division_title=&middle_division=508&middle_division_title=&bottom_division=522&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            }
+          ]
+        },
+        {
+          "time": "16:45",
+          "title": "한국단편경쟁 2",
+          "titleEng": "Korean Shorts Competition 2(GV)",
+          "grades": [
+            "15"
+          ],
+          "programs": [
+            {
+              "title": "전환치료",
+              "titleEng": "Korean Shorts Competition 2(GV)",
+              "url": "http://www.sipff.kr/p/view.asp?goods_idx=2087&page=2&goods_admin_code=&top_division=504&top_division_title=&middle_division=508&middle_division_title=&bottom_division=522&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            },
+            {
+              "title": "그녀의 경우",
+              "titleEng": "Korean Shorts Competition 2(GV)",
+              "url": "http://www.sipff.kr/p/view.asp?goods_idx=2102&page=1&goods_admin_code=&top_division=504&top_division_title=&middle_division=508&middle_division_title=&bottom_division=522&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            },
+            {
+              "title": "사랑하는 소녀",
+              "titleEng": "Korean Shorts Competition 2(GV)",
+              "url": "http://www.sipff.kr/p/view.asp?goods_idx=2092&page=2&goods_admin_code=&top_division=504&top_division_title=&middle_division=508&middle_division_title=&bottom_division=522&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            },
+            {
+              "title": "루주",
+              "titleEng": "Korean Shorts Competition 2(GV)",
+              "url": "http://www.sipff.kr/p/view.asp?goods_idx=2100&page=1&goods_admin_code=&top_division=504&top_division_title=&middle_division=508&middle_division_title=&bottom_division=522&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            },
+            {
+              "title": "마더 인 로",
+              "titleEng": "Korean Shorts Competition 2(GV)",
+              "url": "http://www.sipff.kr/p/view.asp?goods_idx=2099&page=1&goods_admin_code=&top_division=504&top_division_title=&middle_division=508&middle_division_title=&bottom_division=522&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            }
+          ]
+        },
+        {
+          "time": "19:15",
+          "title": "무지개 같은 꿈",
+          "titleEng": "Our Lives (GV)",
+          "grades": [
+            "12"
+          ],
+          "programs": [
+            {
+              "title": "무지개 같은 꿈",
+              "titleEng": "Our Lives (GV)",
+              "url": "http://www.sipff.kr/p/view.asp?goods_idx=2076&page=3&goods_admin_code=&top_division=504&top_division_title=&middle_division=508&middle_division_title=&bottom_division=&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            }
+          ]
+        },
+        {
+          "time": "21:35",
+          "title": "해외단편 3",
+          "titleEng": "International Shorts 3",
+          "grades": [
+            "15"
+          ],
+          "programs": [
+            {
+              "title": "딜리버리 보이",
+              "titleEng": "International Shorts 3",
+              "url": "http://www.sipff.kr/p/view.asp?goods_idx=2068&page=1&goods_admin_code=&top_division=504&top_division_title=&middle_division=514&middle_division_title=&bottom_division=525&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            },
+            {
+              "title": "오늘부터는 낸시",
+              "titleEng": "International Shorts 3",
+              "url": "http://www.sipff.kr/p/view.asp?goods_idx=2050&page=1&goods_admin_code=&top_division=504&top_division_title=&middle_division=510&middle_division_title=&bottom_division=&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            },
+            {
+              "title": "낙하",
+              "titleEng": "International Shorts 3",
+              "url": "http://www.sipff.kr/p/view.asp?goods_idx=2045&page=2&goods_admin_code=&top_division=504&top_division_title=&middle_division=510&middle_division_title=&bottom_division=&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            },
+            {
+              "title": "레이디스 라운지",
+              "titleEng": "International Shorts 3",
+              "url": "http://www.sipff.kr/p/view.asp?goods_idx=2043&page=2&goods_admin_code=&top_division=504&top_division_title=&middle_division=510&middle_division_title=&bottom_division=&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            },
+            {
+              "title": "파시",
+              "titleEng": "International Shorts 3",
+              "url": "http://www.sipff.kr/p/view.asp?goods_idx=2059&page=2&goods_admin_code=&top_division=504&top_division_title=&middle_division=514&middle_division_title=&bottom_division=525&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "theater": "씨네라이브러리Cine Library",
+      "times": [
+        {
+          "time": "16:04",
+          "title": "QT – 위대한 작은 농장",
+          "titleEng": "The Biggest Little Farm",
+          "grades": [
+            "G"
+          ],
+          "programs": [
+            {
+              "title": "QT – 위대한 작은 농장",
+              "titleEng": "The Biggest Little Farm",
+              "url": "http://www.sipff.kr/p/view.asp?goods_idx=2029&page=1&goods_admin_code=&top_division=504&top_division_title=&middle_division=511&middle_division_title=&bottom_division=&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL="
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
