@@ -34,7 +34,7 @@ def get_schedule():
 
         if tr.find('td').has_attr('rowspan') or len(tr.find_all('td')) > 4:
           date_str = get_text(tr.find('td').find('strong'))
-          date = date_str.split('(')[0]
+          date = 'day' + date_str.split('(')[0]
           showtime = tr.find_all('td')[1:]
           if date not in schedule:
             schedule[date] = { 'date': date, 'dateStr': date_str, 'screening': [] }

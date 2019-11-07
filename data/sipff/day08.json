@@ -1,5 +1,5 @@
 {
-  "date": "8",
+  "date": "day08",
   "dateStr": "8(금)",
   "screening": [
     {
@@ -755,7 +755,7 @@
       ]
     },
     {
-      "theater": "씨네라이브러리Cine Library",
+      "theater": "씨네라이브러리 Cine Library",
       "times": [
         {
           "time": "19:00",
