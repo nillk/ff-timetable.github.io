@@ -8,17 +8,14 @@ BASE_URL = 'http://www.sipff.kr/m/m_01.asp'
 
 
 def get_text(element):
-    return element.text.strip()
+  return element.text.strip()
 
 
 def get_schedule():
     response = requests.get(BASE_URL)
     response.encoding = None
-    return response.text
 
-
-def parse_schedule(text):
-    soup = BeautifulSoup(text, 'html.parser')
+    soup = BeautifulSoup(response.text, 'html.parser')
     all_tables = soup.find('div', {'id': 'sub_content'}).find('table').find_all('table')
 
     schedule = {}
@@ -53,7 +50,6 @@ def parse_schedule(text):
 def parse_showtime(td_list):
   time = get_text(td_list[0].find('strong'))
   title, title_eng, programs = parse_program(td_list[1])
-  length = get_text(td_list[2])[:-1]
   grade = get_text(td_list[3])
   return {
     'time': time,
@@ -71,14 +67,69 @@ def parse_program(program):
   if len(program.find_all('p')) > 1 or (len(program.find_all('p')) == 1 and len(program.find('p').find_all('a')) > 1):
     sub_programs = program.find_all('p')[-1].find_all('a')
     for sub in sub_programs:
-      sub_title = get_text(sub)[1:-1]
-      url = sub.get('href')
-      programs.append({ 'title': sub_title, 'titleEng': title_eng, 'url': url})
+      url = full_url(sub.get('href'))
+      detail = get_program_detail(url)
+      programs.append(detail)
   else:
-    url = program.find('a').get('href')
-    programs.append({ 'title': title, 'titleEng': title_eng, 'url': url })
+    url = full_url(program.find('a').get('href'))
+    detail = get_program_detail(url)
+    programs.append(detail)
 
   return title, title_eng, programs
+
+
+def full_url(url):
+  if not url.startswith('http'):
+    url = 'http://www.sipff.kr/p/view.asp?' + url
+  return url
+
+
+def get_program_detail(url):
+  if url == 'http://www.sipff.kr/p/view.asp?#':
+    return
+
+  response = requests.get(url)
+  response.encoding = None
+
+  soup = BeautifulSoup(response.text, 'html.parser')
+  program_category = get_text(soup.find('div', {'class': 'title'}))
+
+  if '개막식' in program_category or '폐막식' in program_category:
+    return
+
+  if '개막작' in program_category:
+    url = 'http://www.sipff.kr/p/view.asp?goods_idx=2114&page=1&goods_admin_code=&top_division=504&top_division_title=&middle_division=505&middle_division_title=&bottom_division=&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL='
+    response = requests.get(url)
+    response.encoding = None
+
+    soup = BeautifulSoup(response.text, 'html.parser')
+
+  content = soup.find('div', {'id': 'sub_content'}).find('table').find('table')
+  details = content.find('table').find('tr').find_all('td')[3].find('table').find_all('tr')
+
+  title, title_eng = get_text(details[0].find('span', {'class': 'pro_ttl'})).split(' / ')
+  director = get_text(details[1].find_all('td')[1])
+  year_of_production, movie_format, color, length = get_text(details[2].find_all('td')[1]).split('┃')
+  grade = get_text(details[6].find_all('td')[1])
+
+  desc = get_text(content.find('td', {'class': 'pd_tb10'}))
+
+  return {
+    'title': title.strip(),
+    'titleEng': title_eng.strip(),
+    'url': url.strip(),
+    'desc': desc.strip(),
+    'info': {
+      'yearOfProduction': year_of_production.strip(),
+      'length': length.strip(),
+      'format': movie_format.strip(),
+      'color': color.strip(),
+      'genre': [program_category.strip()]
+    },
+    'credit': {
+      'director': director.strip()
+    }
+  }
 
 
 def split_title(title):
@@ -96,8 +147,7 @@ def split_title(title):
 
 if __name__ == '__main__':
   all_schedule = get_schedule()
-  formatted_schedule = parse_schedule(all_schedule)
-  for day, sch in formatted_schedule.items():
+  for day, sch in all_schedule.items():
     with open(f'day{int(day):02}.json', 'w', encoding='UTF-8') as f:
       f.write(json.dumps(sch, indent=2, ensure_ascii=False))
     print(f'Day {day} done.')
