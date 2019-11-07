@@ -150,7 +150,7 @@
           "title": "해외단편 5",
           "titleEng": "International Shorts 5",
           "grades": [
-            "12"
+            "18"
           ],
           "programs": [
             {
@@ -439,7 +439,7 @@
           "title": "해외단편1",
           "titleEng": "International Shorts 1",
           "grades": [
-            "18"
+            "15"
           ],
           "programs": [
             {
@@ -572,7 +572,7 @@
           "title": "한국단편경쟁 2",
           "titleEng": "Korean Shorts Competition 2",
           "grades": [
-            "15"
+            "12"
           ],
           "programs": [
             {
@@ -672,7 +672,7 @@
           "title": "런던 프라이드",
           "titleEng": "Pride",
           "grades": [
-            "12"
+            "G"
           ],
           "programs": [
             {
@@ -709,6 +709,7 @@
               "url": "http://www.sipff.kr/p/view.asp?goods_idx=2021&page=1&goods_admin_code=&top_division=504&top_division_title=&middle_division=511&middle_division_title=&bottom_division=&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL=",
               "desc": "제시는 12살의 나이에 입양되어새 가족의 품이 영 어색하기만 하다. 여전히 혼자라는 생각에 사고뭉치가 되어버린 제시는 결국 경찰에게붙잡혀 수족관 청소를 하라는 벌을 받게 된다. 그리고 그곳에서 발견하게 된 범고래 윌리. 그동안 조련사들의 말을 듣지 않아 골치였던 윌리에게 제시는 동질감을 느낀다.서로의 아픔을 공유하며 윌리와 제시는 점차 우정을 쌓아간다.",
               "info": {
+                "productionCountry": "USA, France, Mexico",
                 "yearOfProduction": "1993",
                 "length": "112min",
                 "format": "DCP",
@@ -761,7 +762,7 @@
           "title": "QT – 보이 이레이즈드",
           "titleEng": "Boy Erased",
           "grades": [
-            "G"
+            "15"
           ],
           "programs": [
             {

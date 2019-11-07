@@ -4,7 +4,12 @@ import json
 from bs4 import BeautifulSoup, NavigableString
 
 
-BASE_URL = 'http://www.sipff.kr/m/m_01.asp'
+GRADE_INFO = {
+  '전체관람가': 'G',
+  '12세관람가': '12',
+  '15세관람가': '15',
+  '청소년관람불가': '18',
+}
 
 
 def get_text(element):
@@ -12,7 +17,7 @@ def get_text(element):
 
 
 def get_schedule():
-    response = requests.get(BASE_URL)
+    response = requests.get('http://www.sipff.kr/m/m_01.asp')
     response.encoding = None
 
     soup = BeautifulSoup(response.text, 'html.parser')
@@ -49,33 +54,36 @@ def get_schedule():
 
 def parse_showtime(td_list):
   time = get_text(td_list[0].find('strong'))
-  title, title_eng, programs = parse_program(td_list[1])
-  grade = get_text(td_list[3])
+  title, title_eng, grades, programs = parse_program(td_list[1])
+
   return {
     'time': time,
     'title': title,
     'titleEng': title_eng,
-    'grades': [grade],
+    'grades': grades,
     'programs': programs
   }
 
 
 def parse_program(program):
   title, title_eng = split_title(get_text(program.find('a')))
+  grades = []
   programs = []
 
   if len(program.find_all('p')) > 1 or (len(program.find_all('p')) == 1 and len(program.find('p').find_all('a')) > 1):
     sub_programs = program.find_all('p')[-1].find_all('a')
     for sub in sub_programs:
       url = full_url(sub.get('href'))
-      detail = get_program_detail(url)
+      grade, detail = get_program_detail(url)
+      grades.append(grade)
       programs.append(detail)
   else:
     url = full_url(program.find('a').get('href'))
-    detail = get_program_detail(url)
+    grade, detail = get_program_detail(url)
+    grades.append(grade)
     programs.append(detail)
 
-  return title, title_eng, programs
+  return title, title_eng, grades, programs
 
 
 def full_url(url):
@@ -86,7 +94,7 @@ def full_url(url):
 
 def get_program_detail(url):
   if url == 'http://www.sipff.kr/p/view.asp?#':
-    return
+    return None, {}
 
   response = requests.get(url)
   response.encoding = None
@@ -95,7 +103,7 @@ def get_program_detail(url):
   program_category = get_text(soup.find('div', {'class': 'title'}))
 
   if '개막식' in program_category or '폐막식' in program_category:
-    return
+    return None, {}
 
   if '개막작' in program_category:
     url = 'http://www.sipff.kr/p/view.asp?goods_idx=2114&page=1&goods_admin_code=&top_division=504&top_division_title=&middle_division=505&middle_division_title=&bottom_division=&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL='
@@ -110,11 +118,11 @@ def get_program_detail(url):
   title, title_eng = get_text(details[0].find('span', {'class': 'pro_ttl'})).split(' / ')
   director = get_text(details[1].find_all('td')[1])
   year_of_production, movie_format, color, length = get_text(details[2].find_all('td')[1]).split('┃')
-  grade = get_text(details[6].find_all('td')[1])
+  grade = GRADE_INFO.get(get_text(details[6].find_all('td')[1]), get_text(details[6].find_all('td')[1]))
 
   desc = get_text(content.find('td', {'class': 'pd_tb10'}))
 
-  return {
+  return grade, {
     'title': title.strip(),
     'titleEng': title_eng.strip(),
     'url': url.strip(),

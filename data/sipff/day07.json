@@ -10,10 +10,27 @@
           "title": "개막식",
           "titleEng": "Opening Ceremony",
           "grades": [
-            "G"
+            "12"
           ],
           "programs": [
-            null
+            {
+              "title": "타오르는 여인의 초상",
+              "titleEng": "PORTRAIT OF A LADY ON FIRE",
+              "url": "http://www.sipff.kr/p/view.asp?goods_idx=2114&page=1&goods_admin_code=&top_division=504&top_division_title=&middle_division=505&middle_division_title=&bottom_division=&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL=",
+              "desc": "마리앙은 엘로이즈의 결혼식 초상화를 그녀가 눈치채지 못하도록 그릴 것을 요청받았다. 마리앙은 엘로이즈는 비밀리에 관찰하며 그녀의 모습을 그려나간다. 그러나시간이 지날수록 채워져 가는 건 캔버스 위의 초상화만이 아니었다. 엘로이즈를 향한 마리앙의 마음도 조금씩차오르기 시작하는데…",
+              "info": {
+                "yearOfProduction": "2019",
+                "length": "120min",
+                "format": "DCP",
+                "color": "Color",
+                "genre": [
+                  "개막작"
+                ]
+              },
+              "credit": {
+                "director": "셀린 시아마"
+              }
+            }
           ]
         },
         {

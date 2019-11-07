@@ -155,7 +155,7 @@
           "title": "한국단편경쟁 3",
           "titleEng": "Korean Shorts Competition 3",
           "grades": [
-            "15"
+            "12"
           ],
           "programs": [
             {
@@ -273,7 +273,7 @@
           "title": "한국단편-비경쟁",
           "titleEng": "Korean Shorts Non-competition",
           "grades": [
-            "15"
+            "12"
           ],
           "programs": [
             {
@@ -384,7 +384,7 @@
                 "director": "조현준"
               }
             },
-            null
+            {}
           ]
         },
         {
@@ -392,7 +392,7 @@
           "title": "로렐",
           "titleEng": "Freeheld",
           "grades": [
-            "15"
+            "G"
           ],
           "programs": [
             {
@@ -448,7 +448,7 @@
           "title": "해외단편4",
           "titleEng": "International Shorts 4",
           "grades": [
-            "15"
+            "18"
           ],
           "programs": [
             {
@@ -655,7 +655,7 @@
           "title": "리미티드 파트너십",
           "titleEng": "Limited Partnership(QT)",
           "grades": [
-            "G"
+            "15"
           ],
           "programs": [
             {
@@ -716,7 +716,7 @@
           "title": "QT – 리미티드 파트너십",
           "titleEng": "Limited Partnership",
           "grades": [
-            "G"
+            "15"
           ],
           "programs": [
             {
