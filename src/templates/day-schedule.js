@@ -30,7 +30,7 @@ const containsGenre = (genre, screen) => {
 }
 
 export default ({ data }) => {
-  const allGenres = getAllDistinctGenres(data.biffJson.screening)
+  const allGenres = getAllDistinctGenres(data.sipffJson.screening)
 
   const [genre, setGenre] = React.useState([])
   const [visible, setVisible] = React.useState(false)
@@ -54,7 +54,7 @@ export default ({ data }) => {
               float: `left`,
             }}
           >
-            {data.biffJson.dateStr}
+            {data.sipffJson.dateStr}
           </Typography.Title>
         </Col>
         <Col>
@@ -79,7 +79,7 @@ export default ({ data }) => {
         <Col><GradeInfo /></Col>
       </Row>
       <Row type="flex" justify="start" gutter={16} style={{ flexFlow: `row` }}>
-        {data.biffJson.screening.map(screen => {
+        {data.sipffJson.screening.map(screen => {
           return genre.length > 0 && !containsGenre(genre, screen) ? null : (
             <Col key={screen.theater} style={{ position: `relative` }}>
               <Theater name={screen.theater} />
@@ -100,7 +100,7 @@ export default ({ data }) => {
 
 export const query = graphql`
   query($date: String!) {
-    biffJson(date: { eq: $date }) {
+    sipffJson(date: { eq: $date }) {
       date
       dateStr
       screening {

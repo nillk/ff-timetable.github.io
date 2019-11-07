@@ -11,7 +11,7 @@ export default ({ children }) => (
   <StaticQuery
     query={graphql`
       query {
-        allBiffJson(sort: { fields: date }) {
+        allSipffJson(sort: { fields: date }) {
           nodes {
             date
           }
@@ -33,7 +33,7 @@ export default ({ children }) => (
 )
 
 const getDateLinks = data => {
-  return data.allBiffJson.nodes.map(node => {
+  return data.allSipffJson.nodes.map(node => {
     const date = node["date"]
     return (
       <Link to={`/${date}`} key={date} style={{ width: `1.8rem` }}>

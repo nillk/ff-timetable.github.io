@@ -1,7 +1,7 @@
 exports.createPages = async function({ actions, graphql }) {
   const { data } = await graphql(`
     query {
-      allBiffJson(sort: { fields: date }) {
+      allSipffJson(sort: { fields: date }) {
         nodes {
           date
         }
@@ -9,7 +9,7 @@ exports.createPages = async function({ actions, graphql }) {
     }
   `)
 
-  data.allBiffJson.nodes.forEach(node => {
+  data.allSipffJson.nodes.forEach(node => {
     const date = node.date
     actions.createPage({
       path: date,
