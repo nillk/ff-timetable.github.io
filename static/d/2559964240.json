@@ -1,0 +1,1 @@
+{"errors":[{"message":"Variable \"$name\" of required type \"String!\" was not provided.","locations":[{"line":1,"column":71}]},{"message":"Variable \"$year\" of required type \"Int!\" was not provided.","locations":[{"line":1,"column":87}]}]}
