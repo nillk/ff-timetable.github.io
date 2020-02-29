@@ -14,14 +14,14 @@
     "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "dependencies": {
-    "antd": "^3.23.6",
-    "gatsby": "^2.15.20",
-    "gatsby-plugin-less": "^3.0.10",
-    "gatsby-source-filesystem": "^2.1.26",
-    "gatsby-transformer-json": "^2.2.9",
-    "less": "^3.10.3",
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0"
+    "antd": "^3.26.12",
+    "gatsby": "^2.19.22",
+    "gatsby-plugin-less": "^3.0.19",
+    "gatsby-source-filesystem": "^2.1.48",
+    "gatsby-transformer-json": "^2.2.26",
+    "less": "^3.11.1",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
   },
   "devDependencies": {
     "gh-pages": "^2.1.1",
