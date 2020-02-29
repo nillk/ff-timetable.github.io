@@ -7,13 +7,18 @@ import "./theme.less"
 
 const { Header, Content } = Layout
 
-export default ({ children }) => (
+export default ({ name, year, children }) => (
   <StaticQuery
     query={graphql`
       query {
-        allSipffJson(sort: { fields: date }) {
+        allSchedule(sort: {fields: date}) {
           nodes {
+            name
+            year
             date
+            fields {
+              slug
+            }
           }
         }
       }
@@ -21,24 +26,28 @@ export default ({ children }) => (
     render={data => (
       <Layout>
         <Header>
-          <Link to={`/`} key={`/`} style={{ width: `3rem` }}>
+          <Link to={`/`} key={`/`} style={{ width: `2.5rem`, textAlign: `left` }}>
             HOME
           </Link>
-          {getDateLinks(data)}
+          {getDateLinks(name, year, data)}
         </Header>
-        <Content className="content">{children}</Content>
+        <Content>{children}</Content>
       </Layout>
     )}
   />
 )
 
-const getDateLinks = data => {
-  return data.allSipffJson.nodes.map(node => {
-    const date = node["date"]
-    return (
-      <Link to={`/${date}`} key={date} style={{ width: `1.8rem` }}>
-        {`${date.substring(3, 5)}`}
-      </Link>
-    )
-  })
+const getDateLinks = (name, year, data) => {
+  return data.allSchedule.nodes
+    .filter(node => node.name === name && node.year === year)
+    .map(node => {
+      const slug = node.fields.slug;
+      const date = node.date;
+
+      return (
+        <Link to={slug} key={slug} style={{ width: `1.8rem` }}>
+          {`${date.substring(3, 5)}`}
+        </Link>
+      )
+    })
 }

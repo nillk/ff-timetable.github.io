@@ -1,16 +1,60 @@
-import React from "react"
-import { Typography, Icon } from "antd"
+import React from "react";
+import { graphql, Link } from "gatsby";
+import { Typography, Icon } from "antd";
 
-import Page from "../components/layout"
+import Page from "../components/layout";
 
-export default () => {
+const { Title, Paragraph } = Typography;
+
+export default ({ data }) => {
+  const ffInfo = data.allSchedule.group.reduce((acc, curr) => {
+    const name = curr.fieldValue;
+    const firstSlugOfYear = curr.nodes.reduce((acc, curr) => {
+      if (!(curr.year in acc)) {
+        acc[curr.year] = curr.fields.slug;
+      }
+      return acc;
+    }, {});
+
+    return [...acc, {name, years: firstSlugOfYear }];
+  }, []);
+
   return (
     <Page>
-      <Typography style={{ paddingTop: `2rem` }}>
-        <Typography.Title>
+      <Typography>
+        <Title>
           <Icon type="video-camera" /> Film Festival Timetable
-        </Typography.Title>
+          </Title>
+        <Paragraph>
+          <ul>
+            {ffInfo.map(ff => {
+              return Object.keys(ff.years).map(year => (
+                <li key={`/${ff.name}/${year}`}>
+                  <Link to={ff.years[year]}>
+                    {ff.name.toUpperCase()} {year}
+                  </Link>
+                </li>
+              ))
+            })}
+          </ul>
+        </Paragraph>
       </Typography>
     </Page>
   )
 }
+
+export const query = graphql`
+  query {
+    allSchedule(sort: {fields: date}) {
+      group(field: name) {
+        fieldValue
+        nodes {
+          year
+          fields {
+            slug
+          }
+        }
+      }
+    }
+  }
+`

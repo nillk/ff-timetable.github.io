@@ -7,18 +7,24 @@
 module.exports = {
   pathPrefix: `/ff-timetable`,
   plugins: [
-    `gatsby-transformer-json`,
     {
-      resolve: `gatsby-plugin-less`,
+      resolve: `gatsby-transformer-json`,
       options: {
-        javascriptEnabled: true,
-      },
+        typeName: `Schedule`
+      }
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `schedule`,
         path: `${__dirname}/data/`,
+        ignore: [`**/__pycache__`, `**/*.md`, `**/*.txt`, `**/*.py`],
+      },
+    },
+    {
+      resolve: `gatsby-plugin-less`,
+      options: {
+        javascriptEnabled: true,
       },
     },
   ],

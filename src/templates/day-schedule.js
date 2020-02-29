@@ -30,7 +30,7 @@ const containsGenre = (genre, screen) => {
 }
 
 export default ({ data }) => {
-  const allGenres = getAllDistinctGenres(data.sipffJson.screening)
+  const allGenres = getAllDistinctGenres(data.schedule.screening)
 
   const [genre, setGenre] = React.useState([])
   const [visible, setVisible] = React.useState(false)
@@ -43,7 +43,7 @@ export default ({ data }) => {
   const closeDrawer = () => setVisible(false)
 
   return (
-    <Page>
+    <Page name={data.schedule.name} year={data.schedule.year}>
       <Row>
         <Col>
           <Typography.Title
@@ -54,7 +54,7 @@ export default ({ data }) => {
               float: `left`,
             }}
           >
-            {data.sipffJson.dateStr}
+            {data.schedule.dateStr}
           </Typography.Title>
         </Col>
         <Col>
@@ -79,7 +79,7 @@ export default ({ data }) => {
         <Col><GradeInfo /></Col>
       </Row>
       <Row type="flex" justify="start" gutter={16} style={{ flexFlow: `row` }}>
-        {data.sipffJson.screening.map(screen => {
+        {data.schedule.screening.map(screen => {
           return genre.length > 0 && !containsGenre(genre, screen) ? null : (
             <Col key={screen.theater} style={{ position: `relative` }}>
               <Theater name={screen.theater} />
@@ -99,8 +99,10 @@ export default ({ data }) => {
 }
 
 export const query = graphql`
-  query($date: String!) {
-    sipffJson(date: { eq: $date }) {
+  query($name: String!, $year: Int!, $date: String!) {
+    schedule(name: {eq: $name}, year: {eq: $year}, date: {eq: $date}) {
+      name
+      year
       date
       dateStr
       screening {
