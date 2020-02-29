@@ -37,7 +37,7 @@ def get_schedule():
           date = 'day' + date_str.split('(')[0]
           showtime = tr.find_all('td')[1:]
           if date not in schedule:
-            schedule[date] = { 'date': date, 'dateStr': date_str, 'screening': [] }
+            schedule[date] = { 'name': 'sipff', 'year': 2019, 'date': date, 'dateStr': date_str, 'screening': [] }
 
         if len(showtime) > 3:
           showtime = parse_showtime(showtime)

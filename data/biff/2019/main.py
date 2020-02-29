@@ -162,7 +162,9 @@ if __name__ == '__main__':
         day = f'day{i:02}'
         with open(f'{day}.json', 'w', encoding='UTF-8') as f:
             parsed_schedule = parse_schedule(schedule)
-            json_schedule = {'date': day,
+            json_schedule = {'name': 'biff',
+                             'year': 2019,
+                             'date': day,
                              'dateStr': parsed_schedule[0],
                              'screening': parsed_schedule[1]}
             f.write(json.dumps(json_schedule, indent=2, ensure_ascii=False))

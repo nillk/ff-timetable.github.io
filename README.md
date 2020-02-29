@@ -8,6 +8,8 @@
 
 ```
 {
+  name: 영화제 이름,
+  year: 영화제 년도,
   date: 일자,
   dateStr: 화면에 표시하기 위한 날짜 정보(연.월.일 요일),
   screening: [
