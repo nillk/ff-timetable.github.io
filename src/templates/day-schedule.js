@@ -129,6 +129,7 @@ export const query = graphql`
               productionCountry
               yearOfProduction
               length
+              color
               genre
             }
           }

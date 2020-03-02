@@ -4,18 +4,12 @@ import { CloseOutlined } from '@ant-design/icons';
 
 const { Paragraph, Text } = Typography;
 
-const GenreTags = info => {
-  if (info !== null && info.genre !== null) {
+const GenreContainer = info => {
+  if (info && info.genre) {
     return (
-      <div style={{ marginBottom: `0.875rem` }}>
+      <div className="genre-container">
         {info.genre.map(g => (
-          <Tag
-            key={g}
-            style={{
-              lineHeight: `1rem`,
-              padding: `0 0.3rem`,
-              marginRight: `0.25rem`,
-            }}>
+          <Tag key={g} className="genre">
             {g}
           </Tag>
         ))}
@@ -31,39 +25,32 @@ const Description = ({ programs, onClose }) => {
     <div className="description">
       <Button
         icon={<CloseOutlined />}
-        aria-label="close"
         size="small"
         type="link"
-        style={{
-          float: `right`,
-          color: `rgba(0, 0, 0, 0.87)`,
-        }}
+        aria-label="close"
+        className="close"
         onClick={onClose}></Button>
       {programs.map(program => (
-        <Typography key={program.titleEng}>
-          <Paragraph style={{ fontSize: `1rem`, marginBottom: `0.3rem` }}>
+        <Typography key={program.titleEng} className="program">
+          <Paragraph className="title">
             {program.title}
-            <Text
-              type="secondary"
-              style={{ fontStyle: `italic`, fontWeight: 300 }}>
+            <Text type="secondary" className="title-eng">
               {' '}
               {program.titleEng}
             </Text>
           </Paragraph>
-          {program.info &&
-            (program.info.productionCountry ||
-              program.info.yearOfProduction) && (
-              <Paragraph>
-                <ul>
-                  <li style={{ fontSize: `0.78rem` }}>
-                    {program.info.productionCountry}/
-                    {program.info.yearOfProduction}
-                  </li>
-                </ul>
-              </Paragraph>
-            )}
-          {GenreTags(program.info)}
-          <Paragraph style={{ fontSize: `0.825rem` }}>{program.desc}</Paragraph>
+          {program.info && (
+            <Paragraph className="info">
+              {Object.keys(program.info)
+                .filter(key => key !== 'genre')
+                .filter(key => program.info[key])
+                .map(key => (
+                  <span key={key}>{program.info[key]}</span>
+                ))}
+            </Paragraph>
+          )}
+          {GenreContainer(program.info)}
+          <Paragraph className="desc">{program.desc}</Paragraph>
         </Typography>
       ))}
     </div>
