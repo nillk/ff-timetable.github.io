@@ -1,31 +1,31 @@
-import React from "react"
-import { Typography } from "antd"
+import React from 'react';
+import { Typography } from 'antd';
 
-const { Text } = Typography
+const { Text } = Typography;
 
 export const GRADES = {
   g: {
-    text: "전체관람가",
+    text: '전체관람가',
   },
-  "12": {
-    text: "12세 관람가",
+  '12': {
+    text: '12세 관람가',
   },
-  "15": {
-    text: "15세 관람가",
+  '15': {
+    text: '15세 관람가',
   },
-  "19": {
-    text: "청소년 관람불가",
+  '19': {
+    text: '청소년 관람불가',
   },
   gv: {
-    text: "게스트와의 만남",
+    text: '게스트와의 만남',
   },
   ke: {
-    text: "한글자막+영어자막/대사",
+    text: '한글자막+영어자막/대사',
   },
   kk: {
-    text: "시·청각장애인을 위한 배리어프리자막상영",
+    text: '시·청각장애인을 위한 배리어프리자막상영',
   },
-}
+};
 
 export const GradeInfo = () => (
   <div
@@ -33,8 +33,7 @@ export const GradeInfo = () => (
       display: `inline-block`,
       marginTop: `0.4rem`,
       marginBottom: `0.4rem`,
-    }}
-  >
+    }}>
     {Object.keys(GRADES).map(g => (
       <div key={g} style={{ float: `left`, marginRight: `0.85rem` }}>
         <Text className="grade-info-typography">
@@ -43,14 +42,14 @@ export const GradeInfo = () => (
       </div>
     ))}
   </div>
-)
+);
 
 const Grade = ({ level }) => {
   return (
     <Text strong className="typography">
       {`/ ${level}`}
     </Text>
-  )
-}
+  );
+};
 
-export default Grade
+export default Grade;

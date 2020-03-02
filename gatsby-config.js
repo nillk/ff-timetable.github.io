@@ -10,8 +10,8 @@ module.exports = {
     {
       resolve: `gatsby-transformer-json`,
       options: {
-        typeName: `Schedule`
-      }
+        typeName: `Schedule`,
+      },
     },
     {
       resolve: `gatsby-source-filesystem`,
@@ -28,4 +28,4 @@ module.exports = {
       },
     },
   ],
-}
+};

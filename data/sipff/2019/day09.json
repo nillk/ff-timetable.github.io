@@ -11,9 +11,7 @@
           "time": "11:20",
           "title": "개 같은 날의 오후",
           "titleEng": "A Hot Roof",
-          "grades": [
-            "18"
-          ],
+          "grades": ["18"],
           "programs": [
             {
               "title": "개같은 날의 오후",
@@ -25,9 +23,7 @@
                 "length": "108min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "스페셜 프라이드"
-                ]
+                "genre": ["스페셜 프라이드"]
               },
               "credit": {
                 "director": "이민용"
@@ -39,9 +35,7 @@
           "time": "13:35",
           "title": "갯마을",
           "titleEng": "The Seashore Village",
-          "grades": [
-            "18"
-          ],
+          "grades": ["18"],
           "programs": [
             {
               "title": "갯마을",
@@ -53,9 +47,7 @@
                 "length": "91min",
                 "format": "DCP",
                 "color": "B/W",
-                "genre": [
-                  "스페셜 프라이드"
-                ]
+                "genre": ["스페셜 프라이드"]
               },
               "credit": {
                 "director": "김수용"
@@ -67,9 +59,7 @@
           "time": "15:30",
           "title": "[개막작]타오르는 여인의 초상",
           "titleEng": "Portrait of a Lady on Fire(QT)",
-          "grades": [
-            "12"
-          ],
+          "grades": ["12"],
           "programs": [
             {
               "title": "타오르는 여인의 초상",
@@ -81,9 +71,7 @@
                 "length": "120min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "개막작"
-                ]
+                "genre": ["개막작"]
               },
               "credit": {
                 "director": "셀린 시아마"
@@ -95,9 +83,7 @@
           "time": "17:55",
           "title": "트레이시",
           "titleEng": "Tracey",
-          "grades": [
-            "12"
-          ],
+          "grades": ["12"],
           "programs": [
             {
               "title": "트레이시",
@@ -109,9 +95,7 @@
                 "length": "114min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "아시아프라이드"
-                ]
+                "genre": ["아시아프라이드"]
               },
               "credit": {
                 "director": "준 리"
@@ -123,9 +107,7 @@
           "time": "20:45",
           "title": "빌리와 엠마",
           "titleEng": "Billie and Emma(GV)",
-          "grades": [
-            "G"
-          ],
+          "grades": ["G"],
           "programs": [
             {
               "title": "빌리와 엠마",
@@ -137,9 +119,7 @@
                 "length": "104min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "아시아프라이드"
-                ]
+                "genre": ["아시아프라이드"]
               },
               "credit": {
                 "director": "사만다 리"
@@ -156,9 +136,7 @@
           "time": "11:40",
           "title": "아담",
           "titleEng": "Adam",
-          "grades": [
-            "15"
-          ],
+          "grades": ["15"],
           "programs": [
             {
               "title": "아담",
@@ -170,9 +148,7 @@
                 "length": "95min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "월드프라이드"
-                ]
+                "genre": ["월드프라이드"]
               },
               "credit": {
                 "director": "리스 언스트"
@@ -184,9 +160,7 @@
           "time": "13:50",
           "title": "스톤월",
           "titleEng": "Stonewall",
-          "grades": [
-            "18"
-          ],
+          "grades": ["18"],
           "programs": [
             {
               "title": "스톤월",
@@ -198,9 +172,7 @@
                 "length": "129min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "핫핑크"
-                ]
+                "genre": ["핫핑크"]
               },
               "credit": {
                 "director": "로랜드 에머리히"
@@ -212,9 +184,7 @@
           "time": "16:35",
           "title": "브레이크",
           "titleEng": "Brake (GV)",
-          "grades": [
-            "15"
-          ],
+          "grades": ["15"],
           "programs": [
             {
               "title": "브레이크",
@@ -226,9 +196,7 @@
                 "length": "72min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "아시아프라이드"
-                ]
+                "genre": ["아시아프라이드"]
               },
               "credit": {
                 "director": "유용환"
@@ -240,9 +208,7 @@
           "time": "18:40",
           "title": "비욘드 게이: 더 폴러틱스 오브 프라이드",
           "titleEng": "Beyond Gay: The politics of Pride(QT)",
-          "grades": [
-            "12"
-          ],
+          "grades": ["12"],
           "programs": [
             {
               "title": "비욘드 게이: 더 폴러틱스 오브 프라이드",
@@ -254,9 +220,7 @@
                 "length": "87min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "핫핑크"
-                ]
+                "genre": ["핫핑크"]
               },
               "credit": {
                 "director": "밥 크리스티"
@@ -268,9 +232,7 @@
           "time": "20:30",
           "title": "해외단편2",
           "titleEng": "International Shorts 2",
-          "grades": [
-            "15"
-          ],
+          "grades": ["15"],
           "programs": [
             {
               "title": "블루 스카이",
@@ -282,9 +244,7 @@
                 "length": "27min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "아시아프라이드"
-                ]
+                "genre": ["아시아프라이드"]
               },
               "credit": {
                 "director": "헤이 헷뚜아 마우옹"
@@ -300,9 +260,7 @@
                 "length": "15min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "월드프라이드"
-                ]
+                "genre": ["월드프라이드"]
               },
               "credit": {
                 "director": "로라 나지"
@@ -318,9 +276,7 @@
                 "length": "8min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "월드프라이드"
-                ]
+                "genre": ["월드프라이드"]
               },
               "credit": {
                 "director": "한준희"
@@ -336,9 +292,7 @@
                 "length": "19min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "월드프라이드"
-                ]
+                "genre": ["월드프라이드"]
               },
               "credit": {
                 "director": "고란 스톨레프스키"
@@ -354,9 +308,7 @@
                 "length": "18min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "아시아프라이드"
-                ]
+                "genre": ["아시아프라이드"]
               },
               "credit": {
                 "director": "요우 즈어 한"
@@ -373,9 +325,7 @@
           "time": "12:00",
           "title": "가족 같은 동물",
           "titleEng": "Animal like Family",
-          "grades": [
-            "18"
-          ],
+          "grades": ["18"],
           "programs": [
             {
               "title": "모모",
@@ -387,9 +337,7 @@
                 "length": "15min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "오픈프라이드"
-                ]
+                "genre": ["오픈프라이드"]
               },
               "credit": {
                 "director": "장윤주"
@@ -405,9 +353,7 @@
                 "length": "14min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "오픈프라이드"
-                ]
+                "genre": ["오픈프라이드"]
               },
               "credit": {
                 "director": "리쉬 찬드나"
@@ -423,9 +369,7 @@
                 "length": "30min",
                 "format": "HDCAM",
                 "color": "Color",
-                "genre": [
-                  "오픈프라이드"
-                ]
+                "genre": ["오픈프라이드"]
               },
               "credit": {
                 "director": "박수영, 박재영"
@@ -437,9 +381,7 @@
           "time": "13:20",
           "title": "한국단편경쟁 3",
           "titleEng": "Korean Shorts Competition 3(GV)",
-          "grades": [
-            "12"
-          ],
+          "grades": ["12"],
           "programs": [
             {
               "title": "먼 위안",
@@ -451,9 +393,7 @@
                 "length": "28min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "코리아프라이드"
-                ]
+                "genre": ["코리아프라이드"]
               },
               "credit": {
                 "director": "오시진"
@@ -469,9 +409,7 @@
                 "length": "4min",
                 "format": "MOV",
                 "color": "Color",
-                "genre": [
-                  "코리아프라이드"
-                ]
+                "genre": ["코리아프라이드"]
               },
               "credit": {
                 "director": "김은성"
@@ -487,9 +425,7 @@
                 "length": "12min",
                 "format": "MOV",
                 "color": "Color",
-                "genre": [
-                  "코리아프라이드"
-                ]
+                "genre": ["코리아프라이드"]
               },
               "credit": {
                 "director": "김혜진"
@@ -505,9 +441,7 @@
                 "length": "21min",
                 "format": "MOV",
                 "color": "Color",
-                "genre": [
-                  "코리아프라이드"
-                ]
+                "genre": ["코리아프라이드"]
               },
               "credit": {
                 "director": "박소현"
@@ -523,9 +457,7 @@
                 "length": "17min",
                 "format": "MOV",
                 "color": "Color",
-                "genre": [
-                  "코리아프라이드"
-                ]
+                "genre": ["코리아프라이드"]
               },
               "credit": {
                 "director": "윤대원"
@@ -541,9 +473,7 @@
                 "length": "12min",
                 "format": "MOV",
                 "color": "Color",
-                "genre": [
-                  "코리아프라이드"
-                ]
+                "genre": ["코리아프라이드"]
               },
               "credit": {
                 "director": "위정연, 김하영, 박예지"
@@ -555,9 +485,7 @@
           "time": "15:50",
           "title": "한국단편-비경쟁",
           "titleEng": "Korean Shorts Non-competition(GV)",
-          "grades": [
-            "12"
-          ],
+          "grades": ["12"],
           "programs": [
             {
               "title": "손과 날개",
@@ -569,9 +497,7 @@
                 "length": "18min",
                 "format": "MOV",
                 "color": "B/W",
-                "genre": [
-                  "코리아프라이드"
-                ]
+                "genre": ["코리아프라이드"]
               },
               "credit": {
                 "director": "변성빈"
@@ -587,9 +513,7 @@
                 "length": "1min",
                 "format": "MOV",
                 "color": "Color",
-                "genre": [
-                  "코리아프라이드"
-                ]
+                "genre": ["코리아프라이드"]
               },
               "credit": {
                 "director": "연여인"
@@ -605,9 +529,7 @@
                 "length": "25min",
                 "format": "MOV",
                 "color": "Color",
-                "genre": [
-                  "코리아프라이드"
-                ]
+                "genre": ["코리아프라이드"]
               },
               "credit": {
                 "director": "최민영"
@@ -623,9 +545,7 @@
                 "length": "10min",
                 "format": "MOV",
                 "color": "Color",
-                "genre": [
-                  "코리아프라이드"
-                ]
+                "genre": ["코리아프라이드"]
               },
               "credit": {
                 "director": "이나경"
@@ -641,9 +561,7 @@
                 "length": "39min",
                 "format": "MOV",
                 "color": "Color",
-                "genre": [
-                  "코리아프라이드"
-                ]
+                "genre": ["코리아프라이드"]
               },
               "credit": {
                 "director": "박문칠"
@@ -659,9 +577,7 @@
                 "length": "13min",
                 "format": "MOV",
                 "color": "Color",
-                "genre": [
-                  "코리아프라이드"
-                ]
+                "genre": ["코리아프라이드"]
               },
               "credit": {
                 "director": "조현준"
@@ -673,9 +589,7 @@
           "time": "18:30",
           "title": "화이트 라이언 찰리",
           "titleEng": "Mia and the White Lion",
-          "grades": [
-            "G"
-          ],
+          "grades": ["G"],
           "programs": [
             {
               "title": "화이트 라이언 찰리",
@@ -687,9 +601,7 @@
                 "length": "98min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "오픈프라이드"
-                ]
+                "genre": ["오픈프라이드"]
               },
               "credit": {
                 "director": "쥘 드 메스트르"
@@ -701,9 +613,7 @@
           "time": "20:40",
           "title": "천하장사 마돈나",
           "titleEng": "Like A Virgin",
-          "grades": [
-            "15"
-          ],
+          "grades": ["15"],
           "programs": [
             {
               "title": "천하장사 마돈나",
@@ -715,9 +625,7 @@
                 "length": "116min",
                 "format": "Blu-ray",
                 "color": "Color",
-                "genre": [
-                  "스페셜 프라이드"
-                ]
+                "genre": ["스페셜 프라이드"]
               },
               "credit": {
                 "director": "이해영, 이해준"
@@ -734,9 +642,7 @@
           "time": "16:10",
           "title": "QT – 타오르는 여인의 초상",
           "titleEng": "Portrait of a Lady on Fire",
-          "grades": [
-            "12"
-          ],
+          "grades": ["12"],
           "programs": [
             {
               "title": "타오르는 여인의 초상",
@@ -748,9 +654,7 @@
                 "length": "120min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "개막작"
-                ]
+                "genre": ["개막작"]
               },
               "credit": {
                 "director": "셀린 시아마"
@@ -762,9 +666,7 @@
           "time": "18:40",
           "title": "QT – 비욘드 게이: 더 폴러틱스 오브 프라이드",
           "titleEng": "Beyond Gay: The politics of Pride",
-          "grades": [
-            "12"
-          ],
+          "grades": ["12"],
           "programs": [
             {
               "title": "비욘드 게이: 더 폴러틱스 오브 프라이드",
@@ -776,9 +678,7 @@
                 "length": "87min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "핫핑크"
-                ]
+                "genre": ["핫핑크"]
               },
               "credit": {
                 "director": "밥 크리스티"

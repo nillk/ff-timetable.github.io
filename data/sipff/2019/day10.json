@@ -11,9 +11,7 @@
           "time": "12:30",
           "title": "사방지(필름)",
           "titleEng": "Sa Bangji",
-          "grades": [
-            "18"
-          ],
+          "grades": ["18"],
           "programs": [
             {
               "title": "사방지",
@@ -25,9 +23,7 @@
                 "length": "94min",
                 "format": "35mm",
                 "color": "Color",
-                "genre": [
-                  "스페셜 프라이드"
-                ]
+                "genre": ["스페셜 프라이드"]
               },
               "credit": {
                 "director": "송경식"
@@ -39,9 +35,7 @@
           "time": "14:40",
           "title": "화분",
           "titleEng": "The Pollen of Flowers",
-          "grades": [
-            "18"
-          ],
+          "grades": ["18"],
           "programs": [
             {
               "title": "화분",
@@ -53,9 +47,7 @@
                 "length": "85min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "스페셜 프라이드"
-                ]
+                "genre": ["스페셜 프라이드"]
               },
               "credit": {
                 "director": "하길종"
@@ -67,9 +59,7 @@
           "time": "16:45",
           "title": "운동선수~ 내가 그에게 빠진 나날",
           "titleEng": "Athlete: Ore ga kare ni oboreta hibi(GV)",
-          "grades": [
-            "15"
-          ],
+          "grades": ["15"],
           "programs": [
             {
               "title": "운동선수 - 내가 그에게 빠진 나날",
@@ -81,9 +71,7 @@
                 "length": "75min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "아시아프라이드"
-                ]
+                "genre": ["아시아프라이드"]
               },
               "credit": {
                 "director": "다카마사 오에"
@@ -95,9 +83,7 @@
           "time": "18:50",
           "title": "카르멘 & 롤라",
           "titleEng": "Carmen & Lola",
-          "grades": [
-            "12"
-          ],
+          "grades": ["12"],
           "programs": [
             {
               "title": "카르멘 & 롤라",
@@ -109,9 +95,7 @@
                 "length": "103min",
                 "format": "DCP",
                 "color": "Colo",
-                "genre": [
-                  "월드프라이드"
-                ]
+                "genre": ["월드프라이드"]
               },
               "credit": {
                 "director": "아란트자 이케베리아"
@@ -123,9 +107,7 @@
           "time": "21:05",
           "title": "세기의 끝",
           "titleEng": "End of the Century",
-          "grades": [
-            "15"
-          ],
+          "grades": ["15"],
           "programs": [
             {
               "title": "세기의 끝",
@@ -137,9 +119,7 @@
                 "length": "84min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "월드프라이드"
-                ]
+                "genre": ["월드프라이드"]
               },
               "credit": {
                 "director": "루시오 카스트로"
@@ -156,9 +136,7 @@
           "time": "11:30",
           "title": "밀크",
           "titleEng": "Milk",
-          "grades": [
-            "15"
-          ],
+          "grades": ["15"],
           "programs": [
             {
               "title": "밀크",
@@ -170,9 +148,7 @@
                 "length": "128min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "핫핑크"
-                ]
+                "genre": ["핫핑크"]
               },
               "credit": {
                 "director": "구스 반 산트"
@@ -184,9 +160,7 @@
           "time": "14:00",
           "title": "해피 엔딩",
           "titleEng": "Happy Ending",
-          "grades": [
-            "G"
-          ],
+          "grades": ["G"],
           "programs": [
             {
               "title": "해피엔딩",
@@ -198,9 +172,7 @@
                 "length": "96min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "월드프라이드"
-                ]
+                "genre": ["월드프라이드"]
               },
               "credit": {
                 "director": "헬라 주프"
@@ -212,9 +184,7 @@
           "time": "15:55",
           "title": "위대한 작은 농장",
           "titleEng": "The Biggest Little Farm(QT)",
-          "grades": [
-            "G"
-          ],
+          "grades": ["G"],
           "programs": [
             {
               "title": "위대한 작은 농장",
@@ -226,9 +196,7 @@
                 "length": "91min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "오픈프라이드"
-                ]
+                "genre": ["오픈프라이드"]
               },
               "credit": {
                 "director": "존 체스터"
@@ -240,9 +208,7 @@
           "time": "17:45",
           "title": "엄마, 안녕",
           "titleEng": "I talked about: Goodbye Mother(GV)",
-          "grades": [
-            "15"
-          ],
+          "grades": ["15"],
           "programs": [
             {
               "title": "엄마, 안녕",
@@ -254,9 +220,7 @@
                 "length": "100min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "아시아프라이드"
-                ]
+                "genre": ["아시아프라이드"]
               },
               "credit": {
                 "director": "트린 딘 르 민"
@@ -268,9 +232,7 @@
           "time": "20:20",
           "title": "달을 향해 짖는 개",
           "titleEng": "A Dog Barking at the Moon(GV)",
-          "grades": [
-            "15"
-          ],
+          "grades": ["15"],
           "programs": [
             {
               "title": "달을 향해 짖는 개",
@@ -282,9 +244,7 @@
                 "length": "107min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "아시아프라이드"
-                ]
+                "genre": ["아시아프라이드"]
               },
               "credit": {
                 "director": "시앙 지"
@@ -301,9 +261,7 @@
           "time": "12:10",
           "title": "아름다운 비행",
           "titleEng": "Fly Away Home",
-          "grades": [
-            "G"
-          ],
+          "grades": ["G"],
           "programs": [
             {
               "title": "아름다운 비행",
@@ -315,9 +273,7 @@
                 "length": "107min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "오픈프라이드"
-                ]
+                "genre": ["오픈프라이드"]
               },
               "credit": {
                 "director": "캐롤 발라드"
@@ -329,9 +285,7 @@
           "time": "14:15",
           "title": "한국단편경쟁 1",
           "titleEng": "Korean Shorts Competition 1(GV)",
-          "grades": [
-            "15"
-          ],
+          "grades": ["15"],
           "programs": [
             {
               "title": "날씨가 좋아서",
@@ -343,9 +297,7 @@
                 "length": "18min",
                 "format": "MOV",
                 "color": "Color",
-                "genre": [
-                  "코리아프라이드"
-                ]
+                "genre": ["코리아프라이드"]
               },
               "credit": {
                 "director": "박은경"
@@ -361,9 +313,7 @@
                 "length": "17min",
                 "format": "MOV",
                 "color": "B/W",
-                "genre": [
-                  "코리아프라이드"
-                ]
+                "genre": ["코리아프라이드"]
               },
               "credit": {
                 "director": "이원영"
@@ -379,9 +329,7 @@
                 "length": "10min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "코리아프라이드"
-                ]
+                "genre": ["코리아프라이드"]
               },
               "credit": {
                 "director": "정다희"
@@ -397,9 +345,7 @@
                 "length": "11min",
                 "format": "MOV",
                 "color": "Color",
-                "genre": [
-                  "코리아프라이드"
-                ]
+                "genre": ["코리아프라이드"]
               },
               "credit": {
                 "director": "김국희"
@@ -415,9 +361,7 @@
                 "length": "11min",
                 "format": "MOV",
                 "color": "Color",
-                "genre": [
-                  "코리아프라이드"
-                ]
+                "genre": ["코리아프라이드"]
               },
               "credit": {
                 "director": "이수영"
@@ -433,9 +377,7 @@
                 "length": "28min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "코리아프라이드"
-                ]
+                "genre": ["코리아프라이드"]
               },
               "credit": {
                 "director": "이진영"
@@ -447,9 +389,7 @@
           "time": "16:45",
           "title": "한국단편경쟁 2",
           "titleEng": "Korean Shorts Competition 2(GV)",
-          "grades": [
-            "12"
-          ],
+          "grades": ["12"],
           "programs": [
             {
               "title": "전환치료",
@@ -461,9 +401,7 @@
                 "length": "36min",
                 "format": "MOV",
                 "color": "Color",
-                "genre": [
-                  "코리아프라이드"
-                ]
+                "genre": ["코리아프라이드"]
               },
               "credit": {
                 "director": "김찬우"
@@ -479,9 +417,7 @@
                 "length": "11min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "코리아프라이드"
-                ]
+                "genre": ["코리아프라이드"]
               },
               "credit": {
                 "director": "황지우"
@@ -497,9 +433,7 @@
                 "length": "5min",
                 "format": "MOV",
                 "color": "Color",
-                "genre": [
-                  "코리아프라이드"
-                ]
+                "genre": ["코리아프라이드"]
               },
               "credit": {
                 "director": "최지은, 조소영"
@@ -515,9 +449,7 @@
                 "length": "17min",
                 "format": "MOV",
                 "color": "Color",
-                "genre": [
-                  "코리아프라이드"
-                ]
+                "genre": ["코리아프라이드"]
               },
               "credit": {
                 "director": "주재훈"
@@ -533,9 +465,7 @@
                 "length": "23min",
                 "format": "MOV",
                 "color": "Color",
-                "genre": [
-                  "코리아프라이드"
-                ]
+                "genre": ["코리아프라이드"]
               },
               "credit": {
                 "director": "신승은"
@@ -547,9 +477,7 @@
           "time": "19:15",
           "title": "무지개 같은 꿈",
           "titleEng": "Our Lives (GV)",
-          "grades": [
-            "12"
-          ],
+          "grades": ["12"],
           "programs": [
             {
               "title": "무지개 같은 꿈",
@@ -561,9 +489,7 @@
                 "length": "86min",
                 "format": "MOV",
                 "color": "Color",
-                "genre": [
-                  "코리아프라이드"
-                ]
+                "genre": ["코리아프라이드"]
               },
               "credit": {
                 "director": "김민규"
@@ -575,9 +501,7 @@
           "time": "21:35",
           "title": "해외단편 3",
           "titleEng": "International Shorts 3",
-          "grades": [
-            "18"
-          ],
+          "grades": ["18"],
           "programs": [
             {
               "title": "딜리버리 보이",
@@ -589,9 +513,7 @@
                 "length": "16min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "아시아프라이드"
-                ]
+                "genre": ["아시아프라이드"]
               },
               "credit": {
                 "director": "휴고 켄조"
@@ -607,9 +529,7 @@
                 "length": "18min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "월드프라이드"
-                ]
+                "genre": ["월드프라이드"]
               },
               "credit": {
                 "director": "킬리 미찬"
@@ -625,9 +545,7 @@
                 "length": "14min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "월드프라이드"
-                ]
+                "genre": ["월드프라이드"]
               },
               "credit": {
                 "director": "킬리 미찬"
@@ -643,9 +561,7 @@
                 "length": "8min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "월드프라이드"
-                ]
+                "genre": ["월드프라이드"]
               },
               "credit": {
                 "director": "모니크 베떼졔"
@@ -661,9 +577,7 @@
                 "length": "32min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "아시아프라이드"
-                ]
+                "genre": ["아시아프라이드"]
               },
               "credit": {
                 "director": "시다스 챠우한"
@@ -680,9 +594,7 @@
           "time": "16:04",
           "title": "QT – 위대한 작은 농장",
           "titleEng": "The Biggest Little Farm",
-          "grades": [
-            "G"
-          ],
+          "grades": ["G"],
           "programs": [
             {
               "title": "위대한 작은 농장",
@@ -694,9 +606,7 @@
                 "length": "91min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "오픈프라이드"
-                ]
+                "genre": ["오픈프라이드"]
               },
               "credit": {
                 "director": "존 체스터"

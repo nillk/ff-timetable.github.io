@@ -9,10 +9,10 @@ exports.onCreateNode = ({ node, actions }) => {
     createNodeField({
       node,
       name: `slug`,
-      value: `/${name}/${year}/${date}/`
-    })
+      value: `/${name}/${year}/${date}/`,
+    });
   }
-}
+};
 
 exports.createPages = async function({ actions, graphql }) {
   const { data } = await graphql(`
@@ -28,7 +28,7 @@ exports.createPages = async function({ actions, graphql }) {
         }
       }
     }
-  `)
+  `);
 
   data.allSchedule.nodes.forEach(node => {
     const name = node.name;
@@ -41,6 +41,6 @@ exports.createPages = async function({ actions, graphql }) {
       path: slug,
       component: require.resolve(`./src/templates/day-schedule.js`),
       context: { name, year, date },
-    })
-  })
-}
+    });
+  });
+};

@@ -11,9 +11,7 @@
           "time": "13:20",
           "title": "카르멘 & 롤라",
           "titleEng": "Carmen & Lola",
-          "grades": [
-            "12"
-          ],
+          "grades": ["12"],
           "programs": [
             {
               "title": "카르멘 & 롤라",
@@ -25,9 +23,7 @@
                 "length": "103min",
                 "format": "DCP",
                 "color": "Colo",
-                "genre": [
-                  "월드프라이드"
-                ]
+                "genre": ["월드프라이드"]
               },
               "credit": {
                 "director": "아란트자 이케베리아"
@@ -39,9 +35,7 @@
           "time": "15:35",
           "title": "세기의 끝",
           "titleEng": "End of the Century",
-          "grades": [
-            "15"
-          ],
+          "grades": ["15"],
           "programs": [
             {
               "title": "세기의 끝",
@@ -53,9 +47,7 @@
                 "length": "84min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "월드프라이드"
-                ]
+                "genre": ["월드프라이드"]
               },
               "credit": {
                 "director": "루시오 카스트로"
@@ -67,9 +59,7 @@
           "time": "17:30",
           "title": "아이스 하키장의 젠",
           "titleEng": "ZEN IN THE ICE RIFT",
-          "grades": [
-            "15"
-          ],
+          "grades": ["15"],
           "programs": [
             {
               "title": "아이스 하키장의 젠",
@@ -81,9 +71,7 @@
                 "length": "87min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "월드프라이드"
-                ]
+                "genre": ["월드프라이드"]
               },
               "credit": {
                 "director": "마르게리타 페리"
@@ -95,9 +83,7 @@
           "time": "19:30",
           "title": "호세",
           "titleEng": "José",
-          "grades": [
-            "18"
-          ],
+          "grades": ["18"],
           "programs": [
             {
               "title": "호세",
@@ -109,9 +95,7 @@
                 "length": "85min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "월드프라이드"
-                ]
+                "genre": ["월드프라이드"]
               },
               "credit": {
                 "director": "리 챙"
@@ -123,9 +107,7 @@
           "time": "21:30",
           "title": "운동선수~ 내가 그에게 빠진 나날",
           "titleEng": "Athlete: Ore ga kare ni oboreta hibi",
-          "grades": [
-            "15"
-          ],
+          "grades": ["15"],
           "programs": [
             {
               "title": "운동선수 - 내가 그에게 빠진 나날",
@@ -137,9 +119,7 @@
                 "length": "75min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "아시아프라이드"
-                ]
+                "genre": ["아시아프라이드"]
               },
               "credit": {
                 "director": "다카마사 오에"
@@ -156,9 +136,7 @@
           "time": "12:30",
           "title": "엄마, 안녕",
           "titleEng": "I talked about: Goodbye Mother",
-          "grades": [
-            "15"
-          ],
+          "grades": ["15"],
           "programs": [
             {
               "title": "엄마, 안녕",
@@ -170,9 +148,7 @@
                 "length": "100min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "아시아프라이드"
-                ]
+                "genre": ["아시아프라이드"]
               },
               "credit": {
                 "director": "트린 딘 르 민"
@@ -184,9 +160,7 @@
           "time": "14:40",
           "title": "달을 향해 짖는 개",
           "titleEng": "A Dog Barking at the Moon",
-          "grades": [
-            "15"
-          ],
+          "grades": ["15"],
           "programs": [
             {
               "title": "달을 향해 짖는 개",
@@ -198,9 +172,7 @@
                 "length": "107min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "아시아프라이드"
-                ]
+                "genre": ["아시아프라이드"]
               },
               "credit": {
                 "director": "시앙 지"
@@ -212,9 +184,7 @@
           "time": "16:55",
           "title": "120BPM",
           "titleEng": "120 Beats Per Minute",
-          "grades": [
-            "15"
-          ],
+          "grades": ["15"],
           "programs": [
             {
               "title": "120BPM",
@@ -226,9 +196,7 @@
                 "length": "140min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "핫핑크"
-                ]
+                "genre": ["핫핑크"]
               },
               "credit": {
                 "director": "로빈 캄필로"
@@ -240,9 +208,7 @@
           "time": "19:40",
           "title": "우리는 여기에 있었다",
           "titleEng": "We were here(QT)",
-          "grades": [
-            "12"
-          ],
+          "grades": ["12"],
           "programs": [
             {
               "title": "우리는 여기에 있었다",
@@ -254,9 +220,7 @@
                 "length": "90min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "핫핑크"
-                ]
+                "genre": ["핫핑크"]
               },
               "credit": {
                 "director": "데이빗 웨이스만, 빌 웨버"
@@ -268,9 +232,7 @@
           "time": "21:40",
           "title": "에밀리 디킨슨의 밤",
           "titleEng": "Wild Nights with Emily",
-          "grades": [
-            "15"
-          ],
+          "grades": ["15"],
           "programs": [
             {
               "title": "에밀리 디킨슨의 밤",
@@ -282,9 +244,7 @@
                 "length": "84min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "월드프라이드"
-                ]
+                "genre": ["월드프라이드"]
               },
               "credit": {
                 "director": "마들렌 올넥"
@@ -301,9 +261,7 @@
           "time": "13:00",
           "title": "무지개 같은 꿈",
           "titleEng": "Our Lives",
-          "grades": [
-            "12"
-          ],
+          "grades": ["12"],
           "programs": [
             {
               "title": "무지개 같은 꿈",
@@ -315,9 +273,7 @@
                 "length": "86min",
                 "format": "MOV",
                 "color": "Color",
-                "genre": [
-                  "코리아프라이드"
-                ]
+                "genre": ["코리아프라이드"]
               },
               "credit": {
                 "director": "김민규"
@@ -329,9 +285,7 @@
           "time": "15:00",
           "title": "해피 엔딩",
           "titleEng": "Happy Ending",
-          "grades": [
-            "G"
-          ],
+          "grades": ["G"],
           "programs": [
             {
               "title": "해피엔딩",
@@ -343,9 +297,7 @@
                 "length": "96min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "월드프라이드"
-                ]
+                "genre": ["월드프라이드"]
               },
               "credit": {
                 "director": "헬라 주프"
@@ -357,9 +309,7 @@
           "time": "17:10",
           "title": "고양이 춤",
           "titleEng": "Dancing Cat",
-          "grades": [
-            "G"
-          ],
+          "grades": ["G"],
           "programs": [
             {
               "title": "고양이 춤",
@@ -371,9 +321,7 @@
                 "length": "76min",
                 "format": "MOV",
                 "color": "Color",
-                "genre": [
-                  "오픈프라이드"
-                ]
+                "genre": ["오픈프라이드"]
               },
               "credit": {
                 "director": "윤기형"
@@ -385,9 +333,7 @@
           "time": "19:00",
           "title": "샤이니 슈림프",
           "titleEng": "The Shiny Shrimps",
-          "grades": [
-            "G"
-          ],
+          "grades": ["G"],
           "programs": [
             {
               "title": "샤이니 슈림프",
@@ -399,9 +345,7 @@
                 "length": "94min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "월드프라이드"
-                ]
+                "genre": ["월드프라이드"]
               },
               "credit": {
                 "director": "세드릭 르 갈로, 막심 고바"
@@ -413,9 +357,7 @@
           "time": "20:55",
           "title": "불한당: 나쁜놈들의 세상",
           "titleEng": "The Merciless",
-          "grades": [
-            "18"
-          ],
+          "grades": ["18"],
           "programs": [
             {
               "title": "불한당: 나쁜놈들의 세상",
@@ -427,9 +369,7 @@
                 "length": "120min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "스페셜 프라이드"
-                ]
+                "genre": ["스페셜 프라이드"]
               },
               "credit": {
                 "director": "변성현"
@@ -446,9 +386,7 @@
           "time": "19:42",
           "title": "QT – 우리는 여기에 있었다",
           "titleEng": "We were here",
-          "grades": [
-            "12"
-          ],
+          "grades": ["12"],
           "programs": [
             {
               "title": "우리는 여기에 있었다",
@@ -460,9 +398,7 @@
                 "length": "90min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "핫핑크"
-                ]
+                "genre": ["핫핑크"]
               },
               "credit": {
                 "director": "데이빗 웨이스만, 빌 웨버"

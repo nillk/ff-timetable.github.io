@@ -1,9 +1,9 @@
-import React from "react";
-import { graphql, Link } from "gatsby";
-import { Typography } from "antd";
+import React from 'react';
+import { graphql, Link } from 'gatsby';
+import { Typography } from 'antd';
 import { VideoCameraOutlined } from '@ant-design/icons';
 
-import Page from "../components/layout";
+import Page from '../components/layout';
 
 const { Title, Paragraph } = Typography;
 
@@ -17,7 +17,7 @@ export default ({ data }) => {
       return acc;
     }, {});
 
-    return [...acc, {name, years: firstSlugOfYear }];
+    return [...acc, { name, years: firstSlugOfYear }];
   }, []);
 
   return (
@@ -35,18 +35,18 @@ export default ({ data }) => {
                     {ff.name.toUpperCase()} {year}
                   </Link>
                 </li>
-              ))
+              ));
             })}
           </ul>
         </Paragraph>
       </Typography>
     </Page>
-  )
-}
+  );
+};
 
 export const query = graphql`
   query {
-    allSchedule(sort: {fields: date}) {
+    allSchedule(sort: { fields: date }) {
       group(field: name) {
         fieldValue
         nodes {
@@ -58,4 +58,4 @@ export const query = graphql`
       }
     }
   }
-`
+`;

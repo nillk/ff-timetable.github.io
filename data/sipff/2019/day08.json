@@ -11,9 +11,7 @@
           "time": "11:30",
           "title": "호세",
           "titleEng": "José",
-          "grades": [
-            "18"
-          ],
+          "grades": ["18"],
           "programs": [
             {
               "title": "호세",
@@ -25,9 +23,7 @@
                 "length": "85min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "월드프라이드"
-                ]
+                "genre": ["월드프라이드"]
               },
               "credit": {
                 "director": "리 챙"
@@ -39,9 +35,7 @@
           "time": "13:20",
           "title": "JT 르로이",
           "titleEng": "Jeremiah Terminator LeRoy",
-          "grades": [
-            "18"
-          ],
+          "grades": ["18"],
           "programs": [
             {
               "title": "JT 르로이",
@@ -53,9 +47,7 @@
                 "length": "108min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "월드프라이드"
-                ]
+                "genre": ["월드프라이드"]
               },
               "credit": {
                 "director": "저스틴 켈리"
@@ -67,9 +59,7 @@
           "time": "15:35",
           "title": "카나리아",
           "titleEng": "Canary",
-          "grades": [
-            "18"
-          ],
+          "grades": ["18"],
           "programs": [
             {
               "title": "카나리아",
@@ -81,9 +71,7 @@
                 "length": "123min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "월드프라이드"
-                ]
+                "genre": ["월드프라이드"]
               },
               "credit": {
                 "director": "크리스티안 올바겐"
@@ -95,9 +83,7 @@
           "time": "18:05",
           "title": "고잉 웨스트",
           "titleEng": "Going West",
-          "grades": [
-            "15"
-          ],
+          "grades": ["15"],
           "programs": [
             {
               "title": "고잉 웨스트",
@@ -109,9 +95,7 @@
                 "length": "83min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "월드프라이드"
-                ]
+                "genre": ["월드프라이드"]
               },
               "credit": {
                 "director": "헨릭 마틴 달스바킨"
@@ -123,9 +107,7 @@
           "time": "19:55",
           "title": "아이스 하키장의 젠",
           "titleEng": "ZEN IN THE ICE RIFT",
-          "grades": [
-            "15"
-          ],
+          "grades": ["15"],
           "programs": [
             {
               "title": "아이스 하키장의 젠",
@@ -137,9 +119,7 @@
                 "length": "87min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "월드프라이드"
-                ]
+                "genre": ["월드프라이드"]
               },
               "credit": {
                 "director": "마르게리타 페리"
@@ -151,9 +131,7 @@
           "time": "21:40",
           "title": "해외단편 5",
           "titleEng": "International Shorts 5",
-          "grades": [
-            "18"
-          ],
+          "grades": ["18"],
           "programs": [
             {
               "title": "늙은 나르키소스",
@@ -165,9 +143,7 @@
                 "length": "22min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "아시아프라이드"
-                ]
+                "genre": ["아시아프라이드"]
               },
               "credit": {
                 "director": "츠요시 쇼지"
@@ -183,9 +159,7 @@
                 "length": "14min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "아시아프라이드"
-                ]
+                "genre": ["아시아프라이드"]
               },
               "credit": {
                 "director": "함마드 리비"
@@ -201,9 +175,7 @@
                 "length": "6min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "월드프라이드"
-                ]
+                "genre": ["월드프라이드"]
               },
               "credit": {
                 "director": "제이크 샤논"
@@ -219,9 +191,7 @@
                 "length": "22min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "아시아프라이드"
-                ]
+                "genre": ["아시아프라이드"]
               },
               "credit": {
                 "director": "림 킨 히안"
@@ -238,9 +208,7 @@
           "time": "12:30",
           "title": "한국단편경쟁 1",
           "titleEng": "Korean Shorts Competition 1",
-          "grades": [
-            "15"
-          ],
+          "grades": ["15"],
           "programs": [
             {
               "title": "날씨가 좋아서",
@@ -252,9 +220,7 @@
                 "length": "18min",
                 "format": "MOV",
                 "color": "Color",
-                "genre": [
-                  "코리아프라이드"
-                ]
+                "genre": ["코리아프라이드"]
               },
               "credit": {
                 "director": "박은경"
@@ -270,9 +236,7 @@
                 "length": "17min",
                 "format": "MOV",
                 "color": "B/W",
-                "genre": [
-                  "코리아프라이드"
-                ]
+                "genre": ["코리아프라이드"]
               },
               "credit": {
                 "director": "이원영"
@@ -288,9 +252,7 @@
                 "length": "10min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "코리아프라이드"
-                ]
+                "genre": ["코리아프라이드"]
               },
               "credit": {
                 "director": "정다희"
@@ -306,9 +268,7 @@
                 "length": "11min",
                 "format": "MOV",
                 "color": "Color",
-                "genre": [
-                  "코리아프라이드"
-                ]
+                "genre": ["코리아프라이드"]
               },
               "credit": {
                 "director": "김국희"
@@ -324,9 +284,7 @@
                 "length": "11min",
                 "format": "MOV",
                 "color": "Color",
-                "genre": [
-                  "코리아프라이드"
-                ]
+                "genre": ["코리아프라이드"]
               },
               "credit": {
                 "director": "이수영"
@@ -342,9 +300,7 @@
                 "length": "28min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "코리아프라이드"
-                ]
+                "genre": ["코리아프라이드"]
               },
               "credit": {
                 "director": "이진영"
@@ -356,9 +312,7 @@
           "time": "14:40",
           "title": "샤이니 슈림프",
           "titleEng": "The Shiny Shrimps",
-          "grades": [
-            "G"
-          ],
+          "grades": ["G"],
           "programs": [
             {
               "title": "샤이니 슈림프",
@@ -370,9 +324,7 @@
                 "length": "94min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "월드프라이드"
-                ]
+                "genre": ["월드프라이드"]
               },
               "credit": {
                 "director": "세드릭 르 갈로, 막심 고바"
@@ -384,9 +336,7 @@
           "time": "16:50",
           "title": "왕자가 된 소녀들",
           "titleEng": "The Girl Princes",
-          "grades": [
-            "G"
-          ],
+          "grades": ["G"],
           "programs": [
             {
               "title": "왕자가 된 소녀들",
@@ -398,9 +348,7 @@
                 "length": "79min",
                 "format": "MOV",
                 "color": "Color",
-                "genre": [
-                  "스페셜 프라이드"
-                ]
+                "genre": ["스페셜 프라이드"]
               },
               "credit": {
                 "director": "김혜정"
@@ -412,9 +360,7 @@
           "time": "18:50",
           "title": "보이 이레이즈드",
           "titleEng": "Boy Erased(QT)",
-          "grades": [
-            "15"
-          ],
+          "grades": ["15"],
           "programs": [
             {
               "title": "보이 이레이즈드",
@@ -426,9 +372,7 @@
                 "length": "115min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "월드프라이드"
-                ]
+                "genre": ["월드프라이드"]
               },
               "credit": {
                 "director": "조엘 에저튼"
@@ -440,9 +384,7 @@
           "time": "21:15",
           "title": "해외단편1",
           "titleEng": "International Shorts 1",
-          "grades": [
-            "15"
-          ],
+          "grades": ["15"],
           "programs": [
             {
               "title": "토마스 뱅크스가 사랑에 대해 탐구하다",
@@ -454,9 +396,7 @@
                 "length": "31min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "월드프라이드"
-                ]
+                "genre": ["월드프라이드"]
               },
               "credit": {
                 "director": "핍 캘리"
@@ -472,9 +412,7 @@
                 "length": "15min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "아시아프라이드"
-                ]
+                "genre": ["아시아프라이드"]
               },
               "credit": {
                 "director": "아딧야 아흐메드"
@@ -490,9 +428,7 @@
                 "length": "12min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "월드프라이드"
-                ]
+                "genre": ["월드프라이드"]
               },
               "credit": {
                 "director": "주앙 칸지두 자카리아"
@@ -508,9 +444,7 @@
                 "length": "30min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "아시아프라이드"
-                ]
+                "genre": ["아시아프라이드"]
               },
               "credit": {
                 "director": "리나 마니메칼라이"
@@ -526,9 +460,7 @@
                 "length": "10min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "아시아프라이드"
-                ]
+                "genre": ["아시아프라이드"]
               },
               "credit": {
                 "director": "왕 핑원"
@@ -545,9 +477,7 @@
           "time": "12:00",
           "title": "에밀리 디킨슨의 밤",
           "titleEng": "Wild Nights with Emily",
-          "grades": [
-            "15"
-          ],
+          "grades": ["15"],
           "programs": [
             {
               "title": "에밀리 디킨슨의 밤",
@@ -559,9 +489,7 @@
                 "length": "84min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "월드프라이드"
-                ]
+                "genre": ["월드프라이드"]
               },
               "credit": {
                 "director": "마들렌 올넥"
@@ -573,9 +501,7 @@
           "time": "13:50",
           "title": "한국단편경쟁 2",
           "titleEng": "Korean Shorts Competition 2",
-          "grades": [
-            "12"
-          ],
+          "grades": ["12"],
           "programs": [
             {
               "title": "전환치료",
@@ -587,9 +513,7 @@
                 "length": "36min",
                 "format": "MOV",
                 "color": "Color",
-                "genre": [
-                  "코리아프라이드"
-                ]
+                "genre": ["코리아프라이드"]
               },
               "credit": {
                 "director": "김찬우"
@@ -605,9 +529,7 @@
                 "length": "11min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "코리아프라이드"
-                ]
+                "genre": ["코리아프라이드"]
               },
               "credit": {
                 "director": "황지우"
@@ -623,9 +545,7 @@
                 "length": "5min",
                 "format": "MOV",
                 "color": "Color",
-                "genre": [
-                  "코리아프라이드"
-                ]
+                "genre": ["코리아프라이드"]
               },
               "credit": {
                 "director": "최지은, 조소영"
@@ -641,9 +561,7 @@
                 "length": "17min",
                 "format": "MOV",
                 "color": "Color",
-                "genre": [
-                  "코리아프라이드"
-                ]
+                "genre": ["코리아프라이드"]
               },
               "credit": {
                 "director": "주재훈"
@@ -659,9 +577,7 @@
                 "length": "23min",
                 "format": "MOV",
                 "color": "Color",
-                "genre": [
-                  "코리아프라이드"
-                ]
+                "genre": ["코리아프라이드"]
               },
               "credit": {
                 "director": "신승은"
@@ -673,9 +589,7 @@
           "time": "16:00",
           "title": "런던 프라이드",
           "titleEng": "Pride",
-          "grades": [
-            "G"
-          ],
+          "grades": ["G"],
           "programs": [
             {
               "title": "런던 프라이드",
@@ -687,9 +601,7 @@
                 "length": "119min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "핫핑크"
-                ]
+                "genre": ["핫핑크"]
               },
               "credit": {
                 "director": "매튜 워처스"
@@ -701,9 +613,7 @@
           "time": "18:40",
           "title": "프리윌리",
           "titleEng": "Free Willy",
-          "grades": [
-            "G"
-          ],
+          "grades": ["G"],
           "programs": [
             {
               "title": "프리윌리",
@@ -716,9 +626,7 @@
                 "length": "112min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "오픈프라이드"
-                ]
+                "genre": ["오픈프라이드"]
               },
               "credit": {
                 "director": "사이먼 윈서"
@@ -730,9 +638,7 @@
           "time": "21:00",
           "title": "왕의 남자",
           "titleEng": "King And The Clown",
-          "grades": [
-            "15"
-          ],
+          "grades": ["15"],
           "programs": [
             {
               "title": "왕의 남자",
@@ -744,9 +650,7 @@
                 "length": "119min",
                 "format": "Blu-ray",
                 "color": "Color",
-                "genre": [
-                  "스페셜 프라이드"
-                ]
+                "genre": ["스페셜 프라이드"]
               },
               "credit": {
                 "director": "이준익"
@@ -763,9 +667,7 @@
           "time": "19:00",
           "title": "QT – 보이 이레이즈드",
           "titleEng": "Boy Erased",
-          "grades": [
-            "15"
-          ],
+          "grades": ["15"],
           "programs": [
             {
               "title": "보이 이레이즈드",
@@ -777,9 +679,7 @@
                 "length": "115min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "월드프라이드"
-                ]
+                "genre": ["월드프라이드"]
               },
               "credit": {
                 "director": "조엘 에저튼"

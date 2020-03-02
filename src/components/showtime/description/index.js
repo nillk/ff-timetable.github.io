@@ -1,8 +1,8 @@
-import React from "react"
-import { Typography, Tag, Button } from "antd"
-import { CloseOutlined } from "@ant-design/icons"
+import React from 'react';
+import { Typography, Tag, Button } from 'antd';
+import { CloseOutlined } from '@ant-design/icons';
 
-const { Paragraph, Text } = Typography
+const { Paragraph, Text } = Typography;
 
 const GenreTags = info => {
   if (info !== null && info.genre !== null) {
@@ -15,17 +15,16 @@ const GenreTags = info => {
               lineHeight: `1rem`,
               padding: `0 0.3rem`,
               marginRight: `0.25rem`,
-            }}
-          >
+            }}>
             {g}
           </Tag>
         ))}
       </div>
-    )
+    );
   }
 
-  return <></>
-}
+  return <></>;
+};
 
 const Description = ({ programs, onClose }) => {
   return (
@@ -39,17 +38,15 @@ const Description = ({ programs, onClose }) => {
           float: `right`,
           color: `rgba(0, 0, 0, 0.87)`,
         }}
-        onClick={onClose}
-      ></Button>
+        onClick={onClose}></Button>
       {programs.map(program => (
         <Typography key={program.titleEng}>
           <Paragraph style={{ fontSize: `1rem`, marginBottom: `0.3rem` }}>
             {program.title}
             <Text
               type="secondary"
-              style={{ fontStyle: `italic`, fontWeight: 300 }}
-            >
-              {" "}
+              style={{ fontStyle: `italic`, fontWeight: 300 }}>
+              {' '}
               {program.titleEng}
             </Text>
           </Paragraph>
@@ -70,7 +67,7 @@ const Description = ({ programs, onClose }) => {
         </Typography>
       ))}
     </div>
-  )
-}
+  );
+};
 
-export default Description
+export default Description;

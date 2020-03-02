@@ -1,15 +1,15 @@
-import React from "react"
-import { graphql } from "gatsby"
-import { Typography } from "antd"
-import { Row, Col } from "antd"
-import { Button, Drawer } from "antd"
-import { FilterOutlined } from "@ant-design/icons"
+import React from 'react';
+import { graphql } from 'gatsby';
+import { Typography } from 'antd';
+import { Row, Col } from 'antd';
+import { Button, Drawer } from 'antd';
+import { FilterOutlined } from '@ant-design/icons';
 
-import Page from "../components/layout"
-import Theater from "../components/theater"
-import Showtime from "../components/showtime"
-import Filter from "../components/filter"
-import { GradeInfo } from "../components/grade"
+import Page from '../components/layout';
+import Theater from '../components/theater';
+import Showtime from '../components/showtime';
+import Filter from '../components/filter';
+import { GradeInfo } from '../components/grade';
 
 const getGenresOfScreen = screen => {
   return screen.times
@@ -17,31 +17,31 @@ const getGenresOfScreen = screen => {
     .flatMap(time =>
       time.programs
         .filter(program => program && program.info && program.info.genre)
-        .flatMap(program => program.info.genre)
-    )
-}
+        .flatMap(program => program.info.genre),
+    );
+};
 
 const getAllDistinctGenres = screening => {
-  const allGenres = screening.flatMap(screen => getGenresOfScreen(screen))
-  return [...new Set(allGenres)]
-}
+  const allGenres = screening.flatMap(screen => getGenresOfScreen(screen));
+  return [...new Set(allGenres)];
+};
 
 const containsGenre = (genre, screen) => {
-  return getGenresOfScreen(screen).some(g => genre.includes(g))
-}
+  return getGenresOfScreen(screen).some(g => genre.includes(g));
+};
 
 export default ({ data }) => {
-  const allGenres = getAllDistinctGenres(data.schedule.screening)
+  const allGenres = getAllDistinctGenres(data.schedule.screening);
 
-  const [genre, setGenre] = React.useState([])
-  const [visible, setVisible] = React.useState(false)
+  const [genre, setGenre] = React.useState([]);
+  const [visible, setVisible] = React.useState(false);
 
   const handleGenreFilter = value => {
-    setGenre(value)
-  }
+    setGenre(value);
+  };
 
-  const showDrawer = () => setVisible(true)
-  const closeDrawer = () => setVisible(false)
+  const showDrawer = () => setVisible(true);
+  const closeDrawer = () => setVisible(false);
 
   return (
     <Page name={data.schedule.name} year={data.schedule.year}>
@@ -53,8 +53,7 @@ export default ({ data }) => {
               fontWeight: `lighter`,
               marginBottom: `1.25rem`,
               float: `left`,
-            }}
-          >
+            }}>
             {data.schedule.dateStr}
           </Typography.Title>
         </Col>
@@ -77,7 +76,9 @@ export default ({ data }) => {
         </Col>
       </Row>
       <Row>
-        <Col><GradeInfo /></Col>
+        <Col>
+          <GradeInfo />
+        </Col>
       </Row>
       <Row type="flex" justify="start" gutter={16} style={{ flexFlow: `row` }}>
         {data.schedule.screening.map(screen => {
@@ -92,16 +93,16 @@ export default ({ data }) => {
                 />
               ))}
             </Col>
-          )
+          );
         })}
       </Row>
     </Page>
-  )
-}
+  );
+};
 
 export const query = graphql`
   query($name: String!, $year: Int!, $date: String!) {
-    schedule(name: {eq: $name}, year: {eq: $year}, date: {eq: $date}) {
+    schedule(name: { eq: $name }, year: { eq: $year }, date: { eq: $date }) {
       name
       year
       date
@@ -127,4 +128,4 @@ export const query = graphql`
       }
     }
   }
-`
+`;

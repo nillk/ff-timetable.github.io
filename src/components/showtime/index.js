@@ -1,63 +1,65 @@
-import React from "react"
-import { Typography, Popover } from "antd"
+import React from 'react';
+import { Typography, Popover } from 'antd';
 
-import { BOX_SIZE } from "../constants"
+import { BOX_SIZE } from '../constants';
 
-import Grade from "../grade"
-import Description from "./description"
+import Grade from '../grade';
+import Description from './description';
 
-const { Paragraph, Text } = Typography
+const { Paragraph, Text } = Typography;
 
-const TIME_HEIGHT = 6
-const GUTTER = 1.5
+const TIME_HEIGHT = 6;
+const GUTTER = 1.5;
 
 const calculateTop = (hour, minute) => {
-  const hourDiff = hour - 10 // start time is 10:00
-  const minuteDiff = minute / 60
+  const hourDiff = hour - 10; // start time is 10:00
+  const minuteDiff = minute / 60;
 
-  return (hourDiff + minuteDiff) * TIME_HEIGHT + BOX_SIZE + GUTTER
-}
+  return (hourDiff + minuteDiff) * TIME_HEIGHT + BOX_SIZE + GUTTER;
+};
 
-const calculateHeight = length => (length / 60) * TIME_HEIGHT
+const calculateHeight = length => (length / 60) * TIME_HEIGHT;
 
 const calculteEndTime = (hour, minute, totalLength) => {
-  if (totalLength === 0) return ``
+  if (totalLength === 0) return ``;
 
-  const calculteHour = minute => Math.floor(minute / 60)
+  const calculteHour = minute => Math.floor(minute / 60);
 
   const endHour =
-    hour + calculteHour(totalLength) + calculteHour(minute + (totalLength % 60))
-  const endMinute = (minute + (totalLength % 60)) % 60
+    hour +
+    calculteHour(totalLength) +
+    calculteHour(minute + (totalLength % 60));
+  const endMinute = (minute + (totalLength % 60)) % 60;
 
-  const endHourStr = endHour < 10 ? `0${endHour}` : `${endHour}`
-  const endMinuteStr = endMinute < 10 ? `0${endMinute}` : `${endMinute}`
+  const endHourStr = endHour < 10 ? `0${endHour}` : `${endHour}`;
+  const endMinuteStr = endMinute < 10 ? `0${endMinute}` : `${endMinute}`;
 
-  return `${endHourStr}:${endMinuteStr}`
-}
+  return `${endHourStr}:${endMinuteStr}`;
+};
 
 const getProgramsTotalLength = programs =>
-  programs.reduce((acc, program) => acc + getLength(program), 0)
+  programs.reduce((acc, program) => acc + getLength(program), 0);
 
 const getLength = program =>
-  program.info !== null ? Number(program.info.length.replace("min", "")) : 0
+  program.info !== null ? Number(program.info.length.replace('min', '')) : 0;
 
 const containsGenre = (genre, programs) => {
   for (let program of programs) {
     if (program.info !== null && program.info.genre !== null) {
       if (program.info.genre.some(g => genre.includes(g))) {
-        return true
+        return true;
       }
     }
   }
 
-  return false
-}
+  return false;
+};
 
 const Subtitle = ({ subtitle }) => (
   <Text type="secondary" style={{ fontStyle: `italic` }}>
     {subtitle}
   </Text>
-)
+);
 
 const SubPrograms = ({ subprograms }) => (
   <ul>
@@ -67,31 +69,31 @@ const SubPrograms = ({ subprograms }) => (
       </li>
     ))}
   </ul>
-)
+);
 
 const Showtime = ({ show, genre }) => {
-  const [descVisible, setDescVisible] = React.useState(false)
+  const [descVisible, setDescVisible] = React.useState(false);
 
   const hideDescription = () => {
-    setDescVisible(false)
-  }
+    setDescVisible(false);
+  };
 
   const handleDescVisibleChange = visible => {
-    setDescVisible(visible)
-  }
+    setDescVisible(visible);
+  };
 
   if (genre.length > 0 && !containsGenre(genre, show.programs)) {
-    return <></>
+    return <></>;
   }
 
-  const [hour, minute] = show.time.split(":").map(Number)
+  const [hour, minute] = show.time.split(':').map(Number);
 
-  const totalLength = getProgramsTotalLength(show.programs)
+  const totalLength = getProgramsTotalLength(show.programs);
 
-  const endTime = calculteEndTime(hour, minute, totalLength)
+  const endTime = calculteEndTime(hour, minute, totalLength);
 
-  const top = calculateTop(hour, minute)
-  const height = calculateHeight(totalLength)
+  const top = calculateTop(hour, minute);
+  const height = calculateHeight(totalLength);
 
   return (
     <div
@@ -100,15 +102,13 @@ const Showtime = ({ show, genre }) => {
         top: `${top}rem`,
         height: `${height}rem`,
         width: `${BOX_SIZE}rem`,
-      }}
-    >
+      }}>
       <Popover
         content={
           <Description programs={show.programs} onClose={hideDescription} />
         }
         visible={descVisible}
-        onVisibleChange={handleDescVisibleChange}
-      >
+        onVisibleChange={handleDescVisibleChange}>
         <div style={{ marginTop: `0.375rem` }}>
           <Typography>
             <Paragraph>
@@ -134,7 +134,7 @@ const Showtime = ({ show, genre }) => {
         ))}
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Showtime
+export default Showtime;

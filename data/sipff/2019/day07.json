@@ -11,9 +11,7 @@
           "time": "19:00",
           "title": "개막식",
           "titleEng": "Opening Ceremony",
-          "grades": [
-            "12"
-          ],
+          "grades": ["12"],
           "programs": [
             {
               "title": "타오르는 여인의 초상",
@@ -25,9 +23,7 @@
                 "length": "120min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "개막작"
-                ]
+                "genre": ["개막작"]
               },
               "credit": {
                 "director": "셀린 시아마"
@@ -39,9 +35,7 @@
           "time": "20:00",
           "title": "개막작: 타오르는 여인의 초상",
           "titleEng": "Opening Film - Portrait of a Lady on Fire",
-          "grades": [
-            "12"
-          ],
+          "grades": ["12"],
           "programs": [
             {
               "title": "타오르는 여인의 초상",
@@ -53,9 +47,7 @@
                 "length": "120min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "개막작"
-                ]
+                "genre": ["개막작"]
               },
               "credit": {
                 "director": "셀린 시아마"
@@ -72,9 +64,7 @@
           "time": "19:30",
           "title": "개막작: 타오르는 여인의 초상",
           "titleEng": "Opening Film - Portrait of a Lady on Fire",
-          "grades": [
-            "12"
-          ],
+          "grades": ["12"],
           "programs": [
             {
               "title": "타오르는 여인의 초상",
@@ -86,9 +76,7 @@
                 "length": "120min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "개막작"
-                ]
+                "genre": ["개막작"]
               },
               "credit": {
                 "director": "셀린 시아마"
@@ -105,9 +93,7 @@
           "time": "19:45",
           "title": "개막작: 타오르는 여인의 초상",
           "titleEng": "Opening Film - Portrait of a Lady on Fire",
-          "grades": [
-            "12"
-          ],
+          "grades": ["12"],
           "programs": [
             {
               "title": "타오르는 여인의 초상",
@@ -119,9 +105,7 @@
                 "length": "120min",
                 "format": "DCP",
                 "color": "Color",
-                "genre": [
-                  "개막작"
-                ]
+                "genre": ["개막작"]
               },
               "credit": {
                 "director": "셀린 시아마"
