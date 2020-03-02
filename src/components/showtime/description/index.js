@@ -1,5 +1,6 @@
 import React from "react"
 import { Typography, Tag, Button } from "antd"
+import { CloseOutlined } from "@ant-design/icons"
 
 const { Paragraph, Text } = Typography
 
@@ -30,7 +31,7 @@ const Description = ({ programs, onClose }) => {
   return (
     <div className="description">
       <Button
-        icon="close"
+        icon={<CloseOutlined />}
         aria-label="close"
         size="small"
         type="link"

@@ -1,6 +1,7 @@
 import React from "react";
 import { graphql, Link } from "gatsby";
-import { Typography, Icon } from "antd";
+import { Typography } from "antd";
+import { VideoCameraOutlined } from '@ant-design/icons';
 
 import Page from "../components/layout";
 
@@ -23,8 +24,8 @@ export default ({ data }) => {
     <Page>
       <Typography>
         <Title>
-          <Icon type="video-camera" /> Film Festival Timetable
-          </Title>
+          <VideoCameraOutlined /> Film Festival Timetable
+        </Title>
         <Paragraph>
           <ul>
             {ffInfo.map(ff => {

@@ -3,6 +3,7 @@ import { graphql } from "gatsby"
 import { Typography } from "antd"
 import { Row, Col } from "antd"
 import { Button, Drawer } from "antd"
+import { FilterOutlined } from "@ant-design/icons"
 
 import Page from "../components/layout"
 import Theater from "../components/theater"
@@ -59,7 +60,7 @@ export default ({ data }) => {
         </Col>
         <Col>
           <Button
-            icon="filter"
+            icon={<FilterOutlined />}
             aria-label="filter"
             size="large"
             type="link"
