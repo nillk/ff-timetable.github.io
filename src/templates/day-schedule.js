@@ -11,6 +11,13 @@ import Showtime from '../components/showtime';
 import Filter from '../components/filter';
 import { GradeInfo } from '../components/grade';
 
+const getAllDistinctGrades = screening => {
+  const allGenres = screening.flatMap(screen =>
+    screen.times.flatMap(time => time.grades.map(g => g.toUpperCase())),
+  );
+  return [...new Set(allGenres)].sort();
+};
+
 const getGenresOfScreen = screen => {
   return screen.times
     .filter(time => time && time.programs)
@@ -22,8 +29,8 @@ const getGenresOfScreen = screen => {
 };
 
 const getAllDistinctGenres = screening => {
-  const allGenres = screening.flatMap(screen => getGenresOfScreen(screen));
-  return [...new Set(allGenres)];
+  const allGenres = screening.flatMap(getGenresOfScreen);
+  return [...new Set(allGenres)].sort();
 };
 
 const containsGenre = (genre, screen) => {
@@ -31,6 +38,7 @@ const containsGenre = (genre, screen) => {
 };
 
 export default ({ data }) => {
+  const allGrades = getAllDistinctGrades(data.schedule.screening);
   const allGenres = getAllDistinctGenres(data.schedule.screening);
 
   const [genre, setGenre] = React.useState([]);
@@ -68,7 +76,7 @@ export default ({ data }) => {
           />
           <Drawer title="Filter" onClose={closeDrawer} visible={visible}>
             <Filter
-              label={`Genre`}
+              label="Genre"
               value={allGenres}
               onChange={handleGenreFilter}
             />
@@ -77,7 +85,7 @@ export default ({ data }) => {
       </Row>
       <Row>
         <Col>
-          <GradeInfo />
+          <GradeInfo grades={allGrades} />
         </Col>
       </Row>
       <Row type="flex" justify="start" gutter={16} style={{ flexFlow: `row` }}>

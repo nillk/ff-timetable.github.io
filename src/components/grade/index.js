@@ -4,7 +4,7 @@ import { Typography } from 'antd';
 const { Text } = Typography;
 
 export const GRADES = {
-  g: {
+  G: {
     text: '전체관람가',
   },
   '12': {
@@ -13,28 +13,31 @@ export const GRADES = {
   '15': {
     text: '15세 관람가',
   },
+  '18': {
+    text: '청소년 관람불가',
+  },
   '19': {
     text: '청소년 관람불가',
   },
-  gv: {
+  GV: {
     text: '게스트와의 만남',
   },
-  ke: {
+  KE: {
     text: '한글자막+영어자막/대사',
   },
-  kk: {
+  KK: {
     text: '시·청각장애인을 위한 배리어프리자막상영',
   },
 };
 
-export const GradeInfo = () => (
+export const GradeInfo = ({ grades }) => (
   <div
     style={{
       display: `inline-block`,
       marginTop: `0.4rem`,
       marginBottom: `0.4rem`,
     }}>
-    {Object.keys(GRADES).map(g => (
+    {grades.map(g => (
       <div key={g} style={{ float: `left`, marginRight: `0.85rem` }}>
         <Text className="grade-info-typography">
           <strong>/ {g} /</strong> {GRADES[g].text}
