@@ -141,6 +141,10 @@ export const query = graphql`
               color
               genre
             }
+            credit {
+              director
+              cast
+            }
           }
         }
       }

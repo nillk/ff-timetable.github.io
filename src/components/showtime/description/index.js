@@ -4,21 +4,47 @@ import { CloseOutlined } from '@ant-design/icons';
 
 const { Paragraph, Text } = Typography;
 
-const GenreContainer = info => {
-  if (info && info.genre) {
-    return (
-      <div className="genre-container">
-        {info.genre.map(g => (
-          <Tag key={g} className="genre">
-            {g}
-          </Tag>
-        ))}
-      </div>
-    );
-  }
+const ProgramTitle = ({ title, titleEng }) => (
+  <Paragraph className="title">
+    {title}
+    <Text type="secondary" className="title-eng">
+      {' '}
+      {titleEng}
+    </Text>
+  </Paragraph>
+);
 
-  return <></>;
-};
+const ProgramInfo = ({ info }) => (
+  <Paragraph className="info">
+    {Object.keys(info)
+      .filter(key => key !== 'genre' && info[key])
+      .map(key => (
+        <span key={key}>{info[key]}</span>
+      ))}
+  </Paragraph>
+);
+
+const ProgramCredit = ({ credit }) => (
+  <ul className="credit">
+    {Object.keys(credit)
+      .filter(key => credit[key])
+      .map(key => (
+        <li key={key}>
+          {key[0].toUpperCase() + key.substring(1)} <span>{credit[key]}</span>
+        </li>
+      ))}
+  </ul>
+);
+
+const ProgramGenre = ({ genre }) => (
+  <div className="genre">
+    {genre.map(g => (
+      <Tag key={g} className="genre-tag">
+        {g}
+      </Tag>
+    ))}
+  </div>
+);
 
 const Description = ({ programs, onClose }) => {
   return (
@@ -32,24 +58,12 @@ const Description = ({ programs, onClose }) => {
         onClick={onClose}></Button>
       {programs.map(program => (
         <Typography key={program.titleEng} className="program">
-          <Paragraph className="title">
-            {program.title}
-            <Text type="secondary" className="title-eng">
-              {' '}
-              {program.titleEng}
-            </Text>
-          </Paragraph>
-          {program.info && (
-            <Paragraph className="info">
-              {Object.keys(program.info)
-                .filter(key => key !== 'genre')
-                .filter(key => program.info[key])
-                .map(key => (
-                  <span key={key}>{program.info[key]}</span>
-                ))}
-            </Paragraph>
+          <ProgramTitle title={program.title} titleEng={program.titleEng} />
+          {program.info && <ProgramInfo info={program.info} />}
+          {program.credit && <ProgramCredit credit={program.credit} />}
+          {program.info && program.info.genre && (
+            <ProgramGenre genre={program.info.genre} />
           )}
-          {GenreContainer(program.info)}
           <Paragraph className="desc">{program.desc}</Paragraph>
         </Typography>
       ))}

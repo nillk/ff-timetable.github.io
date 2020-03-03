@@ -175,16 +175,31 @@
     .info {
       font-size: 0.78rem;
       color: @text-color-secondary;
+      margin-bottom: 0.7rem;
 
       span:nth-child(n + 2)::before {
         content: ' | ';
       }
     }
 
-    .genre-container {
+    .credit {
+      font-size: 0.78rem;
+      color: @heading-color;
+
+      li {
+        list-style-type: none;
+        margin-left: 0;
+      }
+
+      span {
+        color: @text-color-secondary;
+      }
+    }
+
+    .genre {
       margin-bottom: 0.875rem;
 
-      .genre {
+      .genre-tag {
         padding: 0 0.3rem;
         margin-right: 0.25rem;
         background-color: black;
