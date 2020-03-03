@@ -91,25 +91,23 @@ export default ({ data }) => {
             justify="start"
             gutter={16}
             style={{ flexFlow: `row` }}>
-            {data.schedule.screening.map(screen => {
-              return showScreen(state.genre, screen) ? (
-                <Col key={screen.theater} style={{ position: `relative` }}>
-                  <Theater name={screen.theater} />
-                  {screen.times.map(time => {
-                    return showTime(state.genre, time) ? (
-                      <Showtime
-                        key={`${screen.theater}-${time.time}`}
-                        show={time}
-                      />
-                    ) : (
-                      <></>
-                    );
-                  })}
-                </Col>
-              ) : (
-                <></>
-              );
-            })}
+            {data.schedule.screening.map(
+              screen =>
+                showScreen(state.genre, screen) && (
+                  <Col key={screen.theater} style={{ position: `relative` }}>
+                    <Theater name={screen.theater} />
+                    {screen.times.map(
+                      time =>
+                        showTime(state.genre, time) && (
+                          <Showtime
+                            key={`${screen.theater}-${time.time}`}
+                            show={time}
+                          />
+                        ),
+                    )}
+                  </Col>
+                ),
+            )}
           </Row>
         </Page>
       )}
