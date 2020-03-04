@@ -7,45 +7,15 @@ import { FilterOutlined } from '@ant-design/icons';
 
 import { FilterConsumer } from '../context/filter-context';
 
+import { showScreen, showTime } from '../utils';
+
 import Page from '../components/layout';
 import Theater from '../components/theater';
 import Showtime from '../components/showtime';
 import Filter from '../components/filter';
 import { GradeInfo } from '../components/grade';
 
-const getAllDistinctGrades = screening => {
-  const allGenres = screening.flatMap(screen =>
-    screen.times.flatMap(time => time.grades.map(g => g.toUpperCase())),
-  );
-  return [...new Set(allGenres)].sort();
-};
-
-const getGenresOfPrograms = programs =>
-  programs
-    .filter(program => program.info && program.info.genre)
-    .flatMap(program => program.info.genre);
-
-const getGenresOfScreen = screen =>
-  screen.times
-    .filter(time => time.programs)
-    .flatMap(time => getGenresOfPrograms(time.programs));
-
-const getAllDistinctGenres = screening => {
-  const allGenres = screening.flatMap(getGenresOfScreen);
-  return [...new Set(allGenres)].sort();
-};
-
-const showScreen = (genre, screen) =>
-  genre.length === 0 || getGenresOfScreen(screen).some(g => genre.includes(g));
-
-const showTime = (genre, time) =>
-  genre.length === 0 ||
-  getGenresOfPrograms(time.programs).some(g => genre.includes(g));
-
 export default ({ data }) => {
-  const allGrades = getAllDistinctGrades(data.schedule.screening);
-  const allGenres = getAllDistinctGenres(data.schedule.screening);
-
   const [visible, setVisible] = React.useState(false);
 
   const showDrawer = () => setVisible(true);
@@ -77,13 +47,17 @@ export default ({ data }) => {
                 style={{ color: `rgba(0, 0, 0, 0.85)` }}
               />
               <Drawer title="Filter" onClose={closeDrawer} visible={visible}>
-                <Filter genres={allGenres} state={state} actions={actions} />
+                <Filter
+                  screening={data.schedule.screening}
+                  state={state}
+                  actions={actions}
+                />
               </Drawer>
             </Col>
           </Row>
           <Row>
             <Col>
-              <GradeInfo grades={allGrades} />
+              <GradeInfo screening={data.schedule.screening} />
             </Col>
           </Row>
           <Row
@@ -93,12 +67,12 @@ export default ({ data }) => {
             style={{ flexFlow: `row` }}>
             {data.schedule.screening.map(
               screen =>
-                showScreen(state.genre, screen) && (
+                showScreen(state, screen) && (
                   <Col key={screen.theater} style={{ position: `relative` }}>
                     <Theater name={screen.theater} />
                     {screen.times.map(
                       time =>
-                        showTime(state.genre, time) && (
+                        showTime(state, time) && (
                           <Showtime
                             key={`${screen.theater}-${time.time}`}
                             show={time}

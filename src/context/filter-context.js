@@ -10,10 +10,14 @@ const { Provider, Consumer: FilterConsumer } = FilterContext;
 
 class FilterProvider extends React.Component {
   state = {
+    director: [],
     genre: [],
   };
 
   actions = {
+    setDirector: director => {
+      this.setState({ director });
+    },
     setGenre: genre => {
       this.setState({ genre });
     },
