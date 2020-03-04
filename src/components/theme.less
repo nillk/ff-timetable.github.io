@@ -189,10 +189,14 @@
       li {
         list-style-type: none;
         margin-left: 0;
-      }
 
-      span {
-        color: @text-color-secondary;
+        span {
+          color: @text-color-secondary;
+
+          &:nth-child(n + 2)::before {
+            content: ' | ';
+          }
+        }
       }
     }
 

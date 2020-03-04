@@ -26,7 +26,7 @@
                 "genre": ["아시아프라이드"]
               },
               "credit": {
-                "director": "준 리"
+                "director": ["준 리"]
               }
             }
           ]
@@ -50,7 +50,7 @@
                 "genre": ["아시아프라이드"]
               },
               "credit": {
-                "director": "사만다 리"
+                "director": ["사만다 리"]
               }
             }
           ]
@@ -74,7 +74,7 @@
                 "genre": ["월드프라이드"]
               },
               "credit": {
-                "director": "헨릭 마틴 달스바킨"
+                "director": ["헨릭 마틴 달스바킨"]
               }
             }
           ]
@@ -98,7 +98,7 @@
                 "genre": ["월드프라이드"]
               },
               "credit": {
-                "director": "저스틴 켈리"
+                "director": ["저스틴 켈리"]
               }
             }
           ]
@@ -122,7 +122,7 @@
                 "genre": ["월드프라이드"]
               },
               "credit": {
-                "director": "크리스티안 올바겐"
+                "director": ["크리스티안 올바겐"]
               }
             }
           ]
@@ -151,7 +151,7 @@
                 "genre": ["코리아프라이드"]
               },
               "credit": {
-                "director": "오시진"
+                "director": ["오시진"]
               }
             },
             {
@@ -167,7 +167,7 @@
                 "genre": ["코리아프라이드"]
               },
               "credit": {
-                "director": "김은성"
+                "director": ["김은성"]
               }
             },
             {
@@ -183,7 +183,7 @@
                 "genre": ["코리아프라이드"]
               },
               "credit": {
-                "director": "김혜진"
+                "director": ["김혜진"]
               }
             },
             {
@@ -199,7 +199,7 @@
                 "genre": ["코리아프라이드"]
               },
               "credit": {
-                "director": "박소현"
+                "director": ["박소현"]
               }
             },
             {
@@ -215,7 +215,7 @@
                 "genre": ["코리아프라이드"]
               },
               "credit": {
-                "director": "윤대원"
+                "director": ["윤대원"]
               }
             },
             {
@@ -231,7 +231,7 @@
                 "genre": ["코리아프라이드"]
               },
               "credit": {
-                "director": "위정연, 김하영, 박예지"
+                "director": ["위정연", "김하영", "박예지"]
               }
             }
           ]
@@ -255,7 +255,7 @@
                 "genre": ["코리아프라이드"]
               },
               "credit": {
-                "director": "변성빈"
+                "director": ["변성빈"]
               }
             },
             {
@@ -271,7 +271,7 @@
                 "genre": ["코리아프라이드"]
               },
               "credit": {
-                "director": "연여인"
+                "director": ["연여인"]
               }
             },
             {
@@ -287,7 +287,7 @@
                 "genre": ["코리아프라이드"]
               },
               "credit": {
-                "director": "최민영"
+                "director": ["최민영"]
               }
             },
             {
@@ -303,7 +303,7 @@
                 "genre": ["코리아프라이드"]
               },
               "credit": {
-                "director": "이나경"
+                "director": ["이나경"]
               }
             },
             {
@@ -319,7 +319,7 @@
                 "genre": ["코리아프라이드"]
               },
               "credit": {
-                "director": "박문칠"
+                "director": ["박문칠"]
               }
             },
             {
@@ -335,10 +335,9 @@
                 "genre": ["코리아프라이드"]
               },
               "credit": {
-                "director": "조현준"
+                "director": ["조현준"]
               }
-            },
-            {}
+            }
           ]
         },
         {
@@ -360,7 +359,7 @@
                 "genre": ["핫핑크"]
               },
               "credit": {
-                "director": "피터 솔레트"
+                "director": ["피터 솔레트"]
               }
             }
           ]
@@ -384,7 +383,7 @@
                 "genre": ["월드프라이드"]
               },
               "credit": {
-                "director": "리스 언스트"
+                "director": ["리스 언스트"]
               }
             }
           ]
@@ -408,7 +407,7 @@
                 "genre": ["아시아프라이드"]
               },
               "credit": {
-                "director": "이중"
+                "director": ["이중"]
               }
             },
             {
@@ -424,7 +423,7 @@
                 "genre": ["아시아프라이드"]
               },
               "credit": {
-                "director": "로힌 라빈드란"
+                "director": ["로힌 라빈드란"]
               }
             },
             {
@@ -440,7 +439,7 @@
                 "genre": ["월드프라이드"]
               },
               "credit": {
-                "director": "레안드로 고딩요, 파울로 메네제스"
+                "director": ["레안드로 고딩요", "파울로 메네제스"]
               }
             },
             {
@@ -456,7 +455,7 @@
                 "genre": ["월드프라이드"]
               },
               "credit": {
-                "director": "아담 빈센트 라이트"
+                "director": ["아담 빈센트 라이트"]
               }
             },
             {
@@ -472,7 +471,7 @@
                 "genre": ["월드프라이드"]
               },
               "credit": {
-                "director": "레안드로 고딩요"
+                "director": ["레안드로 고딩요"]
               }
             },
             {
@@ -488,7 +487,7 @@
                 "genre": ["월드프라이드"]
               },
               "credit": {
-                "director": "오리 아하론"
+                "director": ["오리 아하론"]
               }
             }
           ]
@@ -517,7 +516,7 @@
                 "genre": ["아시아프라이드"]
               },
               "credit": {
-                "director": "유용환"
+                "director": ["유용환"]
               }
             }
           ]
@@ -541,7 +540,7 @@
                 "genre": ["월드프라이드"]
               },
               "credit": {
-                "director": "조엘 에저튼"
+                "director": ["조엘 에저튼"]
               }
             }
           ]
@@ -565,7 +564,7 @@
                 "genre": ["오픈프라이드"]
               },
               "credit": {
-                "director": "이대희"
+                "director": ["이대희"]
               }
             }
           ]
@@ -589,7 +588,7 @@
                 "genre": ["핫핑크"]
               },
               "credit": {
-                "director": "토마스 캄필로"
+                "director": ["토마스 캄필로"]
               }
             }
           ]
@@ -613,7 +612,7 @@
                 "genre": ["스페셜 프라이드"]
               },
               "credit": {
-                "director": "박찬욱"
+                "director": ["박찬욱"]
               }
             }
           ]
@@ -642,7 +641,7 @@
                 "genre": ["핫핑크"]
               },
               "credit": {
-                "director": "토마스 캄필로"
+                "director": ["토마스 캄필로"]
               }
             }
           ]

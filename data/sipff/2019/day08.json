@@ -26,7 +26,7 @@
                 "genre": ["월드프라이드"]
               },
               "credit": {
-                "director": "리 챙"
+                "director": ["리 챙"]
               }
             }
           ]
@@ -50,7 +50,7 @@
                 "genre": ["월드프라이드"]
               },
               "credit": {
-                "director": "저스틴 켈리"
+                "director": ["저스틴 켈리"]
               }
             }
           ]
@@ -74,7 +74,7 @@
                 "genre": ["월드프라이드"]
               },
               "credit": {
-                "director": "크리스티안 올바겐"
+                "director": ["크리스티안 올바겐"]
               }
             }
           ]
@@ -98,7 +98,7 @@
                 "genre": ["월드프라이드"]
               },
               "credit": {
-                "director": "헨릭 마틴 달스바킨"
+                "director": ["헨릭 마틴 달스바킨"]
               }
             }
           ]
@@ -122,7 +122,7 @@
                 "genre": ["월드프라이드"]
               },
               "credit": {
-                "director": "마르게리타 페리"
+                "director": ["마르게리타 페리"]
               }
             }
           ]
@@ -146,7 +146,7 @@
                 "genre": ["아시아프라이드"]
               },
               "credit": {
-                "director": "츠요시 쇼지"
+                "director": ["츠요시 쇼지"]
               }
             },
             {
@@ -162,7 +162,7 @@
                 "genre": ["아시아프라이드"]
               },
               "credit": {
-                "director": "함마드 리비"
+                "director": ["함마드 리비"]
               }
             },
             {
@@ -178,7 +178,7 @@
                 "genre": ["월드프라이드"]
               },
               "credit": {
-                "director": "제이크 샤논"
+                "director": ["제이크 샤논"]
               }
             },
             {
@@ -194,7 +194,7 @@
                 "genre": ["아시아프라이드"]
               },
               "credit": {
-                "director": "림 킨 히안"
+                "director": ["림 킨 히안"]
               }
             }
           ]
@@ -223,7 +223,7 @@
                 "genre": ["코리아프라이드"]
               },
               "credit": {
-                "director": "박은경"
+                "director": ["박은경"]
               }
             },
             {
@@ -239,7 +239,7 @@
                 "genre": ["코리아프라이드"]
               },
               "credit": {
-                "director": "이원영"
+                "director": ["이원영"]
               }
             },
             {
@@ -255,7 +255,7 @@
                 "genre": ["코리아프라이드"]
               },
               "credit": {
-                "director": "정다희"
+                "director": ["정다희"]
               }
             },
             {
@@ -271,7 +271,7 @@
                 "genre": ["코리아프라이드"]
               },
               "credit": {
-                "director": "김국희"
+                "director": ["김국희"]
               }
             },
             {
@@ -287,7 +287,7 @@
                 "genre": ["코리아프라이드"]
               },
               "credit": {
-                "director": "이수영"
+                "director": ["이수영"]
               }
             },
             {
@@ -303,7 +303,7 @@
                 "genre": ["코리아프라이드"]
               },
               "credit": {
-                "director": "이진영"
+                "director": ["이진영"]
               }
             }
           ]
@@ -327,7 +327,7 @@
                 "genre": ["월드프라이드"]
               },
               "credit": {
-                "director": "세드릭 르 갈로, 막심 고바"
+                "director": ["세드릭 르 갈로", "막심 고바"]
               }
             }
           ]
@@ -351,7 +351,7 @@
                 "genre": ["스페셜 프라이드"]
               },
               "credit": {
-                "director": "김혜정"
+                "director": ["김혜정"]
               }
             }
           ]
@@ -375,7 +375,7 @@
                 "genre": ["월드프라이드"]
               },
               "credit": {
-                "director": "조엘 에저튼"
+                "director": ["조엘 에저튼"]
               }
             }
           ]
@@ -399,7 +399,7 @@
                 "genre": ["월드프라이드"]
               },
               "credit": {
-                "director": "핍 캘리"
+                "director": ["핍 캘리"]
               }
             },
             {
@@ -415,7 +415,7 @@
                 "genre": ["아시아프라이드"]
               },
               "credit": {
-                "director": "아딧야 아흐메드"
+                "director": ["아딧야 아흐메드"]
               }
             },
             {
@@ -431,7 +431,7 @@
                 "genre": ["월드프라이드"]
               },
               "credit": {
-                "director": "주앙 칸지두 자카리아"
+                "director": ["주앙 칸지두 자카리아"]
               }
             },
             {
@@ -447,7 +447,7 @@
                 "genre": ["아시아프라이드"]
               },
               "credit": {
-                "director": "리나 마니메칼라이"
+                "director": ["리나 마니메칼라이"]
               }
             },
             {
@@ -463,7 +463,7 @@
                 "genre": ["아시아프라이드"]
               },
               "credit": {
-                "director": "왕 핑원"
+                "director": ["왕 핑원"]
               }
             }
           ]
@@ -492,7 +492,7 @@
                 "genre": ["월드프라이드"]
               },
               "credit": {
-                "director": "마들렌 올넥"
+                "director": ["마들렌 올넥"]
               }
             }
           ]
@@ -516,7 +516,7 @@
                 "genre": ["코리아프라이드"]
               },
               "credit": {
-                "director": "김찬우"
+                "director": ["김찬우"]
               }
             },
             {
@@ -532,7 +532,7 @@
                 "genre": ["코리아프라이드"]
               },
               "credit": {
-                "director": "황지우"
+                "director": ["황지우"]
               }
             },
             {
@@ -548,7 +548,7 @@
                 "genre": ["코리아프라이드"]
               },
               "credit": {
-                "director": "최지은, 조소영"
+                "director": ["최지은", "조소영"]
               }
             },
             {
@@ -564,7 +564,7 @@
                 "genre": ["코리아프라이드"]
               },
               "credit": {
-                "director": "주재훈"
+                "director": ["주재훈"]
               }
             },
             {
@@ -580,7 +580,7 @@
                 "genre": ["코리아프라이드"]
               },
               "credit": {
-                "director": "신승은"
+                "director": ["신승은"]
               }
             }
           ]
@@ -604,7 +604,7 @@
                 "genre": ["핫핑크"]
               },
               "credit": {
-                "director": "매튜 워처스"
+                "director": ["매튜 워처스"]
               }
             }
           ]
@@ -621,7 +621,7 @@
               "url": "http://www.sipff.kr/p/view.asp?goods_idx=2021&page=1&goods_admin_code=&top_division=504&top_division_title=&middle_division=511&middle_division_title=&bottom_division=&bottom_division_title=&Cate_code=&c_ret01=&c_ret02=&search_division=&search_text=&URL=",
               "desc": "제시는 12살의 나이에 입양되어새 가족의 품이 영 어색하기만 하다. 여전히 혼자라는 생각에 사고뭉치가 되어버린 제시는 결국 경찰에게붙잡혀 수족관 청소를 하라는 벌을 받게 된다. 그리고 그곳에서 발견하게 된 범고래 윌리. 그동안 조련사들의 말을 듣지 않아 골치였던 윌리에게 제시는 동질감을 느낀다.서로의 아픔을 공유하며 윌리와 제시는 점차 우정을 쌓아간다.",
               "info": {
-                "productionCountry": "USA, France, Mexico",
+                "productionCountry": ["USA", "France", "Mexico"],
                 "yearOfProduction": "1993",
                 "length": "112min",
                 "format": "DCP",
@@ -629,7 +629,7 @@
                 "genre": ["오픈프라이드"]
               },
               "credit": {
-                "director": "사이먼 윈서"
+                "director": ["사이먼 윈서"]
               }
             }
           ]
@@ -653,7 +653,7 @@
                 "genre": ["스페셜 프라이드"]
               },
               "credit": {
-                "director": "이준익"
+                "director": ["이준익"]
               }
             }
           ]
@@ -682,7 +682,7 @@
                 "genre": ["월드프라이드"]
               },
               "credit": {
-                "director": "조엘 에저튼"
+                "director": ["조엘 에저튼"]
               }
             }
           ]

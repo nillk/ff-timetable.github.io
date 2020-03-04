@@ -29,7 +29,9 @@
               url: 세부 정보 URL,
               desc: 상세 설명,
               info: {
-                productionCountry: 국가,
+                productionCountry: [
+                  국가
+                ],
                 yearOfProduction: 제작연도,
                 length: 러닝타임,
                 format: 상영포맷,
@@ -37,12 +39,18 @@
                 genre: 장르
               },
               credit: {
-                cast: 출연,
+                cast: [
+                  출연
+                ],
                 cinematography: 촬영,
-                director: 감독,
+                director: [
+                  감독
+                ],
                 editor: 편집자,
                 music: 음악,
-                producer: 프로듀서,
+                producer: [
+                  프로듀서
+                ],
                 productionCompany: 프로덕션 회사,
                 productionDesign: 프로덕션 디자인,
                 screenplay: 각본, 시나리오,

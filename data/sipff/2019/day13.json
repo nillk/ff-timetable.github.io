@@ -26,7 +26,7 @@
                 "genre": ["폐막작"]
               },
               "credit": {
-                "director": "소준문"
+                "director": ["소준문"]
               }
             },
             {
@@ -42,7 +42,7 @@
                 "genre": ["폐막작"]
               },
               "credit": {
-                "director": "이성욱"
+                "director": ["이성욱"]
               }
             },
             {
@@ -58,7 +58,7 @@
                 "genre": ["폐막작"]
               },
               "credit": {
-                "director": "신종훈"
+                "director": ["신종훈"]
               }
             }
           ]
@@ -87,7 +87,7 @@
                 "genre": ["폐막작"]
               },
               "credit": {
-                "director": "소준문"
+                "director": ["소준문"]
               }
             },
             {
@@ -103,7 +103,7 @@
                 "genre": ["폐막작"]
               },
               "credit": {
-                "director": "이성욱"
+                "director": ["이성욱"]
               }
             },
             {
@@ -119,7 +119,7 @@
                 "genre": ["폐막작"]
               },
               "credit": {
-                "director": "신종훈"
+                "director": ["신종훈"]
               }
             }
           ]
@@ -148,7 +148,7 @@
                 "genre": ["폐막작"]
               },
               "credit": {
-                "director": "소준문"
+                "director": ["소준문"]
               }
             },
             {
@@ -164,7 +164,7 @@
                 "genre": ["폐막작"]
               },
               "credit": {
-                "director": "이성욱"
+                "director": ["이성욱"]
               }
             },
             {
@@ -180,7 +180,7 @@
                 "genre": ["폐막작"]
               },
               "credit": {
-                "director": "신종훈"
+                "director": ["신종훈"]
               }
             }
           ]

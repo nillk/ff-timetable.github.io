@@ -19,7 +19,11 @@ const ProgramInfo = ({ info }) => (
     {Object.keys(info)
       .filter(key => key !== 'genre' && info[key])
       .map(key => (
-        <span key={key}>{info[key]}</span>
+        <span key={key}>
+          {Array.isArray(info[key])
+            ? info[key].map(i => <span>{i}</span>)
+            : info[key]}
+        </span>
       ))}
   </Paragraph>
 );
@@ -29,8 +33,13 @@ const ProgramCredit = ({ credit }) => (
     {Object.keys(credit)
       .filter(key => credit[key])
       .map(key => (
-        <li key={key}>
-          {key[0].toUpperCase() + key.substring(1)} <span>{credit[key]}</span>
+        <li>
+          {key[0].toUpperCase() + key.substring(1)}{' '}
+          {Array.isArray(credit[key]) ? (
+            credit[key].map(c => <span>{c}</span>)
+          ) : (
+            <span>{credit[key]}</span>
+          )}
         </li>
       ))}
   </ul>
