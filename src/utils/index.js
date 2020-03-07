@@ -1,27 +1,22 @@
-const getDataOfPrograms = (key, subKey) => programs =>
-  programs
-    .filter(program => program[key] && program[key][subKey])
-    .flatMap(program => program[key][subKey]);
-
-const getGenresOfPrograms = getDataOfPrograms('info', 'genre');
-const getDirectorsOfPrograms = getDataOfPrograms('credit', 'director');
-
-const getDataOfScreen = getDataOfPrograms => screen =>
-  screen.times
-    .filter(time => time.programs)
-    .flatMap(time => getDataOfPrograms(time.programs));
-
-const getGenresOfScreen = getDataOfScreen(getGenresOfPrograms);
-const getDirectorsOfScreen = getDataOfScreen(getDirectorsOfPrograms);
-
-export const getAllDistinctGenres = screening => {
-  const allGenres = screening.flatMap(getGenresOfScreen);
-  return [...new Set(allGenres)].sort();
+const DATA_INFO = {
+  director: 'credit',
+  cast: 'credit',
+  genre: 'info',
 };
 
-export const getAllDistinctDirectors = screening => {
-  const allDirectors = screening.flatMap(getDirectorsOfScreen);
-  return [...new Set(allDirectors)].sort();
+const getDataOfPrograms = key => programs =>
+  programs
+    .filter(program => program[DATA_INFO[key]] && program[DATA_INFO[key]][key])
+    .flatMap(program => program[DATA_INFO[key]][key]);
+
+const getDataOfScreen = key => screen =>
+  screen.times
+    .filter(time => time.programs)
+    .flatMap(time => getDataOfPrograms(key)(time.programs));
+
+export const getAllDistinctData = (key, screening) => {
+  const allDatas = screening.flatMap(getDataOfScreen(key));
+  return [...new Set(allDatas)].sort();
 };
 
 export const getAllDistinctGrades = screening => {
@@ -31,12 +26,17 @@ export const getAllDistinctGrades = screening => {
   return [...new Set(allGenres)].sort();
 };
 
+const isFilterEmpty = state =>
+  Object.values(state).every(value => value.length === 0);
+const checkPrograms = (key, state, screen) =>
+  getDataOfPrograms(key)(screen).some(d => state[key].includes(d));
+const checkScreen = (key, state, screen) =>
+  getDataOfScreen(key)(screen).some(d => state[key].includes(d));
+
 export const showScreen = (state, screen) =>
-  (state.genre.length === 0 && state.director.length === 0) ||
-  getGenresOfScreen(screen).some(g => state.genre.includes(g)) ||
-  getDirectorsOfScreen(screen).some(d => state.director.includes(d));
+  isFilterEmpty(state) ||
+  Object.keys(state).some(key => checkScreen(key, state, screen));
 
 export const showTime = (state, time) =>
-  (state.genre.length === 0 && state.director.length === 0) ||
-  getGenresOfPrograms(time.programs).some(g => state.genre.includes(g)) ||
-  getDirectorsOfPrograms(time.programs).some(d => state.director.includes(d));
+  isFilterEmpty(state) ||
+  Object.keys(state).some(key => checkPrograms(key, state, time.programs));

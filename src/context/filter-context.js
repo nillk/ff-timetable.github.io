@@ -1,6 +1,8 @@
 import React from 'react';
 
 const defaultState = {
+  director: [],
+  cast: [],
   genre: [],
 };
 
@@ -11,15 +13,15 @@ const { Provider, Consumer: FilterConsumer } = FilterContext;
 class FilterProvider extends React.Component {
   state = {
     director: [],
+    cast: [],
     genre: [],
   };
 
   actions = {
-    setDirector: director => {
-      this.setState({ director });
-    },
-    setGenre: genre => {
-      this.setState({ genre });
+    setData: key => data => {
+      this.setState({
+        [key]: data,
+      });
     },
   };
 
