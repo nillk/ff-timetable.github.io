@@ -21,7 +21,7 @@ const ProgramInfo = ({ info }) => (
       .map(key => (
         <span key={key}>
           {Array.isArray(info[key])
-            ? info[key].map(i => <span>{i}</span>)
+            ? info[key].map(i => <span key={i}>{i}</span>)
             : info[key]}
         </span>
       ))}
@@ -33,10 +33,10 @@ const ProgramCredit = ({ credit }) => (
     {Object.keys(credit)
       .filter(key => credit[key])
       .map(key => (
-        <li>
+        <li key={key}>
           {key[0].toUpperCase() + key.substring(1)}{' '}
           {Array.isArray(credit[key]) ? (
-            credit[key].map(c => <span>{c}</span>)
+            credit[key].map(c => <span key={c}>{c}</span>)
           ) : (
             <span>{credit[key]}</span>
           )}
