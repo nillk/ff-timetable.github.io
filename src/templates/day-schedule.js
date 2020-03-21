@@ -2,7 +2,7 @@ import React from 'react';
 import { graphql } from 'gatsby';
 import { Typography } from 'antd';
 import { Row, Col } from 'antd';
-import { Button, Drawer } from 'antd';
+import { Button } from 'antd';
 import { FilterOutlined } from '@ant-design/icons';
 
 import { FilterConsumer } from '../context/filter-context';
@@ -46,13 +46,13 @@ export default ({ data }) => {
                 onClick={showDrawer}
                 style={{ color: `rgba(0, 0, 0, 0.85)` }}
               />
-              <Drawer title="Filter" onClose={closeDrawer} visible={visible}>
-                <Filter
-                  screening={data.schedule.screening}
-                  state={state}
-                  actions={actions}
-                />
-              </Drawer>
+              <Filter
+                visible={visible}
+                onClose={closeDrawer}
+                screening={data.schedule.screening}
+                state={state}
+                actions={actions}
+              />
             </Col>
           </Row>
           <Row>

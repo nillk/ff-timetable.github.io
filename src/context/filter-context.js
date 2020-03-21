@@ -12,18 +12,16 @@ const FilterContext = React.createContext(defaultState);
 const { Provider, Consumer: FilterConsumer } = FilterContext;
 
 class FilterProvider extends React.Component {
-  state = {
-    title: [],
-    director: [],
-    cast: [],
-    genre: [],
-  };
+  state = defaultState;
 
   actions = {
     setData: key => data => {
       this.setState({
         [key]: data,
       });
+    },
+    clear: () => {
+      this.setState(defaultState);
     },
   };
 
