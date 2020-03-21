@@ -1,4 +1,5 @@
 const DATA_INFO = {
+  title: 'title',
   director: 'credit',
   cast: 'credit',
   genre: 'info',
@@ -6,8 +7,17 @@ const DATA_INFO = {
 
 const getDataOfPrograms = key => programs =>
   programs
-    .filter(program => program[DATA_INFO[key]] && program[DATA_INFO[key]][key])
-    .flatMap(program => program[DATA_INFO[key]][key]);
+    .filter(program => program[DATA_INFO[key]])
+    .filter(program =>
+      program[DATA_INFO[key]].constructor === Object
+        ? program[DATA_INFO[key]][key]
+        : true,
+    )
+    .flatMap(program =>
+      program[DATA_INFO[key]].constructor === Object
+        ? program[DATA_INFO[key]][key]
+        : program[DATA_INFO[key]],
+    );
 
 const getDataOfScreen = key => screen =>
   screen.times
