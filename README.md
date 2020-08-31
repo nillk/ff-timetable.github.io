@@ -42,7 +42,7 @@
                 cast: [
                   출연
                 ],
-                cinematography: 촬영,
+                [cinematography|cinematographer]: 촬영,
                 director: [
                   감독
                 ],
@@ -52,11 +52,14 @@
                   프로듀서
                 ],
                 productionCompany: 프로덕션 회사,
-                productionDesign: 프로덕션 디자인,
-                screenplay: 각본, 시나리오,
+                [productionDesign|productionDesigner]: 프로덕션 디자인,
+                [screenplay|screenwriter]: 각본, 시나리오,
                 sound: 사운드,
                 story: 전체 플롯, 캐릭터 등 스토리,
-                worldSales: 국제 배급?
+                worldSales: 국제 배급?,
+                supervisor: 관리자?,
+                barrier-freeVersionDirector: 배리어 프리 감독,
+                commentary: 코멘터리
               }
             },
             ...
