@@ -55,6 +55,8 @@ const ProgramGenre = ({ genre }) => (
   </div>
 );
 
+const HTMLDesc = ({ htmlText }) => (<span dangerouslySetInnerHTML={{ __html: htmlText }}></span>)
+
 const Description = ({ programs, onClose }) => {
   return (
     <div className="description">
@@ -73,7 +75,9 @@ const Description = ({ programs, onClose }) => {
           {program.info && program.info.genre && (
             <ProgramGenre genre={program.info.genre} />
           )}
-          <Paragraph className="desc">{program.desc}</Paragraph>
+          <Paragraph className="desc">
+            <HTMLDesc htmlText={program.desc} />
+          </Paragraph>
         </Typography>
       ))}
     </div>
