@@ -113,7 +113,7 @@ const Showtime = ({ show, firstScreenTime }) => {
       </Popover>
       <div className="grade">
         {show.grades.map(grade => (
-          <Grade key={`${show.time}-${show.titme}-${grade}`} level={grade} />
+          <Grade key={`${show.time}-${show.title}-${grade}`} level={grade} />
         ))}
       </div>
     </div>
