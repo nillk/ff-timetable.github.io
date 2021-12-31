@@ -11,11 +11,9 @@ const { Paragraph, Text } = Typography;
 const TIME_HEIGHT = 6;
 const GUTTER = 1.5;
 
-const calculateTop = (hour, minute) => {
-  const hourDiff = hour - 10; // start time is 10:00
-  const minuteDiff = minute / 60;
-
-  return (hourDiff + minuteDiff) * TIME_HEIGHT + BOX_SIZE + GUTTER;
+const calculateTop = (topHour, topMinute, hour, minute) => {
+  const timeDistance = ((hour * 60 + minute) - (topHour * 60 + topMinute)) / 60;
+  return timeDistance * TIME_HEIGHT + BOX_SIZE + GUTTER;
 };
 
 const calculateHeight = length => (length / 60) * TIME_HEIGHT;
@@ -59,7 +57,7 @@ const SubPrograms = ({ subprograms }) => (
   </ul>
 );
 
-const Showtime = ({ show }) => {
+const Showtime = ({ show, firstScreenTime }) => {
   const [descVisible, setDescVisible] = React.useState(false);
 
   const hideDescription = () => {
@@ -70,13 +68,14 @@ const Showtime = ({ show }) => {
     setDescVisible(visible);
   };
 
+  const [topHour, topMinute] = firstScreenTime;
   const [hour, minute] = show.time.split(':').map(Number);
 
   const totalLength = getProgramsTotalLength(show.programs);
 
   const endTime = calculteEndTime(hour, minute, totalLength);
 
-  const top = calculateTop(hour, minute);
+  const top = calculateTop(topHour, topMinute, hour, minute);
   const height = calculateHeight(totalLength);
 
   return (

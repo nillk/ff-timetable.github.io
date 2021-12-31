@@ -21,10 +21,17 @@ export default ({ data }) => {
   const showDrawer = () => setVisible(true);
   const closeDrawer = () => setVisible(false);
 
+  const { schedule } = data;
+
+  const dayFirstScreenTime = schedule.screening.reduce((min, screen) => {
+    const [hour, minute] = screen.times[0].time.split(':').map(Number);
+    return hour < min[0] || (hour === min[0] && minute < min[1]) ? [hour, minute] : min;
+  }, [23, 59]);
+
   return (
     <FilterConsumer>
       {({ state, actions }) => (
-        <Page name={data.schedule.name} year={data.schedule.year}>
+        <Page name={schedule.name} year={schedule.year}>
           <Row>
             <Col>
               <Typography.Title
@@ -34,7 +41,7 @@ export default ({ data }) => {
                   marginBottom: `1.25rem`,
                   float: `left`,
                 }}>
-                {data.schedule.dateStr}
+                {schedule.dateStr}
               </Typography.Title>
             </Col>
             <Col>
@@ -49,7 +56,7 @@ export default ({ data }) => {
               <Filter
                 visible={visible}
                 onClose={closeDrawer}
-                screening={data.schedule.screening}
+                screening={schedule.screening}
                 state={state}
                 actions={actions}
               />
@@ -57,7 +64,7 @@ export default ({ data }) => {
           </Row>
           <Row>
             <Col>
-              <GradeInfo screening={data.schedule.screening} />
+              <GradeInfo screening={schedule.screening} />
             </Col>
           </Row>
           <Row
@@ -65,7 +72,7 @@ export default ({ data }) => {
             justify="start"
             gutter={16}
             style={{ flexFlow: `row` }}>
-            {data.schedule.screening.map(
+            {schedule.screening.map(
               screen =>
                 showScreen(state, screen) && (
                   <Col key={screen.theater} style={{ position: `relative` }}>
@@ -76,6 +83,7 @@ export default ({ data }) => {
                           <Showtime
                             key={`${screen.theater}-${time.time}`}
                             show={time}
+                            firstScreenTime={dayFirstScreenTime}
                           />
                         ),
                     )}
