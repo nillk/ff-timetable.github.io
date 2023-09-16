@@ -29,7 +29,7 @@ export default ({ visible, onClose, screening, state, actions }) => {
               placeholder={key[0].toUpperCase() + key.substring(1)}
               value={state[key]}
               onChange={setData(key)}
-              style={{ width: `13rem` }}>
+              style={{ width: `20.5rem` }}>
               {getAllDistinctData(key, screening).map(v => (
                 <Select.Option key={v} value={v}>
                   {v}
