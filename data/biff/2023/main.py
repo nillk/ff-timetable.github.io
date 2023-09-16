@@ -73,16 +73,19 @@ def _parse_time_schedule(element):
     time = get_text(element.find('p', {'class': 'time'}))
     result['time'] = time
 
+    code = get_text(element.find('span', {'class': 'code'}))
     film_tit = element.find('div', {'class': 'film_tit'})
     if film_tit.find('div', {'class': 'pack'}):
         sub_programs = film_tit.find('div', {'class': 'pack'}).find_all('a')
         result['title'] = get_text(film_tit.find('span', {'class': 'film_tit_kor'}))
         result['grades'] = _parse_grade(element)
+        result['code'] = code
         result['programs'] = [_parse_program(sub) for sub in sub_programs]
     else:
         parsed_program = _parse_program(element)
         result['title'] = parsed_program['title']
         result['grades'] = _parse_grade(element)
+        result['code'] = code
         result['programs'] = [parsed_program]
 
     return result

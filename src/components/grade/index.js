@@ -69,9 +69,7 @@ export const GradeInfo = ({ screening }) => (
 
 const Grade = ({ level }) => {
   return (
-    <Text strong className="typography">
-      {`/ ${level}`}
-    </Text>
+    <span className="typography">{level}</span>
   );
 };
 

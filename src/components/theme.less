@@ -138,10 +138,26 @@
     right: 0;
     width: 100%;
 
+    .code-tag {
+      position: absolute;
+      right: 0;
+      background-color: black;
+      border: none;
+      color: white;
+      height: 1.5rem;
+      line-height: 2rem;
+      margin-top: 1rem;
+    }
+
     .typography {
       float: right;
       margin-left: 0.2rem;
       text-transform: uppercase;
+      font-weight: bold;
+
+      &:not(:last-child):before {
+        content: '|';
+      }
     }
   }
 }
