@@ -30,10 +30,10 @@ export const getAllDistinctData = (key, screening) => {
 };
 
 export const getAllDistinctGrades = screening => {
-  const allGenres = screening.flatMap(screen =>
+  const allGrades = screening.flatMap(screen =>
     screen.times.flatMap(time => time.grades.map(g => g.toUpperCase())),
   );
-  return [...new Set(allGenres)].sort();
+  return [...new Set(allGrades)].sort();
 };
 
 const isFilterEmpty = state =>
