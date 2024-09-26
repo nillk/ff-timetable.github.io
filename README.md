@@ -22,6 +22,7 @@
           grade: [
             등급, 자막, GV 등
           ],
+          code: 예매 코드,
           programs: [
             {
               title: 제목,

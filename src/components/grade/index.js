@@ -45,6 +45,9 @@ export const GRADES = {
   ND: {
     text: '대사없음',
   },
+  NO: {
+    text: '대사없음',
+  },
   NE: {
     text: '비영어대사+영어자막',
   },
@@ -69,9 +72,7 @@ export const GradeInfo = ({ screening }) => (
 
 const Grade = ({ level }) => {
   return (
-    <Text strong className="typography">
-      {`/ ${level}`}
-    </Text>
+    <span className="typography">{level}</span>
   );
 };
 

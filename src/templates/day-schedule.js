@@ -110,6 +110,7 @@ export const query = graphql`
           time
           title
           grades
+          code
           programs {
             title
             titleEng
