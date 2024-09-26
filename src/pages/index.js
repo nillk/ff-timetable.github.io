@@ -46,8 +46,8 @@ export default ({ data }) => {
 
 export const query = graphql`
   query {
-    allSchedule(sort: { fields: date }) {
-      group(field: name) {
+    allSchedule(sort: { date: ASC }) {
+      group(field: {name: SELECT}) {
         fieldValue
         nodes {
           year

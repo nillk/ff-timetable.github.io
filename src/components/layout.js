@@ -11,7 +11,7 @@ export default ({ name, year, children }) => (
   <StaticQuery
     query={graphql`
       query {
-        allSchedule(sort: { fields: date }) {
+        allSchedule(sort: { date: ASC }) {
           nodes {
             name
             year
