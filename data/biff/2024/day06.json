@@ -650,7 +650,8 @@
                   "Youngtak KIM 김영탁"
                 ],
                 "editor": [
-                  "Hyunkun AHN 안현건"
+                  "Hyunkun AHN 안현건",
+                  "Youngkyu HAN 한영규"
                 ],
                 "sound": [
                   "Pilsoo KIM 김필수",
@@ -2178,7 +2179,8 @@
                   "인권/노동/사회"
                 ],
                 "productionCountry": [
-                  "India"
+                  "India",
+                  "Singapore"
                 ],
                 "yearOfProduction": "2024",
                 "length": "108min",
@@ -2218,9 +2220,13 @@
                 "music": [
                   "Pallab TALUKDAR"
                 ],
+                "coproducer": [
+                  "Fran BORGIA"
+                ],
                 "productionCompany": [
                   "Flying River Films",
-                  "rima.films@gmail.com"
+                  "rima.films@gmail.com",
+                  "Akanga Film Asia"
                 ]
               }
             }
@@ -3393,7 +3399,7 @@
       "times": [
         {
           "time": "09:00",
-          "title": "소파가 있는 꿈",
+          "title": "한국 단편 경쟁 1",
           "grades": [
             "15",
             "gv"
@@ -3617,6 +3623,10 @@
                 ],
                 "assistantDirector": [
                   "Yoonsoo PARK 박윤수"
+                ],
+                "productionCompany": [
+                  "POST FIN",
+                  "distribution@postfin.co.kr"
                 ]
               }
             }
@@ -3624,7 +3634,7 @@
         },
         {
           "time": "12:30",
-          "title": "과녁은 어디에",
+          "title": "한국 단편 경쟁 2",
           "grades": [
             "15",
             "gv"
@@ -3687,6 +3697,10 @@
                 ],
                 "editor": [
                   "Dongeun KIM 김동은"
+                ],
+                "productionCompany": [
+                  "POST FIN",
+                  "distribution@postfin.co.kr"
                 ]
               }
             },

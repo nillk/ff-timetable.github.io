@@ -260,7 +260,7 @@
       "times": [
         {
           "time": "12:30",
-          "title": "혹 실례가 되지 않는다면",
+          "title": "단편 스페셜: 혹 실례가 되지 않는다면 + 알사탕",
           "grades": [
             "g",
             "ke"
@@ -1077,7 +1077,8 @@
                   "Youngtak KIM 김영탁"
                 ],
                 "editor": [
-                  "Hyunkun AHN 안현건"
+                  "Hyunkun AHN 안현건",
+                  "Youngkyu HAN 한영규"
                 ],
                 "sound": [
                   "Pilsoo KIM 김필수",
@@ -3505,7 +3506,7 @@
         },
         {
           "time": "13:30",
-          "title": "겨울정원",
+          "title": "아시아 단편 경쟁 2",
           "grades": [
             "12",
             "ke",
@@ -3796,7 +3797,7 @@
         },
         {
           "time": "17:00",
-          "title": "산책자들",
+          "title": "한국 단편 경쟁 3",
           "grades": [
             "15",
             "gv"
@@ -4020,7 +4021,7 @@
         },
         {
           "time": "20:30",
-          "title": "조용한 마을",
+          "title": "아시아 단편 경쟁 1",
           "grades": [
             "12",
             "ke",
@@ -4551,7 +4552,7 @@
       "times": [
         {
           "time": "12:00",
-          "title": "소파가 있는 꿈",
+          "title": "한국 단편 경쟁 1",
           "grades": [
             "15",
             "gv"
@@ -4775,6 +4776,10 @@
                 ],
                 "assistantDirector": [
                   "Yoonsoo PARK 박윤수"
+                ],
+                "productionCompany": [
+                  "POST FIN",
+                  "distribution@postfin.co.kr"
                 ]
               }
             }
@@ -4782,7 +4787,7 @@
         },
         {
           "time": "16:00",
-          "title": "과녁은 어디에",
+          "title": "한국 단편 경쟁 2",
           "grades": [
             "15",
             "gv"
@@ -4845,6 +4850,10 @@
                 ],
                 "editor": [
                   "Dongeun KIM 김동은"
+                ],
+                "productionCompany": [
+                  "POST FIN",
+                  "distribution@postfin.co.kr"
                 ]
               }
             },
@@ -6143,6 +6152,9 @@
                 "assistantDirector": [
                   "Tae-yun KIM 김태윤",
                   "Myeong-ju CHOI 최명주"
+                ],
+                "producer": [
+                  "Eun-joung PARK 박은정"
                 ],
                 "productionCompany": [
                   "DGC, Tiger Cinema"

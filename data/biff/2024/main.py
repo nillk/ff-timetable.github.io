@@ -78,7 +78,7 @@ def _parse_time_schedule(element):
 
     if film_tit.find('div', {'class': 'pack'}):
         sub_programs = film_tit.find('div', {'class': 'pack'}).find_all('a')
-        result['title'] = get_text(film_tit.find('span', {'class': 'film_tit_kor'}))
+        result['title'] = get_text(film_tit.find('p', {'class': 'film_tit_kor'}))
         result['grades'] = _parse_grade(element)
         result['code'] = code
         result['programs'] = [_parse_program(sub) for sub in sub_programs]

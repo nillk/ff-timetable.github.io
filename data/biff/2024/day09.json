@@ -1474,7 +1474,8 @@
                   "인권/노동/사회"
                 ],
                 "productionCountry": [
-                  "India"
+                  "India",
+                  "Singapore"
                 ],
                 "yearOfProduction": "2024",
                 "length": "108min",
@@ -1514,9 +1515,13 @@
                 "music": [
                   "Pallab TALUKDAR"
                 ],
+                "coproducer": [
+                  "Fran BORGIA"
+                ],
                 "productionCompany": [
                   "Flying River Films",
-                  "rima.films@gmail.com"
+                  "rima.films@gmail.com",
+                  "Akanga Film Asia"
                 ]
               }
             }
@@ -1791,7 +1796,7 @@
         },
         {
           "time": "14:00",
-          "title": "소파가 있는 꿈",
+          "title": "한국 단편 경쟁 1",
           "grades": [
             "15"
           ],
@@ -2014,6 +2019,10 @@
                 ],
                 "assistantDirector": [
                   "Yoonsoo PARK 박윤수"
+                ],
+                "productionCompany": [
+                  "POST FIN",
+                  "distribution@postfin.co.kr"
                 ]
               }
             }
@@ -2459,7 +2468,7 @@
       "times": [
         {
           "time": "11:00",
-          "title": "산책자들",
+          "title": "한국 단편 경쟁 3",
           "grades": [
             "15"
           ],
@@ -2869,7 +2878,7 @@
       "times": [
         {
           "time": "11:30",
-          "title": "과녁은 어디에",
+          "title": "한국 단편 경쟁 2",
           "grades": [
             "15"
           ],
@@ -2931,6 +2940,10 @@
                 ],
                 "editor": [
                   "Dongeun KIM 김동은"
+                ],
+                "productionCompany": [
+                  "POST FIN",
+                  "distribution@postfin.co.kr"
                 ]
               }
             },
@@ -5034,6 +5047,9 @@
                   "Tae-yun KIM 김태윤",
                   "Myeong-ju CHOI 최명주"
                 ],
+                "producer": [
+                  "Eun-joung PARK 박은정"
+                ],
                 "productionCompany": [
                   "DGC, Tiger Cinema"
                 ]
@@ -5298,7 +5314,7 @@
         },
         {
           "time": "19:30",
-          "title": "조용한 마을",
+          "title": "아시아 단편 경쟁 1",
           "grades": [
             "12",
             "ke"
