@@ -45,6 +45,9 @@ export const GRADES = {
   ND: {
     text: '대사없음',
   },
+  NO: {
+    text: '대사없음',
+  },
   NE: {
     text: '비영어대사+영어자막',
   },
